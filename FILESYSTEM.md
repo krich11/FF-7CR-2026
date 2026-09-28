@@ -1,14 +1,17 @@
-# Filesystem freeze — 2026-09-27 23:16 CT
+# Filesystem freeze — 2026-09-27 23:19 CT
 
 This GitHub repo is the **only** operating disk for Blitz, Wire, Sigma, and Recon.
 Local git is a cache. If it is not on `main` here, it does not exist.
 
 Cookies stay off-repo in `secrets/`.
 
+Ken ↔ Consultant working rules: `CONSULTANT.md`. Bots do not edit that file.
+
 ## Live (write here)
 
 | Path | What | Who |
 |---|---|---|
+| `CONSULTANT.md` | Ken ↔ Consultant contract | Ken, Consultant |
 | `data/availability.json` | Injury file | Wire |
 | `data/roster.json` `schedule.json` `standings.json` `league.json` | Our league state | Blitz client |
 | `data/recon/` | League-wide dumps | Recon |
