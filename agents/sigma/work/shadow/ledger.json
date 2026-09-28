@@ -1,0 +1,66 @@
+{
+  "as_of": "2026-09-22T09:53:52-05:00",
+  "live_optimizer": "SPEC_v1",
+  "promotion_gate": {
+    "earliest_week": 8,
+    "min_decided_flips": 6,
+    "require_ken_approval": true
+  },
+  "signals": {
+    "vegas_flex": {
+      "cum_delta_ppr": 3.4,
+      "n_flips": 1,
+      "n_wins": 1
+    },
+    "share_trend": {
+      "cum_delta_ppr": -20.4,
+      "n_flips": 1,
+      "n_wins": 0
+    },
+    "dst_k_script": {
+      "cum_delta_ppr": 0.0,
+      "n_flips": 0,
+      "n_wins": 0
+    }
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "vegas_flex": {
+        "delta": 3.4,
+        "flip": true,
+        "win": true,
+        "spec": "Pittman",
+        "shadow": "Meyers"
+      },
+      "share_trend": {
+        "delta": 0.0,
+        "flip": false,
+        "status": "na_week1"
+      },
+      "dst_k_script": {
+        "delta": 0.0,
+        "flip": false
+      }
+    },
+    {
+      "week": 2,
+      "vegas_flex": {
+        "delta": 0.0,
+        "flip": false,
+        "status": "skipped_no_lines"
+      },
+      "share_trend": {
+        "delta": -20.4,
+        "flip": true,
+        "win": false,
+        "spec": "Tucker",
+        "shadow": "Pitts"
+      },
+      "dst_k_script": {
+        "delta": 0.0,
+        "flip": false
+      }
+    }
+  ]
+}

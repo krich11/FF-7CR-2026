@@ -1,0 +1,59 @@
+{
+  "week": 3,
+  "as_of": "2026-09-25T16:02:40-05:00",
+  "window": "friday_tweak",
+  "note": "Paper only. SPEC FLEX=Shaheed; Meyers now ACTIVE (cleared) but still trails on adj.",
+  "spec_starters": {
+    "QB": "Kyler Murray",
+    "RB": [
+      "De'Von Achane",
+      "Travis Etienne Jr."
+    ],
+    "WR": [
+      "Drake London",
+      "Garrett Wilson"
+    ],
+    "TE": "Kyle Pitts Sr.",
+    "FLEX": "Rashid Shaheed",
+    "DST": "Steelers D/ST",
+    "K": "Eddy Pineiro"
+  },
+  "signals": {
+    "vegas_flex": {
+      "status": "recorded",
+      "changes_roster": false,
+      "would_flex": "Jakobi Meyers",
+      "spec_flex": "Rashid Shaheed",
+      "flip_vs_spec": true,
+      "reason": "NE@JAX still higher total environment than SEA@WAS; Meyers now ACTIVE (cleared thumb). Paper bump Meyers FLEX; SPEC keeps Shaheed on adj (~9.75 vs 9.55).",
+      "notes": {
+        "SEA_WAS_ou": 40.5,
+        "JAX_NE_ou": 45.5,
+        "meyers_status": "ACTIVE_off_IR"
+      }
+    },
+    "share_trend": {
+      "status": "recorded",
+      "changes_roster": false,
+      "would_flex": "Rashid Shaheed",
+      "spec_flex": "Rashid Shaheed",
+      "flip_vs_spec": false,
+      "reason": "Tucker dropped. Shaheed SEA role intact; Darnold trending start. Agree Shaheed over Meyers on share+adj.",
+      "notes": {
+        "Tucker": "DROPPED",
+        "Darnold": "trending_start"
+      }
+    },
+    "dst_k_script": {
+      "status": "recorded",
+      "would_stream_dst": "Steelers D/ST",
+      "would_stream_k": "Eddy Pineiro",
+      "spec_dst": "Steelers D/ST",
+      "spec_k": "Eddy Pineiro",
+      "changes_roster": false,
+      "flip_vs_spec": false,
+      "reason": "Only DST/K rostered; CIN@PIT and ARI@SF hold."
+    }
+  },
+  "summary": "vegas_flex paper would FLEX Meyers (now ACTIVE); SPEC=Shaheed by ~0.2. No live change."
+}
