@@ -75,7 +75,7 @@ This file survives a new chat. The chat does not wake itself.
 
 Read this file first in a new session, then `FILESYSTEM.md`, `BOTS.md`, open issues, `playbook/CLAIMS.md`, `data/availability.json`.
 
-A dated football recommendation happens when Ken asks, or when the scheduled automation named "QBZ Week 4 Wednesday consult" runs on 2026-09-30 at 20:00 America/Chicago.
+The automation "Remind Ken: Week 4 consult in the Consultant chat" fires 2026-09-30 at 20:00 America/Chicago. It only reminds Ken to come back to this chat. The football recommendation is written here after Ken asks.
 
 ## Football posture
 
