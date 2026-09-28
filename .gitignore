@@ -1,0 +1,5 @@
+.env
+*.cookie
+*s2*
+SWID*
+.DS_Store
