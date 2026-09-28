@@ -1,19 +1,18 @@
-# FF-7CR-2026 — Quantum Blitz
+# FF-7CR-2026
 
-7 Creeks Armchair Quarterbacks · ESPN PPR · leagueId 1776545061 · teamId 13 · Ken Rich · CT
+Shared working repo for one ESPN fantasy football team and the bots that run it.
 
-Playoffs: 6 of 12, **total points**, 14 weeks, reseed. MODE: CLIMB.
+What belongs where is defined in `FILESYSTEM.md`. How the bots use this repo is defined in `BOTS.md`.
 
-**Bots: this repo is your disk.** Start at [BOTS.md](BOTS.md) and [FILESYSTEM.md](FILESYSTEM.md).
-
-| Path | What |
+| Directory | Purpose |
 |---|---|
-| [playbook/](playbook/) | WAR, CLAIMS, law |
-| [FUD/](FUD/) | Other 11 |
-| [data/](data/) | Live JSON |
-| [weekly/](weekly/) | Cards / votes |
-| [agents/](agents/) | Identity + `work/` |
-| [code/espn_api/](code/espn_api/) | ESPN client |
+| `playbook/` | Shared law and the live operating files |
+| `FUD/` | Competitive analysis of the rest of the league |
+| `data/` | Current machine-readable state |
+| `weekly/` | Per-week cards, decisions, and votes |
+| `agents/` | Each bot's identity and its own work tree |
+| `code/` | Client libraries |
 
-Do not write in `lanes/` `ops/` `rosters/` `charters/`.
-Never commit `secrets/`.
+`lanes/`, `ops/`, `rosters/`, and `charters/` are archives. Do not add files there.
+
+Do not commit secrets or session cookies.

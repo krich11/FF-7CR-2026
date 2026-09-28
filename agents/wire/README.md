@@ -1,9 +1,5 @@
 # agents/wire/
 
-| Writes |
-|---|
-| `data/availability.json` |
-| `agents/wire/work/digest-*.md` |
-| `agents/wire/work/aar/` |
+Identity for the availability/news bot.
 
-No start/sit. No claims. Official status beats ESPN tags.
+Live availability data is written under `data/`. Notes and AARs are written under `work/`.

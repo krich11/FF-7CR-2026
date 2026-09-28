@@ -1,13 +1,5 @@
-# ops/ — DEPRECATED
+# ops/
 
-Folded into `playbook/`.
-
-| Old | Live |
-|---|---|
-| `ops/CLAIMS.md` | `playbook/CLAIMS.md` |
-| `ops/ARBITER.md` | `playbook/ARBITER.md` |
-| `ops/DECISIONS.md` | `playbook/WAR.md` |
-| `ops/WIRE.md` | `data/availability.json` |
-| `ops/USAGE.md` | Sigma packet → CLAIMS boards |
+Archive. Live operating files moved to `playbook/`.
 
 Do not add files here.

@@ -1,10 +1,5 @@
-# ESPN Fantasy API (Quantum Blitz)
+# code/espn_api/
 
-- `client.py` — read roster, write LINEUP transactions, verify starters
-- `cli.py` — `sync | plan | apply | verify | starters`
-- Cookies: `../secrets/espn_cookies.json` (chmod 600). Never log values.
+Library and CLI for the league host's fantasy API.
 
-Write endpoint:
-`POST https://lm-api-writes.fantasy.espn.com/apis/v3/games/ffl/seasons/{year}/segments/0/leagues/{id}/transactions/`
-
-On verify failure the apply helpers set `alert: true` and audit `ESPN_API_VERIFY_FAIL` — Blitz must ping Ken.
+Credentials stay outside the repo.

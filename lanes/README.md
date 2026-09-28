@@ -1,12 +1,5 @@
-# lanes/ — DEPRECATED
+# lanes/
 
-Read-only archive. Do not add files.
+Archive of older specialist dumps and scripts.
 
-| Old path | Live path |
-|---|---|
-| `lanes/recon/*.json` | `data/recon/` |
-| `lanes/wire/` | `data/availability.json` |
-| `lanes/results/week-*` | `weekly/` |
-| `lanes/results/sigma/` | stay as Sigma archive; new packets go to Blitz and `playbook/CLAIMS.md` |
-
-Scripts under `lanes/recon/tools/` may still *read* these dumps. Point new output at `data/recon/`.
+Do not add files here. New output goes under `agents/<bot>/work/` or `data/`.

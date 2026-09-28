@@ -1,12 +1,5 @@
 # agents/blitz/
 
-Identity only. Work product is playbook + weekly + ESPN.
+Identity for the co-manager bot.
 
-| Writes |
-|---|
-| `playbook/WAR.md` |
-| `playbook/CLAIMS.md` |
-| `weekly/cards/` `weekly/decisions/` `weekly/votes/` |
-| ESPN after Ken's yes |
-
-Pull `data/availability.json`, Sigma packet, Recon brief, `FUD/BOARD.md` before you cut a ticket.
+Its operating output is written under `playbook/` and `weekly/`, not in this folder.

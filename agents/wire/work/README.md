@@ -1,10 +1,5 @@
 # agents/wire/work/
 
-Wire writes here. Availability itself is `data/availability.json`.
+Wire-only notes: dated digests and after-action files.
 
-| File | What |
-|---|---|
-| `digest-YYYY-MM-DD.md` | 8am NEW digest (copy of what Ken got) |
-| `aar/` | Tuesday AAR |
-
-Template: [digest-TEMPLATE.md](digest-TEMPLATE.md)
+The availability document itself is `data/availability.json`.

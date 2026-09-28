@@ -1,22 +1,12 @@
 # playbook/
 
-Shared law and the two live operating files.
+Shared law and the live operating files for the team.
 
-| File | What |
-|---|---|
-| [WAR.md](WAR.md) | Decision log. Blitz only. |
-| [CLAIMS.md](CLAIMS.md) | **The** claim ticket |
-| [ARBITER.md](ARBITER.md) | Settled calls |
-| `STRATEGY.md` | Climb / PF |
-| `OPS.md` | Week clock |
-| `SPEC.md` | Machine spec (do not expand) |
-| `WAIVERS.md` | Doctrine |
-| `TEAM.md` | Roster narrative |
-| `CONTINGENCY.md` | If X then Y |
-| `EDGES.md` `RIPPLES.md` | Edges |
-| `SCORECARD.md` | How we grade |
-| `LESSONS.md` | Durable misses |
-| `LAW-*` | Dated laws |
-| `WEEK04.md` | Current week |
+Notable files by role, not by week:
 
-No second claims file. No cookies.
+- `WAR.md` — decision log
+- `CLAIMS.md` — claim ticket
+- `ARBITER.md` — standing orders
+- `STRATEGY.md` `OPS.md` `SPEC.md` `WAIVERS.md` — doctrine
+- `LAW-*` — dated standing law
+- `LESSONS.md` `CONTINGENCY.md` — process memory

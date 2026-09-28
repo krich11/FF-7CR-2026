@@ -1,9 +1,5 @@
 # agents/sigma/
 
-| Writes |
-|---|
-| `agents/sigma/work/week-N-packet.md` |
-| `playbook/CLAIMS.md` boards only |
-| `agents/sigma/work/snaps/` `aar/` |
+Identity for the statistics bot.
 
-No opponent scouting. No ESPN. Mean points first.
+Packets and supporting tables are written under `work/`. Ranked claim lines that the manager will use also update `playbook/CLAIMS.md`.
