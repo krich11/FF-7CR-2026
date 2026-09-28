@@ -1,11 +1,9 @@
 # agents/sigma/
 
-Our-roster stats. No opponent scouting. No ESPN writes.
+| Writes |
+|---|
+| `agents/sigma/work/week-N-packet.md` |
+| `playbook/CLAIMS.md` boards only |
+| `agents/sigma/work/snaps/` `aar/` |
 
-| File | What |
-|---|---|
-| [CHARTER.md](CHARTER.md) | Law |
-| [PROFILE.md](PROFILE.md) | Identity |
-| [ROUTINES.md](ROUTINES.md) | Wake schedule |
-
-Work product: `lanes/results/sigma/` and week scorecard stats until a `work/` dir is opened here.
+No opponent scouting. No ESPN. Mean points first.

@@ -1,9 +1,12 @@
 # agents/recon/
 
-Recon does not live in this GitHub repo. Her git is local and private.
+Recon now uses **this** GitHub repo, not a private local git, for anything the squad needs.
 
-This folder is only a charter mirror so the other three know her job.
+| File | What |
+|---|---|
+| [CHARTER.md](CHARTER.md) | Law (Blitz writes) |
+| [PROFILE.md](PROFILE.md) | Identity |
+| [ROUTINES.md](ROUTINES.md) | Tue 7:23 packet, Tue 9:10 AAR |
+| [work/](work/) | Week briefs + AAR |
 
-**Publish target:** [`data/recon/`](../../data/recon/README.md)
-
-If she does not drop files there, FUD uses the last `lanes/recon/` dump and we say so.
+JSON dumps → `data/recon/`

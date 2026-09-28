@@ -1,38 +1,36 @@
-# Filesystem freeze — 2026-09-27 22:35 CT
+# Filesystem freeze — 2026-09-27 22:40 CT
 
-This repo is the hallway for Blitz, Wire, Sigma, Arbiter, and Ken.
-Recon lives on a **private local git**. She is invisible unless she drops a file in `data/recon/`.
+This GitHub repo is the **only** operating disk for Blitz, Wire, Sigma, and Recon.
+Local git is a cache. If it is not on `main` here, it does not exist.
+
+Cookies stay off-repo in `secrets/`.
 
 ## Live (write here)
 
-| Path | What | Who writes |
+| Path | What | Who |
 |---|---|---|
-| `data/` | Current JSON. One availability file, one roster file. | Blitz client, Wire |
-| `data/recon/` | Recon inbox. If it is empty, we do not have Recon. | Recon export |
-| `data/availability.json` | The only injury file that counts | Wire |
-| `playbook/WAR.md` | The only decision log | Blitz |
-| `playbook/CLAIMS.md` | The only claim ticket | Blitz + Sigma boards |
+| `data/availability.json` | Injury file | Wire |
+| `data/roster.json` `schedule.json` `standings.json` `league.json` | Our league state | Blitz client |
+| `data/recon/` | League-wide dumps | Recon |
+| `data/projections.json` `waivers.json` | Support JSON | Sigma / client |
+| `playbook/WAR.md` | Decision log | Blitz |
+| `playbook/CLAIMS.md` | Claim ticket + Sigma boards | Blitz, Sigma |
 | `playbook/ARBITER.md` | Settled calls | Arbiter |
-| `FUD/` | The only opponent board | Arbiter; Recon facts |
-| `weekly/` | Cards, decision JSON, sealed votes | Blitz |
-| `agents/<bot>/` | CHARTER + profile + routines | Blitz / that bot |
+| `FUD/` | Opponent board | Arbiter + Recon facts |
+| `weekly/` | Cards, decisions, votes | Blitz |
+| `agents/<bot>/CHARTER.md` | Law | Blitz |
+| `agents/<bot>/PROFILE.md` `ROUTINES.md` | Identity | that bot |
+| `agents/wire/work/` | Digests, Wire AAR | Wire |
+| `agents/sigma/work/` | Packets, snaps, Sigma AAR | Sigma |
+| `agents/recon/work/` | Week briefs, Recon AAR | Recon |
 | `code/espn_api/` | Client | Blitz |
 
-## Dead for new writes (do not add files)
+## Do not write
 
-| Path | Why it still exists |
-|---|---|
-| `lanes/` | Historical dumps and scripts. Read-only. |
-| `ops/` | Folded into `playbook/`. |
-| `rosters/` | Folded into `FUD/` + `data/roster.json`. |
-| `charters/` | Folded into `agents/<bot>/CHARTER.md`. Full text still there until pasted. |
+`lanes/` · `ops/` · `rosters/` · `charters/`
+
+Those are archives. Read them. Do not grow them.
 
 ## One of each
 
-- One claims file: `playbook/CLAIMS.md`
-- One WAR: `playbook/WAR.md`
-- One availability JSON: `data/availability.json`
-- One opponent board: `FUD/`
-- One inbox for Recon: `data/recon/`
-
-If a bot writes the same fact to two of these, the live path wins and the other copy is wrong.
+Claims, WAR, availability, FUD, Recon dumps: one path each. Two copies means the live path is right and the other is wrong.

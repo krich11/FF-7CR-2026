@@ -1,10 +1,12 @@
 # agents/blitz/
 
-Co-manager. Merges the other three. Owns WAR.md and the Ken ticket.
+Identity only. Work product is playbook + weekly + ESPN.
 
-| File | What |
-|---|---|
-| [CHARTER.md](CHARTER.md) | Law. Blitz writes. |
-| [profile.json](profile.json) | Identity |
+| Writes |
+|---|
+| `playbook/WAR.md` |
+| `playbook/CLAIMS.md` |
+| `weekly/cards/` `weekly/decisions/` `weekly/votes/` |
+| ESPN after Ken's yes |
 
-Work product: `playbook/WAR.md`, `weekly/`, ESPN clicks.
+Pull `data/availability.json`, Sigma packet, Recon brief, `FUD/BOARD.md` before you cut a ticket.

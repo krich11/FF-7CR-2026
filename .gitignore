@@ -1,4 +1,6 @@
 secrets/
+**/.env
+**/espn_cookies.json
 **/raw/
 audit.log
 *.bak*
@@ -8,4 +10,3 @@ audit.log
 *.b64
 __pycache__/
 .venv*/
-recon/snapshots/

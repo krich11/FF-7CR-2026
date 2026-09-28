@@ -1,11 +1,9 @@
 # agents/wire/
 
-Injury and availability. No start/sit. No claims.
+| Writes |
+|---|
+| `data/availability.json` |
+| `agents/wire/work/digest-*.md` |
+| `agents/wire/work/aar/` |
 
-| File | What |
-|---|---|
-| [CHARTER.md](CHARTER.md) | Law |
-| [PROFILE.md](PROFILE.md) | Identity |
-| [ROUTINES.md](ROUTINES.md) | Wake schedule |
-
-Work product: `data/availability.json` plus `lanes/wire/` until a `work/` dir is opened here.
+No start/sit. No claims. Official status beats ESPN tags.

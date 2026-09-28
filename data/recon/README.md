@@ -1,14 +1,14 @@
-# data/recon/ — inbox
+# data/recon/
 
-Recon's real repo is **private local git**. This folder is the only way she exists on GitHub.
+Recon publishes ESPN league dumps **here**, not on a local repo.
 
-Drop, at minimum, after each ESPN pull:
+Required after each pull:
 
 - `league_index.json`
 - `league_rosters.json`
 - `transactions_recent.json`
-- waiver order after reset
+- `waiver_order.json` (after Tuesday reset)
 
-If this directory has no fresh `as_of` this week, treat Recon as offline and run FUD off the last known dump in `lanes/recon/` (legacy).
+Stamp `as_of` inside each file. No cookies.
 
-Do not maintain a second Recon workstation under `agents/recon/` or `lanes/recon/`.
+Until the first push, readers may use the last archive under `lanes/recon/` and must say so.
