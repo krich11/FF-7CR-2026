@@ -75,7 +75,7 @@ Ken standing orders (2026-09-27 23:30 CT):
 - Do not raise a Bucs QB trade. That deal is dead.
 - Dart stays in IR until a rostered player is actually IR-eligible and we need the slot. Do not open IR empty. Dart is a tier-1 QB stash.
 - Next football advice: Wednesday night, after MNF.
-- DST Week 4: start is the opponent, not last week's box. See `playbook/CONSULT.md`.
+- Week 4 DST write-up: `playbook/CONSULT.md`.
 
 ## When I am wrong
 
