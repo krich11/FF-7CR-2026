@@ -1,15 +1,13 @@
-# ops/
+# ops/ — DEPRECATED
 
-Arbiter standing orders and short-cycle files from the Sunday stand-up. Playbook law still wins if these drift.
+Folded into `playbook/`.
 
-| File | What |
+| Old | Live |
 |---|---|
-| `ARBITER.md` | Settled calls and open MRI/waiver items |
-| `DECISIONS.md` | What Blitz has or has not clicked |
-| `CLAIMS.md` | Three-way boards + Ken ticket stub |
-| `WIRE.md` | Compact tag table |
-| `USAGE.md` | What Sigma still owes |
-| `LEAGUE.md` | Settings snapshot |
-| `LESSONS.md` | Short process misses |
+| `ops/CLAIMS.md` | `playbook/CLAIMS.md` |
+| `ops/ARBITER.md` | `playbook/ARBITER.md` |
+| `ops/DECISIONS.md` | `playbook/WAR.md` |
+| `ops/WIRE.md` | `data/availability.json` |
+| `ops/USAGE.md` | Sigma packet → CLAIMS boards |
 
-After appliedTotals, prefer `data/` + `lanes/recon/` over this snapshot.
+Do not add files here.

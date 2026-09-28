@@ -1,20 +1,22 @@
 # playbook/
 
-Shared law. Read this before inventing a process.
+Shared law and the two live operating files.
 
 | File | What |
 |---|---|
-| `STRATEGY.md` | Climb / PF playoffs / roster theory |
-| `OPS.md` | How the week runs |
-| `SPEC.md` | Machine spec |
-| `WAR.md` | Decision log. Blitz only |
-| `WAIVERS.md` | Waiver doctrine |
-| `TEAM.md` | Our roster narrative |
+| [WAR.md](WAR.md) | Decision log. Blitz only. |
+| [CLAIMS.md](CLAIMS.md) | **The** claim ticket |
+| [ARBITER.md](ARBITER.md) | Settled calls |
+| `STRATEGY.md` | Climb / PF |
+| `OPS.md` | Week clock |
+| `SPEC.md` | Machine spec (do not expand) |
+| `WAIVERS.md` | Doctrine |
+| `TEAM.md` | Roster narrative |
 | `CONTINGENCY.md` | If X then Y |
-| `EDGES.md` / `RIPPLES.md` | Edge list and knock-ons |
-| `SCORECARD.md` | How we grade a week |
-| `LESSONS.md` | Durable mistakes |
-| `LAW-*` | Dated Ken/Blitz laws (votes, NFL_SIDE) |
-| `WEEK04.md` | Current-week card from Arbiter |
+| `EDGES.md` `RIPPLES.md` | Edges |
+| `SCORECARD.md` | How we grade |
+| `LESSONS.md` | Durable misses |
+| `LAW-*` | Dated laws |
+| `WEEK04.md` | Current week |
 
-Do not put cookies, vote reasoning in the War Room, or a second claims board here.
+No second claims file. No cookies.

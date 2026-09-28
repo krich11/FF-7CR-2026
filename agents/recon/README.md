@@ -1,11 +1,9 @@
 # agents/recon/
 
-Other 11 teams and waiver watch. No QBZ claim board.
+Recon does not live in this GitHub repo. Her git is local and private.
 
-| File | What |
-|---|---|
-| [CHARTER.md](CHARTER.md) | Law |
-| [PROFILE.md](PROFILE.md) | Identity |
-| [ROUTINES.md](ROUTINES.md) | Wake schedule |
+This folder is only a charter mirror so the other three know her job.
 
-Work product: `lanes/recon/` until a `work/` dir is opened here. Feed FUD from `league_rosters.json` / `league_index.json`.
+**Publish target:** [`data/recon/`](../../data/recon/README.md)
+
+If she does not drop files there, FUD uses the last `lanes/recon/` dump and we say so.

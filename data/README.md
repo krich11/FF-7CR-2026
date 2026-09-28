@@ -1,17 +1,18 @@
 # data/
 
-Current-state JSON for Quantum Blitz and the league. Blitz / the ESPN client refresh these. Specialists read; they do not invent a parallel copy.
+Live JSON. Check `as_of`. Stale is a bug.
 
-| File | Owner-ish | What |
+| File | Who | What |
 |---|---|---|
-| `league.json` | shared | Settings, slots, waiver rules, leagueId |
-| `roster.json` | Blitz | Our current roster |
+| `league.json` | client | Settings, leagueId |
+| `roster.json` | Blitz | Our roster |
 | `schedule.json` | Blitz | Our matchups |
-| `standings.json` | Blitz | Our W-L / PF / PA (check `as_of`) |
-| `availability.json` | Wire | Injury / tag file |
-| `projections.json` | Sigma / client | Point projections |
-| `waivers.json` | Recon / client | Wire / FA snapshot |
-| `preferences.json` | Blitz | Start/sit preferences |
-| `sources.json` | shared | Where numbers came from |
+| `standings.json` | Blitz | W-L / PF / PA |
+| `availability.json` | Wire | **The** injury file |
+| `projections.json` | Sigma / client | Projections |
+| `waivers.json` | client | FA / WW snapshot |
+| `preferences.json` | Blitz | Start/sit prefs |
+| `sources.json` | shared | Provenance |
+| [recon/](recon/README.md) | Recon export | League dumps from her local git |
 
-Stale `as_of` is a bug. Say it. Do not paper over Week 2 standings in Week 3.
+Do not create `data/availability2.json`. Do not keep a second roster in `rosters/`.

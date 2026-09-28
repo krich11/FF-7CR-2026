@@ -1,32 +1,12 @@
 # agents/
 
-One folder per bot. Identity lives here. Shared league data stays in `data/`. Shared law that is not a person stays in `playbook/`.
+Identity only. Work product does not live in this folder except charter/profile/routines.
 
-```
-agents/
-  blitz/    CHARTER.md  profile.json   README.md
-  wire/     CHARTER.md  PROFILE.md     ROUTINES.md  README.md
-  sigma/    CHARTER.md  PROFILE.md     ROUTINES.md  README.md
-  recon/    CHARTER.md  PROFILE.md     ROUTINES.md  README.md
-```
-
-| File in the bot dir | Who writes it |
-|---|---|
-| `CHARTER.md` | Blitz (law). Specialist proposes a patch. |
-| `PROFILE.md` / `profile.json` | That bot |
-| `ROUTINES.md` | That bot |
-
-## Where the work goes
-
-Historical dumps are still under `lanes/` so existing tools do not break tonight.
-
-| Bot | New writes (preferred) | Old path still valid |
+| Bot | Folder | Writes |
 |---|---|---|
-| Recon | `agents/recon/work/` when you create it | `lanes/recon/` |
-| Wire | `agents/wire/work/` when you create it | `lanes/wire/` |
-| Sigma | `agents/sigma/work/` when you create it | `lanes/results/sigma/` |
-| Blitz | `playbook/WAR.md`, `weekly/` | — |
+| Blitz | [blitz/](blitz/) | `playbook/WAR.md`, `playbook/CLAIMS.md`, ESPN |
+| Wire | [wire/](wire/) | `data/availability.json` |
+| Sigma | [sigma/](sigma/) | boards into `playbook/CLAIMS.md` |
+| Recon | [recon/](recon/) | **her local git**; export to `data/recon/` |
 
-Do not add a fifth bot folder without Ken.
-
-See [LAYOUT.md](LAYOUT.md) for the old → new map.
+Charter text is still also under `charters/` until Blitz pastes it into `CHARTER.md`.

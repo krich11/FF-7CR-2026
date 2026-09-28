@@ -1,12 +1,12 @@
-# lanes/
+# lanes/ — DEPRECATED
 
-Working dumps. Identity is under `agents/`.
+Read-only archive. Do not add files.
 
-| Dir | Belongs to | Canonical identity |
-|---|---|---|
-| [recon/](recon/) | Recon | `agents/recon/` |
-| [wire/](wire/) | Wire | `agents/wire/` |
-| [results/sigma/](results/sigma/) | Sigma | `agents/sigma/` |
-| [results/](results/) week scorecards | shared | `weekly/` + this folder |
+| Old path | Live path |
+|---|---|
+| `lanes/recon/*.json` | `data/recon/` |
+| `lanes/wire/` | `data/availability.json` |
+| `lanes/results/week-*` | `weekly/` |
+| `lanes/results/sigma/` | stay as Sigma archive; new packets go to Blitz and `playbook/CLAIMS.md` |
 
-Keep writing here until your tools are pointed at `agents/<bot>/work/`.
+Scripts under `lanes/recon/tools/` may still *read* these dumps. Point new output at `data/recon/`.
