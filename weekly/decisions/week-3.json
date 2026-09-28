@@ -1,0 +1,237 @@
+{
+  "week": 3,
+  "skill": "lineup.tweak",
+  "window": "friday_tweak",
+  "as_of": "2026-09-25T16:02:40-05:00",
+  "as_of_ct": "Fri Sep 25, 4:02 PM CT",
+  "confidence": "Medium-High",
+  "confidence_reason": "TNF DONE (London/Pitts). Meyers cleared ACTIVE; FLEX Shaheed still edges Meyers ~0.2. Murray confirmed MIN @ TB. Etienne ACTIVE no designation. Pittman Q bench. ESPN already matches unlocked starters.",
+  "first_kickoff": "2026-09-24T17:15:00-07:00",
+  "first_kickoff_ct": "Thu Sep 24, 7:15 PM CT",
+  "first_our_kickoff": "2026-09-24T17:15:00-07:00",
+  "first_our_kickoff_ct": "Thu Sep 24, 7:15 PM CT",
+  "next_unlocked_kickoff_ct": "Sun Sep 27, 12:00 PM CT",
+  "auto_commit_deadline": "2026-09-25T20:00:00-07:00",
+  "auto_commit_deadline_ct": "Fri Sep 25, 10:00 PM CT",
+  "auto_commit_note": "Fri 10:00 PM CT dead-man. ESPN already matches card \u2014 expect NOOP unless start/sit flips.",
+  "frozen_players": [
+    "Drake London",
+    "Kyle Pitts Sr.",
+    "Josh Jacobs"
+  ],
+  "unlocked_pool": "sun_mon",
+  "assignments": {
+    "QB": "Kyler Murray",
+    "RB": [
+      "De'Von Achane",
+      "Travis Etienne Jr."
+    ],
+    "WR": [
+      "Drake London",
+      "Garrett Wilson"
+    ],
+    "TE": "Kyle Pitts Sr.",
+    "FLEX": "Rashod Bateman",
+    "DST": "Panthers D/ST",
+    "K": "Eddy Pineiro"
+  },
+  "scores": {
+    "De'Von Achane": {
+      "consensus": 18.34,
+      "adj": 18.34,
+      "start_score": 18.34,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Travis Etienne Jr.": {
+      "consensus": 11.56,
+      "adj": 9.36,
+      "start_score": 9.36,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Drake London": {
+      "consensus": 14.89,
+      "adj": 14.89,
+      "start_score": 14.89,
+      "state": "ACTIVE",
+      "lock_state": "DONE"
+    },
+    "Garrett Wilson": {
+      "consensus": 15.63,
+      "adj": 15.63,
+      "start_score": 15.63,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Kyle Pitts Sr.": {
+      "consensus": 9.54,
+      "adj": 10.02,
+      "start_score": 10.02,
+      "state": "ACTIVE",
+      "lock_state": "DONE"
+    },
+    "Jaxson Dart": {
+      "consensus": 0.0,
+      "adj": 0.0,
+      "start_score": 0.0,
+      "state": "IR",
+      "lock_state": "UNLOCKED"
+    },
+    "Dallas Goedert": {
+      "consensus": 0.0,
+      "adj": 0.0,
+      "start_score": 0.0,
+      "state": "OUT",
+      "lock_state": "UNLOCKED"
+    },
+    "Josh Jacobs": {
+      "consensus": 0.0,
+      "adj": 0.0,
+      "start_score": 0.0,
+      "state": "EXEMPT",
+      "lock_state": "DONE"
+    },
+    "Michael Pittman Jr.": {
+      "consensus": 10.82,
+      "adj": 2.29,
+      "start_score": 2.29,
+      "state": "QUESTIONABLE",
+      "lock_state": "UNLOCKED"
+    },
+    "Steelers D/ST": {
+      "consensus": 6.11,
+      "adj": 6.11,
+      "start_score": 6.11,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Jakobi Meyers": {
+      "consensus": 9.55,
+      "adj": 9.55,
+      "start_score": 9.55,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Eddy Pineiro": {
+      "consensus": 9.31,
+      "adj": 9.31,
+      "start_score": 9.31,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Zach Charbonnet": {
+      "consensus": 0.0,
+      "adj": 0.0,
+      "start_score": 0.0,
+      "state": "PUP",
+      "lock_state": "UNLOCKED"
+    },
+    "Rashid Shaheed": {
+      "consensus": 9.75,
+      "adj": 9.75,
+      "start_score": 9.75,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Tyler Allgeier": {
+      "consensus": 7.31,
+      "adj": 6.94,
+      "start_score": 6.94,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Kyler Murray": {
+      "consensus": 17.48,
+      "adj": 17.48,
+      "start_score": 17.48,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    }
+  },
+  "flex_shortlist": [
+    {
+      "name": "Rashid Shaheed",
+      "adj": 9.75,
+      "start_score": 9.75,
+      "tag": "START"
+    },
+    {
+      "name": "Jakobi Meyers",
+      "adj": 9.55,
+      "start_score": 9.55,
+      "tag": "ALT"
+    },
+    {
+      "name": "Tyler Allgeier",
+      "adj": 6.94,
+      "start_score": 6.94,
+      "tag": "ALT"
+    },
+    {
+      "name": "Michael Pittman Jr.",
+      "adj": 2.29,
+      "start_score": 2.29,
+      "tag": "ALT",
+      "note": "Q foot \u2014 not recommended"
+    }
+  ],
+  "form": {
+    "applied": false,
+    "note": "form.json absent / W2 review SKIP; form_add=0."
+  },
+  "roster_source": "espn_api",
+  "roster_as_of": "2026-09-25T13:58:43.465036-07:00",
+  "wire": "AV Fri finals: Etienne ACTIVE (no designation); Meyers OFF IR \u2192 ACTIVE will play; Pittman Q (Fri LP, optimistic); Murray CONFIRMED MIN @ TB (Vikings \u2014 Wed card ARI@SF was wrong); Darnold FP Thu / trending start for Shaheed SEA@WAS (Fri designation soft); TNF DONE London/Pitts/Jacobs; Goedert OUT hold; Allgeier ARI; Pineiro SF (ARI@SF).",
+  "startsit_changed": false,
+  "change_note": "Hold SET vs Wed card. Tweaks are status/context only: Meyers Q\u2192ACTIVE; Murray opponent fix MIN@TB (not ARI); Etienne designation cleared; Pittman Fri Q. FLEX Shaheed over Meyers by ~0.2 (was ~0.1).",
+  "espn_write": false,
+  "espn_already_matches": true,
+  "espn_diff_if_applied": {},
+  "blockers": [
+    "TNF LOCKED/DONE \u2014 do not swap London (WR) or Pitts (TE).",
+    "Jacobs EXEMPT DONE \u2014 leave bench.",
+    "Pittman foot Q \u2014 sit; Sunday inactive check if he somehow entered FLEX talk.",
+    "Darnold Fri formal designation soft \u2014 Shaheed hold; monitor if Lock starts.",
+    "Dart IR season-over; Goedert OUT; Charbonnet PUP."
+  ],
+  "projections_used": {
+    "sources": [
+      "espn_api scoringPeriodId=3",
+      "fantasypros player-page PPR week 3"
+    ],
+    "weights": {
+      "espn": 0.49,
+      "fantasypros": 0.51
+    }
+  },
+  "availability_fixes": [
+    "Murray: confirmed Vikings / MIN @ TB (Wed SET ARI@SF was wrong; Wire Vikings row was correct).",
+    "Meyers: QUESTIONABLE \u2192 ACTIVE (off JAX Fri final IR).",
+    "Pittman: Fri final QUESTIONABLE (optimistic).",
+    "Etienne: ACTIVE confirmed, ESPN Q tag cleared.",
+    "Pineiro: SF kicker (ARI @ SF game label unchanged).",
+    "schedule.json: dropped Brooks/Tucker; Murray on MIN @ TB."
+  ],
+  "dead_man_sunday": {
+    "at": "2026-09-27T09:56:58-05:00",
+    "at_ct": "Sun Sep 27, 9:56 AM CT",
+    "result": "NOOP_ALREADY_MATCHED",
+    "swaps": [],
+    "source_av": "2026-09-27T08:07:40-05:00",
+    "av_age_h": 1.8,
+    "ken_gate": "none (no yes/no dead-man/hold since Sat card)",
+    "espn_starters": {
+      "QB": "Kyler Murray",
+      "RB1": "De'Von Achane",
+      "RB2": "Travis Etienne Jr.",
+      "WR1": "Drake London",
+      "WR2": "Garrett Wilson",
+      "TE": "Kyle Pitts Sr.",
+      "FLEX": "Rashod Bateman",
+      "DST": "Panthers D/ST",
+      "K": "Eddy Pineiro"
+    },
+    "note": "Last card Sat Bateman/Panthers. All starters ACTIVE per Wire AV. ESPN matched; no lineup write."
+  }
+}

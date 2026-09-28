@@ -1,0 +1,49 @@
+{
+  "label": "sigma_research_tracks",
+  "as_of": "2026-09-05T14:03:38.324822-07:00",
+  "live_optimizer": "SPEC_v1",
+  "promotion_review_after_weeks": 4,
+  "promotion_review_latest_week": 6,
+  "require_blitz_ok": true,
+  "tracks": {
+    "matchup_adj_resid": {
+      "cum_delta_ppr": 0.0,
+      "n_flips": 0,
+      "n_wins": 0,
+      "status": "methodology_ready",
+      "method_doc": "results/sigma/methods/matchup_adj_resid.md"
+    },
+    "opp_eff_decomp": {
+      "cum_delta_ppr": 0.0,
+      "n_flips": 0,
+      "n_wins": 0,
+      "status": "methodology_ready",
+      "method_doc": "results/sigma/methods/opp_eff_decomp.md"
+    },
+    "vorp_lite": {
+      "cum_delta_ppr": 0.0,
+      "n_flips": 0,
+      "n_wins": 0,
+      "status": "methodology_ready",
+      "method_doc": "results/sigma/methods/vorp_lite.md"
+    },
+    "handcuff_ev": {
+      "cum_delta_ppr": 0.0,
+      "n_flips": 0,
+      "n_wins": 0,
+      "status": "methodology_ready",
+      "method_doc": "results/sigma/methods/handcuff_ev.md"
+    },
+    "standings_leverage": {
+      "cum_delta_ppr": 0.0,
+      "n_flips": 0,
+      "n_wins": 0,
+      "status": "methodology_ready_dormant_until_week_6",
+      "method_doc": "results/sigma/methods/standings_leverage.md"
+    }
+  },
+  "weeks": [],
+  "methodology_dir": "results/sigma/methods/",
+  "promotion_brief_due": "after weeks 4-6",
+  "methodology_wired": true
+}

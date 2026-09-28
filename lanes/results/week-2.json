@@ -1,0 +1,333 @@
+{
+  "week": 2,
+  "as_of": "2026-09-22T09:53:52-05:00",
+  "source": "espn_api mRoster scoringPeriodId=2 (settled) + decisions/week-2.json adj + nflverse/PFR snaps",
+  "snap_note": "W2: offense snap% from nflverse snap_counts_2026 \u2192 results/sigma/snaps/week-2.csv. Unmatched: DST unit, EXEMPT Jacobs, OUT Pittman, PUP Charbonnet, K Pineiro (no offense row). form_add_next left null \u2014 week.review form loop not completed (WEEK_REVIEW_SKIP). usage_gap/role_mult_next not invented.",
+  "record": {
+    "w": 1,
+    "l": 1,
+    "note": "ESPN overall after W2 settle"
+  },
+  "opponent": {
+    "teamId": 4,
+    "abbrev": "CDS",
+    "name": "Charlie Don't Surf",
+    "score": 104.02
+  },
+  "team_score": 83.1,
+  "proj_total_adj": 109.52,
+  "proj_total_start_score": 106.57,
+  "delta_vs_adj": -26.42,
+  "card_confidence": "Medium",
+  "result": "L",
+  "starters": [
+    {
+      "slot": "QB",
+      "name": "Jaxson Dart",
+      "started": true,
+      "adj": 18.23,
+      "actual": 0.8,
+      "residual": -17.43,
+      "form_add_next": null,
+      "snap_pct": 0.12,
+      "targets": null,
+      "carries": null,
+      "receptions": null,
+      "state": "ACTIVE",
+      "note": "5/3 20y; left early L knee (Winston); 7 off snaps / 12%",
+      "offense_snaps": 7
+    },
+    {
+      "slot": "RB",
+      "name": "De'Von Achane",
+      "started": true,
+      "adj": 17.12,
+      "actual": 12.3,
+      "residual": -4.82,
+      "form_add_next": null,
+      "snap_pct": 0.76,
+      "targets": 6,
+      "carries": 20,
+      "receptions": 3,
+      "state": "ACTIVE",
+      "note": "usage OK (snaps 76%, 6 tgt); efficiency soft vs adj",
+      "offense_snaps": 45
+    },
+    {
+      "slot": "RB",
+      "name": "Travis Etienne Jr.",
+      "started": true,
+      "adj": 11.0,
+      "actual": 7.1,
+      "residual": -3.9,
+      "form_add_next": null,
+      "snap_pct": 0.54,
+      "targets": 2,
+      "carries": 8,
+      "receptions": 2,
+      "state": "ACTIVE",
+      "note": "Kamara-active haircut on card; 54% snaps",
+      "offense_snaps": 37
+    },
+    {
+      "slot": "WR",
+      "name": "Drake London",
+      "started": true,
+      "adj": 12.85,
+      "actual": 8.9,
+      "residual": -3.95,
+      "form_add_next": null,
+      "snap_pct": 0.62,
+      "targets": 5,
+      "carries": 1,
+      "receptions": 4,
+      "state": "ACTIVE",
+      "note": "Rush env; 5 tgt / 4 rec \u2014 soft second straight week under backup QB",
+      "offense_snaps": 43
+    },
+    {
+      "slot": "WR",
+      "name": "Garrett Wilson",
+      "started": true,
+      "adj": 15.86,
+      "actual": 16.7,
+      "residual": 0.84,
+      "form_add_next": null,
+      "snap_pct": 0.88,
+      "targets": 7,
+      "carries": null,
+      "receptions": 5,
+      "state": "ACTIVE",
+      "note": "on/above card",
+      "offense_snaps": 65
+    },
+    {
+      "slot": "TE",
+      "name": "Dallas Goedert",
+      "started": true,
+      "adj": 11.24,
+      "actual": 1.4,
+      "residual": -9.84,
+      "form_add_next": null,
+      "snap_pct": 0.25,
+      "targets": 2,
+      "carries": null,
+      "receptions": 1,
+      "state": "ACTIVE",
+      "note": "in-game QTR knee @TEN \u2192 Mon MCL few weeks; 25% snaps",
+      "offense_snaps": 19
+    },
+    {
+      "slot": "FLEX",
+      "name": "Tre Tucker",
+      "started": true,
+      "adj": 9.86,
+      "actual": 22.9,
+      "residual": 13.04,
+      "form_add_next": null,
+      "snap_pct": 0.59,
+      "targets": 7,
+      "carries": null,
+      "receptions": 5,
+      "state": "ACTIVE",
+      "note": "Bowers inactive; 7 tgt / 5-119-1; TE2 premium FLEX win",
+      "offense_snaps": 37
+    },
+    {
+      "slot": "DST",
+      "name": "Steelers D/ST",
+      "started": true,
+      "adj": 6.34,
+      "actual": 8.0,
+      "residual": 1.66,
+      "form_add_next": null,
+      "snap_pct": null,
+      "targets": null,
+      "carries": null,
+      "receptions": null,
+      "state": "ACTIVE",
+      "note": "Porter OUT script on card",
+      "offense_snaps": null
+    },
+    {
+      "slot": "K",
+      "name": "Eddy Pineiro",
+      "started": true,
+      "adj": 7.02,
+      "actual": 5.0,
+      "residual": -2.02,
+      "form_add_next": null,
+      "snap_pct": null,
+      "targets": null,
+      "carries": null,
+      "receptions": null,
+      "state": "QUESTIONABLE",
+      "note": "illness Q\u2192ACTIVE; K_SWAP HOLD correct",
+      "offense_snaps": null
+    }
+  ],
+  "bench": [
+    {
+      "name": "Kyle Pitts Sr.",
+      "started": false,
+      "adj": 10.38,
+      "actual": 2.5,
+      "residual": -7.88,
+      "snap_pct": 0.38,
+      "targets": 3,
+      "carries": null,
+      "receptions": 1,
+      "state": "ACTIVE",
+      "offense_snaps": 26,
+      "note": null
+    },
+    {
+      "name": "Jakobi Meyers",
+      "started": false,
+      "adj": 8.8,
+      "actual": 3.8,
+      "residual": -5.0,
+      "snap_pct": 0.9,
+      "targets": 1,
+      "carries": null,
+      "receptions": 1,
+      "state": "LIMITED",
+      "offense_snaps": 53,
+      "note": null
+    },
+    {
+      "name": "Jonathon Brooks",
+      "started": false,
+      "adj": 8.65,
+      "actual": 2.1,
+      "residual": -6.55,
+      "snap_pct": 0.3,
+      "targets": 1,
+      "carries": 5,
+      "receptions": 1,
+      "state": "ACTIVE",
+      "offense_snaps": 20,
+      "note": null
+    },
+    {
+      "name": "Rashid Shaheed",
+      "started": false,
+      "adj": 8.61,
+      "actual": 6.9,
+      "residual": -1.71,
+      "snap_pct": 0.56,
+      "targets": 6,
+      "carries": null,
+      "receptions": 3,
+      "state": "ACTIVE",
+      "offense_snaps": 39,
+      "note": null
+    },
+    {
+      "name": "Tyler Allgeier",
+      "started": false,
+      "adj": 6.74,
+      "actual": 3.9,
+      "residual": -2.84,
+      "snap_pct": 0.64,
+      "targets": 2,
+      "carries": 5,
+      "receptions": 2,
+      "state": "ACTIVE",
+      "offense_snaps": 32,
+      "note": null
+    },
+    {
+      "name": "Michael Pittman Jr.",
+      "started": false,
+      "adj": 0.0,
+      "actual": 0.0,
+      "residual": 0.0,
+      "snap_pct": null,
+      "targets": null,
+      "carries": null,
+      "receptions": null,
+      "state": "QUESTIONABLE",
+      "offense_snaps": null,
+      "note": null
+    },
+    {
+      "name": "Josh Jacobs",
+      "started": false,
+      "adj": 0.0,
+      "actual": 0.0,
+      "residual": 0.0,
+      "snap_pct": null,
+      "targets": null,
+      "carries": null,
+      "receptions": null,
+      "state": "EXEMPT",
+      "offense_snaps": null,
+      "note": null
+    },
+    {
+      "name": "Zach Charbonnet",
+      "started": false,
+      "adj": 0.0,
+      "actual": 0.0,
+      "residual": 0.0,
+      "snap_pct": null,
+      "targets": null,
+      "carries": null,
+      "receptions": null,
+      "state": "PUP",
+      "offense_snaps": null,
+      "note": null
+    }
+  ],
+  "data_quality": {
+    "team_score_vs_starter_sum": {
+      "team_score": 83.1,
+      "starter_sum": 83.1,
+      "ok": true
+    },
+    "week_review": "SKIP Mon 10:37 CT (MNF live) \u2014 MAKEUP Tue AM scorecard+email",
+    "scorecard": "written results/week-2-scorecard.md (Tue makeup week.review)",
+    "form_usage": "form_add_next null; do not invent",
+    "snaps": "nflverse ok for skill starters; see snap_note",
+    "shaheed_team_note": "PFR lists Rashid Shaheed as SEA W1\u2013W2; Wire/schedule context often NO \u2014 flag only, did not change sit/start"
+  },
+  "counterfactuals": {
+    "flex_tucker_vs_pitts": {
+      "tucker": 22.9,
+      "pitts": 2.5,
+      "delta": 20.4,
+      "note": "SPEC TE2 premium flip correct"
+    },
+    "te_goedert_vs_pitts": {
+      "goedert": 1.4,
+      "pitts": 2.5,
+      "delta": 1.1,
+      "note": "not predictable pre-lock (Goedert ACTIVE)"
+    },
+    "best_bench_vs_worst_flex_eligible_starter": {
+      "bench": "Rashid Shaheed 6.9",
+      "starter": "Travis Etienne Jr. 7.1",
+      "delta": -0.2,
+      "note": "no positive SCORECARD-style bench regret vs a FLEX-eligible starter; Pitts vs Goedert same-pos +1.1 only"
+    }
+  },
+  "shadow": {
+    "share_trend": {
+      "flip_vs_spec": true,
+      "spec_flex": "Tre Tucker",
+      "shadow_flex": "Kyle Pitts Sr.",
+      "spec_actual": 22.9,
+      "shadow_actual": 2.5,
+      "delta": -20.4,
+      "win": false
+    },
+    "vegas_flex": {
+      "status": "skipped_no_lines"
+    },
+    "dst_k_script": {
+      "flip": false,
+      "note": "only DST/K rostered"
+    }
+  }
+}

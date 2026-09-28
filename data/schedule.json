@@ -1,0 +1,90 @@
+{
+  "week": 3,
+  "timezone": "America/Los_Angeles",
+  "first_kickoff": "2026-09-24T17:15:00-07:00",
+  "first_our_kickoff": "2026-09-24T17:15:00-07:00",
+  "games": [
+    {
+      "label": "ATL @ GB (TNF)",
+      "kickoff": "2026-09-24T17:15:00-07:00",
+      "players": [
+        "Drake London",
+        "Kyle Pitts Sr.",
+        "Josh Jacobs"
+      ]
+    },
+    {
+      "label": "KC @ MIA",
+      "kickoff": "2026-09-27T10:00:00-07:00",
+      "players": [
+        "De'Von Achane"
+      ]
+    },
+    {
+      "label": "NE @ JAX",
+      "kickoff": "2026-09-27T10:00:00-07:00",
+      "players": [
+        "Jakobi Meyers"
+      ]
+    },
+    {
+      "label": "NYJ @ DET",
+      "kickoff": "2026-09-27T10:00:00-07:00",
+      "players": [
+        "Garrett Wilson"
+      ]
+    },
+    {
+      "label": "CIN @ PIT",
+      "kickoff": "2026-09-27T10:00:00-07:00",
+      "players": [
+        "Steelers D/ST",
+        "Michael Pittman Jr."
+      ]
+    },
+    {
+      "label": "SEA @ WAS",
+      "kickoff": "2026-09-27T10:00:00-07:00",
+      "players": [
+        "Rashid Shaheed",
+        "Zach Charbonnet"
+      ]
+    },
+    {
+      "label": "TEN @ NYG",
+      "kickoff": "2026-09-27T10:00:00-07:00",
+      "players": [
+        "Jaxson Dart"
+      ]
+    },
+    {
+      "label": "ARI @ SF",
+      "kickoff": "2026-09-27T13:05:00-07:00",
+      "players": [
+        "Eddy Pineiro",
+        "Tyler Allgeier"
+      ]
+    },
+    {
+      "label": "LV @ NO",
+      "kickoff": "2026-09-27T13:25:00-07:00",
+      "players": [
+        "Travis Etienne Jr."
+      ]
+    },
+    {
+      "label": "PHI @ CHI (MNF)",
+      "kickoff": "2026-09-28T17:15:00-07:00",
+      "players": [
+        "Dallas Goedert"
+      ]
+    },
+    {
+      "label": "MIN @ TB",
+      "kickoff": "2026-09-27T13:05:00-07:00",
+      "players": [
+        "Kyler Murray"
+      ]
+    }
+  ]
+}

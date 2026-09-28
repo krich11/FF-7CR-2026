@@ -1,0 +1,42 @@
+{
+  "as_of": "2026-09-22T09:56:00-05:00",
+  "week": 2,
+  "source": "espn_api mTeam+mMatchup read (settled)",
+  "espn_official": {
+    "winner_week_2": "AWAY",
+    "overall_record": {
+      "wins": 1,
+      "losses": 1,
+      "ties": 0
+    },
+    "points_for": 216.0,
+    "points_against": 206.24,
+    "waiver_rank": 5,
+    "espn_team_name_note": "ESPN abbrev QBZ; display name currently 'Medical Tent' (Blitz brand Quantum Blitz)"
+  },
+  "blitz_counted": {
+    "wins": 1,
+    "losses": 1,
+    "ties": 0,
+    "points_for": 216.0,
+    "points_against": 206.24,
+    "result_week_1": "W",
+    "result_week_2": "L",
+    "opponent_week_1": "The Chosen Ones (TCO)",
+    "opponent_week_2": "Charlie Don't Surf (CDS)",
+    "week_1_score": 132.9,
+    "week_1_opp": 102.22,
+    "week_2_score": 83.1,
+    "week_2_opp": 104.02
+  },
+  "league_week_2_scores": {
+    "QBZ": 83.1,
+    "CDS": 104.02
+  },
+  "waiver_rank": 5,
+  "mode_weights": "default_until_week_6",
+  "process_misses": [
+    "W1 Fri resource_exhausted makeup",
+    "W2 week.review SKIP (MNF) not resumed before AAR \u2014 makeup Tue"
+  ]
+}

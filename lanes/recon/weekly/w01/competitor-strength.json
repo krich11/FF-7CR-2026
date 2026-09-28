@@ -1,0 +1,784 @@
+{
+  "as_of_espn": "scoringPeriodId=1 mRoster projections (statSourceId=1)",
+  "source": "espn_api_read",
+  "week": 1,
+  "matchup": {
+    "us": 13,
+    "opponent": 9,
+    "opponent_abbrev": "TCO",
+    "opponent_name": "The Chosen Ones",
+    "note": "ESPN schedule matchupPeriodId=1: TCO (away) @ QBZ (home)"
+  },
+  "teams": [
+    {
+      "teamId": 9,
+      "name": "The Chosen Ones",
+      "abbrev": "TCO",
+      "waiverRank": 9,
+      "starter_proj_total": 123.26,
+      "starters": [
+        {
+          "slot": "RB1",
+          "name": "D'Andre Swift",
+          "proj": 12.31,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "slot": "RB2",
+          "name": "Jeremiyah Love",
+          "proj": 14.65,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "slot": "WR1",
+          "name": "George Pickens",
+          "proj": 14.68,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "WR2",
+          "name": "Ja'Marr Chase",
+          "proj": 19.95,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "slot": "TE",
+          "name": "Sam LaPorta",
+          "proj": 10.95,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "slot": "DST",
+          "name": "Rams D/ST",
+          "proj": 6.19,
+          "injury": null
+        },
+        {
+          "slot": "K",
+          "name": "Harrison Mevis",
+          "proj": 9.41,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "FLEX",
+          "name": "Emeka Egbuka",
+          "proj": 14.05,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "slot": "QB",
+          "name": "Jalen Hurts",
+          "proj": 21.07,
+          "injury": "ACTIVE"
+        }
+      ],
+      "missing": []
+    },
+    {
+      "teamId": 4,
+      "name": "Charlie Don't Surf",
+      "abbrev": "CDS",
+      "waiverRank": 12,
+      "starter_proj_total": 123.21,
+      "starters": [
+        {
+          "slot": "RB1",
+          "name": "Ashton Jeanty",
+          "proj": 18.06,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "slot": "RB2",
+          "name": "Kenneth Walker III",
+          "proj": 14.7,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "WR1",
+          "name": "Ladd McConkey",
+          "proj": 13.77,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "WR2",
+          "name": "Puka Nacua",
+          "proj": 21.06,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "slot": "TE",
+          "name": "Tucker Kraft",
+          "proj": 9.09,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "slot": "DST",
+          "name": "Jaguars D/ST",
+          "proj": 8.19,
+          "injury": null
+        },
+        {
+          "slot": "K",
+          "name": "Harrison Butker",
+          "proj": 8.51,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "FLEX",
+          "name": "Jadarian Price",
+          "proj": 13.62,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "QB",
+          "name": "Bo Nix",
+          "proj": 16.2,
+          "injury": "ACTIVE"
+        }
+      ],
+      "missing": []
+    },
+    {
+      "teamId": 1,
+      "name": "Texas Endgame",
+      "abbrev": "TE",
+      "waiverRank": 3,
+      "starter_proj_total": 122.16,
+      "starters": [
+        {
+          "slot": "RB1",
+          "name": "Breece Hall",
+          "proj": 16.49,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "slot": "RB2",
+          "name": "Omarion Hampton",
+          "proj": 17.58,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "WR1",
+          "name": "Justin Jefferson",
+          "proj": 17.13,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "WR2",
+          "name": "Zay Flowers",
+          "proj": 14.24,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "slot": "TE",
+          "name": "George Kittle",
+          "proj": 8.36,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "slot": "DST",
+          "name": "Chargers D/ST",
+          "proj": 7.46,
+          "injury": null
+        },
+        {
+          "slot": "K",
+          "name": "Cam Little",
+          "proj": 8.81,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "FLEX",
+          "name": "Tee Higgins",
+          "proj": 12.96,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "slot": "QB",
+          "name": "Lamar Jackson",
+          "proj": 19.13,
+          "injury": "ACTIVE"
+        }
+      ],
+      "missing": []
+    },
+    {
+      "teamId": 6,
+      "name": "Buck up Buttercup!",
+      "abbrev": "BuB",
+      "waiverRank": 6,
+      "starter_proj_total": 121.94,
+      "starters": [
+        {
+          "slot": "RB1",
+          "name": "Christian McCaffrey",
+          "proj": 18.38,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "slot": "RB2",
+          "name": "Saquon Barkley",
+          "proj": 17.66,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "WR1",
+          "name": "Jaylen Waddle",
+          "proj": 12.22,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "WR2",
+          "name": "Rashee Rice",
+          "proj": 14.36,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "TE",
+          "name": "Tyler Warren",
+          "proj": 12.24,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "slot": "DST",
+          "name": "Packers D/ST",
+          "proj": 5.41,
+          "injury": null
+        },
+        {
+          "slot": "K",
+          "name": "Cameron Dicker",
+          "proj": 10.26,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "slot": "FLEX",
+          "name": "Bucky Irving",
+          "proj": 12.44,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "QB",
+          "name": "Justin Herbert",
+          "proj": 18.97,
+          "injury": "ACTIVE"
+        }
+      ],
+      "missing": []
+    },
+    {
+      "teamId": 3,
+      "name": "Fantasy Rookie No More",
+      "abbrev": "FR",
+      "waiverRank": 8,
+      "starter_proj_total": 120.2,
+      "starters": [
+        {
+          "slot": "RB1",
+          "name": "Derrick Henry",
+          "proj": 16.37,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "RB2",
+          "name": "Jahmyr Gibbs",
+          "proj": 21.65,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "WR1",
+          "name": "Chris Olave",
+          "proj": 14.79,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "WR2",
+          "name": "Malik Nabers",
+          "proj": 13.75,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "slot": "TE",
+          "name": "Jake Ferguson",
+          "proj": 9.8,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "DST",
+          "name": "Eagles D/ST",
+          "proj": 6.25,
+          "injury": null
+        },
+        {
+          "slot": "K",
+          "name": "Tyler Loop",
+          "proj": 8.49,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "FLEX",
+          "name": "Terry McLaurin",
+          "proj": 12.27,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "QB",
+          "name": "Jayden Daniels",
+          "proj": 16.83,
+          "injury": "ACTIVE"
+        }
+      ],
+      "missing": []
+    },
+    {
+      "teamId": 13,
+      "name": "Quantum Blitz",
+      "abbrev": "QBZ",
+      "waiverRank": 1,
+      "starter_proj_total": 119.13,
+      "starters": [
+        {
+          "slot": "RB1",
+          "name": "De'Von Achane",
+          "proj": 18.22,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "RB2",
+          "name": "Travis Etienne Jr.",
+          "proj": 14.96,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "WR1",
+          "name": "Drake London",
+          "proj": 15.14,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "WR2",
+          "name": "Garrett Wilson",
+          "proj": 14.79,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "TE",
+          "name": "Kyle Pitts Sr.",
+          "proj": 10.43,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "DST",
+          "name": "Steelers D/ST",
+          "proj": 7.47,
+          "injury": null
+        },
+        {
+          "slot": "K",
+          "name": "Eddy Pineiro",
+          "proj": 8.7,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "FLEX",
+          "name": "Dallas Goedert",
+          "proj": 10.9,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "QB",
+          "name": "Jaxson Dart",
+          "proj": 18.52,
+          "injury": "ACTIVE"
+        }
+      ],
+      "missing": []
+    },
+    {
+      "teamId": 12,
+      "name": "Mitch's Badass Bunch",
+      "abbrev": "MBB",
+      "waiverRank": 11,
+      "starter_proj_total": 118.6,
+      "starters": [
+        {
+          "slot": "RB1",
+          "name": "Bijan Robinson",
+          "proj": 19.3,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "RB2",
+          "name": "Tony Pollard",
+          "proj": 11.54,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "WR1",
+          "name": "Davante Adams",
+          "proj": 13.83,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "WR2",
+          "name": "Tetairoa McMillan",
+          "proj": 14.81,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "TE",
+          "name": "Trey McBride",
+          "proj": 14.35,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "DST",
+          "name": "Seahawks D/ST",
+          "proj": 7.14,
+          "injury": null
+        },
+        {
+          "slot": "K",
+          "name": "Ka'imi Fairbairn",
+          "proj": 9.77,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "FLEX",
+          "name": "Harold Fannin Jr.",
+          "proj": 11.13,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "QB",
+          "name": "Dak Prescott",
+          "proj": 16.73,
+          "injury": "ACTIVE"
+        }
+      ],
+      "missing": []
+    },
+    {
+      "teamId": 10,
+      "name": "Louisiana Lightning",
+      "abbrev": "LL",
+      "waiverRank": 2,
+      "starter_proj_total": 116.57,
+      "starters": [
+        {
+          "slot": "RB1",
+          "name": "Chase Brown",
+          "proj": 16.03,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "RB2",
+          "name": "James Cook III",
+          "proj": 14.88,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "WR1",
+          "name": "Christian Watson",
+          "proj": 11.06,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "WR2",
+          "name": "DeVonta Smith",
+          "proj": 14.79,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "TE",
+          "name": "Brock Bowers",
+          "proj": 15.6,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "DST",
+          "name": "Jets D/ST",
+          "proj": 6.71,
+          "injury": null
+        },
+        {
+          "slot": "K",
+          "name": "Nick Folk",
+          "proj": 7.76,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "FLEX",
+          "name": "DJ Moore",
+          "proj": 11.59,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "QB",
+          "name": "Joe Burrow",
+          "proj": 18.15,
+          "injury": "ACTIVE"
+        }
+      ],
+      "missing": []
+    },
+    {
+      "teamId": 2,
+      "name": "Patton's Posse",
+      "abbrev": "PP",
+      "waiverRank": 10,
+      "starter_proj_total": 116.26,
+      "starters": [
+        {
+          "slot": "RB1",
+          "name": "David Montgomery",
+          "proj": 12.67,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "RB2",
+          "name": "Kyren Williams",
+          "proj": 13.67,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "WR1",
+          "name": "A.J. Brown",
+          "proj": 14.27,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "WR2",
+          "name": "Jaxon Smith-Njigba",
+          "proj": 18.92,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "TE",
+          "name": "Travis Kelce",
+          "proj": 9.81,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "DST",
+          "name": "Ravens D/ST",
+          "proj": 6.82,
+          "injury": null
+        },
+        {
+          "slot": "K",
+          "name": "Chris Boswell",
+          "proj": 9.02,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "FLEX",
+          "name": "Nico Collins",
+          "proj": 15.61,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "QB",
+          "name": "Brock Purdy",
+          "proj": 15.47,
+          "injury": "ACTIVE"
+        }
+      ],
+      "missing": []
+    },
+    {
+      "teamId": 8,
+      "name": "The gg Team",
+      "abbrev": "GGT",
+      "waiverRank": 5,
+      "starter_proj_total": 116.08,
+      "starters": [
+        {
+          "slot": "RB1",
+          "name": "Cam Skattebo",
+          "proj": 13.67,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "RB2",
+          "name": "MarShawn Lloyd",
+          "proj": 12.87,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "WR1",
+          "name": "Amon-Ra St. Brown",
+          "proj": 18.83,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "WR2",
+          "name": "DK Metcalf",
+          "proj": 12.19,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "slot": "TE",
+          "name": "Colston Loveland",
+          "proj": 12.05,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "DST",
+          "name": "Broncos D/ST",
+          "proj": 5.86,
+          "injury": null
+        },
+        {
+          "slot": "K",
+          "name": "Jason Myers",
+          "proj": 9.38,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "FLEX",
+          "name": "Carnell Tate",
+          "proj": 11.98,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "slot": "QB",
+          "name": "Josh Allen",
+          "proj": 19.26,
+          "injury": "ACTIVE"
+        }
+      ],
+      "missing": []
+    },
+    {
+      "teamId": 7,
+      "name": "Lazy Yorkie",
+      "abbrev": "LY",
+      "waiverRank": 4,
+      "starter_proj_total": 89.35,
+      "starters": [
+        {
+          "slot": "RB1",
+          "name": "Emanuel Wilson",
+          "proj": 1.61,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "slot": "RB2",
+          "name": "TreVeyon Henderson",
+          "proj": 10.14,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "slot": "WR1",
+          "name": "CeeDee Lamb",
+          "proj": 17.25,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "WR2",
+          "name": "Mike Evans",
+          "proj": 10.64,
+          "injury": "QUESTIONABLE"
+        },
+        {
+          "slot": "TE",
+          "name": "AJ Barner",
+          "proj": 6.6,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "DST",
+          "name": "Buccaneers D/ST",
+          "proj": 4.46,
+          "injury": null
+        },
+        {
+          "slot": "K",
+          "name": "Brandon Aubrey",
+          "proj": 9.93,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "FLEX",
+          "name": "Rico Dowdle",
+          "proj": 12.49,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "QB",
+          "name": "Baker Mayfield",
+          "proj": 16.23,
+          "injury": "ACTIVE"
+        }
+      ],
+      "missing": []
+    },
+    {
+      "teamId": 11,
+      "name": "David's Daring Team",
+      "abbrev": "DDT",
+      "waiverRank": 7,
+      "starter_proj_total": 88.0,
+      "starters": [
+        {
+          "slot": "RB1",
+          "name": "Javonte Williams",
+          "proj": 15.22,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "RB2",
+          "name": "Jonathan Taylor",
+          "proj": 17.77,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "WR1",
+          "name": "Matthew Golden",
+          "proj": 11.06,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "WR2",
+          "name": "Xavier Worthy",
+          "proj": 9.52,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "TE",
+          "name": "Darnell Washington",
+          "proj": 4.49,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "DST",
+          "name": "Texans D/ST",
+          "proj": 5.25,
+          "injury": null
+        },
+        {
+          "slot": "K",
+          "name": "Justin Tucker",
+          "proj": 0.0,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "FLEX",
+          "name": "Keenan Allen",
+          "proj": 7.19,
+          "injury": "ACTIVE"
+        },
+        {
+          "slot": "QB",
+          "name": "Matthew Stafford",
+          "proj": 17.5,
+          "injury": "ACTIVE"
+        }
+      ],
+      "missing": [
+        "Justin Tucker"
+      ]
+    }
+  ]
+}

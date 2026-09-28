@@ -1,0 +1,12 @@
+{
+  "against": "/workspace/fantasy/quantum-blitz/recon/snapshots/20260915-175754/transactions_recent.json",
+  "as_of_current": "2026-09-15T17:57:55.413382-07:00",
+  "as_of_prev": "2026-09-09T15:28:23.435287-07:00",
+  "new_tx_count": 8,
+  "competition_count": 0,
+  "our_count": 0,
+  "competition": [],
+  "ours_observed": [],
+  "ping_blitz": false,
+  "note": "Competition = other teams WAIVER/FA/TRADE. Our rows listed for awareness only \u2014 Blitz owns claim board."
+}

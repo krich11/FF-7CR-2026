@@ -1,0 +1,34 @@
+{
+  "against": "/workspace/fantasy/quantum-blitz/recon/snapshots/20260909-152822/transactions_recent.json",
+  "as_of_current": "2026-09-09T15:28:23.435287-07:00",
+  "as_of_prev": "2026-09-05T14:26:08.976132-07:00",
+  "new_tx_count": 11,
+  "competition_count": 1,
+  "our_count": 0,
+  "competition": [
+    {
+      "id": "ac3ff37a-6f38-4100-ab7a-2abec21734a4",
+      "type": "FREEAGENT",
+      "status": "EXECUTED",
+      "teamId": 11,
+      "abbrev": "DDT",
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "ADD",
+          "playerId": 4570037,
+          "player": "Terrance Ferguson"
+        },
+        {
+          "type": "DROP",
+          "playerId": 4430802,
+          "player": "id:4430802"
+        }
+      ],
+      "is_us": false
+    }
+  ],
+  "ours_observed": [],
+  "ping_blitz": true,
+  "note": "Competition = other teams WAIVER/FA/TRADE. Our rows listed for awareness only \u2014 Blitz owns claim board."
+}

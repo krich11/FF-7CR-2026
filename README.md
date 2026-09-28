@@ -1,101 +1,21 @@
-# 7 Creeks Armchair Quarterbacks — Quantum Blitz (QBZ)
+# FF-7CR-2026 — Quantum Blitz (QBZ)
 
-ESPN PPR · 12 teams · teamId 13 · MODE: CLIMB  
-Repo: `krich11/FF-7CR-2026`  
-This repo is the hallway between Grok Bots and Arbiter. Chat is not the source of truth. These files are.
+ESPN PPR league **7 Creeks Armchair Quarterbacks** (leagueId 1776545061), team **Quantum Blitz** (teamId 13), 2026 season. Owner: Ken Rich. All times CT.
 
-## Goal
+Run by four agents: **Blitz** (co-manager: decisions, ESPN clicks, log), **Wire** (injuries/availability), **Sigma** (our-roster stats), **Recon** (other 11 teams + waiver watch). Ken is owner-veto.
 
-Score points. Six of twelve make a 14-week playoff seeded by **total points**, not record. A 110-point loss helps more than an 85-point win. Climb means maximize expected points every week.
+## Layout
+| Path | What |
+|---|---|
+| `playbook/` | Shared law and strategy: `LAW-*`, `STRATEGY.md`, `OPS.md`, `SPEC.md`, `WAR.md` (decision log), `LESSONS.md`, `CONTINGENCY.md`, `WAIVERS.md`, `TEAM.md`, `SCORECARD.md`, `EDGES.md`, `RIPPLES.md` |
+| `charters/` | Role charters Blitz maintains: `BLITZ.md`, `WIRE.md`, `SIGMA.md`, `RECON.md` |
+| `agents/<name>/` | Each agent's own definition files, pushed by that agent |
+| `data/` | Current league/roster/schedule/standings/availability/projections JSON |
+| `weekly/` | Lineup cards, decision records, sealed votes |
+| `lanes/` | Specialist working files: `recon/`, `wire/`, `results/` (scorecards, Sigma research) |
+| `code/espn_api/` | Read/write client for ESPN fantasy API |
 
-Ken is owner-veto only. He sees three things: IR after MRI, the Tuesday claim ticket, and any trade. Everything else is executed from this repo.
+## Not in this repo (by design)
+ESPN session cookies (`secrets/`), league members' ESPN IDs, raw ESPN API dumps, the audit log, API response captures, screenshots, virtualenvs, and `.bak` copies.
 
-## Who writes what
-
-| Bot | Owns | Does not own |
-|---|---|---|
-| **Wire** | `ops/WIRE.md` | Strategy, claims, ESPN clicks |
-| **Recon** | `rosters/*.md`, `ops/LEAGUE.md` | Projections, injury timelines |
-| **Sigma** | `ops/USAGE.md`, `ops/CLAIMS.md` boards | Roster clicks, vetoes |
-| **Blitz** | ESPN clicks + `ops/DECISIONS.md` | Inventing facts |
-| **Arbiter** | `ops/ARBITER.md` standing orders | Mid-game lineup votes |
-
-## How we work
-
-1. Wire / Recon / Sigma commit facts to their files.
-2. Blitz writes one call in `ops/DECISIONS.md`.
-3. Specialists may object **once**, with a fact in the same file thread / commit message, within 15 minutes.
-4. No new fact → Blitz executes on ESPN.
-5. If two sentences in a Recon file contradict, Recon fixes the file before Blitz uses it.
-
-Do not ping Ken to re-litigate settled calls. Settled calls live in `ops/ARBITER.md`.
-
-## File map
-
-```
-README.md                 you are here
-ops/ARBITER.md            standing orders (Arbiter)
-ops/DECISIONS.md          current call + ESPN status
-ops/WIRE.md               injury tags as they land
-ops/USAGE.md              Weeks 1–N snaps / shares
-ops/CLAIMS.md             three-way waiver boards
-ops/LEAGUE.md             settings, waiver order, playoffs
-ops/LESSONS.md            mistakes, keep short
-playbook/WEEK04.md        this week
-rosters/_TEMPLATE.md      copy this shape
-rosters/QBZ.md            us
-rosters/*.md              every other team, one file
-```
-
-## Roster file rules (Recon)
-
-- One file per team. Abbreviation in the filename. Full name in the header when known.
-- Pull from ESPN. Stamp `Updated:` with timezone.
-- Mark UNKNOWN. Never invent a starter.
-- After every transaction or Sunday lock, update the file the same night.
-- Ambulance column: for each T1/T2, name the fill-in and whether that fill-in is rostered in this league.
-
-## Wire rules
-
-- ESPN fantasy tag beats NFL.com for IR eligibility.
-- Post each item when it lands. No Monday digest.
-- Format: player, team, ESPN tag, source, what it does to our roster math.
-
-## Sigma rules
-
-- Start/sit and FLEX = highest projected average. Opponent strength only breaks near-ties.
-- Routes run: if not in the free feed, write UNKNOWN. Do not estimate.
-- Claims ranked three ways until Etienne and Achane are both settled:
-  1. Achane on IR
-  2. Achane not IR-eligible
-  3. Achane on IR and Etienne out Week 4
-
-## Blitz rules
-
-- 16/16 active. 1 IR slot.
-- Dropping Dart frees IR. It does not free a bench spot.
-- Jacobs is ESPN DAY_TO_DAY. He cannot go on IR. He eats a bench spot.
-- To add a player: drop an active player **or** move Achane/Goedert to IR after they are eligible.
-- Thursday games lock D/ST. Set Steelers before PIT @ CLE.
-- After a click, write what changed in `ops/DECISIONS.md` and the affected `rosters/` file.
-
-## Ken ticket (Tuesday night only)
-
-One block in `ops/CLAIMS.md`:
-
-```
-CLAIM TICKET W4
-Waiver order: [Recon]
-1. add / drop
-2. add / drop
-IR: player → IR or none
-Ken: YES / NO
-```
-
-## Do not put in this repo
-
-ESPN passwords, SWID, espn_s2, vote recaps, pineapple tests.
-
-## First 48 hours
-
-See `ops/ARBITER.md` and `playbook/WEEK04.md`.
+Synced from Blitz's working copy; Blitz pushes updates when the shared files change.

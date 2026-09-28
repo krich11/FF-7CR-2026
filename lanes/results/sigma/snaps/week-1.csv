@@ -1,0 +1,15 @@
+week,roster_name,pfr_player,pfr_player_id,team,opponent,position,offense_snaps,offense_pct,st_snaps,st_pct,started_our_card,source,as_of
+1,Jaxson Dart,Jaxson Dart,DartJa00,NYG,DAL,QB,69,1.0,0,0.0,True,nflverse/pfr snap_counts_2026,2026-09-20T11:27:00-05:00
+1,De'Von Achane,De'Von Achane,AchaDe00,MIA,LV,RB,48,0.86,0,0.0,True,nflverse/pfr snap_counts_2026,2026-09-20T11:27:00-05:00
+1,Travis Etienne Jr.,Travis Etienne,EtieTr00,NO,DET,RB,53,0.59,0,0.0,True,nflverse/pfr snap_counts_2026,2026-09-20T11:27:00-05:00
+1,Drake London,Drake London,LondDr00,ATL,PIT,WR,59,0.98,0,0.0,True,nflverse/pfr snap_counts_2026,2026-09-20T11:27:00-05:00
+1,Garrett Wilson,Garrett Wilson,WilsGa00,NYJ,TEN,WR,50,0.75,1,0.04,True,nflverse/pfr snap_counts_2026,2026-09-20T11:27:00-05:00
+1,Dallas Goedert,Dallas Goedert,GoedDa00,PHI,WAS,TE,52,0.95,1,0.03,True,nflverse/pfr snap_counts_2026,2026-09-20T11:27:00-05:00
+1,Michael Pittman Jr.,Michael Pittman Jr.,PittMi01,PIT,ATL,WR,59,0.88,0,0.0,True,nflverse/pfr snap_counts_2026,2026-09-20T11:27:00-05:00
+1,Eddy Pineiro,Eddy Piñeiro,PineEd00,SF,LA,K,0,0.0,12,0.6,True,nflverse/pfr snap_counts_2026,2026-09-20T11:27:00-05:00
+1,Kyle Pitts Sr.,Kyle Pitts,PittKy00,ATL,PIT,TE,38,0.63,0,0.0,False,nflverse/pfr snap_counts_2026,2026-09-20T11:27:00-05:00
+1,Jonathon Brooks,Jonathon Brooks,BrooJo02,CAR,CHI,RB,13,0.19,0,0.0,False,nflverse/pfr snap_counts_2026,2026-09-20T11:27:00-05:00
+1,Jakobi Meyers,Jakobi Meyers,MeyeJa01,JAX,CLE,WR,37,0.65,0,0.0,False,nflverse/pfr snap_counts_2026,2026-09-20T11:27:00-05:00
+1,Rashid Shaheed,Rashid Shaheed,ShahRa00,SEA,NE,WR,33,0.66,8,0.36,False,nflverse/pfr snap_counts_2026,2026-09-20T11:27:00-05:00
+1,Tre Tucker,Tre Tucker,TuckTr00,LV,MIA,WR,48,0.71,0,0.0,False,nflverse/pfr snap_counts_2026,2026-09-20T11:27:00-05:00
+1,Tyler Allgeier,Tyler Allgeier,AllgTy00,ARI,LAC,RB,44,0.59,0,0.0,False,nflverse/pfr snap_counts_2026,2026-09-20T11:27:00-05:00

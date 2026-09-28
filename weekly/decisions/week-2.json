@@ -1,0 +1,213 @@
+{
+  "week": 2,
+  "skill": "lineup.tweak",
+  "window": "friday_tweak",
+  "as_of": "2026-09-18T14:23:21-07:00",
+  "as_of_ct": "Fri Sep 18, 4:23 PM CT",
+  "confidence": "Medium",
+  "confidence_reason": "FLEX flip Pitts\u2192Tucker (TE2 premium fails; ESPN Tucker \u2191). Pittman official Q ESPN 0. Pineiro Fri designation UNSPECIFIED (illness). Rush confirmed.",
+  "first_kickoff": "2026-09-20T10:00:00-07:00",
+  "first_kickoff_league": "2026-09-17T17:15:00-07:00",
+  "auto_commit_deadline": "2026-09-18T20:00:00-07:00",
+  "auto_commit_deadline_ct": "Fri Sep 18, 10:00 PM CT",
+  "frozen_players": [],
+  "unlocked_pool": "sunday-monday",
+  "assignments": {
+    "QB": "Jaxson Dart",
+    "RB": [
+      "De'Von Achane",
+      "Travis Etienne Jr."
+    ],
+    "WR": [
+      "Drake London",
+      "Garrett Wilson"
+    ],
+    "TE": "Dallas Goedert",
+    "FLEX": "Tre Tucker",
+    "DST": "Steelers",
+    "K": "Eddy Pineiro"
+  },
+  "scores": {
+    "De'Von Achane": {
+      "consensus": 17.12,
+      "adj": 17.12,
+      "start_score": 16.78,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Drake London": {
+      "consensus": 12.85,
+      "adj": 12.85,
+      "start_score": 12.72,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Travis Etienne Jr.": {
+      "consensus": 12.22,
+      "adj": 11.0,
+      "start_score": 10.61,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Garrett Wilson": {
+      "consensus": 15.86,
+      "adj": 15.86,
+      "start_score": 15.7,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Kyle Pitts Sr.": {
+      "consensus": 10.38,
+      "adj": 10.38,
+      "start_score": 10.07,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Jaxson Dart": {
+      "consensus": 18.23,
+      "adj": 18.23,
+      "start_score": 17.77,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Dallas Goedert": {
+      "consensus": 11.24,
+      "adj": 11.24,
+      "start_score": 10.9,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Josh Jacobs": {
+      "consensus": 0.0,
+      "adj": 0.0,
+      "start_score": 0.0,
+      "state": "EXEMPT",
+      "lock_state": "UNLOCKED"
+    },
+    "Michael Pittman Jr.": {
+      "consensus": 0.0,
+      "adj": 0.0,
+      "start_score": 0.0,
+      "state": "QUESTIONABLE",
+      "lock_state": "UNLOCKED"
+    },
+    "Steelers D/ST": {
+      "consensus": 6.34,
+      "adj": 6.34,
+      "start_score": 6.09,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Jonathon Brooks": {
+      "consensus": 8.65,
+      "adj": 8.65,
+      "start_score": 8.35,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Jakobi Meyers": {
+      "consensus": 9.78,
+      "adj": 8.8,
+      "start_score": 8.71,
+      "state": "LIMITED",
+      "lock_state": "UNLOCKED"
+    },
+    "Eddy Pineiro": {
+      "consensus": 9.36,
+      "adj": 7.02,
+      "start_score": 6.24,
+      "state": "QUESTIONABLE",
+      "lock_state": "UNLOCKED"
+    },
+    "Zach Charbonnet": {
+      "consensus": 0.0,
+      "adj": 0.0,
+      "start_score": 0.0,
+      "state": "PUP",
+      "lock_state": "UNLOCKED"
+    },
+    "Rashid Shaheed": {
+      "consensus": 8.61,
+      "adj": 8.61,
+      "start_score": 8.52,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Tre Tucker": {
+      "consensus": 9.86,
+      "adj": 9.86,
+      "start_score": 9.76,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Tyler Allgeier": {
+      "consensus": 7.1,
+      "adj": 6.74,
+      "start_score": 6.5,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    }
+  },
+  "flex_shortlist": [
+    {
+      "name": "Kyle Pitts Sr.",
+      "adj": 10.38,
+      "start_score": 10.07,
+      "tag": "ALT"
+    },
+    {
+      "name": "Tre Tucker",
+      "adj": 9.86,
+      "start_score": 9.76,
+      "tag": "START"
+    },
+    {
+      "name": "Jakobi Meyers",
+      "adj": 8.8,
+      "start_score": 8.71,
+      "tag": "ALT"
+    },
+    {
+      "name": "Rashid Shaheed",
+      "adj": 8.61,
+      "start_score": 8.52,
+      "tag": "ALT"
+    },
+    {
+      "name": "Jonathon Brooks",
+      "adj": 8.65,
+      "start_score": 8.35,
+      "tag": "ALT"
+    }
+  ],
+  "form": {
+    "applied": false,
+    "note": "Week 1 form_add_next all 0; no FORM flip."
+  },
+  "roster_source": "espn_api",
+  "wire": "Fri ~4:23 PM CT \u2014 Rush starts (Penix OUT; Tua Doubtful); Pittman Q after DNP\u00d72 (ESPN 0); Meyers LP\u00d73 no designation (~0.90); Bowers Doubtful (practiced LP); Porter OUT; Pineiro illness Fri designation UNSPECIFIED on 49ers.com.",
+  "startsit_changed": true,
+  "change_note": "FLEX Kyle Pitts Sr. \u2192 Tre Tucker (TE2 premium fail (0.52 < 1.5) \u2192 FLEX Tre Tucker over Kyle Pitts Sr.). WR order unchanged (London/Wilson).",
+  "espn_write": true,
+  "espn_diff": {
+    "FLEX": {
+      "from": "Kyle Pitts Sr.",
+      "to": "Tre Tucker"
+    }
+  },
+  "pitts_te2_premium_gap": 0.52,
+  "flex_note": "TE2 premium fail (0.52 < 1.5) \u2192 FLEX Tre Tucker over Kyle Pitts Sr.",
+  "blockers": [
+    "Pineiro official QUESTIONABLE (illness DNP\u00d73); Shanahan temp K Sat if needed \u2014 only rostered K."
+  ],
+  "autocommit_pre_refresh": {
+    "at": "2026-09-18T20:09:15-07:00",
+    "at_ct": "Fri Sep 18, 10:07 PM CT",
+    "startsit_changed": false,
+    "change_note": "No start/sit change; FLEX remains Tre Tucker (TE2 premium gap 0.52 < 1.5). Pineiro designation resolved to official Q.",
+    "pineiro": "official_Q"
+  },
+  "espn_write_at": "2026-09-18T20:11:03-07:00",
+  "espn_write_via": "lineup.autocommit friday_tweak",
+  "autocommit_result": "AUTO-APPLIED"
+}

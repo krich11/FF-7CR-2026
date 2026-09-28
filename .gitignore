@@ -1,5 +1,11 @@
-.env
-*.cookie
-*s2*
-SWID*
-.DS_Store
+secrets/
+**/raw/
+audit.log
+*.bak*
+*_resp.json
+*.png
+*.pdf
+*.b64
+__pycache__/
+.venv*/
+recon/snapshots/

@@ -1,0 +1,200 @@
+{
+  "week": 1,
+  "skill": "lineup.tweak",
+  "window": "friday_tweak_makeup_sat",
+  "as_of": "2026-09-12T06:12:00-07:00",
+  "as_of_ct": "2026-09-12 08:12 AM CT",
+  "confidence": "Medium",
+  "confidence_reason": "Fri final IR confirmed (Tua OUT/Rush; Brooks+Meyers cleared). TE flip Goedert over Pitts is source-aligned; FLEX unchanged. Medium not High: Rush usage unknown Week 1 + makeup after missed Fri routine.",
+  "first_kickoff": "2026-09-09T17:20:00-07:00",
+  "auto_commit_deadline": "2026-09-11T20:00:00-07:00",
+  "auto_commit_note": "Friday 8:00 PM PT / 10:00 PM CT already passed \u2014 makeup Sat does not auto-apply; Ken yes,set it or Blitz autocommit logic.",
+  "frozen_players": [
+    {
+      "player": "Eddy Pineiro",
+      "slot": "K",
+      "lock_state": "DONE",
+      "note": "Melbourne Thu"
+    },
+    {
+      "player": "Rashid Shaheed",
+      "slot": "BENCH",
+      "lock_state": "DONE",
+      "note": "Wed NE@SEA"
+    },
+    {
+      "player": "Zach Charbonnet",
+      "slot": "IR",
+      "lock_state": "DONE",
+      "state": "PUP"
+    }
+  ],
+  "unlocked_pool": "sunday-monday",
+  "assignments": {
+    "QB": "Jaxson Dart",
+    "RB": [
+      "De'Von Achane",
+      "Travis Etienne Jr."
+    ],
+    "WR": [
+      "Drake London",
+      "Garrett Wilson"
+    ],
+    "TE": "Dallas Goedert",
+    "FLEX": "Michael Pittman Jr.",
+    "DST": "Steelers",
+    "K": "Eddy Pineiro"
+  },
+  "scores": {
+    "Jaxson Dart": {
+      "consensus": 18.96,
+      "adj": 18.96,
+      "start_score": 18.68,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "De'Von Achane": {
+      "consensus": 18.2,
+      "adj": 18.2,
+      "start_score": 18.02,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Travis Etienne Jr.": {
+      "consensus": 14.53,
+      "adj": 14.53,
+      "start_score": 14.38,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Drake London": {
+      "consensus": 14.36,
+      "adj": 14.36,
+      "start_score": 14.36,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Garrett Wilson": {
+      "consensus": 14.59,
+      "adj": 14.59,
+      "start_score": 14.59,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Kyle Pitts Sr.": {
+      "consensus": 9.91,
+      "adj": 9.91,
+      "start_score": 9.71,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Dallas Goedert": {
+      "consensus": 11.21,
+      "adj": 11.21,
+      "start_score": 10.99,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Steelers D/ST": {
+      "consensus": 7.4,
+      "adj": 7.4,
+      "start_score": 7.18,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Eddy Pineiro": {
+      "consensus": 8.1,
+      "adj": 8.1,
+      "start_score": 7.86,
+      "state": "ACTIVE",
+      "lock_state": "DONE"
+    },
+    "Josh Jacobs": {
+      "consensus": 0.0,
+      "adj": 0.0,
+      "start_score": 0.0,
+      "state": "EXEMPT",
+      "lock_state": "UNLOCKED"
+    },
+    "Michael Pittman Jr.": {
+      "consensus": 11.46,
+      "adj": 11.46,
+      "start_score": 11.46,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Jonathon Brooks": {
+      "consensus": 10.43,
+      "adj": 10.43,
+      "start_score": 10.17,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Jakobi Meyers": {
+      "consensus": 10.14,
+      "adj": 10.14,
+      "start_score": 10.14,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Rashid Shaheed": {
+      "consensus": 8.73,
+      "adj": 8.73,
+      "start_score": 8.73,
+      "state": "ACTIVE",
+      "lock_state": "DONE"
+    },
+    "Tre Tucker": {
+      "consensus": 9.76,
+      "adj": 9.76,
+      "start_score": 9.76,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    },
+    "Zach Charbonnet": {
+      "consensus": 0.0,
+      "adj": 0.0,
+      "start_score": 0.0,
+      "state": "PUP",
+      "lock_state": "DONE"
+    },
+    "Tyler Allgeier": {
+      "consensus": 7.51,
+      "adj": 7.51,
+      "start_score": 7.32,
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED"
+    }
+  },
+  "total_start_score": 117.52,
+  "stale": false,
+  "espn_diff": {
+    "TE": {
+      "from": "Kyle Pitts Sr.",
+      "to": "Dallas Goedert"
+    }
+  },
+  "startsit_changed": true,
+  "prior_card": {
+    "skill": "lineup.autocommit",
+    "window": "set_backup",
+    "TE": "Kyle Pitts Sr.",
+    "FLEX": "Michael Pittman Jr."
+  },
+  "tweaks_vs_last_card": [
+    "TE: Kyle Pitts Sr. \u2192 Dallas Goedert (Tua OUT / Rush starts; Pitts adj haircut)",
+    "FLEX unchanged: Michael Pittman Jr. (Brooks/Meyers cleared, still trail)"
+  ],
+  "wire_checkin": "Wire 8am Sat 9/12 CT: Fri final IR. Brooks Q\u2192ACTIVE (cleared/no limitations); Meyers Q\u2192ACTIVE (cleared); London/Pitts Tua OUT confirmed / Rush starts; Jacobs still EXEMPT; Bowers OUT noted for Tucker; Love still Q for Allgeier context. State changes: 2 (Jonathon Brooks:QUESTIONABLE\u2192ACTIVE, Jakobi Meyers:QUESTIONABLE\u2192ACTIVE).",
+  "friday_ir_findings": {
+    "Tua Tagovailoa": "OUT Week 1 (oblique) \u2014 Cooper Rush starts ATL @ PIT; Penix also OUT",
+    "Jonathon Brooks": "ACTIVE \u2014 full practice, removed from IR, Canales no limitations",
+    "Jakobi Meyers": "ACTIVE \u2014 removed from JAX IR after 3 limited (thumb)",
+    "Brock Bowers": "OUT (knee/meniscus) \u2014 Tucker bench upside",
+    "Josh Jacobs": "Still EXEMPT (official over ESPN DTD)",
+    "Michael Pittman Jr.": "ACTIVE full-go (already cleared Wed)"
+  },
+  "espn_write": false,
+  "espn_write_note": "Makeup run: produce card/decisions only. Blitz posts to Ken; apply after yes,set it or autocommit gates.",
+  "shadow_edges": "paper only \u2014 see edges/shadow/week-1-preds.json"
+}

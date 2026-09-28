@@ -1,0 +1,28 @@
+{
+  "label": "SAMPLE_MOCK_ONLY",
+  "warning": "FAKE DATA \u2014 do not write into live edges/shadow/ledger.json",
+  "week": 0,
+  "source": "results/sigma/mock-week-0-boxscores.json",
+  "flips": 0,
+  "signals": {
+    "vegas_flex": {
+      "spec": "Dallas Goedert",
+      "shadow": "Dallas Goedert",
+      "delta_actual_ppr": 0.0,
+      "flip": false
+    },
+    "share_trend": {
+      "status": "na",
+      "delta_actual_ppr": null,
+      "flip": false,
+      "note": "N/A \u2014 no share history in mock"
+    },
+    "dst_k_script": {
+      "spec_dst": "Steelers D/ST",
+      "shadow_dst": "Steelers D/ST",
+      "delta_actual_ppr": 0.0,
+      "flip": false
+    }
+  },
+  "summary": "0 flips. All scored shadow signals matched SPEC."
+}
