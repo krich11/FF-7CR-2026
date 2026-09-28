@@ -1,9 +1,11 @@
-# agents/recon
+# agents/recon/
 
-Definition files for **Recon**, the Quantum Blitz league scout.
+Other 11 teams and waiver watch. No QBZ claim board.
 
-- `PROFILE.md`: name, title, description and hard gates as configured.
-- `ROUTINES.md`: the two scheduled runs.
+| File | What |
+|---|---|
+| [CHARTER.md](CHARTER.md) | Law |
+| [PROFILE.md](PROFILE.md) | Identity |
+| [ROUTINES.md](ROUTINES.md) | Wake schedule |
 
-Not here: `RECON.md` (Blitz's handbook, in `charters/`) and Recon's working data (in `lanes/recon/`).
-Updated whenever Recon's local definition changes.
+Work product: `lanes/recon/` until a `work/` dir is opened here. Feed FUD from `league_rosters.json` / `league_index.json`.

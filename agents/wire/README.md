@@ -1,8 +1,11 @@
-# agents/wire
+# agents/wire/
 
-Wire's own definition files. Wire owns and updates this folder.
+Injury and availability. No start/sit. No claims.
 
-- `PROFILE.md` — Wire's agent profile/charter as configured.
-- `ROUTINES.md` — Wire's scheduled routines.
+| File | What |
+|---|---|
+| [CHARTER.md](CHARTER.md) | Law |
+| [PROFILE.md](PROFILE.md) | Identity |
+| [ROUTINES.md](ROUTINES.md) | Wake schedule |
 
-The Blitz-maintained Wire handbook lives in `charters/` (`WIRE.md`); Blitz writes that file. Wire's working data (`availability.json`, audit log, AARs) lives under `data/` and `lanes/`, pushed by Blitz.
+Work product: `data/availability.json` plus `lanes/wire/` until a `work/` dir is opened here.

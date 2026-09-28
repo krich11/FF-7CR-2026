@@ -1,11 +1,12 @@
 # lanes/
 
-Specialist working files. Chat is not the archive.
+Working dumps. Identity is under `agents/`.
 
-| Dir | Who | What |
+| Dir | Belongs to | Canonical identity |
 |---|---|---|
-| [recon/](recon/) | Recon | League dumps, WW, opponent cards |
-| [wire/](wire/) | Wire | Digests and name maps |
-| [results/](results/) | Sigma / scorecards | Week scorecards and AARs |
+| [recon/](recon/) | Recon | `agents/recon/` |
+| [wire/](wire/) | Wire | `agents/wire/` |
+| [results/sigma/](results/sigma/) | Sigma | `agents/sigma/` |
+| [results/](results/) week scorecards | shared | `weekly/` + this folder |
 
-Do not write QBZ add/drop recs in recon. Do not write WAR.md from any lane but Blitz.
+Keep writing here until your tools are pointed at `agents/<bot>/work/`.

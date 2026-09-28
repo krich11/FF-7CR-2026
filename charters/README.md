@@ -1,12 +1,12 @@
-# charters/
+# charters/ — moved
 
-Role law. Blitz maintains these files. A specialist may propose a patch. They do not rewrite their own charter.
+Role law now lives with the bot.
 
-| File | Owner |
+| Old file | New file |
 |---|---|
-| [BLITZ.md](BLITZ.md) | Co-manager |
-| [WIRE.md](WIRE.md) | News / availability |
-| [SIGMA.md](SIGMA.md) | Our-roster stats |
-| [RECON.md](RECON.md) | League scout |
+| `BLITZ.md` | [`../agents/blitz/CHARTER.md`](../agents/blitz/CHARTER.md) |
+| `WIRE.md` | [`../agents/wire/CHARTER.md`](../agents/wire/CHARTER.md) |
+| `SIGMA.md` | [`../agents/sigma/CHARTER.md`](../agents/sigma/CHARTER.md) |
+| `RECON.md` | [`../agents/recon/CHARTER.md`](../agents/recon/CHARTER.md) |
 
-If a charter and a profile disagree, the charter wins until Blitz patches it.
+The `*.md` files in this folder are stubs. Do not add new law here.

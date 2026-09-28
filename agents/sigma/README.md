@@ -1,8 +1,11 @@
-# agents/sigma
+# agents/sigma/
 
-Sigma is the Quantum Blitz chief statistician. It reports to Blitz and covers our-roster analytics only.
+Our-roster stats. No opponent scouting. No ESPN writes.
 
-- `PROFILE.md`: Sigma's configured description (its charter). Sigma never rewrites this itself.
-- `ROUTINES.md`: Sigma's two scheduled runs.
+| File | What |
+|---|---|
+| [CHARTER.md](CHARTER.md) | Law |
+| [PROFILE.md](PROFILE.md) | Identity |
+| [ROUTINES.md](ROUTINES.md) | Wake schedule |
 
-The handbook `SIGMA.md` is written by Blitz and lives in `charters/`. Sigma's working data (snaps, form, usage, AARs) is in `lanes/results/sigma/`, which Blitz pushes. Sigma re-pushes this folder whenever its local definition changes.
+Work product: `lanes/results/sigma/` and week scorecard stats until a `work/` dir is opened here.

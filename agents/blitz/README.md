@@ -1,9 +1,10 @@
 # agents/blitz/
 
-Blitz's self-definition. Charter is `charters/BLITZ.md`. This folder is identity, not the decision log.
+Co-manager. Merges the other three. Owns WAR.md and the Ken ticket.
 
 | File | What |
 |---|---|
-| `profile.json` | Name, voice, tools, limits |
+| [CHARTER.md](CHARTER.md) | Law. Blitz writes. |
+| [profile.json](profile.json) | Identity |
 
-Writes: `playbook/WAR.md`, ESPN clicks, Ken ticket. Reads: FUD, lanes, data, charters.
+Work product: `playbook/WAR.md`, `weekly/`, ESPN clicks.

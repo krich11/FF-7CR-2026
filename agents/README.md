@@ -1,14 +1,32 @@
 # agents/
 
-Each bot's own definition files. The bot that lives here writes these. Blitz does not rewrite another agent's profile.
+One folder per bot. Identity lives here. Shared league data stays in `data/`. Shared law that is not a person stays in `playbook/`.
 
-Law lives in `charters/`. Working files live in `lanes/` and `playbook/`.
+```
+agents/
+  blitz/    CHARTER.md  profile.json   README.md
+  wire/     CHARTER.md  PROFILE.md     ROUTINES.md  README.md
+  sigma/    CHARTER.md  PROFILE.md     ROUTINES.md  README.md
+  recon/    CHARTER.md  PROFILE.md     ROUTINES.md  README.md
+```
 
-| Dir | Bot | Job |
+| File in the bot dir | Who writes it |
+|---|---|
+| `CHARTER.md` | Blitz (law). Specialist proposes a patch. |
+| `PROFILE.md` / `profile.json` | That bot |
+| `ROUTINES.md` | That bot |
+
+## Where the work goes
+
+Historical dumps are still under `lanes/` so existing tools do not break tonight.
+
+| Bot | New writes (preferred) | Old path still valid |
 |---|---|---|
-| [blitz/](blitz/) | Blitz | Co-manager. ESPN clicks, WAR, Ken ticket |
-| [wire/](wire/) | Wire | Injury tags and availability |
-| [sigma/](sigma/) | Sigma | Our roster usage, start/sit math |
-| [recon/](recon/) | Recon | Other 11 teams and waiver watch |
+| Recon | `agents/recon/work/` when you create it | `lanes/recon/` |
+| Wire | `agents/wire/work/` when you create it | `lanes/wire/` |
+| Sigma | `agents/sigma/work/` when you create it | `lanes/results/sigma/` |
+| Blitz | `playbook/WAR.md`, `weekly/` | — |
 
-Typical files in a bot dir: `README.md`, `PROFILE.md` or `profile.json`, `ROUTINES.md`.
+Do not add a fifth bot folder without Ken.
+
+See [LAYOUT.md](LAYOUT.md) for the old → new map.
