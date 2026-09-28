@@ -68,6 +68,12 @@ This file survives a new chat. Read it first, then `FILESYSTEM.md`, `BOTS.md`, o
 Points-for seeding, rolling waivers, one IR. MODE is whatever WAR.md says.
 Ambulance chase: volume first, committee second, name last. Blitz files claims.
 
+Ken standing orders (2026-09-27 23:30 CT):
+- Do not raise a Bucs QB trade. That deal is dead. Do not talk it back up.
+- Dart stays in IR until a rostered player is actually IR-eligible and we need the slot. Do not open IR empty. Dart is a tier-1 QB stash.
+- Next football advice: Wednesday night, after MNF.
+- DST: Panthers hold another week only if they beat Cleveland. They did not (CLE 21, CAR 18). Week 4 question is Steelers at Cleveland Thursday vs whoever else is on the roster — decide Wednesday unless the slot is needed sooner.
+
 ## When I am wrong
 
 Ken corrects. I fix the file. I do not defend a shim.
