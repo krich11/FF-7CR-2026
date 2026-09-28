@@ -124,3 +124,44 @@
 2026-09-27T11:38:47-05:00	MARKS_MEYERS_DEADMAN	week=3	result=DISARMED	trigger=Achane_ACTIVE_official	espn_write=false	sources=SI_Poupart_inactives,NBC_Wright_leads_inactives,audit_INACTIVE_SWEEP_10:42	ct=Sun Sep 27, 11:38 AM CT
 2026-09-27T20:04:36.362657-07:00	DROP Jaxson Dart pid=4689114 status=409 cmd=Ken 2026-09-27 22:04 War Room ops post
 2026-09-27T20:04:49.142424-07:00	DROP retry type=ROSTER Jaxson Dart status=409
+# --- legacy space-delimited lines (mixed Blitz/Wire, Sep 8-11), kept whole ---
+2026-09-08T23:04:13Z APPLY week=1 noop=true source=yes_set_it
+SHOT_AFTER week=1 noop=true hash=4a6253132144fe6d38ea90f50348a499489fd800ffc03fb223b4c91f75c148d1 2026-09-08T23:08:15Z
+2026-09-09T14:09:28-07:00 lineup.autocommit window=set_backup refresh=ok startsit_changed=True flex=Dallas Goedert->Michael Pittman Jr. espn_diff={"FLEX": {"from": "Dallas Goedert", "to": "Michael Pittman Jr."}}
+2026-09-09T14:09:28-07:00 STATUS_OVERRIDE/REFRESH Michael Pittman Jr.: LIMITED→ACTIVE pittman=ACTIVE_wed_ir
+2026-09-09T14:10:19-07:00 AUTO_APPLIED window=set_backup week=1 FLEX=Goedert->Pittman verify_ok=true alert=false
+SHOT_AFTER week=1 flex=Pittman hash=e1742ecd377eb406ab0dfb3ad3f55333c79e8e7c5c15eb1e4a89fbd94bbb5d15 2026-09-09T21:15:42Z
+2026-09-10T16:52:39-07:00 availability.note Tua oblique DTD — updated London+Pitts news with QB context (Rush 1st-team; Penix inactive); states ACTIVE unchanged; players=['London', 'Pitts']
+2026-09-11T06:15:00-07:00 Wire 8am Fri digest: light availability refresh
+STATUS_OVERRIDE player=Josh Jacobs espn=DTD official=EXEMPT source=nfl.com/nypost (post-plea still CEL)
+LOCK Eddy Pineiro UNLOCKED→DONE (Melbourne Wk1)
+SHOT_AFTER week=1 TE=Goedert hash=8eb1de44a952a1abd413f1ee6721c996253c306f01ac85c8a3c15bcecab28567 2026-09-12T13:29:46Z
+2026-09-13T06:12:24-07:00 WIRE_8AM_NEW week=1 news_refresh=[Travis Etienne Jr.,Steelers D/ST,Tyler Allgeier] state_changes=0 jacobs=EXEMPT charbonnet=PUP league_hits=Kamara_expected_out,Love_expected_play,Nabers_GTD,Odunze_expected,Jeanty_play,PorterJr_unlikely
+2026-09-13T15:23:18Z LOCK_CHECK week=1 window=1pmET result=no_swap starters='Etienne,London,Wilson,Pittman,Steelers DST' note='NFL.com Fri IR + availability: none OUT; roster.sync ok'
+2026-09-13T15:46:55Z AUTOCOMMIT week=1 window=sunday_0840PT result=skip reason=no_1pmET_starter_OUT starters_checked="Etienne,London,Wilson,Pittman,Steelers" espn=untouched
+2026-09-14T16:51:06-07:00 WEEK_REVIEW week=1 result=W score=132.9 opp=TCO/102.22 delta=+14.09
+2026-09-14T16:51:06-07:00 SCORECARD_WRITTEN week=1 path=results/week-1-scorecard.md
+2026-09-14T16:51:06-07:00 STANDINGS_UPDATED week=1 counted=1-0 espn_official=UNDECIDED
+2026-09-14T16:51:06-07:00 LESSONS_APPENDED week=1 n=3
+2026-09-14T16:52:02-07:00 SCORECARD_EMAILED week=1 to=kaalrich@gmail.com attach=md thread=1a0a255ab0acb50d
+2026-09-14T16:52:02-07:00 SIGMA_PING week=1 result=blocked agent_not_found
+2026-09-15T12:10:30-07:00 SET week=2 skill=lineup.set confidence=Medium auto_commit=Tue_10PM_CT first_our=Sun_12CT_bulk source=espn_api+wire_w8+partial_fp
+2026-09-20T08:32:24.735948-07:00 LINEUP_LOCK week=2 result=NO_SWAP 1pm_starters=London,Etienne,Wilson,Goedert,SteelersDST all_clear bench_OUT=Pittman note=stay_quiet
+2026-09-22T09:57:28-05:00 WEEK_REVIEW week=2 result=L score=83.1 opp=CDS/104.02 delta=-26.42 makeup=true
+2026-09-22T09:57:28-05:00 SCORECARD_WRITTEN week=2 path=results/week-2-scorecard.md
+2026-09-22T09:57:28-05:00 SCORECARD_EMAILED week=2 to=kaalrich@gmail.com attach=md thread=1a0c99eced6a40a2 msg=1a0c99f1444b866a
+2026-09-22T09:57:28-05:00 STANDINGS_REFRESH week=2 record=1-1 PF=216.0 PA=206.24 waiver=5 source=espn_mTeam
+2026-09-22T12:21:13-07:00 LINEUP_SET week=3 espn_sync=ok roster_diff=none QB=EMPTY(Dart OUT) TE=Pitts FLEX=Shaheed card=cards/week-3.md espn_write=false
+2026-09-25T22:06:12-05:00 ROSTER_SYNC availability: -Allgeier (dropped, Blitz verified) -Charbonnet (no longer rostered) +Panthers D/ST +Bateman +Brissett; Goedert espn_tag DOUBTFUL (not IR-slot-eligible on ESPN tag)
+2026-09-27T15:06:40-05:00 WIRE De'Von Achane lock DONE (KC @ MIA final)
+2026-09-27T15:06:40-05:00 WIRE Achane ACTIVE->OUT (in-game knee)
+2026-09-27T15:06:40-05:00 WIRE Garrett Wilson lock DONE (NYJ @ DET final)
+2026-09-27T15:06:40-05:00 WIRE Jaxson Dart lock DONE (TEN @ NYG final)
+2026-09-27T15:06:40-05:00 WIRE Pittman Q->ACTIVE
+2026-09-27T15:06:40-05:00 WIRE Jakobi Meyers lock DONE (NE @ JAX final)
+2026-09-27T17:24:09-05:00 WIRE Michael Pittman Jr. lock DONE (CIN @ PIT final)
+2026-09-27T17:24:09-05:00 WIRE Steelers D/ST lock DONE (CIN @ PIT final)
+2026-09-27T17:24:09-05:00 WIRE Carolina Panthers D/ST lock DONE (CAR @ CLE final)
+2026-09-27T21:48:14-05:00 WIRE Achane espn_tag DOUBTFUL (not IR-eligible; MRI Mon)
+2026-09-27T21:48:14-05:00 WIRE Etienne espn_tag QUESTIONABLE
+2026-09-27T22:43:07-05:00 WIRE lock_state DONE (Sun games final per ESPN scoreboard): Travis Etienne Jr., Kyler Murray, Eddy Pineiro, Rashid Shaheed, Rashod Bateman, Jacoby Brissett. Goedert MNF still UNLOCKED. Pushing to repo data/availability.json per FILESYSTEM order.
