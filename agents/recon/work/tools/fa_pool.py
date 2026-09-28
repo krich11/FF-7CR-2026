@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """READ-ONLY: pull FA/WAIVERS player pool, raw tx, pro schedule. Never prints cookies. GET only.
 
-Raw captures go to a LOCAL-only dir ($RECON_RAW_DIR/wNN/, default
-/workspace/fantasy/quantum-blitz/recon/raw/wNN/). Never written inside the repo.
+Raw captures go to a LOCAL-only dir ($RECON_RAW_DIR/wNN/). Never written inside the repo.
 """
+from __future__ import annotations
+
 import argparse
 import json
 import sys
@@ -11,7 +12,7 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _paths import DATA_RECON, raw_dir, use_espn_client  # noqa: E402
+from repo import DATA_RECON, raw_dir, use_espn_client  # noqa: E402
 
 use_espn_client()
 from client import EspnAuth, READ_BASE  # type: ignore  # noqa: E402
@@ -39,16 +40,26 @@ def main() -> int:
     auth = EspnAuth.load()
 
     def get(url, filt=None):
-        h = {"User-Agent": "Mozilla/5.0", "Accept": "application/json", "Cookie": auth.cookie_header(),
-             "X-Fantasy-Source": "kona", "X-Fantasy-Platform": "kona-l5.t.1"}
+        h = {
+            "User-Agent": "Mozilla/5.0",
+            "Accept": "application/json",
+            "Cookie": auth.cookie_header(),
+            "X-Fantasy-Source": "kona",
+            "X-Fantasy-Platform": "kona-l5.t.1",
+        }
         if filt:
             h["X-Fantasy-Filter"] = json.dumps(filt)
         with urllib.request.urlopen(urllib.request.Request(url, headers=h, method="GET"), timeout=60) as r:
             return json.loads(r.read().decode())
 
-    filt = {"players": {"filterStatus": {"value": ["FREEAGENT", "WAIVERS"]},
-            "limit": 600, "sortPercOwned": {"sortPriority": 1, "sortAsc": False},
-            "filterSlotIds": {"value": [0, 2, 4, 6, 16, 17, 23]}}}
+    filt = {
+        "players": {
+            "filterStatus": {"value": ["FREEAGENT", "WAIVERS"]},
+            "limit": 600,
+            "sortPercOwned": {"sortPriority": 1, "sortAsc": False},
+            "filterSlotIds": {"value": [0, 2, 4, 6, 16, 17, 23]},
+        }
+    }
     d = get(f"{L}?scoringPeriodId={sp}&view=kona_player_info", filt)
     (out / "fa_pool.json").write_text(json.dumps(d))
     counts = [len(d.get("players", []))]
