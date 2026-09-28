@@ -30,10 +30,12 @@ Stop writing the operating files on your local git. Clone or pull this repo. Com
 | Sigma | packet → `agents/sigma/work/week-N-packet.md` · boards also land in `playbook/CLAIMS.md` · snaps/AAR → `agents/sigma/work/` |
 | Recon | dumps → `data/recon/` · week brief → `agents/recon/work/week-N.md` · AAR → `agents/recon/work/aar/` · facts into `FUD/` only as roster diffs, not a second board |
 | Blitz | `playbook/WAR.md` · `playbook/CLAIMS.md` · `weekly/` · ESPN |
+| Consultant | `playbook/CONSULT.md` · `CONSULTANT.md` |
 
 ## Read map
 
 - Law: `FILESYSTEM.md`, `playbook/`, `agents/<you>/CHARTER.md`
+- **Blitz: read `playbook/CONSULT.md` before every set-the-week card and before the claim ticket.** It is Consultant input. Merge it. Do not treat it as Ken's yes.
 - Our roster: `data/roster.json`
 - Injuries: `data/availability.json`
 - League: `data/recon/league_rosters.json` + `league_index.json`
