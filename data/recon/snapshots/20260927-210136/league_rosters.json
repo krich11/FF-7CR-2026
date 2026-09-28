@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-27T21:01:37.753138-07:00",
+  "as_of": "2026-09-27T19:47:54.640208-07:00",
   "leagueId": "1776545061",
   "seasonId": 2026,
   "scoringPeriodId": 3,
@@ -1040,7 +1040,7 @@
           "name": "RJ Harvey",
           "lineupSlotId": 20,
           "slot": "BE",
-          "injuryStatus": "ACTIVE",
+          "injuryStatus": "QUESTIONABLE",
           "defaultPositionId": 2,
           "proTeamId": 7
         },
