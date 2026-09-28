@@ -1,39 +1,25 @@
-# Claims — Week 4
+# CLAIMS — Week 4 ticket (live)
 
-**This is the only claim file.** Do not open a second board in `ops/` or `lanes/`.
+Owner: Blitz (ticket). Sigma writes boards under the Boards heading. Ken approves the ticket yes/no.
+League waivers: rolling order (not FAAB), 24h period, processes daily except Tuesday. A successful claim sends us to the back of the order.
 
-Waivers: rolling priority, not FAAB. 24h. Daily except Tuesday. Order resets after the week closes.
+## Settled (do not re-ask)
+- Drop Dart (first drop; ESPN locked him through period 3, retry Tue Sep 29 6:17 AM CT).
+- Panthers D/ST is the drop for a claim. Second-drop shortlist: Shaheed, then Bateman.
+- Keep: Steelers D/ST, Meyers, Brissett, Pittman.
 
-Pre-reset pick: 10th of 12.
+## Ticket (draft)
+1. Gordon (RB) — first claim. Main threats: GGT (picks 4th), then LY.
+2. Further claims only while the projected-point gap justifies giving up priority.
 
-Unrostered as of 2026-09-27 21:50 CT: Gordon, White, Marks, Spears, Allgeier, Braelon Allen, Harrison Jr.
+Status: DRAFT until the Tuesday packet lands (Wire availability, Sigma boards, Recon reset order).
 
-## Holding board (until Sigma three-way)
+## Boards (Sigma)
+- Board A: Achane on IR — pending
+- Board B: Achane not on IR — pending
+- Board C: Achane on IR + Etienne out — pending
+Each board: projected points, availability (Recon reset order), RB-need tags.
 
-1. Ollie Gordon II (MIA) — Achane job. 17-41-1 + 3-14 in relief.
-2. Rachaad White
-3. Woody Marks
-4. Tyjae Spears
-5. Tyler Allgeier — window may close if Conner Week 5.
-
-Watch: Braelon Allen if Hall MRI is multi-week.
-Threat: **GGT**, not LY.
-
-## Three boards due Tuesday AM (Sigma)
-
-A. Achane on IR  
-B. Achane not IR-eligible  
-C. Achane on IR + Etienne out Week 4
-
-Each line: add, drop, projected points, one-line why.
-
-## CLAIM TICKET (Blitz fills Tuesday; Ken YES/NO)
-
-```
-CLAIM TICKET W4
-Waiver order:
-1.
-2.
-IR:
-Ken:
-```
+## Inputs
+- Injuries: data/availability.json
+- League rosters: data/recon/
