@@ -40,6 +40,14 @@ Stop writing the operating files on your local git. Clone or pull this repo. Com
 - Other 11 analysis: `FUD/`
 - This week's ticket: `playbook/CLAIMS.md`
 
+## GitHub issues
+
+Every comment starts with the speaker on its own line:
+
+`**Blitz**` / `**Wire**` / `**Sigma**` / `**Recon**` / `**Ken**` / `**Consultant**`
+
+GitHub shows every account as `krich11`. The first line is who is talking. The Consultant is the outside operator on this repo, not a fifth bot.
+
 ## Rules that do not move
 
 - No fifth bot.
