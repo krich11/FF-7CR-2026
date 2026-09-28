@@ -1,0 +1,1374 @@
+{
+ "breece hall": {
+  "abbrev": "TE",
+  "pos": "RB",
+  "nfl": "NYJ",
+  "team": "Texas Endgame",
+  "injury": "ACTIVE"
+ },
+ "omarion hampton": {
+  "abbrev": "TE",
+  "pos": "RB",
+  "nfl": "LAC",
+  "team": "Texas Endgame",
+  "injury": "ACTIVE"
+ },
+ "justin jefferson": {
+  "abbrev": "TE",
+  "pos": "WR",
+  "nfl": "MIN",
+  "team": "Texas Endgame",
+  "injury": "ACTIVE"
+ },
+ "zay flowers": {
+  "abbrev": "TE",
+  "pos": "WR",
+  "nfl": "BAL",
+  "team": "Texas Endgame",
+  "injury": "QUESTIONABLE"
+ },
+ "george kittle": {
+  "abbrev": "TE",
+  "pos": "TE",
+  "nfl": "SF",
+  "team": "Texas Endgame",
+  "injury": "ACTIVE"
+ },
+ "chiefs d/st": {
+  "abbrev": "TE",
+  "pos": "DST",
+  "nfl": "KC",
+  "team": "Texas Endgame",
+  "injury": null
+ },
+ "cam little": {
+  "abbrev": "TE",
+  "pos": "K",
+  "nfl": "JAX",
+  "team": "Texas Endgame",
+  "injury": "ACTIVE"
+ },
+ "chuba hubbard": {
+  "abbrev": "TE",
+  "pos": "RB",
+  "nfl": "CAR",
+  "team": "Texas Endgame",
+  "injury": "ACTIVE"
+ },
+ "lamar jackson": {
+  "abbrev": "TE",
+  "pos": "QB",
+  "nfl": "BAL",
+  "team": "Texas Endgame",
+  "injury": "ACTIVE"
+ },
+ "caleb williams": {
+  "abbrev": "TE",
+  "pos": "QB",
+  "nfl": "CHI",
+  "team": "Texas Endgame",
+  "injury": "DOUBTFUL"
+ },
+ "denzel boston": {
+  "abbrev": "TE",
+  "pos": "WR",
+  "nfl": "CLE",
+  "team": "Texas Endgame",
+  "injury": "ACTIVE"
+ },
+ "dontayvion wicks": {
+  "abbrev": "TE",
+  "pos": "WR",
+  "nfl": "PHI",
+  "team": "Texas Endgame",
+  "injury": "ACTIVE"
+ },
+ "jaylen warren": {
+  "abbrev": "TE",
+  "pos": "RB",
+  "nfl": "PIT",
+  "team": "Texas Endgame",
+  "injury": "QUESTIONABLE"
+ },
+ "juwan johnson": {
+  "abbrev": "TE",
+  "pos": "TE",
+  "nfl": "NO",
+  "team": "Texas Endgame",
+  "injury": "ACTIVE"
+ },
+ "makai lemon": {
+  "abbrev": "TE",
+  "pos": "WR",
+  "nfl": "PHI",
+  "team": "Texas Endgame",
+  "injury": "ACTIVE"
+ },
+ "tee higgins": {
+  "abbrev": "TE",
+  "pos": "WR",
+  "nfl": "CIN",
+  "team": "Texas Endgame",
+  "injury": "ACTIVE"
+ },
+ "david montgomery": {
+  "abbrev": "PP",
+  "pos": "RB",
+  "nfl": "HOU",
+  "team": "Patton's Posse",
+  "injury": "ACTIVE"
+ },
+ "rhamondre stevenson": {
+  "abbrev": "PP",
+  "pos": "RB",
+  "nfl": "NE",
+  "team": "Patton's Posse",
+  "injury": "ACTIVE"
+ },
+ "devaughn vele": {
+  "abbrev": "PP",
+  "pos": "WR",
+  "nfl": "NO",
+  "team": "Patton's Posse",
+  "injury": "ACTIVE"
+ },
+ "jaxon smith-njigba": {
+  "abbrev": "PP",
+  "pos": "WR",
+  "nfl": "SEA",
+  "team": "Patton's Posse",
+  "injury": "ACTIVE"
+ },
+ "travis kelce": {
+  "abbrev": "PP",
+  "pos": "TE",
+  "nfl": "KC",
+  "team": "Patton's Posse",
+  "injury": "ACTIVE"
+ },
+ "ravens d/st": {
+  "abbrev": "PP",
+  "pos": "DST",
+  "nfl": "BAL",
+  "team": "Patton's Posse",
+  "injury": null
+ },
+ "chris boswell": {
+  "abbrev": "PP",
+  "pos": "K",
+  "nfl": "PIT",
+  "team": "Patton's Posse",
+  "injury": "ACTIVE"
+ },
+ "kyren williams": {
+  "abbrev": "PP",
+  "pos": "RB",
+  "nfl": "LAR",
+  "team": "Patton's Posse",
+  "injury": "ACTIVE"
+ },
+ "brock purdy": {
+  "abbrev": "PP",
+  "pos": "QB",
+  "nfl": "SF",
+  "team": "Patton's Posse",
+  "injury": "ACTIVE"
+ },
+ "chris godwin jr.": {
+  "abbrev": "PP",
+  "pos": "WR",
+  "nfl": "TB",
+  "team": "Patton's Posse",
+  "injury": "ACTIVE"
+ },
+ "courtland sutton": {
+  "abbrev": "PP",
+  "pos": "WR",
+  "nfl": "DEN",
+  "team": "Patton's Posse",
+  "injury": "ACTIVE"
+ },
+ "kaelon black": {
+  "abbrev": "PP",
+  "pos": "RB",
+  "nfl": "SF",
+  "team": "Patton's Posse",
+  "injury": "ACTIVE"
+ },
+ "kyle monangai": {
+  "abbrev": "PP",
+  "pos": "RB",
+  "nfl": "CHI",
+  "team": "Patton's Posse",
+  "injury": "ACTIVE"
+ },
+ "nico collins": {
+  "abbrev": "PP",
+  "pos": "WR",
+  "nfl": "HOU",
+  "team": "Patton's Posse",
+  "injury": "OUT"
+ },
+ "t.j. hockenson": {
+  "abbrev": "PP",
+  "pos": "TE",
+  "nfl": "MIN",
+  "team": "Patton's Posse",
+  "injury": "ACTIVE"
+ },
+ "tyler shough": {
+  "abbrev": "PP",
+  "pos": "QB",
+  "nfl": "NO",
+  "team": "Patton's Posse",
+  "injury": "ACTIVE"
+ },
+ "a.j. brown": {
+  "abbrev": "PP",
+  "pos": "WR",
+  "nfl": "NE",
+  "team": "Patton's Posse",
+  "injury": "INJURY_RESERVE"
+ },
+ "derrick henry": {
+  "abbrev": "FR",
+  "pos": "RB",
+  "nfl": "BAL",
+  "team": "Fantasy Rookie No More",
+  "injury": "ACTIVE"
+ },
+ "jahmyr gibbs": {
+  "abbrev": "FR",
+  "pos": "RB",
+  "nfl": "DET",
+  "team": "Fantasy Rookie No More",
+  "injury": "ACTIVE"
+ },
+ "chris olave": {
+  "abbrev": "FR",
+  "pos": "WR",
+  "nfl": "NO",
+  "team": "Fantasy Rookie No More",
+  "injury": "ACTIVE"
+ },
+ "malik nabers": {
+  "abbrev": "FR",
+  "pos": "WR",
+  "nfl": "NYG",
+  "team": "Fantasy Rookie No More",
+  "injury": "ACTIVE"
+ },
+ "isaiah likely": {
+  "abbrev": "FR",
+  "pos": "TE",
+  "nfl": "NYG",
+  "team": "Fantasy Rookie No More",
+  "injury": "ACTIVE"
+ },
+ "eagles d/st": {
+  "abbrev": "FR",
+  "pos": "DST",
+  "nfl": "PHI",
+  "team": "Fantasy Rookie No More",
+  "injury": null
+ },
+ "tyler loop": {
+  "abbrev": "FR",
+  "pos": "K",
+  "nfl": "BAL",
+  "team": "Fantasy Rookie No More",
+  "injury": "ACTIVE"
+ },
+ "deebo samuel sr.": {
+  "abbrev": "FR",
+  "pos": "WR",
+  "nfl": "SF",
+  "team": "Fantasy Rookie No More",
+  "injury": "ACTIVE"
+ },
+ "c.j. stroud": {
+  "abbrev": "FR",
+  "pos": "QB",
+  "nfl": "HOU",
+  "team": "Fantasy Rookie No More",
+  "injury": "ACTIVE"
+ },
+ "chargers d/st": {
+  "abbrev": "FR",
+  "pos": "DST",
+  "nfl": "LAC",
+  "team": "Fantasy Rookie No More",
+  "injury": null
+ },
+ "jake ferguson": {
+  "abbrev": "FR",
+  "pos": "TE",
+  "nfl": "DAL",
+  "team": "Fantasy Rookie No More",
+  "injury": "ACTIVE"
+ },
+ "jayden daniels": {
+  "abbrev": "FR",
+  "pos": "QB",
+  "nfl": "WSH",
+  "team": "Fantasy Rookie No More",
+  "injury": "OUT"
+ },
+ "kenny gainwell": {
+  "abbrev": "FR",
+  "pos": "RB",
+  "nfl": "TB",
+  "team": "Fantasy Rookie No More",
+  "injury": "ACTIVE"
+ },
+ "malik washington": {
+  "abbrev": "FR",
+  "pos": "WR",
+  "nfl": "MIA",
+  "team": "Fantasy Rookie No More",
+  "injury": "ACTIVE"
+ },
+ "terry mclaurin": {
+  "abbrev": "FR",
+  "pos": "WR",
+  "nfl": "WSH",
+  "team": "Fantasy Rookie No More",
+  "injury": "ACTIVE"
+ },
+ "wil lutz": {
+  "abbrev": "FR",
+  "pos": "K",
+  "nfl": "DEN",
+  "team": "Fantasy Rookie No More",
+  "injury": "ACTIVE"
+ },
+ "ashton jeanty": {
+  "abbrev": "CDS",
+  "pos": "RB",
+  "nfl": "LV",
+  "team": "Charlie Don't Surf",
+  "injury": "ACTIVE"
+ },
+ "kenneth walker iii": {
+  "abbrev": "CDS",
+  "pos": "RB",
+  "nfl": "KC",
+  "team": "Charlie Don't Surf",
+  "injury": "ACTIVE"
+ },
+ "ladd mcconkey": {
+  "abbrev": "CDS",
+  "pos": "WR",
+  "nfl": "LAC",
+  "team": "Charlie Don't Surf",
+  "injury": "ACTIVE"
+ },
+ "parker washington": {
+  "abbrev": "CDS",
+  "pos": "WR",
+  "nfl": "JAX",
+  "team": "Charlie Don't Surf",
+  "injury": "ACTIVE"
+ },
+ "tucker kraft": {
+  "abbrev": "CDS",
+  "pos": "TE",
+  "nfl": "GB",
+  "team": "Charlie Don't Surf",
+  "injury": "ACTIVE"
+ },
+ "giants d/st": {
+  "abbrev": "CDS",
+  "pos": "DST",
+  "nfl": "NYG",
+  "team": "Charlie Don't Surf",
+  "injury": null
+ },
+ "harrison butker": {
+  "abbrev": "CDS",
+  "pos": "K",
+  "nfl": "KC",
+  "team": "Charlie Don't Surf",
+  "injury": "ACTIVE"
+ },
+ "quinshon judkins": {
+  "abbrev": "CDS",
+  "pos": "RB",
+  "nfl": "CLE",
+  "team": "Charlie Don't Surf",
+  "injury": "ACTIVE"
+ },
+ "bo nix": {
+  "abbrev": "CDS",
+  "pos": "QB",
+  "nfl": "DEN",
+  "team": "Charlie Don't Surf",
+  "injury": "ACTIVE"
+ },
+ "blake corum": {
+  "abbrev": "CDS",
+  "pos": "RB",
+  "nfl": "LAR",
+  "team": "Charlie Don't Surf",
+  "injury": "ACTIVE"
+ },
+ "jadarian price": {
+  "abbrev": "CDS",
+  "pos": "RB",
+  "nfl": "SEA",
+  "team": "Charlie Don't Surf",
+  "injury": "ACTIVE"
+ },
+ "josh downs": {
+  "abbrev": "CDS",
+  "pos": "WR",
+  "nfl": "IND",
+  "team": "Charlie Don't Surf",
+  "injury": "ACTIVE"
+ },
+ "oronde gadsden": {
+  "abbrev": "CDS",
+  "pos": "TE",
+  "nfl": "LAC",
+  "team": "Charlie Don't Surf",
+  "injury": "ACTIVE"
+ },
+ "puka nacua": {
+  "abbrev": "CDS",
+  "pos": "WR",
+  "nfl": "LAR",
+  "team": "Charlie Don't Surf",
+  "injury": "DOUBTFUL"
+ },
+ "sam darnold": {
+  "abbrev": "CDS",
+  "pos": "QB",
+  "nfl": "SEA",
+  "team": "Charlie Don't Surf",
+  "injury": "ACTIVE"
+ },
+ "tre tucker": {
+  "abbrev": "CDS",
+  "pos": "WR",
+  "nfl": "LV",
+  "team": "Charlie Don't Surf",
+  "injury": "ACTIVE"
+ },
+ "jordyn tyson": {
+  "abbrev": "CDS",
+  "pos": "WR",
+  "nfl": "NO",
+  "team": "Charlie Don't Surf",
+  "injury": "INJURY_RESERVE"
+ },
+ "christian mccaffrey": {
+  "abbrev": "BuB",
+  "pos": "RB",
+  "nfl": "SF",
+  "team": "Buck up Buttercup!",
+  "injury": "ACTIVE"
+ },
+ "saquon barkley": {
+  "abbrev": "BuB",
+  "pos": "RB",
+  "nfl": "PHI",
+  "team": "Buck up Buttercup!",
+  "injury": "ACTIVE"
+ },
+ "jaylen waddle": {
+  "abbrev": "BuB",
+  "pos": "WR",
+  "nfl": "DEN",
+  "team": "Buck up Buttercup!",
+  "injury": "ACTIVE"
+ },
+ "rashee rice": {
+  "abbrev": "BuB",
+  "pos": "WR",
+  "nfl": "KC",
+  "team": "Buck up Buttercup!",
+  "injury": "ACTIVE"
+ },
+ "tyler warren": {
+  "abbrev": "BuB",
+  "pos": "TE",
+  "nfl": "IND",
+  "team": "Buck up Buttercup!",
+  "injury": "ACTIVE"
+ },
+ "packers d/st": {
+  "abbrev": "BuB",
+  "pos": "DST",
+  "nfl": "GB",
+  "team": "Buck up Buttercup!",
+  "injury": null
+ },
+ "cameron dicker": {
+  "abbrev": "BuB",
+  "pos": "K",
+  "nfl": "LAC",
+  "team": "Buck up Buttercup!",
+  "injury": "ACTIVE"
+ },
+ "bucky irving": {
+  "abbrev": "BuB",
+  "pos": "RB",
+  "nfl": "TB",
+  "team": "Buck up Buttercup!",
+  "injury": "ACTIVE"
+ },
+ "jordan love": {
+  "abbrev": "BuB",
+  "pos": "QB",
+  "nfl": "GB",
+  "team": "Buck up Buttercup!",
+  "injury": "ACTIVE"
+ },
+ "brian robinson jr.": {
+  "abbrev": "BuB",
+  "pos": "RB",
+  "nfl": "ATL",
+  "team": "Buck up Buttercup!",
+  "injury": "ACTIVE"
+ },
+ "j.k. dobbins": {
+  "abbrev": "BuB",
+  "pos": "RB",
+  "nfl": "DEN",
+  "team": "Buck up Buttercup!",
+  "injury": "ACTIVE"
+ },
+ "jake bates": {
+  "abbrev": "BuB",
+  "pos": "K",
+  "nfl": "DET",
+  "team": "Buck up Buttercup!",
+  "injury": "ACTIVE"
+ },
+ "jameson williams": {
+  "abbrev": "BuB",
+  "pos": "WR",
+  "nfl": "DET",
+  "team": "Buck up Buttercup!",
+  "injury": "ACTIVE"
+ },
+ "jordan addison": {
+  "abbrev": "BuB",
+  "pos": "WR",
+  "nfl": "MIN",
+  "team": "Buck up Buttercup!",
+  "injury": "ACTIVE"
+ },
+ "justin herbert": {
+  "abbrev": "BuB",
+  "pos": "QB",
+  "nfl": "LAC",
+  "team": "Buck up Buttercup!",
+  "injury": "ACTIVE"
+ },
+ "patriots d/st": {
+  "abbrev": "BuB",
+  "pos": "DST",
+  "nfl": "NE",
+  "team": "Buck up Buttercup!",
+  "injury": null
+ },
+ "emanuel wilson": {
+  "abbrev": "LY",
+  "pos": "RB",
+  "nfl": "SEA",
+  "team": "Lazy Yorkie",
+  "injury": "ACTIVE"
+ },
+ "treveyon henderson": {
+  "abbrev": "LY",
+  "pos": "RB",
+  "nfl": "NE",
+  "team": "Lazy Yorkie",
+  "injury": "ACTIVE"
+ },
+ "ceedee lamb": {
+  "abbrev": "LY",
+  "pos": "WR",
+  "nfl": "DAL",
+  "team": "Lazy Yorkie",
+  "injury": "ACTIVE"
+ },
+ "mike evans": {
+  "abbrev": "LY",
+  "pos": "WR",
+  "nfl": "SF",
+  "team": "Lazy Yorkie",
+  "injury": "QUESTIONABLE"
+ },
+ "mark andrews": {
+  "abbrev": "LY",
+  "pos": "TE",
+  "nfl": "BAL",
+  "team": "Lazy Yorkie",
+  "injury": "ACTIVE"
+ },
+ "buccaneers d/st": {
+  "abbrev": "LY",
+  "pos": "DST",
+  "nfl": "TB",
+  "team": "Lazy Yorkie",
+  "injury": null
+ },
+ "tyler bass": {
+  "abbrev": "LY",
+  "pos": "K",
+  "nfl": "BUF",
+  "team": "Lazy Yorkie",
+  "injury": "ACTIVE"
+ },
+ "rico dowdle": {
+  "abbrev": "LY",
+  "pos": "RB",
+  "nfl": "PIT",
+  "team": "Lazy Yorkie",
+  "injury": "OUT"
+ },
+ "jared goff": {
+  "abbrev": "LY",
+  "pos": "QB",
+  "nfl": "DET",
+  "team": "Lazy Yorkie",
+  "injury": "ACTIVE"
+ },
+ "aj barner": {
+  "abbrev": "LY",
+  "pos": "TE",
+  "nfl": "SEA",
+  "team": "Lazy Yorkie",
+  "injury": "ACTIVE"
+ },
+ "baker mayfield": {
+  "abbrev": "LY",
+  "pos": "QB",
+  "nfl": "TB",
+  "team": "Lazy Yorkie",
+  "injury": "ACTIVE"
+ },
+ "brandon aubrey": {
+  "abbrev": "LY",
+  "pos": "K",
+  "nfl": "DAL",
+  "team": "Lazy Yorkie",
+  "injury": "ACTIVE"
+ },
+ "cade otton": {
+  "abbrev": "LY",
+  "pos": "TE",
+  "nfl": "TB",
+  "team": "Lazy Yorkie",
+  "injury": "ACTIVE"
+ },
+ "cowboys d/st": {
+  "abbrev": "LY",
+  "pos": "DST",
+  "nfl": "DAL",
+  "team": "Lazy Yorkie",
+  "injury": null
+ },
+ "rj harvey": {
+  "abbrev": "LY",
+  "pos": "RB",
+  "nfl": "DEN",
+  "team": "Lazy Yorkie",
+  "injury": "ACTIVE"
+ },
+ "samaje perine": {
+  "abbrev": "LY",
+  "pos": "RB",
+  "nfl": "CIN",
+  "team": "Lazy Yorkie",
+  "injury": "ACTIVE"
+ },
+ "cam skattebo": {
+  "abbrev": "GGT",
+  "pos": "RB",
+  "nfl": "NYG",
+  "team": "The gg Team",
+  "injury": "ACTIVE"
+ },
+ "marshawn lloyd": {
+  "abbrev": "GGT",
+  "pos": "RB",
+  "nfl": "GB",
+  "team": "The gg Team",
+  "injury": "ACTIVE"
+ },
+ "amon-ra st. brown": {
+  "abbrev": "GGT",
+  "pos": "WR",
+  "nfl": "DET",
+  "team": "The gg Team",
+  "injury": "ACTIVE"
+ },
+ "dk metcalf": {
+  "abbrev": "GGT",
+  "pos": "WR",
+  "nfl": "PIT",
+  "team": "The gg Team",
+  "injury": "ACTIVE"
+ },
+ "colston loveland": {
+  "abbrev": "GGT",
+  "pos": "TE",
+  "nfl": "CHI",
+  "team": "The gg Team",
+  "injury": "ACTIVE"
+ },
+ "broncos d/st": {
+  "abbrev": "GGT",
+  "pos": "DST",
+  "nfl": "DEN",
+  "team": "The gg Team",
+  "injury": null
+ },
+ "jason myers": {
+  "abbrev": "GGT",
+  "pos": "K",
+  "nfl": "SEA",
+  "team": "The gg Team",
+  "injury": "ACTIVE"
+ },
+ "carnell tate": {
+  "abbrev": "GGT",
+  "pos": "WR",
+  "nfl": "TEN",
+  "team": "The gg Team",
+  "injury": "ACTIVE"
+ },
+ "josh allen": {
+  "abbrev": "GGT",
+  "pos": "QB",
+  "nfl": "BUF",
+  "team": "The gg Team",
+  "injury": "ACTIVE"
+ },
+ "adonai mitchell": {
+  "abbrev": "GGT",
+  "pos": "WR",
+  "nfl": "NYJ",
+  "team": "The gg Team",
+  "injury": "QUESTIONABLE"
+ },
+ "cairo santos": {
+  "abbrev": "GGT",
+  "pos": "K",
+  "nfl": "CHI",
+  "team": "The gg Team",
+  "injury": "QUESTIONABLE"
+ },
+ "dalton kincaid": {
+  "abbrev": "GGT",
+  "pos": "TE",
+  "nfl": "BUF",
+  "team": "The gg Team",
+  "injury": "ACTIVE"
+ },
+ "de'zhaun stribling": {
+  "abbrev": "GGT",
+  "pos": "WR",
+  "nfl": "SF",
+  "team": "The gg Team",
+  "injury": "INJURY_RESERVE"
+ },
+ "kc concepcion": {
+  "abbrev": "GGT",
+  "pos": "WR",
+  "nfl": "CLE",
+  "team": "The gg Team",
+  "injury": "ACTIVE"
+ },
+ "kirk cousins": {
+  "abbrev": "GGT",
+  "pos": "QB",
+  "nfl": "LV",
+  "team": "The gg Team",
+  "injury": "ACTIVE"
+ },
+ "malik willis": {
+  "abbrev": "GGT",
+  "pos": "QB",
+  "nfl": "MIA",
+  "team": "The gg Team",
+  "injury": "ACTIVE"
+ },
+ "d'andre swift": {
+  "abbrev": "TCO",
+  "pos": "RB",
+  "nfl": "CHI",
+  "team": "The Chosen Ones",
+  "injury": "ACTIVE"
+ },
+ "jeremiyah love": {
+  "abbrev": "TCO",
+  "pos": "RB",
+  "nfl": "ARI",
+  "team": "The Chosen Ones",
+  "injury": "ACTIVE"
+ },
+ "george pickens": {
+  "abbrev": "TCO",
+  "pos": "WR",
+  "nfl": "DAL",
+  "team": "The Chosen Ones",
+  "injury": "ACTIVE"
+ },
+ "ja'marr chase": {
+  "abbrev": "TCO",
+  "pos": "WR",
+  "nfl": "CIN",
+  "team": "The Chosen Ones",
+  "injury": "ACTIVE"
+ },
+ "sam laporta": {
+  "abbrev": "TCO",
+  "pos": "TE",
+  "nfl": "DET",
+  "team": "The Chosen Ones",
+  "injury": "ACTIVE"
+ },
+ "rams d/st": {
+  "abbrev": "TCO",
+  "pos": "DST",
+  "nfl": "LAR",
+  "team": "The Chosen Ones",
+  "injury": null
+ },
+ "harrison mevis": {
+  "abbrev": "TCO",
+  "pos": "K",
+  "nfl": "LAR",
+  "team": "The Chosen Ones",
+  "injury": "ACTIVE"
+ },
+ "emeka egbuka": {
+  "abbrev": "TCO",
+  "pos": "WR",
+  "nfl": "TB",
+  "team": "The Chosen Ones",
+  "injury": "ACTIVE"
+ },
+ "jalen hurts": {
+  "abbrev": "TCO",
+  "pos": "QB",
+  "nfl": "PHI",
+  "team": "The Chosen Ones",
+  "injury": "ACTIVE"
+ },
+ "bryce young": {
+  "abbrev": "TCO",
+  "pos": "QB",
+  "nfl": "CAR",
+  "team": "The Chosen Ones",
+  "injury": "ACTIVE"
+ },
+ "hunter henry": {
+  "abbrev": "TCO",
+  "pos": "TE",
+  "nfl": "NE",
+  "team": "The Chosen Ones",
+  "injury": "ACTIVE"
+ },
+ "jacory croskey-merritt": {
+  "abbrev": "TCO",
+  "pos": "RB",
+  "nfl": "WSH",
+  "team": "The Chosen Ones",
+  "injury": "ACTIVE"
+ },
+ "jalen coker": {
+  "abbrev": "TCO",
+  "pos": "WR",
+  "nfl": "CAR",
+  "team": "The Chosen Ones",
+  "injury": "QUESTIONABLE"
+ },
+ "konata mumpfield": {
+  "abbrev": "TCO",
+  "pos": "WR",
+  "nfl": "LAR",
+  "team": "The Chosen Ones",
+  "injury": "ACTIVE"
+ },
+ "patrick mahomes": {
+  "abbrev": "TCO",
+  "pos": "QB",
+  "nfl": "KC",
+  "team": "The Chosen Ones",
+  "injury": "ACTIVE"
+ },
+ "romeo doubs": {
+  "abbrev": "TCO",
+  "pos": "WR",
+  "nfl": "NE",
+  "team": "The Chosen Ones",
+  "injury": "ACTIVE"
+ },
+ "chase brown": {
+  "abbrev": "LL",
+  "pos": "RB",
+  "nfl": "CIN",
+  "team": "Louisiana Lightning",
+  "injury": "ACTIVE"
+ },
+ "james cook iii": {
+  "abbrev": "LL",
+  "pos": "RB",
+  "nfl": "BUF",
+  "team": "Louisiana Lightning",
+  "injury": "ACTIVE"
+ },
+ "christian watson": {
+  "abbrev": "LL",
+  "pos": "WR",
+  "nfl": "GB",
+  "team": "Louisiana Lightning",
+  "injury": "ACTIVE"
+ },
+ "devonta smith": {
+  "abbrev": "LL",
+  "pos": "WR",
+  "nfl": "PHI",
+  "team": "Louisiana Lightning",
+  "injury": "QUESTIONABLE"
+ },
+ "dalton schultz": {
+  "abbrev": "LL",
+  "pos": "TE",
+  "nfl": "HOU",
+  "team": "Louisiana Lightning",
+  "injury": "ACTIVE"
+ },
+ "49ers d/st": {
+  "abbrev": "LL",
+  "pos": "DST",
+  "nfl": "SF",
+  "team": "Louisiana Lightning",
+  "injury": null
+ },
+ "nick folk": {
+  "abbrev": "LL",
+  "pos": "K",
+  "nfl": "ATL",
+  "team": "Louisiana Lightning",
+  "injury": "ACTIVE"
+ },
+ "khalil shakir": {
+  "abbrev": "LL",
+  "pos": "WR",
+  "nfl": "BUF",
+  "team": "Louisiana Lightning",
+  "injury": "ACTIVE"
+ },
+ "joe burrow": {
+  "abbrev": "LL",
+  "pos": "QB",
+  "nfl": "CIN",
+  "team": "Louisiana Lightning",
+  "injury": "ACTIVE"
+ },
+ "aaron jones sr.": {
+  "abbrev": "LL",
+  "pos": "RB",
+  "nfl": "MIN",
+  "team": "Louisiana Lightning",
+  "injury": "ACTIVE"
+ },
+ "alec pierce": {
+  "abbrev": "LL",
+  "pos": "WR",
+  "nfl": "IND",
+  "team": "Louisiana Lightning",
+  "injury": "OUT"
+ },
+ "brian thomas jr.": {
+  "abbrev": "LL",
+  "pos": "WR",
+  "nfl": "JAX",
+  "team": "Louisiana Lightning",
+  "injury": "ACTIVE"
+ },
+ "dj moore": {
+  "abbrev": "LL",
+  "pos": "WR",
+  "nfl": "BUF",
+  "team": "Louisiana Lightning",
+  "injury": "QUESTIONABLE"
+ },
+ "pat freiermuth": {
+  "abbrev": "LL",
+  "pos": "TE",
+  "nfl": "PIT",
+  "team": "Louisiana Lightning",
+  "injury": "ACTIVE"
+ },
+ "rome odunze": {
+  "abbrev": "LL",
+  "pos": "WR",
+  "nfl": "CHI",
+  "team": "Louisiana Lightning",
+  "injury": "ACTIVE"
+ },
+ "stefon diggs": {
+  "abbrev": "LL",
+  "pos": "WR",
+  "nfl": "WSH",
+  "team": "Louisiana Lightning",
+  "injury": "ACTIVE"
+ },
+ "brock bowers": {
+  "abbrev": "LL",
+  "pos": "TE",
+  "nfl": "LV",
+  "team": "Louisiana Lightning",
+  "injury": "QUESTIONABLE"
+ },
+ "javonte williams": {
+  "abbrev": "DDT",
+  "pos": "RB",
+  "nfl": "DAL",
+  "team": "David's Daring Team",
+  "injury": "ACTIVE"
+ },
+ "jonathan taylor": {
+  "abbrev": "DDT",
+  "pos": "RB",
+  "nfl": "IND",
+  "team": "David's Daring Team",
+  "injury": "ACTIVE"
+ },
+ "matthew golden": {
+  "abbrev": "DDT",
+  "pos": "WR",
+  "nfl": "GB",
+  "team": "David's Daring Team",
+  "injury": "ACTIVE"
+ },
+ "xavier worthy": {
+  "abbrev": "DDT",
+  "pos": "WR",
+  "nfl": "KC",
+  "team": "David's Daring Team",
+  "injury": "ACTIVE"
+ },
+ "gunnar helm": {
+  "abbrev": "DDT",
+  "pos": "TE",
+  "nfl": "TEN",
+  "team": "David's Daring Team",
+  "injury": "ACTIVE"
+ },
+ "texans d/st": {
+  "abbrev": "DDT",
+  "pos": "DST",
+  "nfl": "HOU",
+  "team": "David's Daring Team",
+  "injury": null
+ },
+ "evan mcpherson": {
+  "abbrev": "DDT",
+  "pos": "K",
+  "nfl": "CIN",
+  "team": "David's Daring Team",
+  "injury": "ACTIVE"
+ },
+ "luther burden iii": {
+  "abbrev": "DDT",
+  "pos": "WR",
+  "nfl": "CHI",
+  "team": "David's Daring Team",
+  "injury": "ACTIVE"
+ },
+ "matthew stafford": {
+  "abbrev": "DDT",
+  "pos": "QB",
+  "nfl": "LAR",
+  "team": "David's Daring Team",
+  "injury": "ACTIVE"
+ },
+ "bhayshul tuten": {
+  "abbrev": "DDT",
+  "pos": "RB",
+  "nfl": "JAX",
+  "team": "David's Daring Team",
+  "injury": "ACTIVE"
+ },
+ "caleb douglas": {
+  "abbrev": "DDT",
+  "pos": "WR",
+  "nfl": "MIA",
+  "team": "David's Daring Team",
+  "injury": "OUT"
+ },
+ "daniel jones": {
+  "abbrev": "DDT",
+  "pos": "QB",
+  "nfl": "IND",
+  "team": "David's Daring Team",
+  "injury": "ACTIVE"
+ },
+ "drake maye": {
+  "abbrev": "DDT",
+  "pos": "QB",
+  "nfl": "NE",
+  "team": "David's Daring Team",
+  "injury": "ACTIVE"
+ },
+ "keenan allen": {
+  "abbrev": "DDT",
+  "pos": "WR",
+  "nfl": "IND",
+  "team": "David's Daring Team",
+  "injury": "ACTIVE"
+ },
+ "lions d/st": {
+  "abbrev": "DDT",
+  "pos": "DST",
+  "nfl": "DET",
+  "team": "David's Daring Team",
+  "injury": null
+ },
+ "terrance ferguson": {
+  "abbrev": "DDT",
+  "pos": "TE",
+  "nfl": "LAR",
+  "team": "David's Daring Team",
+  "injury": "ACTIVE"
+ },
+ "alvin kamara": {
+  "abbrev": "MBB",
+  "pos": "RB",
+  "nfl": "NO",
+  "team": "Mitch's Badass Bunch",
+  "injury": "ACTIVE"
+ },
+ "bijan robinson": {
+  "abbrev": "MBB",
+  "pos": "RB",
+  "nfl": "ATL",
+  "team": "Mitch's Badass Bunch",
+  "injury": "ACTIVE"
+ },
+ "davante adams": {
+  "abbrev": "MBB",
+  "pos": "WR",
+  "nfl": "LAR",
+  "team": "Mitch's Badass Bunch",
+  "injury": "ACTIVE"
+ },
+ "tetairoa mcmillan": {
+  "abbrev": "MBB",
+  "pos": "WR",
+  "nfl": "CAR",
+  "team": "Mitch's Badass Bunch",
+  "injury": "ACTIVE"
+ },
+ "trey mcbride": {
+  "abbrev": "MBB",
+  "pos": "TE",
+  "nfl": "ARI",
+  "team": "Mitch's Badass Bunch",
+  "injury": "ACTIVE"
+ },
+ "seahawks d/st": {
+  "abbrev": "MBB",
+  "pos": "DST",
+  "nfl": "SEA",
+  "team": "Mitch's Badass Bunch",
+  "injury": null
+ },
+ "ka'imi fairbairn": {
+  "abbrev": "MBB",
+  "pos": "K",
+  "nfl": "HOU",
+  "team": "Mitch's Badass Bunch",
+  "injury": "ACTIVE"
+ },
+ "michael wilson": {
+  "abbrev": "MBB",
+  "pos": "WR",
+  "nfl": "ARI",
+  "team": "Mitch's Badass Bunch",
+  "injury": "ACTIVE"
+ },
+ "trevor lawrence": {
+  "abbrev": "MBB",
+  "pos": "QB",
+  "nfl": "JAX",
+  "team": "Mitch's Badass Bunch",
+  "injury": "ACTIVE"
+ },
+ "chris rodriguez jr.": {
+  "abbrev": "MBB",
+  "pos": "RB",
+  "nfl": "JAX",
+  "team": "Mitch's Badass Bunch",
+  "injury": "ACTIVE"
+ },
+ "dak prescott": {
+  "abbrev": "MBB",
+  "pos": "QB",
+  "nfl": "DAL",
+  "team": "Mitch's Badass Bunch",
+  "injury": "ACTIVE"
+ },
+ "devin singletary": {
+  "abbrev": "MBB",
+  "pos": "RB",
+  "nfl": "NYG",
+  "team": "Mitch's Badass Bunch",
+  "injury": "ACTIVE"
+ },
+ "harold fannin jr.": {
+  "abbrev": "MBB",
+  "pos": "TE",
+  "nfl": "CLE",
+  "team": "Mitch's Badass Bunch",
+  "injury": "ACTIVE"
+ },
+ "quentin johnston": {
+  "abbrev": "MBB",
+  "pos": "WR",
+  "nfl": "LAC",
+  "team": "Mitch's Badass Bunch",
+  "injury": "ACTIVE"
+ },
+ "tony pollard": {
+  "abbrev": "MBB",
+  "pos": "RB",
+  "nfl": "TEN",
+  "team": "Mitch's Badass Bunch",
+  "injury": "ACTIVE"
+ },
+ "travis hunter": {
+  "abbrev": "MBB",
+  "pos": "WR",
+  "nfl": "JAX",
+  "team": "Mitch's Badass Bunch",
+  "injury": "ACTIVE"
+ },
+ "de'von achane": {
+  "abbrev": "QBZ",
+  "pos": "RB",
+  "nfl": "MIA",
+  "team": "Medical Tent",
+  "injury": "ACTIVE"
+ },
+ "travis etienne jr.": {
+  "abbrev": "QBZ",
+  "pos": "RB",
+  "nfl": "NO",
+  "team": "Medical Tent",
+  "injury": "ACTIVE"
+ },
+ "drake london": {
+  "abbrev": "QBZ",
+  "pos": "WR",
+  "nfl": "ATL",
+  "team": "Medical Tent",
+  "injury": "ACTIVE"
+ },
+ "garrett wilson": {
+  "abbrev": "QBZ",
+  "pos": "WR",
+  "nfl": "NYJ",
+  "team": "Medical Tent",
+  "injury": "ACTIVE"
+ },
+ "kyle pitts sr.": {
+  "abbrev": "QBZ",
+  "pos": "TE",
+  "nfl": "ATL",
+  "team": "Medical Tent",
+  "injury": "ACTIVE"
+ },
+ "panthers d/st": {
+  "abbrev": "QBZ",
+  "pos": "DST",
+  "nfl": "CAR",
+  "team": "Medical Tent",
+  "injury": null
+ },
+ "eddy pineiro": {
+  "abbrev": "QBZ",
+  "pos": "K",
+  "nfl": "SF",
+  "team": "Medical Tent",
+  "injury": "ACTIVE"
+ },
+ "rashid shaheed": {
+  "abbrev": "QBZ",
+  "pos": "WR",
+  "nfl": "SEA",
+  "team": "Medical Tent",
+  "injury": "ACTIVE"
+ },
+ "kyler murray": {
+  "abbrev": "QBZ",
+  "pos": "QB",
+  "nfl": "MIN",
+  "team": "Medical Tent",
+  "injury": "ACTIVE"
+ },
+ "dallas goedert": {
+  "abbrev": "QBZ",
+  "pos": "TE",
+  "nfl": "PHI",
+  "team": "Medical Tent",
+  "injury": "DOUBTFUL"
+ },
+ "jacoby brissett": {
+  "abbrev": "QBZ",
+  "pos": "QB",
+  "nfl": "ARI",
+  "team": "Medical Tent",
+  "injury": "ACTIVE"
+ },
+ "jakobi meyers": {
+  "abbrev": "QBZ",
+  "pos": "WR",
+  "nfl": "JAX",
+  "team": "Medical Tent",
+  "injury": "ACTIVE"
+ },
+ "josh jacobs": {
+  "abbrev": "QBZ",
+  "pos": "RB",
+  "nfl": "GB",
+  "team": "Medical Tent",
+  "injury": "DAY_TO_DAY"
+ },
+ "michael pittman jr.": {
+  "abbrev": "QBZ",
+  "pos": "WR",
+  "nfl": "PIT",
+  "team": "Medical Tent",
+  "injury": "QUESTIONABLE"
+ },
+ "rashod bateman": {
+  "abbrev": "QBZ",
+  "pos": "WR",
+  "nfl": "BAL",
+  "team": "Medical Tent",
+  "injury": "ACTIVE"
+ },
+ "steelers d/st": {
+  "abbrev": "QBZ",
+  "pos": "DST",
+  "nfl": "PIT",
+  "team": "Medical Tent",
+  "injury": null
+ },
+ "jaxson dart": {
+  "abbrev": "QBZ",
+  "pos": "QB",
+  "nfl": "NYG",
+  "team": "Medical Tent",
+  "injury": "INJURY_RESERVE"
+ }
+}
