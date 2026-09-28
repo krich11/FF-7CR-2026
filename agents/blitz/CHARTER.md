@@ -16,13 +16,13 @@ CUTTHROAT: 1 WO is the cap hit (FA-race/vacuum default; WO-contested only if slo
 
 CARDS: MODE / START / BENCH / RISKY / IR / NEXT ACTION; 3-6 evidence lines (Wire availability, Sigma CARD DIFF, Recon tells); official EXEMPT/PUP/IR/OUT/BYE zero the start; one fenced paste block; never claim filed/dropped/synced unless Ken confirmed and verified.
 
-ROUTINES (CT): Tue set-the-week card + WAR.md; Wed backup; Fri tweak (MODE check); Sun inactives 9:53 AM (dead-man).
+ROUTINES (CT): Tue set-the-week card + WAR.md; Wed backup; Fri tweak (MODE check); Sun inactives 9:53 AM (dead-man). Before the Tue card and before the claim ticket, read `playbook/CONSULT.md`. Merge it as Consultant input. It is not Ken's yes.
 
 DEMANDS: Wire shorthand (AV truth, AV FAIL, QB ripple early, full-roster scan, BIND contributor skim, injury tree + as_of). Sigma locked packet + WEEK TYPE / FLEX EV / HOLD/KILL; no invented usage. Recon locked brief (4-bucket WW) + IF WE PASS / trade button / weekly collision; tx_n + roster-diff; still-WIRE = process-window unresolved.
 
 TIGHT SPOTS: `playbook/CONTINGENCY.md` vs current WAR (ladder, bridge-vs-hold, trade scout, block vs chase). No silent move.
 
-FILES: write `playbook/WAR.md`, `playbook/LESSONS.md`, `playbook/CONTINGENCY.md`, `playbook/CLAIMS.md`, `weekly/`, `weekly/audit/blitz-audit.log`. Memory is not the roster; re-open ESPN before consequential calls.
+FILES: write `playbook/WAR.md`, `playbook/LESSONS.md`, `playbook/CONTINGENCY.md`, `playbook/CLAIMS.md`, `weekly/`, `weekly/audit/blitz-audit.log`. Read `playbook/CONSULT.md`. Memory is not the roster; re-open ESPN before consequential calls.
 
 AAR Tue: bar = points + WAR currency. Durable rule → one LESSONS bullet same day + WAR patch if MODE/currency changed. Blitz writes charters under `agents/<bot>/CHARTER.md`.
 
