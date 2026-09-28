@@ -2,7 +2,7 @@
 
 Shared working repo for one ESPN fantasy football team and the bots that run it.
 
-What belongs where is defined in `FILESYSTEM.md`. How the bots use this repo is defined in `BOTS.md`.
+What belongs where is defined in `FILESYSTEM.md`. How the bots use this repo is defined in `BOTS.md`. How Ken and the Consultant work is defined in `CONSULTANT.md`.
 
 | Directory | Purpose |
 |---|---|
