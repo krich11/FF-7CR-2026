@@ -4,10 +4,13 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
 
-BASE = Path("/workspace/fantasy/quantum-blitz")
-RECON = BASE / "recon"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _paths import DATA, DATA_RECON, week_dir  # noqa: E402
+
+RECON = DATA_RECON
 
 
 def main() -> int:
@@ -18,7 +21,7 @@ def main() -> int:
     args = ap.parse_args()
 
     rost = json.loads((RECON / "league_rosters.json").read_text())
-    ours_doc = json.loads((BASE / "roster.json").read_text())
+    ours_doc = json.loads((DATA / "roster.json").read_text())
     our_players = {p["name"]: p for p in ours_doc.get("players", [])}
     # also from league dump team 13
     for t in rost["teams"]:
@@ -86,7 +89,7 @@ def main() -> int:
     text = json.dumps(out, indent=2)
     print(text)
     if args.write and not args.no_write:
-        path = RECON / "weekly" / f"w{args.week:02d}" / "opponent-flags.json"
+        path = week_dir(args.week) / "opponent-flags.json"
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(text)
         print(f"# wrote {path}", file=__import__("sys").stderr)

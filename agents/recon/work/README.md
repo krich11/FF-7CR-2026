@@ -14,7 +14,7 @@ Machine dumps belong in `data/recon/`.
 | `aar/` | Recon after-action reviews |
 | `mistakes/` | Opponent start/sit miss notes (post-week) |
 | `methods/` | Method notes (e.g. draft-helper VORP) |
-| `tools/` | Read-only scanners + dump refresh (GET only, no ESPN writes). Paths inside still point at the old local layout; update before running. |
+| `tools/` | Read-only scanners + dump refresh (GET only, no ESPN writes). Paths via `_paths.py`: `REPO_ROOT` (default /workspace/ff-repo) → `data/recon/`, `data/recon/snapshots/<stamp>/`, `week-N/`; raw captures local-only in `RECON_RAW_DIR` (default /workspace/fantasy/quantum-blitz/recon/raw/wNN/). |
 
 Dumps and dated snapshots: `data/recon/` and `data/recon/snapshots/`.
 Local `/workspace/fantasy/quantum-blitz/recon/` is a stale cache.

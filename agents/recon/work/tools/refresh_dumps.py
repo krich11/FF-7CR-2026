@@ -10,7 +10,10 @@ import urllib.parse
 from datetime import datetime
 from pathlib import Path
 
-sys.path.insert(0, str(Path("/workspace/fantasy/quantum-blitz/espn_api")))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _paths import DATA_RECON, SNAP, rel, use_espn_client  # noqa: E402
+
+use_espn_client()
 from client import (  # type: ignore
     EspnAuth,
     PT,
@@ -24,9 +27,7 @@ from client import (  # type: ignore
     team_roster_entries,
 )
 
-BASE = Path("/workspace/fantasy/quantum-blitz")
-RECON = BASE / "recon"
-SNAP = RECON / "snapshots"
+RECON = DATA_RECON
 LEAGUE = "1776545061"
 SEASON = 2026
 US = 13
@@ -213,7 +214,7 @@ def main() -> int:
 
     meta = {
         "refreshed_at": now_pt(),
-        "snapshot": str(snap) if snap else None,
+        "snapshot": rel(snap) if snap else None,
         "scoringPeriodId": rosters["scoringPeriodId"],
         "team_count": rosters["team_count"],
         "tx_n": None if tx is None else tx["n"],

@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Orchestrate dump-based Recon scans for a week (no ESPN writes)."""
+"""Orchestrate dump-based Recon scans for a week (no ESPN writes).
+
+Reads/writes the repo: env REPO_ROOT (default /workspace/ff-repo) -> data/recon/ dumps,
+agents/recon/work/week-N/ packets. See _paths.py.
+"""
 from __future__ import annotations
 
 import argparse

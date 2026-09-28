@@ -4,9 +4,13 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
 
-RECON = Path("/workspace/fantasy/quantum-blitz/recon")
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _paths import DATA_RECON, SNAP, rel, week_dir  # noqa: E402
+
+RECON = DATA_RECON
 US = 13
 MATERIAL_TYPES = {"WAIVER", "FREEAGENT", "FA", "TRADE"}
 
@@ -36,9 +40,9 @@ def main() -> int:
     against = Path(args.against) if args.against else None
     if against is None:
         snaps = []
-        if (RECON / "snapshots").exists():
+        if SNAP.exists():
             snaps = sorted(
-                (s for s in (RECON / "snapshots").iterdir() if (s / "transactions_recent.json").exists()),
+                (s for s in SNAP.iterdir() if (s / "transactions_recent.json").exists()),
                 reverse=True,
             )
         if not snaps:
@@ -89,7 +93,7 @@ def main() -> int:
     ours = [x for x in enriched if x["is_us"]]
 
     out = {
-        "against": str(against),
+        "against": rel(against),
         "as_of_current": cur.get("as_of"),
         "as_of_prev": prev.get("as_of"),
         "new_tx_count": len(new_rows),
@@ -103,7 +107,7 @@ def main() -> int:
     text = json.dumps(out, indent=2)
     print(text)
     if args.write and not args.no_write:
-        path = RECON / "weekly" / f"w{args.week:02d}" / "material-diff.json"
+        path = week_dir(args.week) / "material-diff.json"
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(text)
     return 0

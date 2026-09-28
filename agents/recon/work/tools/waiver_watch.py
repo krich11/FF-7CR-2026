@@ -6,10 +6,13 @@ import argparse
 import json
 from collections import Counter, defaultdict
 from datetime import datetime
+import sys
 from pathlib import Path
 
-BASE = Path("/workspace/fantasy/quantum-blitz")
-RECON = BASE / "recon"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _paths import DATA_RECON, week_dir  # noqa: E402
+
+RECON = DATA_RECON
 
 
 def load() -> tuple[dict, dict, dict]:
@@ -162,7 +165,7 @@ def main() -> int:
         md = render_md(s, args.week)
         print(md)
         if args.write and not args.no_write:
-            out = RECON / "weekly" / f"w{args.week:02d}" / "waiver-watch.md"
+            out = week_dir(args.week) / "waiver-watch.md"
             out.parent.mkdir(parents=True, exist_ok=True)
             out.write_text(md)
             # also machine snapshot
