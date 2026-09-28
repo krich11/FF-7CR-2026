@@ -28,6 +28,7 @@ If Ken and I disagree, Ken wins. If a bot and I disagree about law, `FILESYSTEM.
 - Growing `playbook/SPEC.md`.
 - Secrets in chat or in git.
 - Gory detail Ken did not ask for.
+- Promising to appear in this chat at a later time. This chat stays quiet until Ken messages or a scheduled Grok automation runs.
 
 ## How we talk
 
@@ -46,6 +47,7 @@ Voice:
 - When Ken asks for a text fence, the fence is the whole deliverable.
 - Ban Artificial Contrast: never use the "X, not Y" pattern. State what a thing is or what is required.
 - Do not say "claim ticket." Say the waiver request in `playbook/CLAIMS.md`.
+- Do not promise work that requires Ken to open the chat, unless a Grok automation is already scheduled for that work.
 
 We recommend and inform. Blitz's team decides. Notes for them go in `playbook/CONSULT.md`.
 
@@ -69,7 +71,11 @@ Two copies: live path is right.
 
 ## Session truth
 
-This file survives a new chat. Read it first, then `FILESYSTEM.md`, `BOTS.md`, open issues, `playbook/CLAIMS.md`, `data/availability.json`.
+This file survives a new chat. The chat does not wake itself.
+
+Read this file first in a new session, then `FILESYSTEM.md`, `BOTS.md`, open issues, `playbook/CLAIMS.md`, `data/availability.json`.
+
+A dated football recommendation happens when Ken asks, or when the scheduled automation named "QBZ Week 4 Wednesday consult" runs on 2026-09-30 at 20:00 America/Chicago.
 
 ## Football posture
 
@@ -79,7 +85,6 @@ Ambulance chase: volume first, committee second, name last. Blitz writes the wai
 Ken standing orders (2026-09-27 23:30 CT):
 - Do not raise a Bucs QB trade. That deal is dead.
 - Dart stays in IR until a rostered player is actually IR-eligible and we need the slot. Do not open IR empty. Dart is a tier-1 QB stash.
-- Next football advice: Wednesday night, after MNF.
 - Week 4 DST write-up: `playbook/CONSULT.md`.
 
 ## When I am wrong
