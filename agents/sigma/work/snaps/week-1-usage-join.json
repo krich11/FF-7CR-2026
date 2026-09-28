@@ -1,0 +1,282 @@
+{
+  "week": 1,
+  "label": "sigma_usage_join_nflverse_snaps",
+  "as_of": "2026-09-20T11:27:00-05:00",
+  "source_snaps": "nflverse snap_counts_2026.csv (PFR)",
+  "source_touches": "results/week-1.json",
+  "data_quality": {
+    "snap_feed": "ok",
+    "usage_loop": "partial_snaps_joined",
+    "unmatched": [
+      {
+        "name": "Steelers D/ST",
+        "reason": "DST_unit_na"
+      },
+      {
+        "name": "Josh Jacobs",
+        "reason": "status_EXEMPT_likely_dnp",
+        "state": "EXEMPT"
+      },
+      {
+        "name": "Zach Charbonnet",
+        "reason": "status_IR_likely_dnp",
+        "state": "IR"
+      }
+    ],
+    "notes": [
+      "offense_pct stored as fraction 0-1 from nflverse",
+      "DST has no player snap row",
+      "Do not invent snaps for unmatched",
+      "form_add still Week-1 zero per SPEC; this backfill enables usage review only"
+    ]
+  },
+  "players": {
+    "Jaxson Dart": {
+      "snap_pct_actual": 1.0,
+      "offense_snaps": 69,
+      "team": "NYG",
+      "targets": null,
+      "carries": 11,
+      "receptions": null,
+      "actual_ppr": 26.6,
+      "adj": 18.96,
+      "assumed_snap_pct": null,
+      "usage_gap": null,
+      "role_mult_prior": null,
+      "role_mult_next": null,
+      "flags": [
+        "td_luck_suspect"
+      ]
+    },
+    "De'Von Achane": {
+      "snap_pct_actual": 0.86,
+      "offense_snaps": 48,
+      "team": "MIA",
+      "targets": 5,
+      "carries": 11,
+      "receptions": 4,
+      "actual_ppr": 10.6,
+      "adj": 18.2,
+      "assumed_snap_pct": null,
+      "usage_gap": null,
+      "role_mult_prior": null,
+      "role_mult_next": null,
+      "flags": [
+        "high_snap_low_efficiency"
+      ]
+    },
+    "Travis Etienne Jr.": {
+      "snap_pct_actual": 0.59,
+      "offense_snaps": 53,
+      "team": "NO",
+      "targets": 9,
+      "carries": 9,
+      "receptions": 7,
+      "actual_ppr": 14.8,
+      "adj": 14.53,
+      "assumed_snap_pct": null,
+      "usage_gap": null,
+      "role_mult_prior": null,
+      "role_mult_next": null,
+      "flags": []
+    },
+    "Drake London": {
+      "snap_pct_actual": 0.98,
+      "offense_snaps": 59,
+      "team": "ATL",
+      "targets": 4,
+      "carries": 1,
+      "receptions": 2,
+      "actual_ppr": 5.5,
+      "adj": 14.36,
+      "assumed_snap_pct": null,
+      "usage_gap": null,
+      "role_mult_prior": null,
+      "role_mult_next": null,
+      "flags": [
+        "high_snap_low_efficiency"
+      ]
+    },
+    "Garrett Wilson": {
+      "snap_pct_actual": 0.75,
+      "offense_snaps": 50,
+      "team": "NYJ",
+      "targets": 7,
+      "carries": 0,
+      "receptions": 6,
+      "actual_ppr": 13.9,
+      "adj": 14.59,
+      "assumed_snap_pct": null,
+      "usage_gap": null,
+      "role_mult_prior": null,
+      "role_mult_next": null,
+      "flags": []
+    },
+    "Dallas Goedert": {
+      "snap_pct_actual": 0.95,
+      "offense_snaps": 52,
+      "team": "PHI",
+      "targets": 5,
+      "carries": 0,
+      "receptions": 4,
+      "actual_ppr": 23.7,
+      "adj": 11.21,
+      "assumed_snap_pct": null,
+      "usage_gap": null,
+      "role_mult_prior": null,
+      "role_mult_next": null,
+      "flags": []
+    },
+    "Michael Pittman Jr.": {
+      "snap_pct_actual": 0.88,
+      "offense_snaps": 59,
+      "team": "PIT",
+      "targets": 3,
+      "carries": 0,
+      "receptions": 3,
+      "actual_ppr": 8.8,
+      "adj": 11.46,
+      "assumed_snap_pct": null,
+      "usage_gap": null,
+      "role_mult_prior": null,
+      "role_mult_next": null,
+      "flags": []
+    },
+    "Eddy Pineiro": {
+      "snap_pct_actual": 0.0,
+      "offense_snaps": 0,
+      "team": "SF",
+      "targets": null,
+      "carries": null,
+      "receptions": null,
+      "actual_ppr": 10.0,
+      "adj": 8.1,
+      "assumed_snap_pct": null,
+      "usage_gap": null,
+      "role_mult_prior": null,
+      "role_mult_next": null,
+      "flags": []
+    },
+    "Kyle Pitts Sr.": {
+      "snap_pct_actual": 0.63,
+      "offense_snaps": 38,
+      "team": "ATL",
+      "targets": 1,
+      "carries": 0,
+      "receptions": 0,
+      "actual_ppr": 0.0,
+      "adj": 9.91,
+      "assumed_snap_pct": null,
+      "usage_gap": null,
+      "role_mult_prior": null,
+      "role_mult_next": null,
+      "flags": []
+    },
+    "Jonathon Brooks": {
+      "snap_pct_actual": 0.19,
+      "offense_snaps": 13,
+      "team": "CAR",
+      "targets": 2,
+      "carries": 4,
+      "receptions": 1,
+      "actual_ppr": 7.2,
+      "adj": 10.43,
+      "assumed_snap_pct": null,
+      "usage_gap": null,
+      "role_mult_prior": null,
+      "role_mult_next": null,
+      "flags": []
+    },
+    "Jakobi Meyers": {
+      "snap_pct_actual": 0.65,
+      "offense_snaps": 37,
+      "team": "JAX",
+      "targets": 2,
+      "carries": 1,
+      "receptions": 2,
+      "actual_ppr": 12.2,
+      "adj": 10.14,
+      "assumed_snap_pct": null,
+      "usage_gap": null,
+      "role_mult_prior": null,
+      "role_mult_next": null,
+      "flags": [
+        "td_luck_suspect"
+      ]
+    },
+    "Rashid Shaheed": {
+      "snap_pct_actual": 0.66,
+      "offense_snaps": 33,
+      "team": "SEA",
+      "targets": 3,
+      "carries": 0,
+      "receptions": 1,
+      "actual_ppr": 1.4,
+      "adj": 8.73,
+      "assumed_snap_pct": null,
+      "usage_gap": null,
+      "role_mult_prior": null,
+      "role_mult_next": null,
+      "flags": []
+    },
+    "Tre Tucker": {
+      "snap_pct_actual": 0.71,
+      "offense_snaps": 48,
+      "team": "LV",
+      "targets": 4,
+      "carries": 0,
+      "receptions": 2,
+      "actual_ppr": 4.7,
+      "adj": 9.76,
+      "assumed_snap_pct": null,
+      "usage_gap": null,
+      "role_mult_prior": null,
+      "role_mult_next": null,
+      "flags": [
+        "high_snap_low_efficiency"
+      ]
+    },
+    "Tyler Allgeier": {
+      "snap_pct_actual": 0.59,
+      "offense_snaps": 44,
+      "team": "ARI",
+      "targets": 2,
+      "carries": 17,
+      "receptions": 2,
+      "actual_ppr": 9.0,
+      "adj": 7.51,
+      "assumed_snap_pct": null,
+      "usage_gap": null,
+      "role_mult_prior": null,
+      "role_mult_next": null,
+      "flags": []
+    },
+    "Steelers D/ST": {
+      "snap_pct_actual": null,
+      "unmatched_reason": "DST_unit_na",
+      "usage_gap": null,
+      "role_mult_next": null,
+      "flags": [
+        "snap_unavailable"
+      ]
+    },
+    "Josh Jacobs": {
+      "snap_pct_actual": null,
+      "unmatched_reason": "status_EXEMPT_likely_dnp",
+      "usage_gap": null,
+      "role_mult_next": null,
+      "flags": [
+        "snap_unavailable"
+      ]
+    },
+    "Zach Charbonnet": {
+      "snap_pct_actual": null,
+      "unmatched_reason": "status_IR_likely_dnp",
+      "usage_gap": null,
+      "role_mult_next": null,
+      "flags": [
+        "snap_unavailable"
+      ]
+    }
+  }
+}

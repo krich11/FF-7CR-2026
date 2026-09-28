@@ -1,0 +1,116 @@
+{
+  "label": "SAMPLE_MOCK_ONLY",
+  "warning": "FAKE DATA \u2014 do not copy into live usage.json",
+  "as_of_week": 0,
+  "source": "results/sigma/mock-week-0-boxscores.json",
+  "players_with_assumed": {
+    "Jakobi Meyers": {
+      "assumed_snap_pct": 0.55,
+      "actual_snap_pct": 0.88,
+      "usage_gap": 0.33,
+      "targets": 11,
+      "carries": 0,
+      "role_mult_prior": 1.0,
+      "role_mult_next": 1.15,
+      "flag": "buy_usage"
+    },
+    "Michael Pittman Jr.": {
+      "assumed_snap_pct": 0.65,
+      "actual_snap_pct": 0.7,
+      "usage_gap": 0.05,
+      "targets": 6,
+      "carries": 0,
+      "role_mult_prior": 1.0,
+      "role_mult_next": 1.025,
+      "flag": null
+    },
+    "Jonathon Brooks": {
+      "assumed_snap_pct": 0.4,
+      "actual_snap_pct": 0.35,
+      "usage_gap": -0.05,
+      "targets": 1,
+      "carries": 8,
+      "role_mult_prior": 1.0,
+      "role_mult_next": 0.975,
+      "flag": null
+    },
+    "Tre Tucker": {
+      "assumed_snap_pct": 0.55,
+      "actual_snap_pct": 0.6,
+      "usage_gap": 0.05,
+      "targets": 3,
+      "carries": 0,
+      "role_mult_prior": 1.0,
+      "role_mult_next": 1.025,
+      "flag": null
+    },
+    "Rashid Shaheed": {
+      "assumed_snap_pct": 0.5,
+      "actual_snap_pct": 0.45,
+      "usage_gap": -0.05,
+      "targets": 2,
+      "carries": 0,
+      "role_mult_prior": 1.0,
+      "role_mult_next": 0.975,
+      "flag": null
+    }
+  },
+  "starter_observations_no_assumed": {
+    "Jaxson Dart": {
+      "actual_snap_pct": 1.0,
+      "targets": 0,
+      "carries": 3,
+      "assumed_snap_pct": null,
+      "usage_gap": null,
+      "note": "assumed_snap not in mock \u2014 no role_mult update"
+    },
+    "De'Von Achane": {
+      "actual_snap_pct": 0.72,
+      "targets": 5,
+      "carries": 14,
+      "assumed_snap_pct": null,
+      "usage_gap": null,
+      "note": "assumed_snap not in mock \u2014 no role_mult update"
+    },
+    "Travis Etienne Jr.": {
+      "actual_snap_pct": 0.58,
+      "targets": 3,
+      "carries": 12,
+      "assumed_snap_pct": null,
+      "usage_gap": null,
+      "note": "assumed_snap not in mock \u2014 no role_mult update"
+    },
+    "Drake London": {
+      "actual_snap_pct": 0.9,
+      "targets": 9,
+      "carries": 0,
+      "assumed_snap_pct": null,
+      "usage_gap": null,
+      "note": "assumed_snap not in mock \u2014 no role_mult update"
+    },
+    "Garrett Wilson": {
+      "actual_snap_pct": 0.78,
+      "targets": 4,
+      "carries": 0,
+      "assumed_snap_pct": null,
+      "usage_gap": null,
+      "note": "assumed_snap not in mock \u2014 no role_mult update"
+    },
+    "Kyle Pitts Sr.": {
+      "actual_snap_pct": 0.75,
+      "targets": 5,
+      "carries": 0,
+      "assumed_snap_pct": null,
+      "usage_gap": null,
+      "note": "assumed_snap not in mock \u2014 no role_mult update"
+    },
+    "Dallas Goedert": {
+      "actual_snap_pct": 0.82,
+      "targets": 7,
+      "carries": 0,
+      "assumed_snap_pct": null,
+      "usage_gap": null,
+      "note": "assumed_snap not in mock \u2014 no role_mult update"
+    }
+  }
+}

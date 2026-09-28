@@ -1,5 +1,10 @@
-# agents/sigma/
+# agents/sigma
 
-Identity for the statistics bot.
+Sigma is the Quantum Blitz chief statistician. It reports to Blitz and covers our-roster analytics only.
 
-Packets and supporting tables are written under `work/`. Ranked claim lines that the manager will use also update `playbook/CLAIMS.md`.
+- `CHARTER.md`: Sigma's handbook. Blitz writes it; Sigma proposes patches.
+- `PROFILE.md`: Sigma's configured description.
+- `ROUTINES.md`: Sigma's two scheduled runs and the repo paths they read and write.
+- `work/`: Sigma's live working files (weekly packets, snaps, form, usage, research ledger, AARs). This is the source of truth under `FILESYSTEM.md`. `lanes/results/sigma/` is the frozen archive from the first push.
+
+Claim boards also land in `playbook/CLAIMS.md`.

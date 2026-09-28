@@ -1,0 +1,152 @@
+{
+  "label": "SAMPLE_MOCK_ONLY",
+  "warning": "FAKE DATA \u2014 do not copy into live form.json",
+  "as_of_week": 0,
+  "packet": "v2",
+  "source": "results/sigma/mock-week-0-boxscores.json",
+  "formula": "form_add = round(clamp(0.35 * residual, \u00b13), 2); then bench-vs-starter boost; re-clamp \u00b13; 2 decimals everywhere",
+  "players": {
+    "Jaxson Dart": {
+      "games": 1,
+      "actual": 22.4,
+      "expected_avg": 18.2,
+      "residual": 4.2,
+      "form_add": 1.47,
+      "started": true,
+      "slot": "QB",
+      "beat_starter_last_week": false
+    },
+    "De'Von Achane": {
+      "games": 1,
+      "actual": 19.1,
+      "expected_avg": 17.5,
+      "residual": 1.6,
+      "form_add": 0.56,
+      "started": true,
+      "slot": "RB",
+      "beat_starter_last_week": false
+    },
+    "Travis Etienne Jr.": {
+      "games": 1,
+      "actual": 11.2,
+      "expected_avg": 14.3,
+      "residual": -3.1,
+      "form_add": -1.08,
+      "started": true,
+      "slot": "RB",
+      "beat_starter_last_week": false
+    },
+    "Drake London": {
+      "games": 1,
+      "actual": 16.8,
+      "expected_avg": 15.0,
+      "residual": 1.8,
+      "form_add": 0.63,
+      "started": true,
+      "slot": "WR",
+      "beat_starter_last_week": false
+    },
+    "Garrett Wilson": {
+      "games": 1,
+      "actual": 9.4,
+      "expected_avg": 13.9,
+      "residual": -4.5,
+      "form_add": -2.32,
+      "started": true,
+      "slot": "WR",
+      "beat_starter_last_week": false,
+      "boost_note": "-0.75 vs Meyers bench boom (primary underperformer WR2)"
+    },
+    "Kyle Pitts Sr.": {
+      "games": 1,
+      "actual": 8.1,
+      "expected_avg": 10.0,
+      "residual": -1.9,
+      "form_add": -0.66,
+      "started": true,
+      "slot": "TE",
+      "beat_starter_last_week": false
+    },
+    "Dallas Goedert": {
+      "games": 1,
+      "actual": 14.6,
+      "expected_avg": 10.4,
+      "residual": 4.2,
+      "form_add": 1.47,
+      "started": true,
+      "slot": "FLEX",
+      "beat_starter_last_week": false
+    },
+    "Steelers D/ST": {
+      "games": 1,
+      "actual": 12.0,
+      "expected_avg": 7.1,
+      "residual": 4.9,
+      "form_add": 1.72,
+      "started": true,
+      "slot": "DST",
+      "beat_starter_last_week": false
+    },
+    "Eddy Pineiro": {
+      "games": 1,
+      "actual": 8.0,
+      "expected_avg": 7.9,
+      "residual": 0.1,
+      "form_add": 0.03,
+      "started": true,
+      "slot": "K",
+      "beat_starter_last_week": false
+    },
+    "Jakobi Meyers": {
+      "games": 1,
+      "actual": 18.2,
+      "expected_avg": 6.2,
+      "residual": 12.0,
+      "form_add": 3,
+      "started": false,
+      "slot": null,
+      "beat_starter_last_week": true,
+      "boost_note": "+1.0 bench-vs-starter (beat Wilson +8.8 / Pitts +10.1 / Etienne +7.0); still capped at +3.00"
+    },
+    "Michael Pittman Jr.": {
+      "games": 1,
+      "actual": 7.1,
+      "expected_avg": 5.0,
+      "residual": 2.1,
+      "form_add": 0.73,
+      "started": false,
+      "slot": null,
+      "beat_starter_last_week": false
+    },
+    "Jonathon Brooks": {
+      "games": 1,
+      "actual": 6.0,
+      "expected_avg": 6.0,
+      "residual": 0.0,
+      "form_add": 0.0,
+      "started": false,
+      "slot": null,
+      "beat_starter_last_week": false
+    },
+    "Tre Tucker": {
+      "games": 1,
+      "actual": 5.2,
+      "expected_avg": 8.0,
+      "residual": -2.8,
+      "form_add": -0.98,
+      "started": false,
+      "slot": null,
+      "beat_starter_last_week": false
+    },
+    "Rashid Shaheed": {
+      "games": 1,
+      "actual": 4.1,
+      "expected_avg": 8.3,
+      "residual": -4.2,
+      "form_add": -1.47,
+      "started": false,
+      "slot": null,
+      "beat_starter_last_week": false
+    }
+  }
+}
