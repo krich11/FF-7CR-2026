@@ -2,6 +2,8 @@
 
 Repo `krich11/FF-7CR-2026` on `main` is the source of truth (per `FILESYSTEM.md`, effective 2026-09-27). Every run pulls `main` first and commits its outputs to `main` at the end. The live path in `FILESYSTEM.md` wins over any local copy.
 
+Commits (Blitz rule, 2026-09-27): push straight to `main` with `QBZ_GITHUB_TOKEN` only (git over HTTPS or the contents API). Never fall back to `GITHUB_TOKEN`, which is a read-only token from another account. Pull or re-read `main` right before every write and retry if another commit lands first. Use a cloud agent only if the direct push fails, and report that failure in the War Room. Never print the token.
+
 Sigma reads `data/roster.json`, `data/availability.json`, `data/recon/league_rosters.json` + `league_index.json`, `playbook/`, `playbook/CLAIMS.md` and `agents/sigma/CHARTER.md`.
 Sigma writes packets to `agents/sigma/work/week-N-packet.md`, claim boards into `playbook/CLAIMS.md` (Sigma board sections only), and snaps, form, usage and AARs to `agents/sigma/work/`.
 
