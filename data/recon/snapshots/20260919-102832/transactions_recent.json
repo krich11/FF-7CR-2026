@@ -1,0 +1,139 @@
+{
+  "as_of": "2026-09-15T17:57:55.413382-07:00",
+  "n": 8,
+  "note": "fetched via read API (recon refresh_dumps)",
+  "transactions": [
+    {
+      "id": "d4edb79d-8be0-4aec-8f75-90bd7da0fbb8",
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 3,
+      "scoringPeriodId": 2,
+      "items": [
+        {
+          "type": "LINEUP",
+          "playerId": 3121422
+        },
+        {
+          "type": "LINEUP",
+          "playerId": 3126486
+        }
+      ]
+    },
+    {
+      "id": "062ade18-d108-47ae-9144-77d620284c08",
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 7,
+      "scoringPeriodId": 2,
+      "items": [
+        {
+          "type": "LINEUP",
+          "playerId": -16006
+        },
+        {
+          "type": "LINEUP",
+          "playerId": -16027
+        }
+      ]
+    },
+    {
+      "id": "a0ec3871-3f9b-4b97-8292-68c4c7783351",
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 7,
+      "scoringPeriodId": 2,
+      "items": [
+        {
+          "type": "LINEUP",
+          "playerId": 3052587
+        },
+        {
+          "type": "LINEUP",
+          "playerId": 3046779
+        }
+      ]
+    },
+    {
+      "id": "c0939cc3-a978-437c-96cd-e586d34f2127",
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 2,
+      "scoringPeriodId": 2,
+      "items": [
+        {
+          "type": "LINEUP",
+          "playerId": 4047646
+        }
+      ]
+    },
+    {
+      "id": "1ae4ca7b-2eea-4256-92f3-e41a0054eb27",
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 1,
+      "scoringPeriodId": 2,
+      "items": [
+        {
+          "type": "DROP",
+          "playerId": 3912547
+        }
+      ]
+    },
+    {
+      "id": "c407ed00-c564-4704-a654-901f3b04c691",
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 7,
+      "scoringPeriodId": 2,
+      "items": [
+        {
+          "type": "LINEUP",
+          "playerId": 3953687
+        },
+        {
+          "type": "LINEUP",
+          "playerId": 3917232
+        }
+      ]
+    },
+    {
+      "id": "9aaf49aa-43d1-4bfb-be36-4716ae253abc",
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 4,
+      "scoringPeriodId": 2,
+      "items": [
+        {
+          "type": "LINEUP",
+          "playerId": 4432620
+        },
+        {
+          "type": "LINEUP",
+          "playerId": 4612826
+        }
+      ]
+    },
+    {
+      "id": "dc6f118c-6500-41f7-9f6c-dff38875ebae",
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 2,
+      "scoringPeriodId": 2,
+      "items": [
+        {
+          "type": "LINEUP",
+          "playerId": 4258173
+        },
+        {
+          "type": "LINEUP",
+          "playerId": 4430737
+        },
+        {
+          "type": "LINEUP",
+          "playerId": 4035538
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,669 @@
+{
+  "as_of": "2026-09-05T14:19:23.125199-07:00",
+  "n": 210,
+  "note": "fetched via nofilter",
+  "transactions": [
+    {
+      "id": "5afc6c19-a612-403f-826d-a2c7465740ba",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 9,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4040715
+        }
+      ]
+    },
+    {
+      "id": "7d67820a-a728-4f21-942a-26e318adfb91",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 2,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4430737
+        }
+      ]
+    },
+    {
+      "id": "7deec13d-8ace-4e13-92f9-e2819d1f5be4",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 3,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4595348
+        }
+      ]
+    },
+    {
+      "id": "28374985-5ba4-4c8a-8f4c-2d859e5fae99",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 6,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4431459
+        }
+      ]
+    },
+    {
+      "id": "b1abbd79-fc64-4e25-877c-2887e43f9dca",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 1,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4429096
+        }
+      ]
+    },
+    {
+      "id": "10776165-6792-4370-83e9-4314895e7fe8",
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 11,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "LINEUP",
+          "playerId": 15818
+        }
+      ]
+    },
+    {
+      "id": "cbf4038c-e447-4685-a733-c373c055461e",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 8,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 2473037
+        }
+      ]
+    },
+    {
+      "id": "a824685f-88c2-4f57-94e7-a5b075724fbf",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 4,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4697815
+        }
+      ]
+    },
+    {
+      "id": "667320a6-6f9d-4460-bc9d-52c45b03b5e9",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 4,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4612826
+        }
+      ]
+    },
+    {
+      "id": "873ea3e2-09d9-4f18-91ab-976e26535d0e",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 9,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4575131
+        }
+      ]
+    },
+    {
+      "id": "ba71b6dd-7b4a-4074-a0b1-0f298f0b839e",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 3,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4429795
+        }
+      ]
+    },
+    {
+      "id": "04f6c025-b00b-4334-b92e-1e1f64164c50",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 11,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4430802
+        }
+      ]
+    },
+    {
+      "id": "1fff1c37-fc3c-4777-a512-f1b0ee0d64a5",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 11,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4431452
+        }
+      ]
+    },
+    {
+      "id": "b9a9962e-6b78-4eb1-9dae-aa7308b5558b",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 13,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4034949
+        }
+      ]
+    },
+    {
+      "id": "8f14af0a-4343-4b69-89de-51e339c3a668",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 7,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 3046779
+        }
+      ]
+    },
+    {
+      "id": "8ee55d8b-2513-4a60-a0f4-77180bfeda9c",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 8,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4431611
+        }
+      ]
+    },
+    {
+      "id": "3bc014b8-71a0-445f-b7b9-02c34ab80b22",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 3,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4361050
+        }
+      ]
+    },
+    {
+      "id": "b1e74e97-e26d-470f-9bf3-ce6f0ed84ff9",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 2,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 15847
+        }
+      ]
+    },
+    {
+      "id": "3012b487-7de6-4403-8430-0af13171ba54",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 13,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 3916433
+        }
+      ]
+    },
+    {
+      "id": "f6c86985-2bd0-465d-9d06-86c9e3c9886a",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 11,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4685278
+        }
+      ]
+    },
+    {
+      "id": "15256e97-760b-40fc-acfb-18c29eca4a6b",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 1,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 3929645
+        }
+      ]
+    },
+    {
+      "id": "bdc52d1a-977e-4b00-9f5f-8ae08892f212",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 12,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4361307
+        }
+      ]
+    },
+    {
+      "id": "6b5cbbb8-ffaf-4ed1-82ff-fee7b452d473",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 10,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4362238
+        }
+      ]
+    },
+    {
+      "id": "fb361a06-56d6-44f0-aafb-cef4d9b98618",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 2,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": -16033
+        }
+      ]
+    },
+    {
+      "id": "98536cf8-bed0-41b8-8524-05f47d2a8899",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 7,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4576297
+        }
+      ]
+    },
+    {
+      "id": "c0f9e9a2-df6c-4117-97c8-de3f2d7bf81e",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 12,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 2577417
+        }
+      ]
+    },
+    {
+      "id": "059871c1-4c77-43b9-930a-9005533f6b09",
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 13,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "LINEUP",
+          "playerId": 4035687
+        },
+        {
+          "type": "LINEUP",
+          "playerId": 3121023
+        }
+      ]
+    },
+    {
+      "id": "ce509d6d-5a35-46aa-a86c-618792aa905b",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 10,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4373678
+        }
+      ]
+    },
+    {
+      "id": "fef685ea-678c-494b-b41f-0e288321388b",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 9,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4567750
+        }
+      ]
+    },
+    {
+      "id": "f2a7fb34-6a85-4893-a737-72c3a3917d5f",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 4,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4572680
+        }
+      ]
+    },
+    {
+      "id": "b7adf112-948f-4444-a406-2b8188f7b3a6",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 2,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4360689
+        }
+      ]
+    },
+    {
+      "id": "0d2f768c-d03e-4b1a-a445-d552927eec59",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 2,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4430878
+        }
+      ]
+    },
+    {
+      "id": "39781ea1-7480-40d3-8df0-b73b29f1a805",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 12,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4428557
+        }
+      ]
+    },
+    {
+      "id": "f975eb3f-3215-45eb-a001-56d3d0c01b21",
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 1,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "LINEUP",
+          "playerId": 4239993
+        },
+        {
+          "type": "LINEUP",
+          "playerId": 4569987
+        }
+      ]
+    },
+    {
+      "id": "f27766f6-bb29-498a-a839-05e7142b2a60",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 9,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4426354
+        }
+      ]
+    },
+    {
+      "id": "143f56d3-89bf-4914-8625-b760e3fcff04",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 11,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 15818
+        }
+      ]
+    },
+    {
+      "id": "dccf310b-afc0-45fe-a590-06cc6a133c6f",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 4,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4426515
+        }
+      ]
+    },
+    {
+      "id": "78d84696-7749-45b5-82b0-eeabfa50774e",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 8,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4870653
+        }
+      ]
+    },
+    {
+      "id": "709e89bc-5c0e-47ac-a565-add296ff3d0e",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 7,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4038815
+        }
+      ]
+    },
+    {
+      "id": "c9ecb342-ea6c-49ca-b10a-fa9b9bc0ce82",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 6,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4689936
+        }
+      ]
+    },
+    {
+      "id": "56ef7307-6e2c-45f5-bd4e-e88f8de813c2",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 10,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 2576925
+        }
+      ]
+    },
+    {
+      "id": "58a7fc29-7277-4514-8fcc-6a3638b7c88e",
+      "type": "WAIVER",
+      "status": "EXECUTED",
+      "teamId": 4,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "ADD",
+          "playerId": -16030
+        },
+        {
+          "type": "DROP",
+          "playerId": 5083315
+        }
+      ]
+    },
+    {
+      "id": "d6e4627a-3c63-4fad-9449-c58e097c2332",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 4,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4890973
+        }
+      ]
+    },
+    {
+      "id": "5a95cb9d-5f53-4b71-9c9e-a2dbf0720733",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 9,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4685720
+        }
+      ]
+    },
+    {
+      "id": "9ae5fb53-d924-462d-a7cf-cccc4a7d9400",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 1,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4688813
+        }
+      ]
+    },
+    {
+      "id": "be54c1e1-51fb-4688-b47c-69c0ac33c9ed",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 2,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4241463
+        }
+      ]
+    },
+    {
+      "id": "891d7587-ab3e-4315-871c-3e2cdb22dd72",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 10,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4360078
+        }
+      ]
+    },
+    {
+      "id": "1631a038-8720-4f33-acdd-f7a2ff220897",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 2,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 17372
+        }
+      ]
+    },
+    {
+      "id": "76fc3c8a-e5ef-4592-9bcf-cac8ae4a1983",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 6,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4429205
+        }
+      ]
+    },
+    {
+      "id": "a044ce5f-c1e7-43a5-84c1-7812546c3f12",
+      "type": "DRAFT",
+      "status": "EXECUTED",
+      "teamId": 2,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "type": "DRAFT",
+          "playerId": 4036133
+        }
+      ]
+    }
+  ]
+}
