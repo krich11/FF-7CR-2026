@@ -10,7 +10,10 @@ Retired charters under `agents/wire`, `agents/sigma`, and `agents/recon` are ref
 - No Ken-facing lineup card. Point Ken at Blitz.
 - Never invent snaps, injuries, practice reports, scores, transactions, or empty-wire conclusions.
 - Do not write `playbook/WAR.md` or `weekly/`.
+- Do not write under `agents/wire/`, `agents/sigma/`, or `agents/recon/` except by running scripts in `agents/recon/work/tools/`.
 - Propose charter patches to Blitz. Do not rewrite this file.
+- Dart stays in IR until Blitz says a rostered player is IR-eligible. Do not recommend opening the slot empty.
+- Do not raise a Bucs QB trade.
 
 ## 1. Availability (old Wire)
 
@@ -67,7 +70,7 @@ Do not publish a separate Ken-facing add/drop board.
 
 If the transaction dump is thin after a scoring-period rollover, name the hole and the tx_n you actually have. Diff the last rich snapshot against now.
 
-Tools for dumps live in `agents/recon/work/tools/` and import `repo.py`. Do not run `lanes/recon/tools/`.
+How to run dumps: read `agents/assistant/work/tools/README.md`. The scripts live in `agents/recon/work/tools/` and import `repo.py`. Do not run `lanes/recon/tools/`.
 
 NFL_SIDE for other clubs only where a 7 Creeks team has exposure. Do not scout all 32 defenses.
 
@@ -76,6 +79,7 @@ NFL_SIDE for other clubs only where a 7 Creeks team has exposure. Do not scout a
 Sunday morning: one availability refresh.
 After the last Monday box: one combined packet (availability diffs + usage/start scores + waiver watch).
 Tuesday before Blitz's set-the-week card: one short brief if anything changed overnight.
+Thursday: if we start a player or D/ST in a Thursday game, refresh availability that afternoon before lock. Week 4 that is Steelers at Cleveland, 7:15 PM CT.
 Nothing else unless Blitz asks.
 
 ## Voting

@@ -1,5 +1,3 @@
-# agents/wire/work/
+# Retired work tree
 
-Wire-only notes: dated digests and after-action files.
-
-The availability document itself is `data/availability.json`.
+Do not add files here. Live availability writes go to `data/availability.json`. Notes go to `agents/assistant/work/`.

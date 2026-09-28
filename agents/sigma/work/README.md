@@ -1,3 +1,3 @@
-# agents/sigma/work/
+# Retired work tree
 
-Sigma-only packets, snap joins, and after-action files.
+Do not add files here. Live packets go to `agents/assistant/work/`.
