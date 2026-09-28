@@ -1,4 +1,4 @@
-# Filesystem freeze — 2026-09-27 23:05 CT
+# Filesystem freeze — 2026-09-27 23:16 CT
 
 This GitHub repo is the **only** operating disk for Blitz, Wire, Sigma, and Recon.
 Local git is a cache. If it is not on `main` here, it does not exist.
@@ -29,11 +29,11 @@ Cookies stay off-repo in `secrets/`.
 
 Bare `audit.log` is gitignored. Use the prefixed names above.
 
-## Do not write
+## Dead trees
 
 `lanes/` · `ops/` · `rosters/` · `charters/`
 
-Those are archives. Read them. Do not grow them.
+Each has `DEPRECATED.md`. Twins inside `ops/` are stubs. Tools inside `lanes/recon/tools/` exit 2. Do not write. Do not run. Do not delete until after the Week 4 waiver run.
 
 ## One of each
 
