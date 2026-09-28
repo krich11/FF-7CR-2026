@@ -1,0 +1,112 @@
+2026-09-03T20:38:57.874781-07:00	availability.refresh	week=1	players=16	state_changes=0	sources=nfl.com,espn,beat
+2026-09-04T09:48:59.724110-07:00	availability.refresh	week=1	players=16	state_changes=0	sources=nfl.com,espn,beat
+2026-09-04T12:44:55.215340-07:00	availability.refresh	week=1	players=16	state_changes=0	sources=cbssports,nfl.com,espn,beat	routine=friday-noon
+2026-09-04T14:23:12.960305-07:00	availability.refresh	week=1	friday-tweak	players=16	state_changes=Eddy Pineiro(lock:UNLOCKED->LOCKED),Sam Darnold(lock:UNLOCKED->LOCKED),Zach Charbonnet(lock:UNLOCKED->LOCKED),Rashid Shaheed(lock:UNLOCKED->LOCKED)	sources=nfl.com,cbssports,espn,fantasypros,beat
+2026-09-04T20:14:23.096214-07:00	availability.refresh	week=1	fri-evening	players=16	state_changes=0	sources=espn,nfl.com,cbssports,fantasypros,beat	projections=refreshed
+2026-09-05T15:10:48.472181-07:00	STATUS_OVERRIDE	player=Josh Jacobs	espn=DTD	official=EXEMPT	source=nfl.com
+2026-09-05T15:10:48.472181-07:00	STATUS_OVERRIDE	player=Zach Charbonnet	espn=O	official=PUP	source=espn/nbcsports
+2026-09-05T15:10:48.472181-07:00	availability.refresh	week=1	players=16	state_changes=0	roster_sync=drop:Sam Darnold;add:Tre Tucker;rename:Steelers->Steelers D/ST	sources=nfl.com,espn,beat,cbssports
+2026-09-06T07:08:04.857144-07:00	STATUS_OVERRIDE	player=Josh Jacobs	espn=DTD	official=EXEMPT	source=nfl.com
+2026-09-06T07:08:04.857144-07:00	STATUS_OVERRIDE	player=Zach Charbonnet	espn=O	official=PUP	source=espn
+2026-09-06T07:08:04.857144-07:00	availability.refresh	week=1	players=16	state_changes=0	sources=nfl.com,espn,beat	routine=sunday-7am
+2026-09-07T09:43:30.139825-07:00	STATUS_OVERRIDE	player=Josh Jacobs	espn=DTD	official=EXEMPT	source=nfl.com
+2026-09-07T09:43:30.139825-07:00	STATUS_OVERRIDE	player=Zach Charbonnet	espn=O	official=PUP	source=espn/seahawks.com
+2026-09-07T09:43:30.139825-07:00	availability.refresh	week=1	players=16	state_changes=0	sources=nfl.com,seahawks.com,espn,beat	routine=weekdays-9am	roster_as_of=2026-09-06T08:16:32-07:00	roster_stale_gt24h=true	ask_blitz=roster.sync
+2026-09-08T06:13:01.607078-07:00	availability.refresh	week=1	players=16	state_changes=Michael Pittman Jr.(news refresh LIMITED; Mon practice),Jonathon Brooks(Q play_prob 0.75→0.55; Mon trainers / hopes so)	sources=nfl.com,beat,espn,49erswebzone,fantasypros	routine=wire-8am-new-news-backup
+2026-09-08T09:25:47.355540-07:00	STATUS_OVERRIDE	player=Josh Jacobs	espn=DTD	official=EXEMPT	source=nfl.com
+2026-09-08T09:25:47.355540-07:00	STATUS_OVERRIDE	player=Zach Charbonnet	espn=O	official=PUP	source=espn/nfl.com
+2026-09-08T09:25:47.355540-07:00	availability.refresh	week=1	players=16	state_changes=0	sources=nfl.com,seahawks.com,espn,beat,panthers.com	routine=weekdays-9am	roster_as_of=2026-09-07T09:44:11-07:00	roster_stale_gt24h=false
+2026-09-09T09:29:49-07:00	STATUS_OVERRIDE	player=Josh Jacobs	espn=DTD	official=EXEMPT	source=nfl.com
+2026-09-09T09:29:49-07:00	STATUS_OVERRIDE	player=Zach Charbonnet	espn=O	official=PUP	source=espn/nfl.com
+2026-09-09T09:29:49-07:00	availability.refresh	week=1	players=16	state_changes=0	sources=nfl.com,seahawks.com,espn,beat,panthers.com,steelers.com	routine=weekdays-9am	roster_as_of=2026-09-08T20:18:08-07:00	roster_stale_gt24h=false
+2026-09-10T09:24:00-07:00	STATUS_OVERRIDE	player=Josh Jacobs	espn=DTD	official=EXEMPT	source=nfl.com/wsaw
+2026-09-10T09:24:00-07:00	STATUS_OVERRIDE	player=Zach Charbonnet	espn=O	official=PUP	source=espn/nfl.com/seahawks
+2026-09-10T09:24:00-07:00	availability.refresh	week=1	players=17	state_changes=Jonathon Brooks: play_prob 0.55→0.75,Jakobi Meyers: play_prob 0.45→0.75,Tyler Allgeier: NEW→ACTIVE	lock_changes=Zach Charbonnet: lock_state UNLOCKED→DONE;Rashid Shaheed: lock_state UNLOCKED→DONE	sources=nfl.com,cbs,panthers.com,49ers.com,raiders.com,beat,espn	routine=weekdays-9am	roster_as_of=2026-09-09T15:31:53-07:00	roster_stale_gt24h=false
+2026-09-11T09:10:00-07:00	STATUS_OVERRIDE	player=Josh Jacobs	espn=DTD	official=EXEMPT	source=nfl.com/nypost/espn
+2026-09-11T09:10:00-07:00	STATUS_OVERRIDE	player=Zach Charbonnet	espn=O	official=PUP	source=espn/nfl.com/seahawks
+2026-09-11T09:10:00-07:00	availability.refresh	week=1	players=17	state_changes=0	sources=nfl.com,atlantafalcons.com,panthers.com,raiders.com,azcardinals.com,steelers.com,espn,beat	routine=weekdays-9am	roster_as_of=2026-09-09T15:31:53-07:00	roster_stale_gt24h=true	ask_blitz=roster.sync	note=Fri_final_IR_not_yet_posted
+2026-09-12T06:10:00-07:00	availability.refresh	week=1	players=17	state_changes=2	sources=nfl.com,team,beat	note=8am_digest_fri_finals	Jonathon Brooks:QUESTIONABLE->ACTIVE;Jakobi Meyers:QUESTIONABLE->ACTIVE
+2026-09-12T06:11:46-07:00	availability.refresh	week=1	state_changes=0	news=London Tua OUT,Pitts Tua OUT,Steelers Porter Q,Pittman cleared,Tucker Bowers,Allgeier Love Q	catchup=fri-noon-failed	sources=nfl.com,team
+2026-09-15T11:16:42-07:00	W8	availability.note	post-W1 locks/news	week=1
+2026-09-15T12:14:17-07:00	STATUS_OVERRIDE	player=Josh Jacobs	espn=DTD	official=EXEMPT	source=nfl.com/nypost/schefter
+2026-09-15T12:14:17-07:00	STATUS_OVERRIDE	player=Zach Charbonnet	espn=O	official=PUP	source=espn/nfl.com/seahawks
+2026-09-15T12:14:17-07:00	availability.refresh	week=2	players=17	state_changes=0	sources=nfl.com,atlantafalcons.com,espn,beat,schefter,rotowire,cardswire,steelers	routine=av-set-week	roster_as_of=2026-09-15T12:05:01.947923-07:00	roster_stale_gt24h=false	note=post-W1_set_window_W2
+2026-09-15T20:08:55.610930-07:00	STATUS_OVERRIDE	player=Josh Jacobs	espn=DTD	official=EXEMPT	source=nfl.com/nypost/schefter/rotowire	autocommit_refresh
+2026-09-15T20:08:55.610930-07:00	STATUS_OVERRIDE	player=Zach Charbonnet	espn=O	official=PUP	source=espn/nfl.com/seahawks	autocommit_refresh
+2026-09-16T14:16:42.016174-07:00	STATUS_OVERRIDE	player=Josh Jacobs	espn=DTD	official=EXEMPT	source=nfl.com/nypost/schefter	autocommit_set_backup
+2026-09-16T14:16:42.016174-07:00	STATUS_OVERRIDE	player=Zach Charbonnet	espn=O	official=PUP	source=espn/nfl.com/seahawks	autocommit_set_backup
+2026-09-16T14:16:42.016174-07:00	STATUS_NOTE	player=Michael Pittman Jr.	espn=Q	official_practice=LIMITED_foot	source=steelers.com	snap_mult=0.70
+2026-09-16T14:16:42.016174-07:00	STATUS_NOTE	player=Jakobi Meyers	espn=Q	official_practice=LIMITED_thumb	source=jaguars.com	snap_mult=0.75
+2026-09-17T11:13:05-07:00	W8	news touch Steelers/Etienne/Allgeier/Tucker
+2026-09-18T11:22:41-07:00	W8 Fri	Rush confirmed W2; Pittman DNP foot; Kamara debut; Bowers practiced
+2026-09-18T14:23:33-07:00	STATUS_OVERRIDE	player=Josh Jacobs	espn=DTD	official=EXEMPT	source=nfl.com
+2026-09-18T14:23:33-07:00	STATUS_OVERRIDE	player=Zach Charbonnet	espn=O	official=PUP	source=espn/nfl.com
+2026-09-18T14:23:33-07:00	availability.refresh	week=2	fri_tweak_afternoon	pittman=QUESTIONABLE	meyers=LIMITED_nodesig	bowers=DOUBTFUL	porter=OUT	pineiro=Q_fri_UNSPECIFIED
+2026-09-18T14:28:21-07:00	STATUS_OVERRIDE	player=Josh Jacobs	espn=DTD	official=EXEMPT	source=nfl.com
+2026-09-18T14:28:21-07:00	STATUS_OVERRIDE	player=Zach Charbonnet	espn=O	official=PUP	source=espn/nfl.com/seahawks
+2026-09-18T14:28:21-07:00	availability.refresh	week=2	fri_ir	players=17	state_changes=0	pittman=QUESTIONABLE	meyers=LIMITED_nodesig	bowers=DOUBTFUL	porter=OUT	pineiro=Q_fri_UNSPECIFIED	rush=STARTS	penix=OUT	tua=DOUBTFUL	kamara=FP_nodesig	roster_stale=false	ct=Fri Sep 18, 4:28 PM CT
+2026-09-18T20:09:00-07:00	STATUS_OVERRIDE	player=Josh Jacobs	espn=DTD	official=EXEMPT	source=nfl.com	autocommit_friday
+2026-09-18T20:09:00-07:00	STATUS_OVERRIDE	player=Zach Charbonnet	espn=O	official=PUP	source=espn/nfl.com	autocommit_friday
+2026-09-18T20:09:00-07:00	STATUS_NOTE	player=Eddy Pineiro	espn=Q	official=QUESTIONABLE_illness	source=49ers.com/nbc/cbs	play_prob=0.55	was=UNSPECIFIED
+2026-09-19T11:04:02.346126-07:00	W8 Sat	availability.refresh	week=2	pittman=QUESTIONABLE->OUT	pineiro=still_Q_no_sat_signing	sources=SteelersPRBurt,RapSheet,Schefter,Garafolo,49ers/beat	ct=Sat Sep 19, 1:04 PM CT	no_ken_blitz_ping_per_task
+2026-09-20T08:19:19.196154-07:00	STATUS_OVERRIDE	player=Josh Jacobs	espn=DTD	official=EXEMPT	source=SI/nfl.com	sun_am_confirm
+2026-09-20T08:19:19.196154-07:00	STATUS_OVERRIDE	player=Zach Charbonnet	espn=O	official=PUP	source=nfl.com/seahawks	sun_am_confirm
+2026-09-20T08:19:19.196154-07:00	STATUS_NOTE	player=Michael Pittman Jr.	espn=O	official=OUT_foot	source=WCCS/ESPN/SteelersPR	sun_am_confirm
+2026-09-20T08:19:19.196154-07:00	STATUS_NOTE	player=Eddy Pineiro	espn=Q	official=QUESTIONABLE_illness	beat=expected_play_Maiocco	play_prob=0.85	source=NBC Bay Area
+2026-09-20T08:19:19.196154-07:00	availability.refresh	week=2	sun_am_inactives	players=17	state_changes=0	new_outs_starters=0	1pm_starters=ALL_ACTIVE	pittman=OUT	jacobs=EXEMPT	charbonnet=PUP	pineiro=Q_expected	bowers=DOUBTFUL	official_1pm_lists=PENDING_1130ET	nflcom_inactives=STALE_DISREGARDED	ct=10:19 AM CT	no_ken_ping_per_task
+2026-09-20T13:11:18.997922-05:00	W8	week=2	ournotes=Etienne Kamara-active note,Shaheed Olave-active note	pittman=OUT_confirm	porter=OUT	tua=inactive	kamara=active	olave=active
+2026-09-21T13:24:33.690847-05:00	W8	Mon	goedert=MRI_Mon_may_miss	bowers=inactive_W2_trend_W3	pineiro=ACTIVE_confirm
+2026-09-21T20:15:18.590111-05:00	STATUS_NOTE	player=Jaxson Dart	espn=Q	official=QUESTIONABLE_knee_MNF	winston=in	devito=not_on_53	ken_claimed_OUT=true	source=ESPN_API/CBS
+2026-09-21T20:15:18.590111-05:00	STATUS_OVERRIDE	player=Dallas Goedert	espn=D	official=OUT_MCL_few_weeks	source=Schefter/Rapoport/ESPN	was=QUESTIONABLE
+2026-09-21T20:15:18.590111-05:00	AV	week=2	dart=ACTIVE->QUESTIONABLE	goedert=QUESTIONABLE->OUT	qb_ripple=no_our_NYG_pass_catchers	ct=Mon Sep 21, 8:15 PM CT	blitz_only=1
+2026-09-22T13:19:35.841056-05:00	STATUS_NOTE	player=Jonathon Brooks	espn=D	official=QUESTIONABLE_groin_W2W	was=ACTIVE_stale	source=Pelissero/Canales
+2026-09-22T13:19:35.841056-05:00	STATUS_NOTE	player=Jaxson Dart	espn=Q	official=QUESTIONABLE_believed_MCL	mri=Tue_pending	winston=backup
+2026-09-22T13:19:35.841056-05:00	AV	week=3	brooks=ACTIVE->QUESTIONABLE	dart=Q_refresh_MCL	goedert=OUT_hold	lock_state=DONE_W2	qb_ripple=none	ct=Tue Sep 22, 1:19 PM CT	blitz_only=1
+2026-09-22T14:25:57.917039-05:00	STATUS_OVERRIDE	player=Jaxson Dart	espn=Q_or_pending	official=OUT_extended_MRI	source=Rapoport/Schefter/Garafolo
+2026-09-22T14:25:57.917039-05:00	STATUS_OVERRIDE	player=Josh Jacobs	espn=DTD	official=EXEMPT	source=NFL_admin
+2026-09-22T14:25:57.917039-05:00	STATUS_OVERRIDE	player=Zach Charbonnet	espn=O	official=PUP	source=Seahawks
+2026-09-23T07:14:01.172-05:00	AV	week=3	murray_claim_refresh	players=17	brooks=DROPPED_cleared_from_AV	murray=ADDED_ACTIVE_cleared_concussion_starts_MIN@TB	pittman=OUT->QUESTIONABLE_wed_eval_pending	dart=OUT_hold	goedert=OUT_hold	jacobs=EXEMPT_hold	charbonnet=PUP_hold	pending_stale=cleared	ct=Wed Sep 23, 7:14 AM CT	blitz_only=1
+2026-09-23T07:14:01.172-05:00	STATUS_OVERRIDE	player=Jaxson Dart	espn=DOUBTFUL	official=OUT_extended_MRI	source=ESPN/Rapoport/Garafolo/Schefter
+2026-09-23T07:14:01.172-05:00	STATUS_OVERRIDE	player=Dallas Goedert	espn=DOUBTFUL	official=OUT_MCL_few_weeks	source=Schefter/Rapoport/ESPN
+2026-09-23T07:14:01.172-05:00	STATUS_OVERRIDE	player=Josh Jacobs	espn=DAY_TO_DAY	official=EXEMPT	source=NFL.com/Packers_admin
+2026-09-23T07:14:01.172-05:00	STATUS_OVERRIDE	player=Zach Charbonnet	espn=OUT	official=PUP	source=Seahawks/TSN
+2026-09-23T07:14:01.172-05:00	STATUS_NOTE	player=Kyler Murray	state=ACTIVE	cleared_concussion	starts=MIN@TB_Sun_305CT	source=Vikings.com/CBS/Garafolo	claim=EXECUTED_0251CT
+2026-09-23T07:14:01.172-05:00	STATUS_NOTE	player=Michael Pittman Jr.	espn=QUESTIONABLE	official=QUESTIONABLE_foot	was=OUT	wed_eval=pending_early_Wed_CT	source=McCarthy/SteelersDepot/NBC
+2026-09-23T13:30:59.289-05:00	W8	week=3	blitz_packet	av_updated=1	status_changes=Dart:OUT_extended->OUT_SEASON_SURGERY	our=Murray_ACTIVE_claim,Dart_SEASON_OVER,Pittman_Wed_LIMITED	lg=Pierce_IR_LL,Flowers_Wed_DNP_TE,Collins_Wed_DNP_PP,Reed_OUT_TNF_FR	sources=Schefter/Rapoport/NFLN,McCarthy/Pryor,Steichen/Yahoo,Ravens.com,NBC/Bien-Aime,Packers	espn_write=false	ken_msg=false	blitz_only=1	ct=Wed Sep 23, 1:30 PM CT
+2026-09-23T13:31:52.124-05:00	AV	week=3	dart_season_patch	dart=OUT->IR_SEASON_OVER	murray=ACTIVE_confirmed	goedert=OUT_hold	ct=Wed Sep 23, 1:31 PM CT	blitz_only=1
+2026-09-23T13:31:52.124-05:00	STATUS_OVERRIDE	player=Jaxson Dart	espn=DOUBTFUL	official=IR_SEASON_OVER	source=Schefter/Rapoport/NFLN
+2026-09-23T14:23:16.774662-07:00	STATUS_NOTE	player=Michael Pittman Jr.	espn=Q	official=QUESTIONABLE_foot_Wed_LIMITED_practice	source=McCarthy/Pryor	play_prob=0.50
+2026-09-23T14:23:16.774662-07:00	STATUS_NOTE	player=Travis Etienne Jr.	espn=Q	official=ACTIVE_no_W3_OUT	source=ESPN_tag_only_set_backup
+2026-09-23T14:23:16.774662-07:00	STATUS_OVERRIDE	player=Jaxson Dart	espn=O	official=IR_SEASON_OVER	source=Schefter/Rapoport	autocommit_set_backup
+2026-09-24T13:16:42.886033-05:00	W8	week=3	blitz_packet	av_updated=1	status_changes=Etienne:ACTIVE->QUESTIONABLE_hamstring_Wed_LP,Jacobs:EXEMPT_hold_court_seal_denied,Pittman:QUESTIONABLE_hold_Thu_report_pending,Meyers:ACTIVE->QUESTIONABLE_thumb_Wed_LP	ourour=Etienne_Q_hamstring,Meyers_Q_thumb,Jacobs_EXEMPT_court,Pittman_Thu_pending	lg=Flowers_Thu_DNP_TE,Collins_Thu_DNP_PP,AJBrown_6-8wk_PP,Puka_surprised_CDS,Evans_optimistic_LY,Dowdle_Thu_DNP_LY,Bowers_Wed_LP_LL	sources=Saints.com,Pats/Jax,Florio/Demovsky,NBC/Hensley,NBC/Alper,Schefter,Rapoport,Farabaugh,Raiders.com	espn_write=false	ken_msg=false	blitz_only=1	ct=Thu Sep 24, 1:16 PM CT
+2026-09-24T13:16:42.886033-05:00	AV	week=3	reconcile_roster	tucker=DROPPED_cleared_from_AV	roster_n=16	av_n=16	ct=Thu Sep 24, 1:16 PM CT	blitz_only=1
+2026-09-24T13:16:42.886033-05:00	STATUS_NOTE	player=Travis Etienne Jr.	espn=Q	official=QUESTIONABLE_hamstring_Wed_LP	was=ACTIVE_stale_wrong_game	game=LV@NO	source=Saints.com
+2026-09-24T13:16:42.886033-05:00	STATUS_NOTE	player=Jakobi Meyers	espn=Q	official=QUESTIONABLE_thumb_Wed_LP	was=ACTIVE_healthy_stale	source=Patriots.com/Jaguars
+2026-09-24T13:16:42.886033-05:00	STATUS_NOTE	player=Josh Jacobs	official=EXEMPT_hold	court=seal_denied_Thu	source=Florio/Demovsky
+2026-09-24T13:16:42.886033-05:00	STATUS_NOTE	player=Michael Pittman Jr.	espn=Q	official=QUESTIONABLE_foot_Wed_LIMITED	thu_report=pending_~1:15p_CT	source=Steelers.com
+2026-09-25T14:14:59-05:00	W8	week=3	blitz_packet	av_updated=1	status_changes=Etienne:QUESTIONABLE->ACTIVE_no_designation_Fri_FP,Allgeier:team_fix_ATL->ARI	lock=London,Pitts,Jacobs:UNLOCKED->DONE	our=Etienne_no_desig,Goedert_avoids_IR,Allgeier_team_fix,Murray_no_desig,Meyers_Pittman_Fri_pending	lg=Puka_DOUBTFUL_CDS,Bowers_Q_LL,DJMoore_Q_GTD_LL,Flowers_Fri_practice_TE,Collins_Fri_DNP_PP,Daniels_out_no_IR_FR,Coker_Q_TCO,Douglas_OUT_DDT,Dowdle_Fri_absent_LY,AJones_no_desig_LL,McConkey_cleared_CDS,Pollard_FP_MBB	qb_ripple=SEA_Darnold_LP_Wed->FP_Thu(Shaheed)	gaps=PIT,JAX,BAL,HOU,SF,LAR_Fri_reports_not_filed_by_2:14p	sources=Saints.com,Vikings.com,Jaguars.com,Steelers.com,NBC,CBS/RotoWire,Fowler,USAToday,azcardinals.com,Packers.com	espn_write=false	ken_msg=false	blitz_only=1	ct=Fri Sep 25, 2:14 PM CT
+2026-09-25T14:14:59-05:00	AV	week=3	fri_final_patch	etienne=QUESTIONABLE->ACTIVE	allgeier=ATL@GB->ARI@SF_UNLOCKED	lock_done=London,Pitts,Jacobs	meyers=Q_0.75/0.75	pittman=Q_0.45/0.55	goedert=OUT_hold_no_IR	av_n=16	ct=Fri Sep 25, 2:14 PM CT	blitz_only=1
+2026-09-25T14:14:59-05:00	STATUS_OVERRIDE	player=Travis Etienne Jr.	espn=QUESTIONABLE	official=ACTIVE_no_designation_Fri_FP	source=NewOrleansSaints.com_Fri_IR
+2026-09-25T14:14:59-05:00	STATUS_NOTE	player=Tyler Allgeier	was=ATL@GB_TNF_wrong_team	official=ARI_signed_2026-03-12	game=ARI@SF_Sun	source=azcardinals.com
+2026-09-25T14:14:59-05:00	STATUS_NOTE	player=Dallas Goedert	official=OUT_hold	ir=not_placed_Fowler_Thu	espn=DOUBTFUL	source=FantasyPros/Fowler
+2026-09-25T14:14:59-05:00	STATUS_NOTE	player=Josh Jacobs	official=EXEMPT_hold	tnf=did_not_play	source=USAToday
+2026-09-25T14:14:59-05:00	STATUS_NOTE	player=Jakobi Meyers	espn=Q	official=pending_Fri	practice=LP_LP	source=Jaguars.com
+2026-09-25T14:14:59-05:00	STATUS_NOTE	player=Michael Pittman Jr.	espn=Q	official=pending_Fri	practice=LP_LP	source=Steelers.com
+2026-09-25T20:21:39-05:00	AV	week=3	fri_night_patch	shaheed=note_QB_ripple_cleared_Darnold_off_report	pittman=Q_0.55->0.45_SPEC_other_Q	meyers=no_desig_confirmed	achane=note_Wright_D	allgeier=note_committee	wilson=note_Taylor_OUT	av_n=16	backup=/tmp/availability.pre-w8frinight.json	ct=Fri Sep 25, 8:21 PM CT	espn_write=false	blitz_only=1
+2026-09-25T20:21:39-05:00	STATUS_NOTE	player=Rashid Shaheed	qb=Sam Darnold	official=no_designation_Fri(LP/FP/FP)	ripple=cleared	source=NFL.com/Seattle Times/CBS
+2026-09-25T20:21:39-05:00	STATUS_NOTE	player=Michael Pittman Jr.	espn=QUESTIONABLE	official=QUESTIONABLE_foot_Fri_final(LP/LP/LP)	play_prob=0.45	source=Steelers/93.7 The Fan/CBS
+2026-09-25T20:21:39-05:00	STATUS_NOTE	player=Jakobi Meyers	espn=ACTIVE	official=no_designation_Fri_final	source=CBS/Jaguars
+2026-09-25T20:27:47-05:00	STATUS_NOTE	player=Josh Jacobs	official=EXEMPT_unchanged	new=plea_Sep10_seal_lifted_9-24_std6g_earliest_W7_no_NFL_decision	source=USAToday
+2026-09-25T20:27:47-05:00	STATUS_NOTE	player=Zach Charbonnet	official=PUP_unchanged	new=ACL_Jan17_window_not_opened_wk3_earliest_W5	source=CBS/RotoWire/Seahawks.com
+2026-09-25T20:27:47-05:00	STATUS_NOTE	player=Dallas Goedert	official=OUT_hold_unchanged	new=few_weeks_no_IR_no_specific_week	source=Fowler/PFT/NBCSP
+2026-09-25T20:27:47-05:00	STATUS_NOTE	player=Tyler Allgeier	official=ACTIVE_unchanged	new=Conner_IR-DTR_earliest_W5	source=CBS/PFT
+2026-09-25T20:27:47-05:00	AV	week=3	fri_night_patch2	news_only=Jacobs,Charbonnet,Goedert,Allgeier	states_changed=0	av_n=16	backup=/tmp/availability.pre-w8fri2.json	espn_write=false	blitz_only=1
+2026-09-26T08:02:41-05:00	W8	week=3	ken_digest=1	blitz_copy=1	baseline=last_ken_digest_2026-09-13	overnight=quiet_MNF_desig_pending	av_news_only=['Dart news: surgery completed Fri (state IR hold)']	states_changed=0	qbz_new=7	league_new=14	sources=NFL.com_W3_IR/CBS/NYPost/NBCChi/Commanders/Saints/Steelers/FantasyPros	espn_write=false	ct=Sat Sep 26, 8:00 AM CT
+2026-09-27T07:12:23-05:00	STATUS_OVERRIDE	player=Dallas Goedert	espn=DOUBTFUL	official=OUT_Sat_formal_MCL	practice=-/DNP/DNP(+Sat_DNP)	ir=not_placed_Fowler	source=BGN/CBS_9/26
+2026-09-27T07:12:23-05:00	STATUS_OVERRIDE	player=Jaxson Dart	espn=DOUBTFUL	official=IR_season_over_surgery_Fri	source=NYPost/Schefter/NFL.com
+2026-09-27T07:12:23-05:00	STATUS_OVERRIDE	player=Josh Jacobs	espn=DAY_TO_DAY	official=EXEMPT_Commissioner	source=USAToday/PFT
+2026-09-27T07:12:23-05:00	STATUS_NOTE	player=Michael Pittman Jr.	espn=QUESTIONABLE	official=QUESTIONABLE_foot_LP/LP/LP	play_prob=0.45	inactives=~10:30CT	source=NFL.com/Steelers
+2026-09-27T07:12:23-05:00	STATUS_NOTE	player=Jaylen Warren	official=QUESTIONABLE_shoulder	beat=Schefter_expected_to_play_Sun	game=CIN@PIT	source=CBS/Schefter_7:41aET
+2026-09-27T08:07:40-05:00	W8	week=3	ken_digest=1	blitz_copy=1	baseline=last_ken_digest_2026-09-26	av_news=Pittman_Schefter_expected_play_prob_0.45->0.75	states_changed=0	qbz_new=2	league_new=4	sources=Schefter/CBS/NBC/BGN/Bears.com/CBS_Goedert	espn_write=false	ct=Sun Sep 27, 8:05 AM CT
+2026-09-27T08:07:40-05:00	STATUS_NOTE	player=Michael Pittman Jr.	espn=QUESTIONABLE	official=QUESTIONABLE_foot_expected_to_play_Schefter	play_prob=0.75	was=0.45	source=Schefter/CBS/NBC_Florio
+2026-09-27T08:07:40-05:00	AV	week=3	w8_pittman_expected	pittman=Q_0.45->0.75_Schefter_expected	backup=/tmp/availability.pre-w8-20260927.json	av_n=17	espn_write=false	blitz_only=0	ct=Sun Sep 27, 8:05 AM CT
