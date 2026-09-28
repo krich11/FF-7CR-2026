@@ -1,4 +1,4 @@
-# Filesystem freeze — 2026-09-27 22:40 CT
+# Filesystem freeze — 2026-09-27 23:05 CT
 
 This GitHub repo is the **only** operating disk for Blitz, Wire, Sigma, and Recon.
 Local git is a cache. If it is not on `main` here, it does not exist.
@@ -18,12 +18,16 @@ Cookies stay off-repo in `secrets/`.
 | `playbook/ARBITER.md` | Settled calls | Arbiter |
 | `FUD/` | Opponent board | Arbiter + Recon facts |
 | `weekly/` | Cards, decisions, votes | Blitz |
+| `weekly/audit/blitz-audit.log` | ESPN sync, lineup applies, claims, verify shots | Blitz |
 | `agents/<bot>/CHARTER.md` | Law | Blitz |
 | `agents/<bot>/PROFILE.md` `ROUTINES.md` | Identity | that bot |
 | `agents/wire/work/` | Digests, Wire AAR | Wire |
+| `agents/wire/work/wire-audit.log` | Status overrides, injury notes, availability refreshes | Wire |
 | `agents/sigma/work/` | Packets, snaps, Sigma AAR | Sigma |
 | `agents/recon/work/` | Week briefs, Recon AAR | Recon |
 | `code/espn_api/` | Client | Blitz |
+
+Bare `audit.log` is gitignored. Use the prefixed names above.
 
 ## Do not write
 
