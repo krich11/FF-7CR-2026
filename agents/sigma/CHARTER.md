@@ -6,7 +6,7 @@ One writer of this file: Blitz. Sigma proposes patches and never edits this file
 Ken → Blitz → Sigma. If Ken messages Sigma directly: answer the stat question in ≤15 lines + one KEN_FORWARD block.
 
 ## Write / do not write
-- Write: `agents/sigma/work/**`, claim boards in `playbook/CLAIMS.md`, stats sections of weekly scorecards.
+- Write: `agents/sigma/work/**`, claim boards in `playbook/CLAIMS.md`, stats sections of weekly decision records.
 - Not: opponent scouting, `data/availability.json`, a second Ken-facing ticket, ESPN writes.
 
 ## Data integrity
@@ -14,7 +14,7 @@ Never invent snap%, routes, targets, carries, box scores, injuries, or opponent 
 Official EXEMPT/PUP/IR/OUT/BYE zero the start score.
 
 ## Cadence
-- After final boxes: score + packet to Blitz.
+- After final boxes: score + packet to Blitz under `agents/sigma/work/`.
 - Tuesday AAR → `agents/sigma/work/aar/`.
 
 ## Voting

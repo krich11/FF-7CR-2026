@@ -1,18 +1,17 @@
 #!/usr/bin/env python3
-"""WAIVER WATCH scanner over recon dumps. Read-only. Never prints cookies."""
+"""WAIVER WATCH scanner over data/recon dumps. Read-only. Never prints cookies."""
 from __future__ import annotations
 
 import argparse
 import json
-from collections import Counter, defaultdict
-from datetime import datetime
-import sys
+from collections import Counter
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _paths import DATA_RECON, week_dir  # noqa: E402
+from repo import repo_root
 
-RECON = DATA_RECON
+ROOT = repo_root()
+RECON = ROOT / "data" / "recon"
+WORK = ROOT / "agents" / "recon" / "work"
 
 
 def load() -> tuple[dict, dict, dict]:
@@ -50,28 +49,24 @@ def non_draft_moves(tx: dict, pids: dict, teams: dict) -> list[dict]:
         for it in x.get("items", []):
             pid = it.get("playerId")
             meta = pids.get(pid, {})
-            items.append(
-                {
-                    "itemType": it.get("type"),
-                    "playerId": pid,
-                    "player": meta.get("name") or (f"FA/unknown:{pid}" if pid is not None else None),
-                    "onRosterOf": meta.get("abbrev"),
-                }
-            )
+            items.append({
+                "itemType": it.get("type"),
+                "playerId": pid,
+                "player": meta.get("name") or (f"FA/unknown:{pid}" if pid is not None else None),
+                "onRosterOf": meta.get("abbrev"),
+            })
         tid = x.get("teamId")
         t = teams.get(tid, {})
-        rows.append(
-            {
-                "type": x.get("type"),
-                "status": x.get("status"),
-                "teamId": tid,
-                "abbrev": t.get("abbrev"),
-                "team": t.get("name"),
-                "waiverRank": t.get("waiverRank"),
-                "scoringPeriodId": x.get("scoringPeriodId"),
-                "items": items,
-            }
-        )
+        rows.append({
+            "type": x.get("type"),
+            "status": x.get("status"),
+            "teamId": tid,
+            "abbrev": t.get("abbrev"),
+            "team": t.get("name"),
+            "waiverRank": t.get("waiverRank"),
+            "scoringPeriodId": x.get("scoringPeriodId"),
+            "items": items,
+        })
     return rows
 
 
@@ -129,9 +124,7 @@ def render_md(s: dict, week: int) -> str:
     else:
         lines += ["| Type | Team | WR# | Items |", "|------|------|----:|-------|"]
         for m in s["competition_moves"]:
-            items = "; ".join(
-                f"{i.get('itemType')} {i.get('player')}" for i in m["items"]
-            )
+            items = "; ".join(f"{i.get('itemType')} {i.get('player')}" for i in m["items"])
             lines.append(
                 f"| {m['type']} | {m.get('abbrev') or m.get('teamId')} | {m.get('waiverRank') or ''} | {items} |"
             )
@@ -141,17 +134,12 @@ def render_md(s: dict, week: int) -> str:
     else:
         for d in s["drops_now_fa"]:
             lines.append(f"- `{d.get('playerId')}` {d.get('player')}")
-    lines += [
-        "",
-        "## Lane note",
-        "Competition intel only — no Quantum Blitz claim recommendations.",
-        "",
-    ]
+    lines += ["", "## Lane note", "Competition intel only — no Quantum Blitz claim recommendations.", ""]
     return "\n".join(lines)
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="WAIVER WATCH from recon dumps")
+    ap = argparse.ArgumentParser(description="WAIVER WATCH from data/recon dumps")
     ap.add_argument("--week", type=int, default=1)
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--write", action="store_true", default=True)
@@ -161,16 +149,14 @@ def main() -> int:
     s = summary(idx, rost, tx)
     if args.json:
         print(json.dumps(s, indent=2))
-    else:
-        md = render_md(s, args.week)
-        print(md)
-        if args.write and not args.no_write:
-            out = week_dir(args.week) / "waiver-watch.md"
-            out.parent.mkdir(parents=True, exist_ok=True)
-            out.write_text(md)
-            # also machine snapshot
-            (out.with_suffix(".json")).write_text(json.dumps(s, indent=2))
-            print(f"\n# wrote {out}", file=__import__("sys").stderr)
+        return 0
+    md = render_md(s, args.week)
+    print(md)
+    if args.write and not args.no_write:
+        out = WORK / f"week-{args.week:02d}-waiver-watch.md"
+        out.write_text(md)
+        out.with_suffix(".json").write_text(json.dumps(s, indent=2))
+        print(f"# wrote {out}", file=__import__("sys").stderr)
     return 0
 
 

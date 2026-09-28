@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
-"""Diff current transactions dump vs a snapshot — flag material FA/waiver/trade competition."""
+"""Diff current transactions dump vs a snapshot. Dump-only."""
 from __future__ import annotations
 
 import argparse
 import json
-import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _paths import DATA_RECON, SNAP, rel, week_dir  # noqa: E402
+from repo import repo_root
 
-RECON = DATA_RECON
+ROOT = repo_root()
+RECON = ROOT / "data" / "recon"
+WORK = ROOT / "agents" / "recon" / "work"
 US = 13
 MATERIAL_TYPES = {"WAIVER", "FREEAGENT", "FA", "TRADE"}
 
@@ -40,9 +40,10 @@ def main() -> int:
     against = Path(args.against) if args.against else None
     if against is None:
         snaps = []
-        if SNAP.exists():
+        snap_dir = RECON / "snapshots"
+        if snap_dir.exists():
             snaps = sorted(
-                (s for s in SNAP.iterdir() if (s / "transactions_recent.json").exists()),
+                (s for s in snap_dir.iterdir() if (s / "transactions_recent.json").exists()),
                 reverse=True,
             )
         if not snaps:
@@ -68,15 +69,11 @@ def main() -> int:
             pid[p["playerId"]] = p.get("name")
 
     def enrich(x: dict) -> dict:
-        items = []
-        for it in x.get("items") or []:
-            items.append(
-                {
-                    "type": it.get("type"),
-                    "playerId": it.get("playerId"),
-                    "player": pid.get(it.get("playerId")) or f"id:{it.get('playerId')}",
-                }
-            )
+        items = [{
+            "type": it.get("type"),
+            "playerId": it.get("playerId"),
+            "player": pid.get(it.get("playerId")) or f"id:{it.get('playerId')}",
+        } for it in x.get("items") or []]
         return {
             "id": x.get("id"),
             "type": x.get("type"),
@@ -89,26 +86,22 @@ def main() -> int:
         }
 
     enriched = [enrich(x) for x in material]
-    competition = [x for x in enriched if not x["is_us"]]
-    ours = [x for x in enriched if x["is_us"]]
-
     out = {
-        "against": rel(against),
+        "against": str(against),
         "as_of_current": cur.get("as_of"),
         "as_of_prev": prev.get("as_of"),
         "new_tx_count": len(new_rows),
-        "competition_count": len(competition),
-        "our_count": len(ours),
-        "competition": competition,
-        "ours_observed": ours,
-        "ping_blitz": len(competition) > 0,
-        "note": "Competition = other teams WAIVER/FA/TRADE. Our rows listed for awareness only — Blitz owns claim board.",
+        "competition_count": len([x for x in enriched if not x["is_us"]]),
+        "our_count": len([x for x in enriched if x["is_us"]]),
+        "competition": [x for x in enriched if not x["is_us"]],
+        "ours_observed": [x for x in enriched if x["is_us"]],
+        "ping_blitz": any(not x["is_us"] for x in enriched),
+        "note": "Competition = other teams WAIVER/FA/TRADE. Blitz owns claim board.",
     }
     text = json.dumps(out, indent=2)
     print(text)
     if args.write and not args.no_write:
-        path = week_dir(args.week) / "material-diff.json"
-        path.parent.mkdir(parents=True, exist_ok=True)
+        path = WORK / f"week-{args.week:02d}-material-diff.json"
         path.write_text(text)
     return 0
 

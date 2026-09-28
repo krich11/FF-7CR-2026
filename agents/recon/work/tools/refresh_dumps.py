@@ -1,33 +1,30 @@
 #!/usr/bin/env python3
-"""Refresh recon ESPN dumps (READ-ONLY). Never prints cookies. Never writes to ESPN."""
+"""Refresh Recon ESPN dumps (READ-ONLY). Never prints cookies. Never writes to ESPN."""
 from __future__ import annotations
 
 import argparse
 import json
 import shutil
 import sys
-import urllib.parse
 from datetime import datetime
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _paths import DATA_RECON, SNAP, rel, use_espn_client  # noqa: E402
+from repo import repo_root
 
-use_espn_client()
+ROOT = repo_root()
+sys.path.insert(0, str(ROOT / "code" / "espn_api"))
 from client import (  # type: ignore
-    EspnAuth,
     PT,
+    EspnAuth,
     READ_BASE,
-    SLOT_NAME,
-    START_SLOTS,
-    _request,
     fetch_league,
     normalize_roster,
     starters_map,
-    team_roster_entries,
+    _request,
 )
 
-RECON = DATA_RECON
+RECON = ROOT / "data" / "recon"
+SNAP = RECON / "snapshots"
 LEAGUE = "1776545061"
 SEASON = 2026
 US = 13
@@ -116,7 +113,6 @@ def build_index(rosters: dict) -> dict:
 
 
 def fetch_transactions(auth: EspnAuth, limit: int = 250) -> dict:
-    """Read-only transactions list. Prefer /transactions; fall back to league view."""
     url = (
         f"{READ_BASE}/seasons/{SEASON}/segments/0/leagues/{LEAGUE}/transactions"
         f"?limit={limit}"
@@ -128,13 +124,8 @@ def fetch_transactions(auth: EspnAuth, limit: int = 250) -> dict:
             rows = data
         elif isinstance(data, dict):
             rows = data.get("transactions") or data.get("items") or []
-            if not rows and data:
-                # sometimes the payload IS a keyed blob — keep empty and try view
-                pass
     if not rows:
-        # kona-style nofilter / mTransactions2
-        qs = "view=mTransactions2"
-        url2 = f"{READ_BASE}/seasons/{SEASON}/segments/0/leagues/{LEAGUE}?{qs}"
+        url2 = f"{READ_BASE}/seasons/{SEASON}/segments/0/leagues/{LEAGUE}?view=mTransactions2"
         status2, data2 = _request("GET", url2, auth)
         if status2 == 200 and isinstance(data2, dict):
             rows = data2.get("transactions") or []
@@ -143,15 +134,7 @@ def fetch_transactions(auth: EspnAuth, limit: int = 250) -> dict:
 
     out_rows = []
     for x in rows[:limit]:
-        items = []
-        for it in x.get("items") or []:
-            items.append(
-                {
-                    "type": it.get("type"),
-                    "playerId": it.get("playerId"),
-                }
-            )
-        # team id often on members / teamId / primaryTeamId
+        items = [{"type": it.get("type"), "playerId": it.get("playerId")} for it in x.get("items") or []]
         tid = x.get("teamId")
         if tid is None:
             members = x.get("members") or []
@@ -169,12 +152,7 @@ def fetch_transactions(auth: EspnAuth, limit: int = 250) -> dict:
                 "items": items,
             }
         )
-    return {
-        "as_of": now_pt(),
-        "n": len(rows),
-        "note": "fetched via read API (recon refresh_dumps)",
-        "transactions": out_rows,
-    }
+    return {"as_of": now_pt(), "n": len(rows), "note": "fetched via read API", "transactions": out_rows}
 
 
 def main() -> int:
@@ -192,18 +170,12 @@ def main() -> int:
     tx = None if args.skip_tx else fetch_transactions(auth, limit=args.tx_limit)
 
     if args.dry_run:
-        print(
-            json.dumps(
-                {
-                    "dry_run": True,
-                    "team_count": rosters["team_count"],
-                    "scoringPeriodId": rosters["scoringPeriodId"],
-                    "tx_n": None if tx is None else tx["n"],
-                    "tx_rows": None if tx is None else len(tx["transactions"]),
-                },
-                indent=2,
-            )
-        )
+        print(json.dumps({
+            "dry_run": True,
+            "team_count": rosters["team_count"],
+            "scoringPeriodId": rosters["scoringPeriodId"],
+            "tx_n": None if tx is None else tx["n"],
+        }, indent=2))
         return 0
 
     RECON.mkdir(parents=True, exist_ok=True)
@@ -211,14 +183,12 @@ def main() -> int:
     (RECON / "league_index.json").write_text(json.dumps(index, indent=2))
     if tx is not None:
         (RECON / "transactions_recent.json").write_text(json.dumps(tx, indent=2))
-
     meta = {
         "refreshed_at": now_pt(),
-        "snapshot": rel(snap) if snap else None,
+        "snapshot": str(snap) if snap else None,
         "scoringPeriodId": rosters["scoringPeriodId"],
         "team_count": rosters["team_count"],
         "tx_n": None if tx is None else tx["n"],
-        "tx_rows": None if tx is None else len(tx["transactions"]),
     }
     (RECON / "last_refresh.json").write_text(json.dumps(meta, indent=2))
     print(json.dumps(meta, indent=2))
