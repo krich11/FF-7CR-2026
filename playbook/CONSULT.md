@@ -1,65 +1,40 @@
-# CONSULT → Blitz / Ken
+# CONSULT → Ken
 
-Consultant covering Blitz and Assistant. Blitz is out of tokens. 2026-09-28 16:10 CT.
+Consultant covering Blitz and Assistant. 2026-09-28 16:17 CT.
 
 ## Achane
 
-Torn ACL. Surgery. Season over. Dolphins placed him on IR Monday. Sources: Schefter, Rapoport, NFL.com.
+Torn ACL. Season over. Drop him. Do not put him on IR.
 
-Gordon is no longer a short-term handcuff. He is the Miami starting running back we do not own.
+IR is for a player who will play again this season. That is Goedert if ESPN will take the OUT tag. Jacobs still cannot go there on a DTD/Exempt tag.
 
 ## Roster math (needs Ken yes)
 
-Dart drop is settled. Timing is now Tuesday, once ESPN unlocks period 4.
+1. Drop Achane.
+2. Drop Dart when period 4 unlocks, if you still want that chair.
+3. Move Goedert to IR if ESPN allows it.
+4. Wednesday 2:00 AM CT: claim Ollie Gordon II. Drop Panthers D/ST if the roster is still full.
 
-1. Drop Dart.
-2. Move Achane into the IR slot. ESPN should allow it after the Dolphins IR move. Confirm the tag on a fresh ESPN read before you click.
-3. That opens one active spot.
-4. Wednesday 2:00 AM CT: claim Ollie Gordon II. Drop Panthers D/ST if the roster is still full. If the IR move already opened a spot, add Gordon into that spot and still drop Panthers if you want the second running-back seat for Allen.
+Keep: Steelers D/ST, Brissett, Meyers, Pittman, Murray, Etienne, London, Wilson, Pitts.
 
-Keep: Steelers D/ST, Brissett, Meyers, Pittman, Murray.
+## Waiver request
 
-## Waiver request (draft for Ken)
+1. Gordon. Drop Panthers.
+2. Allen only if Hall is multi-week and Gordon is gone or already rostered. Drop Shaheed.
 
-1. Ollie Gordon II. Drop Panthers D/ST.
-2. Braelon Allen only if Hall is out more than this week and Gordon already cleared or is gone. Drop Shaheed.
-3. Stop after that. Do not burn the new last place in line on a tight end unless Gordon and Allen are both gone.
+## Week 4 lean
 
-GGT is the club that should fight us for Gordon. They pick ahead of us until the order resets Tuesday.
-
-## Week 4 lineup lean (not locked until Tuesday brief)
-
-- QB: Brissett. He just scored 25.6. Murray scored 10.4. Both stay on the roster.
-- RB: Etienne if he is active. Gordon once he is on the roster.
-- WR: London, Wilson.
-- TE: Pitts.
-- FLEX: Meyers.
-- D/ST: Steelers at Cleveland, Thursday 7:15 PM CT. Set this before Thursday kick.
-- K: Pineiro.
-
-Gordon at Minnesota is a bad script. Take him for the rest of the season.
+QB Brissett. RB Etienne and Gordon once rostered. WR London, Wilson. TE Pitts. FLEX Meyers. D/ST Steelers Thursday. K Pineiro.
 
 ## Do not
 
 - Trade Brissett.
 - Drop Steelers.
-- Ping Lazy Yorkie before the Wednesday run.
-- File anything on ESPN until Ken says yes.
-
-## Ken paste, after you confirm ESPN tags
+- Ping LY before Wednesday.
+- File on ESPN until Ken says yes.
 
 ```
-yes, drop Dart
-move Achane to IR
+yes, drop Achane
+move Goedert to IR if ESPN allows
 claim Gordon drop Panthers
-yes, set it
-QB Brissett
-RB Etienne, Gordon (once rostered)
-WR London, Wilson
-TE Pitts
-FLEX Meyers
-D/ST Steelers
-K Pineiro
 ```
-
-If ESPN will not put Achane on IR yet, stop after the Dart drop and tell me. Do not open IR empty on purpose if Achane is still ineligible.
