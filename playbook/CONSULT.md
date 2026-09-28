@@ -1,43 +1,65 @@
-# CONSULT → Blitz
+# CONSULT → Blitz / Ken
 
-Inbox from the Consultant. Ken reviews here.
+Consultant covering Blitz and Assistant. Blitz is out of tokens. 2026-09-28 16:10 CT.
 
-## KEN ORDER — two-bot shop — 2026-09-27 23:47 CT
+## Achane
 
-This is Ken's order. Do it before Ken wakes.
+Torn ACL. Surgery. Season over. Dolphins placed him on IR Monday. Sources: Schefter, Rapoport, NFL.com.
 
-Standing specialists Wire, Sigma, and Recon are retired as separate bots. Token budget cannot run a four-bot shop.
+Gordon is no longer a short-term handcuff. He is the Miami starting running back we do not own.
 
-Effective when Ken wakes, the live team is:
+## Roster math (needs Ken yes)
 
-1. Blitz — manager. Talks to Ken. Writes ESPN. Owns WAR.md, CLAIMS.md, weekly cards.
-2. Assistant — one bot. Reports only to Blitz. Does injury file, usage packet, and league dump. No ESPN writes. No Ken-facing cards.
+Dart drop is settled. Timing is now Tuesday, once ESPN unlocks period 4.
 
-Blitz must:
-- Create or rename one Grok bot called Assistant.
-- Put `agents/assistant/CHARTER.md` in that bot's Description.
-- Point it at this repo as its disk.
-- Turn off Wire, Sigma, and Recon routines, schedules, and War Room posts.
-- Leave those three Grok accounts idle. Do not delete their old files in `agents/wire`, `agents/sigma`, or `agents/recon`. Those trees are reference only.
-- Tell Assistant to write under `agents/assistant/work/` plus the live data paths in FILESYSTEM.md.
-- Cut the clock. One availability refresh Sunday morning. One combined packet after the last Monday box. One Tuesday brief before the set-the-week card. No extra inactives crons unless Blitz asks.
+1. Drop Dart.
+2. Move Achane into the IR slot. ESPN should allow it after the Dolphins IR move. Confirm the tag on a fresh ESPN read before you click.
+3. That opens one active spot.
+4. Wednesday 2:00 AM CT: claim Ollie Gordon II. Drop Panthers D/ST if the roster is still full. If the IR move already opened a spot, add Gordon into that spot and still drop Panthers if you want the second running-back seat for Allen.
 
-Votes: if Ken wants a vote, Blitz DMs Assistant. One thumb. No reasoning in the War Room.
+Keep: Steelers D/ST, Brissett, Meyers, Pittman, Murray.
 
-Consultant is still not a bot in the War Room.
+## Waiver request (draft for Ken)
 
-When Ken opens the War Room in the morning he should see Blitz and Assistant. That is the whole roster.
+1. Ollie Gordon II. Drop Panthers D/ST.
+2. Braelon Allen only if Hall is out more than this week and Gordon already cleared or is gone. Drop Shaheed.
+3. Stop after that. Do not burn the new last place in line on a tight end unless Gordon and Allen are both gone.
 
-## Week 4 DST — 2026-09-27 23:33 CT
+GGT is the club that should fight us for Gordon. They pick ahead of us until the order resets Tuesday.
 
-Ken: we recommend. Blitz decides.
+## Week 4 lineup lean (not locked until Tuesday brief)
 
-Rostered: Steelers D/ST, Panthers D/ST. Thursday lock is PIT @ CLE. Lineup DST cannot be swapped after that kick.
+- QB: Brissett. He just scored 25.6. Murray scored 10.4. Both stay on the roster.
+- RB: Etienne if he is active. Gordon once he is on the roster.
+- WR: London, Wilson.
+- TE: Pitts.
+- FLEX: Meyers.
+- D/ST: Steelers at Cleveland, Thursday 7:15 PM CT. Set this before Thursday kick.
+- K: Pineiro.
 
-Steelers at Cleveland, Thu Oct 1, 8:15 PM ET. Market: PIT -2.5, total ~38.5.
-Panthers vs Detroit, Sun Oct 4, 8:20 PM ET. Market: DET -3, total ~49.5.
+Gordon at Minnesota is a bad script. Take him for the rest of the season.
 
-Steelers at Cleveland is the Week 4 start.
-Panthers vs Detroit is a high-total Sunday-night game.
+## Do not
 
-Dart stays in IR until a rostered player is IR-eligible. Do not open the slot empty.
+- Trade Brissett.
+- Drop Steelers.
+- Ping Lazy Yorkie before the Wednesday run.
+- File anything on ESPN until Ken says yes.
+
+## Ken paste, after you confirm ESPN tags
+
+```
+yes, drop Dart
+move Achane to IR
+claim Gordon drop Panthers
+yes, set it
+QB Brissett
+RB Etienne, Gordon (once rostered)
+WR London, Wilson
+TE Pitts
+FLEX Meyers
+D/ST Steelers
+K Pineiro
+```
+
+If ESPN will not put Achane on IR yet, stop after the Dart drop and tell me. Do not open IR empty on purpose if Achane is still ineligible.

@@ -1,25 +1,28 @@
-# CLAIMS — Week 4 ticket (live)
+# CLAIMS — Week 4
 
-Owner: Blitz (ticket). Sigma writes boards under the Boards heading. Ken approves the ticket yes/no.
-League waivers: rolling order (not FAAB), 24h period, processes daily except Tuesday. A successful claim sends us to the back of the order.
+Owner: Consultant covering Blitz. Ken approves yes/no.
 
-## Settled (do not re-ask)
-- Drop Dart (first drop; ESPN locked him through period 3, retry Tue Sep 29 6:17 AM CT).
-- Panthers D/ST is the drop for a claim. Second-drop shortlist: Shaheed, then Bateman.
-- Keep: Steelers D/ST, Meyers, Brissett, Pittman.
+## Fact
 
-## Ticket (draft)
-1. Gordon (RB) — first claim. Main threats: GGT (picks 4th), then LY.
-2. Further claims only while the projected-point gap justifies giving up priority.
+Achane torn ACL, season over, Dolphins IR Monday 2026-09-28.
 
-Status: DRAFT until the Tuesday packet lands (Wire availability, Sigma boards, Recon reset order).
+## Settled
 
-## Boards (Sigma)
-- Board A: Achane on IR — pending
-- Board B: Achane not on IR — pending
-- Board C: Achane on IR + Etienne out — pending
-Each board: projected points, availability (Recon reset order), RB-need tags.
+- Drop Dart when period 4 unlocks (Tue ~6:17 AM CT).
+- Achane to IR once ESPN shows IR/OUT that the slot will take.
+- Panthers D/ST is the drop on the Gordon claim.
+- Keep Steelers, Brissett, Meyers, Pittman, Murray.
 
-## Inputs
-- Injuries: data/availability.json
-- League rosters: data/recon/
+## Request (waiting on Ken)
+
+1. Ollie Gordon II. Drop Panthers D/ST.
+2. Braelon Allen only if Hall is multi-week and we still have a drop. Drop Shaheed.
+3. No third claim this week unless both of those fail and Etienne is also out.
+
+Status: READY FOR KEN. Waiver order reset still posts Tuesday. File before Wed 2:00 AM CT.
+
+## Boards
+
+Board A (live): Achane season IR. Gordon is the first add.
+Board B: dead. Achane is done.
+Board C: Etienne hamstring still a watch. If he is out Tuesday, keep claim 1 and add Allen or Marks as claim 2.
