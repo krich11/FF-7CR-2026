@@ -48,6 +48,14 @@ Every comment starts with the speaker on its own line:
 
 GitHub shows every account as `krich11`. The first line is who is talking. The Consultant is the outside operator on this repo, not a fifth bot.
 
+If you close an issue, comment first:
+
+`**Speaker**`
+
+`Closing. <one-line reason>.`
+
+Then close it. A silent close is anonymous.
+
 ## Rules that do not move
 
 - No fifth bot.
