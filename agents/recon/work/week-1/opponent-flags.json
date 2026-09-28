@@ -1,0 +1,147 @@
+{
+  "as_of": "2026-09-05T14:26:08.443394-07:00",
+  "skill_starter_flags": [
+    {
+      "abbrev": "TE",
+      "waiverRank": 3,
+      "slot": "RB1",
+      "player": "Breece Hall",
+      "status": "QUESTIONABLE"
+    },
+    {
+      "abbrev": "TE",
+      "waiverRank": 3,
+      "slot": "WR2",
+      "player": "Zay Flowers",
+      "status": "QUESTIONABLE"
+    },
+    {
+      "abbrev": "TE",
+      "waiverRank": 3,
+      "slot": "TE",
+      "player": "George Kittle",
+      "status": "QUESTIONABLE"
+    },
+    {
+      "abbrev": "TE",
+      "waiverRank": 3,
+      "slot": "FLEX",
+      "player": "Tee Higgins",
+      "status": "QUESTIONABLE"
+    },
+    {
+      "abbrev": "FR",
+      "waiverRank": 8,
+      "slot": "WR2",
+      "player": "Malik Nabers",
+      "status": "QUESTIONABLE"
+    },
+    {
+      "abbrev": "CDS",
+      "waiverRank": 12,
+      "slot": "RB1",
+      "player": "Ashton Jeanty",
+      "status": "QUESTIONABLE"
+    },
+    {
+      "abbrev": "CDS",
+      "waiverRank": 12,
+      "slot": "WR2",
+      "player": "Puka Nacua",
+      "status": "QUESTIONABLE"
+    },
+    {
+      "abbrev": "CDS",
+      "waiverRank": 12,
+      "slot": "TE",
+      "player": "Tucker Kraft",
+      "status": "QUESTIONABLE"
+    },
+    {
+      "abbrev": "BuB",
+      "waiverRank": 6,
+      "slot": "RB1",
+      "player": "Christian McCaffrey",
+      "status": "QUESTIONABLE"
+    },
+    {
+      "abbrev": "BuB",
+      "waiverRank": 6,
+      "slot": "TE",
+      "player": "Tyler Warren",
+      "status": "QUESTIONABLE"
+    },
+    {
+      "abbrev": "LY",
+      "waiverRank": 4,
+      "slot": "RB1",
+      "player": "Emanuel Wilson",
+      "status": "QUESTIONABLE"
+    },
+    {
+      "abbrev": "LY",
+      "waiverRank": 4,
+      "slot": "RB2",
+      "player": "TreVeyon Henderson",
+      "status": "QUESTIONABLE"
+    },
+    {
+      "abbrev": "LY",
+      "waiverRank": 4,
+      "slot": "WR2",
+      "player": "Mike Evans",
+      "status": "QUESTIONABLE"
+    },
+    {
+      "abbrev": "GGT",
+      "waiverRank": 5,
+      "slot": "WR2",
+      "player": "DK Metcalf",
+      "status": "QUESTIONABLE"
+    },
+    {
+      "abbrev": "GGT",
+      "waiverRank": 5,
+      "slot": "FLEX",
+      "player": "Carnell Tate",
+      "status": "QUESTIONABLE"
+    },
+    {
+      "abbrev": "TCO",
+      "waiverRank": 9,
+      "slot": "RB1",
+      "player": "D'Andre Swift",
+      "status": "QUESTIONABLE"
+    },
+    {
+      "abbrev": "TCO",
+      "waiverRank": 9,
+      "slot": "RB2",
+      "player": "Jeremiyah Love",
+      "status": "QUESTIONABLE"
+    },
+    {
+      "abbrev": "TCO",
+      "waiverRank": 9,
+      "slot": "WR2",
+      "player": "Ja'Marr Chase",
+      "status": "QUESTIONABLE"
+    },
+    {
+      "abbrev": "TCO",
+      "waiverRank": 9,
+      "slot": "TE",
+      "player": "Sam LaPorta",
+      "status": "QUESTIONABLE"
+    },
+    {
+      "abbrev": "TCO",
+      "waiverRank": 9,
+      "slot": "FLEX",
+      "player": "Emeka Egbuka",
+      "status": "QUESTIONABLE"
+    }
+  ],
+  "same_proTeam_crosswalk": [],
+  "caveat": "ESPN injuryStatus fields only; preseason Q volume can be noise. Not official OUT clears."
+}

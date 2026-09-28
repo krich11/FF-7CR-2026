@@ -1,0 +1,644 @@
+{
+  "as_of_index": "2026-09-05T14:26:08.443394-07:00",
+  "as_of_rosters": "2026-09-05T14:26:08.443394-07:00",
+  "as_of_tx": "2026-09-05T14:26:08.976132-07:00",
+  "tx_file_n": 210,
+  "tx_rows": 210,
+  "non_draft_type_counts": {
+    "ROSTER": 12,
+    "WAIVER": 3,
+    "FREEAGENT": 3
+  },
+  "waiver_order": [
+    {
+      "rank": 1,
+      "abbrev": "QBZ",
+      "name": "Quantum Blitz",
+      "teamId": 13,
+      "is_us": true
+    },
+    {
+      "rank": 2,
+      "abbrev": "LL",
+      "name": "Louisiana Lightning",
+      "teamId": 10,
+      "is_us": false
+    },
+    {
+      "rank": 3,
+      "abbrev": "TE",
+      "name": "Texas Endgame",
+      "teamId": 1,
+      "is_us": false
+    },
+    {
+      "rank": 4,
+      "abbrev": "LY",
+      "name": "Lazy Yorkie",
+      "teamId": 7,
+      "is_us": false
+    },
+    {
+      "rank": 5,
+      "abbrev": "GGT",
+      "name": "The gg Team",
+      "teamId": 8,
+      "is_us": false
+    },
+    {
+      "rank": 6,
+      "abbrev": "BuB",
+      "name": "Buck up Buttercup!",
+      "teamId": 6,
+      "is_us": false
+    },
+    {
+      "rank": 7,
+      "abbrev": "DDT",
+      "name": "David's Daring Team",
+      "teamId": 11,
+      "is_us": false
+    },
+    {
+      "rank": 8,
+      "abbrev": "FR",
+      "name": "Fantasy Rookie No More",
+      "teamId": 3,
+      "is_us": false
+    },
+    {
+      "rank": 9,
+      "abbrev": "TCO",
+      "name": "The Chosen Ones",
+      "teamId": 9,
+      "is_us": false
+    },
+    {
+      "rank": 10,
+      "abbrev": "PP",
+      "name": "Patton's Posse",
+      "teamId": 2,
+      "is_us": false
+    },
+    {
+      "rank": 11,
+      "abbrev": "MBB",
+      "name": "Mitch's Badass Bunch",
+      "teamId": 12,
+      "is_us": false
+    },
+    {
+      "rank": 12,
+      "abbrev": "CDS",
+      "name": "Charlie Don't Surf",
+      "teamId": 4,
+      "is_us": false
+    }
+  ],
+  "competition_moves": [
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 11,
+      "abbrev": "DDT",
+      "team": "David's Daring Team",
+      "waiverRank": 7,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "itemType": "LINEUP",
+          "playerId": 15818,
+          "player": "Keenan Allen",
+          "onRosterOf": "DDT"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 13,
+      "abbrev": "QBZ",
+      "team": "Quantum Blitz",
+      "waiverRank": 1,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "itemType": "LINEUP",
+          "playerId": 4035687,
+          "player": "Michael Pittman Jr.",
+          "onRosterOf": "QBZ"
+        },
+        {
+          "itemType": "LINEUP",
+          "playerId": 3121023,
+          "player": "Dallas Goedert",
+          "onRosterOf": "QBZ"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 1,
+      "abbrev": "TE",
+      "team": "Texas Endgame",
+      "waiverRank": 3,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "itemType": "LINEUP",
+          "playerId": 4239993,
+          "player": "Tee Higgins",
+          "onRosterOf": "TE"
+        },
+        {
+          "itemType": "LINEUP",
+          "playerId": 4569987,
+          "player": "Jaylen Warren",
+          "onRosterOf": "TE"
+        }
+      ]
+    },
+    {
+      "type": "WAIVER",
+      "status": "EXECUTED",
+      "teamId": 4,
+      "abbrev": "CDS",
+      "team": "Charlie Don't Surf",
+      "waiverRank": 12,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "itemType": "ADD",
+          "playerId": -16030,
+          "player": "Jaguars D/ST",
+          "onRosterOf": "CDS"
+        },
+        {
+          "itemType": "DROP",
+          "playerId": 5083315,
+          "player": "FA/unknown:5083315",
+          "onRosterOf": null
+        }
+      ]
+    },
+    {
+      "type": "WAIVER",
+      "status": "PENDING",
+      "teamId": 13,
+      "abbrev": "QBZ",
+      "team": "Quantum Blitz",
+      "waiverRank": 1,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "itemType": "ADD",
+          "playerId": 3912547,
+          "player": "FA/unknown:3912547",
+          "onRosterOf": null
+        },
+        {
+          "itemType": "DROP",
+          "playerId": 4428718,
+          "player": "Tre Tucker",
+          "onRosterOf": "QBZ"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 13,
+      "abbrev": "QBZ",
+      "team": "Quantum Blitz",
+      "waiverRank": 1,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "itemType": "LINEUP",
+          "playerId": 3121023,
+          "player": "Dallas Goedert",
+          "onRosterOf": "QBZ"
+        },
+        {
+          "itemType": "LINEUP",
+          "playerId": 4035687,
+          "player": "Michael Pittman Jr.",
+          "onRosterOf": "QBZ"
+        }
+      ]
+    },
+    {
+      "type": "FREEAGENT",
+      "status": "EXECUTED",
+      "teamId": 4,
+      "abbrev": "CDS",
+      "team": "Charlie Don't Surf",
+      "waiverRank": 12,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "itemType": "ADD",
+          "playerId": 4880281,
+          "player": "Jordyn Tyson",
+          "onRosterOf": "CDS"
+        },
+        {
+          "itemType": "DROP",
+          "playerId": 4688380,
+          "player": "FA/unknown:4688380",
+          "onRosterOf": null
+        }
+      ]
+    },
+    {
+      "type": "WAIVER",
+      "status": "CANCELED",
+      "teamId": 13,
+      "abbrev": "QBZ",
+      "team": "Quantum Blitz",
+      "waiverRank": 1,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "itemType": "ADD",
+          "playerId": 3912547,
+          "player": "FA/unknown:3912547",
+          "onRosterOf": null
+        },
+        {
+          "itemType": "DROP",
+          "playerId": 4428718,
+          "player": "Tre Tucker",
+          "onRosterOf": "QBZ"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 4,
+      "abbrev": "CDS",
+      "team": "Charlie Don't Surf",
+      "waiverRank": 12,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "itemType": "LINEUP",
+          "playerId": 4685512,
+          "player": "Jadarian Price",
+          "onRosterOf": "CDS"
+        },
+        {
+          "itemType": "LINEUP",
+          "playerId": 4685702,
+          "player": "Quinshon Judkins",
+          "onRosterOf": "CDS"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 11,
+      "abbrev": "DDT",
+      "team": "David's Daring Team",
+      "waiverRank": 7,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "itemType": "LINEUP",
+          "playerId": 4431452,
+          "player": "Drake Maye",
+          "onRosterOf": "DDT"
+        },
+        {
+          "itemType": "LINEUP",
+          "playerId": 12483,
+          "player": "Matthew Stafford",
+          "onRosterOf": "DDT"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 13,
+      "abbrev": "QBZ",
+      "team": "Quantum Blitz",
+      "waiverRank": 1,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "itemType": "LINEUP",
+          "playerId": 4035687,
+          "player": "Michael Pittman Jr.",
+          "onRosterOf": "QBZ"
+        },
+        {
+          "itemType": "LINEUP",
+          "playerId": 3121023,
+          "player": "Dallas Goedert",
+          "onRosterOf": "QBZ"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 4,
+      "abbrev": "CDS",
+      "team": "Charlie Don't Surf",
+      "waiverRank": 12,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "itemType": "LINEUP",
+          "playerId": 4880281,
+          "player": "Jordyn Tyson",
+          "onRosterOf": "CDS"
+        }
+      ]
+    },
+    {
+      "type": "FREEAGENT",
+      "status": "EXECUTED",
+      "teamId": 4,
+      "abbrev": "CDS",
+      "team": "Charlie Don't Surf",
+      "waiverRank": 12,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "itemType": "ADD",
+          "playerId": 14880,
+          "player": "Kirk Cousins",
+          "onRosterOf": "CDS"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 11,
+      "abbrev": "DDT",
+      "team": "David's Daring Team",
+      "waiverRank": 7,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "itemType": "LINEUP",
+          "playerId": 4882093,
+          "player": "Bhayshul Tuten",
+          "onRosterOf": "DDT"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 13,
+      "abbrev": "QBZ",
+      "team": "Quantum Blitz",
+      "waiverRank": 1,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "itemType": "LINEUP",
+          "playerId": 3121023,
+          "player": "Dallas Goedert",
+          "onRosterOf": "QBZ"
+        },
+        {
+          "itemType": "LINEUP",
+          "playerId": 4035687,
+          "player": "Michael Pittman Jr.",
+          "onRosterOf": "QBZ"
+        }
+      ]
+    },
+    {
+      "type": "FREEAGENT",
+      "status": "EXECUTED",
+      "teamId": 13,
+      "abbrev": "QBZ",
+      "team": "Quantum Blitz",
+      "waiverRank": 1,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "itemType": "ADD",
+          "playerId": 4428718,
+          "player": "Tre Tucker",
+          "onRosterOf": "QBZ"
+        },
+        {
+          "itemType": "DROP",
+          "playerId": 3912547,
+          "player": "FA/unknown:3912547",
+          "onRosterOf": null
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 4,
+      "abbrev": "CDS",
+      "team": "Charlie Don't Surf",
+      "waiverRank": 12,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "itemType": "LINEUP",
+          "playerId": -16030,
+          "player": "Jaguars D/ST",
+          "onRosterOf": "CDS"
+        },
+        {
+          "itemType": "LINEUP",
+          "playerId": -16005,
+          "player": "Browns D/ST",
+          "onRosterOf": "CDS"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 6,
+      "abbrev": "BuB",
+      "team": "Buck up Buttercup!",
+      "waiverRank": 6,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "itemType": "LINEUP",
+          "playerId": -16009,
+          "player": "Packers D/ST",
+          "onRosterOf": "BuB"
+        },
+        {
+          "itemType": "LINEUP",
+          "playerId": -16017,
+          "player": "Patriots D/ST",
+          "onRosterOf": "BuB"
+        }
+      ]
+    }
+  ],
+  "add_like_moves": [
+    {
+      "type": "WAIVER",
+      "status": "EXECUTED",
+      "teamId": 4,
+      "abbrev": "CDS",
+      "team": "Charlie Don't Surf",
+      "waiverRank": 12,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "itemType": "ADD",
+          "playerId": -16030,
+          "player": "Jaguars D/ST",
+          "onRosterOf": "CDS"
+        },
+        {
+          "itemType": "DROP",
+          "playerId": 5083315,
+          "player": "FA/unknown:5083315",
+          "onRosterOf": null
+        }
+      ]
+    },
+    {
+      "type": "WAIVER",
+      "status": "PENDING",
+      "teamId": 13,
+      "abbrev": "QBZ",
+      "team": "Quantum Blitz",
+      "waiverRank": 1,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "itemType": "ADD",
+          "playerId": 3912547,
+          "player": "FA/unknown:3912547",
+          "onRosterOf": null
+        },
+        {
+          "itemType": "DROP",
+          "playerId": 4428718,
+          "player": "Tre Tucker",
+          "onRosterOf": "QBZ"
+        }
+      ]
+    },
+    {
+      "type": "FREEAGENT",
+      "status": "EXECUTED",
+      "teamId": 4,
+      "abbrev": "CDS",
+      "team": "Charlie Don't Surf",
+      "waiverRank": 12,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "itemType": "ADD",
+          "playerId": 4880281,
+          "player": "Jordyn Tyson",
+          "onRosterOf": "CDS"
+        },
+        {
+          "itemType": "DROP",
+          "playerId": 4688380,
+          "player": "FA/unknown:4688380",
+          "onRosterOf": null
+        }
+      ]
+    },
+    {
+      "type": "WAIVER",
+      "status": "CANCELED",
+      "teamId": 13,
+      "abbrev": "QBZ",
+      "team": "Quantum Blitz",
+      "waiverRank": 1,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "itemType": "ADD",
+          "playerId": 3912547,
+          "player": "FA/unknown:3912547",
+          "onRosterOf": null
+        },
+        {
+          "itemType": "DROP",
+          "playerId": 4428718,
+          "player": "Tre Tucker",
+          "onRosterOf": "QBZ"
+        }
+      ]
+    },
+    {
+      "type": "FREEAGENT",
+      "status": "EXECUTED",
+      "teamId": 4,
+      "abbrev": "CDS",
+      "team": "Charlie Don't Surf",
+      "waiverRank": 12,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "itemType": "ADD",
+          "playerId": 14880,
+          "player": "Kirk Cousins",
+          "onRosterOf": "CDS"
+        }
+      ]
+    },
+    {
+      "type": "FREEAGENT",
+      "status": "EXECUTED",
+      "teamId": 13,
+      "abbrev": "QBZ",
+      "team": "Quantum Blitz",
+      "waiverRank": 1,
+      "scoringPeriodId": 1,
+      "items": [
+        {
+          "itemType": "ADD",
+          "playerId": 4428718,
+          "player": "Tre Tucker",
+          "onRosterOf": "QBZ"
+        },
+        {
+          "itemType": "DROP",
+          "playerId": 3912547,
+          "player": "FA/unknown:3912547",
+          "onRosterOf": null
+        }
+      ]
+    }
+  ],
+  "drops_now_fa": [
+    {
+      "itemType": "DROP",
+      "playerId": 5083315,
+      "player": "FA/unknown:5083315",
+      "onRosterOf": null
+    },
+    {
+      "itemType": "DROP",
+      "playerId": 4688380,
+      "player": "FA/unknown:4688380",
+      "onRosterOf": null
+    },
+    {
+      "itemType": "DROP",
+      "playerId": 3912547,
+      "player": "FA/unknown:3912547",
+      "onRosterOf": null
+    }
+  ]
+}
