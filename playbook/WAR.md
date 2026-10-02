@@ -1,7 +1,8 @@
-WAR — Week 3  (as_of Fri Sep 25 2026, 9:35 PM CT)
+WAR — Week 4  (as_of Fri Oct 2 2026, 4:10 PM CT)
 MODE: CLIMB
 WO STANCE: HOLD
-WHY: 1-1, 8th of 12 (216.0 PF, 4th-lowest); W3 vs PP (1-1, league-high 259.0 PF); WO 10 of 12. Six make playoffs; we're one win off the 1-1 pack.
+WHY: 1-2, WO 8 of 12, PF 313.4; W4 vs TE (3-0, 357.2 PF). Six make playoffs; two back of the undefeated pack.
+FLOOR VS SWING (Fri): swing lean — TE live-proj ~122 vs QBZ ~106; ceiling at FLEX/QB when close.
 
 LEAGUE PINS (verified from ESPN league settings, Sep 25 9:35 PM CT)
 - Scoring: ESPN PPR, head-to-head points (1.0 per reception).
@@ -11,13 +12,19 @@ LEAGUE PINS (verified from ESPN league settings, Sep 25 9:35 PM CT)
 - Trade deadline: Wed Dec 2 2026, 11:00 AM CT.
 
 CURRENCY
-- WO: 10 of 12 now. Rolling, so a claim costs little from here, but FA-race still costs nothing.
-- Roster 17/17 full: every add needs a drop.
-- Untouchable: Murray, Achane, Etienne, London, G. Wilson, Pitts.
+- WO: 8 of 12 now (Fri Oct 2 sync). Rolling, so a claim costs little from here, but FA-race still costs nothing.
+- Roster 16 (15 + Etienne IR); one open chair possible — verify before claim.
+- Untouchable: Murray, London, G. Wilson, Harvey/Henderson (current RB pair), Henry/Pitts TE pair.
 - Droppable order (first cut first): Goedert (MCL, weeks out) > Allgeier > Pittman (if foot lingers) > Bateman (if Flowers returns and role shrinks).
-- IR: 1 slot, occupied by Dart (season over). No open IR slot; Goedert/Jacobs cannot be stashed there.
+- IR: 1 slot, occupied by Etienne (hamstring). Goedert OUT on BE; Jacobs EXEMPT not IR-eligible.
 
-THIS WEEK (3)
+THIS WEEK (4) — Fri MODE check
+- Banked TNF: Steelers D/ST 5.0; Pittman BE 3.5 (LOCKED).
+- START lean (ESPN proj): Murray, Harvey, Henderson, London, Wilson, Henry, Meyers FLEX, Pineiro. ESPN already matches.
+- Floor vs swing: swing — TE 3-0 projects ahead; do not donate WO.
+- Circled: Meyers Fri LP; Etienne IR; Goedert OUT; Jacobs EXEMPT; Gordon RB3.
+
+THIS WEEK (3) — archive
 - Banked: London (9 rec, 194 yds), Pitts 1-5. Remaining must-get: Murray, Achane, Etienne, Wilson, FLEX.
 - Floor vs ceiling: PP is the highest scorer in the league, so lean ceiling at FLEX when close (Shaheed default; Bateman only if Flowers OUT; Pittman only if active with no limitation).
 - Stream plan: DST streamed W3 (Panthers @CLE, FA, no WO). Steelers back W4.

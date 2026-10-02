@@ -1,328 +1,122 @@
 {
-  "week": 3,
-  "as_of": "2026-09-27T22:43:07-05:00",
-  "wire_one_liner": "W8 digest Sun: Pittman Schefter expected→play_prob 0.75 (still Q); Goedert Sat formal OUT hold; Jacobs EXEMPT; Dart IR; no other QBZ state flips. League NEW: Williams CHI OUT; Warren expected; Flowers GTD pitch.",
+  "week": 4,
+  "as_of": "2026-10-02T16:10:00-05:00",
+  "wire_one_liner": "Fri Oct 2 ~4:10 PM CT Blitz AV (Assistant silent): Steelers DST+Pittman TNF LOCKED; Henderson ACTIVE; Etienne IR; Goedert OUT; Jacobs EXEMPT; Meyers Fri LP no designation; Murray/Gordon/Harvey/Henry/London/Wilson/Pitts ACTIVE.",
+  "source": "blitz_av_pass",
+  "confidence": "medium_low",
   "players": [
     {
-      "player": "De'Von Achane",
-      "state": "OUT",
-      "play_prob": 0.0,
-      "snap_mult": 0.0,
-      "role_mult": 1.0,
-      "news": "Left W3 vs KC in Q1 with knee injury; ruled out for game. MRI Monday. No IR tag on ESPN yet.",
-      "source": "In-game injury report 9/27 (Dolphins); ESPN tag unchanged",
-      "kickoff": "2026-09-27T10:00:00-07:00",
-      "lock_state": "DONE",
-      "pos": "RB",
-      "eligible_slots": [
-        "RB",
-        "FLEX"
-      ],
-      "as_of": "2026-09-27T15:06:40-05:00",
-      "nfl_game": "KC @ MIA",
-      "opp_notes": "KC: LT Josh Simmons (back) OUT (DNP x3) → undrafted Kahlil Benson 3rd straight LT start (PFT 9/25 hold). S Chamarri Conner (knee) Doubtful (LP x3). Mahomes/Rice/Chris Jones/Sneed full or off-report set. Source: NFL.com W3 final.",
-      "espn_tag": "DOUBTFUL"
-    },
-    {
-      "player": "Travis Etienne Jr.",
+      "player": "Steelers D/ST",
       "state": "ACTIVE",
-      "play_prob": 1.0,
-      "snap_mult": 0.9,
-      "role_mult": 0.9,
-      "news": "Hamstring: LP Wed / LP Thu / FP Fri, no game designation on NFL.com Saints final; will play LV @ NO Sun 3:25 CT. Workload watch (snap_mult 0.9). Own team: LT Kelvin Banks Jr. IR (high-ankle 9/23) → Asim Richards at LT; WR Barion Brown OUT; CB Emerson Q. | ESPN NFL feed tagged QUESTIONABLE 9/27 7:16 PM CT post-game (hamstring per room; grade/timeline UNKNOWN, Mon update).",
-      "source": "NFL.com W3 final / Saints.com Fri / CBS Banks IR",
-      "kickoff": "2026-09-27T13:25:00-07:00",
-      "lock_state": "DONE",
-      "pos": "RB",
-      "eligible_slots": [
-        "RB",
-        "FLEX"
-      ],
-      "as_of": "2026-09-27T21:48:14-05:00",
-      "nfl_game": "LV @ NO",
-      "espn_tag": "QUESTIONABLE",
-      "opp_notes": "LV: QB Kirk Cousins starts; QB3 Aidan O'Connell Q (personal, DNP x3, not traveling). TE Brock Bowers Q (knee; LP/LP/DNP planned Fri; Kubiak no pregame workout; Graziano more-likely-than-not). DE Kwity Paye Q (illness). S Treydan Stukes OUT (concussion). Source: NFL.com W3 final / NBC/PFT."
-    },
-    {
-      "player": "Drake London",
-      "state": "ACTIVE",
-      "play_prob": 1.0,
-      "snap_mult": 1.0,
-      "role_mult": 1.0,
-      "news": "TNF final W3: 9-10-194 ATL 35-14 W @GB; Penix returned. No in-game injury. DONE.",
-      "source": "Packers.com recap / NBC / NFL.com W3 IR (TNF)",
-      "kickoff": "2026-09-24T17:15:00-07:00",
-      "lock_state": "DONE",
-      "pos": "WR",
-      "eligible_slots": [
-        "WR",
-        "FLEX"
-      ],
-      "as_of": "2026-09-27T07:12:23-05:00",
-      "nfl_game": "ATL @ GB (TNF)"
-    },
-    {
-      "player": "Garrett Wilson",
-      "state": "ACTIVE",
-      "play_prob": 1.0,
-      "snap_mult": 1.0,
-      "role_mult": 1.0,
-      "news": "No designation NYJ @ DET Sun 12:00 CT. TE Mason Taylor (thumb) OUT; WR Adonai Mitchell Q (finger); S Minkah Fitzpatrick OUT; LB Mauigoa OUT; RB Nwangwu Doubtful.",
-      "source": "NFL.com W3 final / CBS",
-      "kickoff": "2026-09-27T10:00:00-07:00",
-      "lock_state": "DONE",
-      "pos": "WR",
-      "eligible_slots": [
-        "WR",
-        "FLEX"
-      ],
-      "as_of": "2026-09-27T07:12:23-05:00",
-      "nfl_game": "NYJ @ DET",
-      "opp_notes": "DET: no named QB/WR1/RB1/OT/edge/CB1 on final report. G Ben Bartch (foot) OUT; S Thomas Harper (ankle) OUT. Source: NFL.com W3 final."
-    },
-    {
-      "player": "Kyle Pitts Sr.",
-      "state": "ACTIVE",
-      "play_prob": 1.0,
-      "snap_mult": 1.0,
-      "role_mult": 1.05,
-      "news": "TNF final W3: 1-2-5 ATL W @GB. No in-game injury. DONE.",
-      "source": "CBS/NBC / NFL.com W3 IR (TNF)",
-      "kickoff": "2026-09-24T17:15:00-07:00",
-      "lock_state": "DONE",
-      "pos": "TE",
-      "eligible_slots": [
-        "TE",
-        "FLEX"
-      ],
-      "as_of": "2026-09-27T07:12:23-05:00",
-      "nfl_game": "ATL @ GB (TNF)"
-    },
-    {
-      "player": "Jaxson Dart",
-      "state": "IR",
-      "play_prob": 0.0,
-      "snap_mult": 0.0,
-      "role_mult": 0.0,
-      "news": "SEASON OVER — left knee surgery completed Fri Sep 25 (MCL+PCL+meniscus; ACL intact). Typical 4–6 month recovery; Harbaugh has not ruled out playoffs if Giants qualify. Winston = Giants QB1. espn_tag=DOUBTFUL overridden → IR (season). NFL.com Giants row lists Dart DNP, no game status (IR hold).",
-      "source": "NY Post Dunleavy 9/25 / Schefter/Rapoport / NFL.com W3",
-      "kickoff": "2026-09-27T10:00:00-07:00",
-      "lock_state": "DONE",
-      "pos": "QB",
-      "eligible_slots": [
-        "QB"
-      ],
-      "as_of": "2026-09-27T07:12:23-05:00",
-      "nfl_game": "TEN @ NYG",
-      "espn_tag": "DOUBTFUL",
-      "override": "official_season_over_IR"
-    },
-    {
-      "player": "Dallas Goedert",
-      "state": "OUT",
-      "play_prob": 0.0,
-      "snap_mult": 0.0,
-      "role_mult": 0.0,
-      "news": "MCL sprain — Sat formal OUT for PHI @ CHI MNF (BGN/CBS 9/26). Practice: - Wed / DNP Thu / DNP Fri / DNP Sat. NOT on IR (Fowler); 'a few weeks' / week-to-week; next chance W4 @LAR. Zach Ertz expected PS elevate Mon; Mundt + E.J. Jenkins also. espn_tag=DOUBTFUL overridden → OUT.",
-      "source": "BGN Sat final 9/26 / CBS RotoWire 9/26 / Fowler/FantasyPros",
-      "kickoff": "2026-09-28T17:15:00-07:00",
-      "lock_state": "UNLOCKED",
-      "pos": "TE",
-      "eligible_slots": [
-        "TE",
-        "FLEX"
-      ],
-      "as_of": "2026-09-27T07:12:23-05:00",
-      "nfl_game": "PHI @ CHI (MNF)",
-      "espn_tag": "DOUBTFUL",
-      "opp_notes": "CHI: QB Caleb Williams (hamstring) OUT → Tyson Bagent Q (concussion, full Sat) or Case Keenum; LB Noah Sewell OUT; DL Shemar Turner OUT. Source: BGN/CBS Sat final."
-    },
-    {
-      "player": "Josh Jacobs",
-      "state": "EXEMPT",
-      "play_prob": 0.0,
-      "snap_mult": 0.0,
-      "role_mult": 0.0,
-      "news": "Commissioner's Exempt List since Aug 30 — missed TNF (3rd game). No-contest plea Sep 10; temporary seal lifted 9/24. NFL probe ongoing; no discipline announced. CBA std DV 6g w/ exempt credit → earliest W7 (Oct 25 @DET) per USA Today; no NFL decision yet. Still EXEMPT. espn_tag=DAY_TO_DAY overridden → EXEMPT.",
-      "source": "USA Today McKessy 9/24 / PFT / ProFootballRumor",
-      "kickoff": "2026-09-24T17:15:00-07:00",
-      "lock_state": "DONE",
-      "pos": "RB",
-      "eligible_slots": [
-        "RB",
-        "FLEX"
-      ],
-      "as_of": "2026-09-27T07:12:23-05:00",
-      "nfl_game": "ATL @ GB (TNF)",
-      "espn_tag": "DAY_TO_DAY"
+      "lock_state": "LOCKED",
+      "news": "TNF DONE PIT@CLE; 5.0 banked",
+      "as_of": "2026-10-02T16:10:00-05:00"
     },
     {
       "player": "Michael Pittman Jr.",
       "state": "ACTIVE",
-      "play_prob": 1.0,
-      "snap_mult": 1.0,
-      "role_mult": 0.85,
-      "news": "Active W3 vs CIN (not on inactives; played). Foot flare earlier in week.",
-      "source": "ESPN W3 inactives/game 9/27",
-      "kickoff": "2026-09-27T10:00:00-07:00",
-      "lock_state": "DONE",
-      "pos": "WR",
-      "eligible_slots": [
-        "WR",
-        "FLEX"
-      ],
-      "as_of": "2026-09-27T15:06:40-05:00",
-      "nfl_game": "CIN @ PIT",
-      "espn_tag": "QUESTIONABLE",
-      "opp_notes": "CIN D: DT B.J. Hill (Achilles) Doubtful (DNP x3) → Kris Jenkins Jr. expected; DT Jonathan Allen cleared full; DT Dexter Lawrence rest DNP no status. CIN WR Andrei Iosivas OUT. No CIN edge/CB1 on final report. Source: NFL.com W3 final / CBS."
+      "lock_state": "LOCKED",
+      "news": "TNF DONE on BE; 3.5 banked; PIT WR",
+      "as_of": "2026-10-02T16:10:00-05:00"
     },
     {
-      "player": "Steelers D/ST",
+      "player": "TreVeyon Henderson",
       "state": "ACTIVE",
-      "play_prob": 1.0,
-      "snap_mult": 1.0,
-      "role_mult": 1.0,
-      "news": "Bench DST (Panthers stream W3 per WAR). CIN @ PIT Sun 12:00 CT. Pittman Q / Warren Q (expected) / Dowdle OUT on PIT offense — not DST.",
-      "source": "NFL.com W3 final / WAR W3",
-      "kickoff": "2026-09-27T10:00:00-07:00",
-      "lock_state": "DONE",
-      "pos": "DST",
-      "eligible_slots": [
-        "DST"
-      ],
-      "as_of": "2026-09-27T07:12:23-05:00",
-      "nfl_game": "CIN @ PIT"
+      "lock_state": "UNLOCKED",
+      "news": "Absent from NE Week 4 injury report; ESPN ACTIVE",
+      "as_of": "2026-10-02T16:10:00-05:00"
     },
     {
-      "player": "Kyler Murray",
-      "state": "ACTIVE",
-      "play_prob": 1.0,
-      "snap_mult": 1.0,
-      "role_mult": 1.0,
-      "news": "Vikings QB1; cleared concussion protocol; starts MIN @ TB Sun 3:05 CT. Not on Vikings final game-status list (NFL.com). Own: C Nick Samac (knee) OUT; P Thorson OUT; LT Christian Darrisaw DNP Fri rest, expected to play; Aaron Jones full Fri no designation.",
-      "source": "NFL.com W3 final + news / CBS / Vikings Territory",
-      "kickoff": "2026-09-27T13:05:00-07:00",
-      "lock_state": "DONE",
-      "pos": "QB",
-      "eligible_slots": [
-        "QB"
-      ],
-      "as_of": "2026-09-27T07:12:23-05:00",
-      "nfl_game": "MIN @ TB",
-      "opp_notes": "TB: edge Rueben Bain Jr. (groin) OUT (DNP x3) → Al-Quadin Muhammad / David Walker / Anthony Nelson more pass-rush (SI Bucs). LB Josiah Trotter (shoulder) OUT → SirVocea Dennis. Mayfield full, no designation. Source: NFL.com W3 final / CBS."
+      "player": "Travis Etienne Jr.",
+      "state": "OUT",
+      "lock_state": "IR",
+      "news": "Hamstring; ESPN IR; miss time",
+      "as_of": "2026-10-02T16:10:00-05:00"
+    },
+    {
+      "player": "Dallas Goedert",
+      "state": "OUT",
+      "lock_state": "UNLOCKED",
+      "news": "MCL; ESPN OUT; DNP",
+      "as_of": "2026-10-02T16:10:00-05:00"
+    },
+    {
+      "player": "Josh Jacobs",
+      "state": "OUT",
+      "lock_state": "UNLOCKED",
+      "news": "Commissioner exempt / DTD; zero the start",
+      "as_of": "2026-10-02T16:10:00-05:00"
     },
     {
       "player": "Jakobi Meyers",
       "state": "ACTIVE",
-      "play_prob": 1.0,
-      "snap_mult": 1.0,
-      "role_mult": 1.0,
-      "news": "Thumb — LP Wed / LP Thu / FP Fri, removed from designation; NFL.com Jaguars final shows full practice, no game status. Will play NE @ JAX Sun 12:00 CT.",
-      "source": "NFL.com W3 final / CBS (off IR)",
-      "kickoff": "2026-09-27T10:00:00-07:00",
-      "lock_state": "DONE",
-      "pos": "WR",
-      "eligible_slots": [
-        "WR",
-        "FLEX"
-      ],
-      "as_of": "2026-09-27T07:12:23-05:00",
-      "nfl_game": "NE @ JAX",
-      "espn_tag": "ACTIVE",
-      "opp_notes": "NE: DE/LB Dre'Mont Jones (shoulder) OUT; LB Q. Hutchins OUT; S Brenden Schooler OUT; RT Morgan Moses limited no designation; TE Eli Raridon Q; S Craig Woodson Q. Source: NFL.com W3 final."
+      "lock_state": "UNLOCKED",
+      "news": "Fri LP on JAX report; no game designation yet",
+      "play_prob": 0.85,
+      "as_of": "2026-10-02T16:10:00-05:00"
+    },
+    {
+      "player": "Kyler Murray",
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED",
+      "news": "MIN vs MIA; ESPN ACTIVE",
+      "as_of": "2026-10-02T16:10:00-05:00"
+    },
+    {
+      "player": "Ollie Gordon II",
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED",
+      "news": "MIA @ MIN; Achane tree",
+      "as_of": "2026-10-02T16:10:00-05:00"
+    },
+    {
+      "player": "RJ Harvey",
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED",
+      "news": "DEN @ SF; Dobbins FP",
+      "as_of": "2026-10-02T16:10:00-05:00"
+    },
+    {
+      "player": "Hunter Henry",
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED",
+      "news": "NE @ BUF",
+      "as_of": "2026-10-02T16:10:00-05:00"
+    },
+    {
+      "player": "Drake London",
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED",
+      "news": "ATL @ NO MNF",
+      "as_of": "2026-10-02T16:10:00-05:00"
+    },
+    {
+      "player": "Garrett Wilson",
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED",
+      "news": "NYJ @ CHI; Mitchell DNP",
+      "as_of": "2026-10-02T16:10:00-05:00"
+    },
+    {
+      "player": "Kyle Pitts Sr.",
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED",
+      "news": "ATL @ NO MNF; BE behind Henry",
+      "as_of": "2026-10-02T16:10:00-05:00"
+    },
+    {
+      "player": "Jacoby Brissett",
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED",
+      "news": "ARI @ NYG; BE behind Murray",
+      "as_of": "2026-10-02T16:10:00-05:00"
     },
     {
       "player": "Eddy Pineiro",
       "state": "ACTIVE",
-      "play_prob": 1.0,
-      "snap_mult": 1.0,
-      "role_mult": 1.0,
-      "news": "SF K; not on 49ers official final report with game status. ARI @ SF Sun 3:05 CT. Own: DE Nick Bosa OUT (calf/knee, few weeks; IR discussion); WR Mike Evans Q (hip; DNP/DNP/LP); WR Demarcus Robinson OUT; DE Height OUT; DT Thompson OUT.",
-      "source": "NFL.com W3 final / 49ers.com / CBS",
-      "kickoff": "2026-09-27T13:05:00-07:00",
-      "lock_state": "DONE",
-      "pos": "K",
-      "eligible_slots": [
-        "K"
-      ],
-      "as_of": "2026-09-27T07:12:23-05:00",
-      "nfl_game": "ARI @ SF",
-      "opp_notes": "ARI: QB Jacoby Brissett full, no designation. S Dadrion Taylor-Demerson OUT; CB Max Melton Q; DL Roy Lopez Q. CB Garrett Williams full. No named QB/WR1/RB1/OT/edge out. Source: NFL.com W3 final."
-    },
-    {
-      "player": "Rashid Shaheed",
-      "state": "ACTIVE",
-      "play_prob": 1.0,
-      "snap_mult": 1.0,
-      "role_mult": 1.0,
-      "news": "Healthy — not on Seahawks NFL.com final IR. SEA @ WAS Sun 12:00 CT. Darnold full participation / no game status (starts). Kupp limited Fri, no game status. S Julian Love OUT; S Ty Okada OUT.",
-      "source": "NFL.com W3 final / CBS / Commanders.com",
-      "kickoff": "2026-09-27T10:00:00-07:00",
-      "lock_state": "DONE",
-      "pos": "WR",
-      "eligible_slots": [
-        "WR",
-        "FLEX"
-      ],
-      "as_of": "2026-09-27T07:12:23-05:00",
-      "nfl_game": "SEA @ WAS",
-      "opp_notes": "WAS: QB Jayden Daniels (L elbow) OUT (DNP x3), not on IR, week-to-week → Marcus Mariota starts. LB Frankie Luvu (groin) OUT → Sonny Styles + Leo Chenal; Styles green-dot hold. TE Chig Okonkwo OUT; RG Sam Cosmi OUT; S Nick Cross OUT. OLB Armstrong / DE Omenihu full, no designation. Source: NFL.com W3 final / CBS."
-    },
-    {
-      "play_prob": 1.0,
-      "snap_mult": 1.0,
-      "role_mult": 1.0,
-      "lock_state": "DONE",
-      "as_of": "2026-09-27T07:12:23-05:00",
-      "state": "ACTIVE",
-      "player": "Carolina Panthers D/ST",
-      "pos": "DST",
-      "eligible_slots": [
-        "DST"
-      ],
-      "nfl_game": "CAR @ CLE",
-      "kickoff": "2026-09-27T10:00:00-07:00",
-      "news": "CAR @ CLE Sun 12:00 CT (W3 streamer). CAR Fri final: LB Devin Lloyd (calf), LB Claudin Cherelus (shoulder), S Nick Scott (rib) OUT; WR Coker/Legette Q; OLB Phillips, Jones II, DT Brown III full no designation. CLE QB Deshaun Watson starts (depth chart).",
-      "source": "NFL.com W3 final / CBS / Browns depth",
-      "opp_notes": "CLE offense: no named QB/WR1/RB1/OT out. G Teven Jenkins (back) OUT (DNP x3; guard). OT Tytus Howard, RB Quinshon Judkins full no designation. CLE D: CB Tyson Campbell Q (LP x3), S Grant Delpit Q (LP x3). Source: NFL.com W3 final."
-    },
-    {
-      "play_prob": 1.0,
-      "snap_mult": 1.0,
-      "role_mult": 1.0,
-      "lock_state": "DONE",
-      "as_of": "2026-09-27T07:12:23-05:00",
-      "state": "ACTIVE",
-      "player": "Rashod Bateman",
-      "pos": "WR",
-      "eligible_slots": [
-        "WR",
-        "FLEX"
-      ],
-      "nfl_game": "BAL @ DAL (Rio de Janeiro)",
-      "kickoff": "2026-09-27T13:25:00-07:00",
-      "news": "Not on Ravens final IR; no designation. BAL @ DAL Rio de Janeiro Sun 3:25 CT. Own: Zay Flowers (hamstring) Q (DNP/DNP/LP); Fowler Sat: pitch count if active, pregame workout decides. LT Ronnie Stanley (toe) OUT → Carson Vinson. Justice Hill not on IR (healthy RB2/pass-down). Final status ~2:00 PM CT window.",
-      "source": "NFL.com W3 final / CBS Flowers Fowler 9/26 / ClutchPoints Ravens",
-      "opp_notes": "DAL: CB Cobie Durant (hamstring) OUT; S Malik Hooker (forearm) OUT; S P.J. Locke (foot) OUT; LB DeMarvion Overshown (hamstring) OUT. Material CB1 + both starting safeties OUT. Source: NFL.com W3 final / CBS."
-    },
-    {
-      "play_prob": 1.0,
-      "snap_mult": 1.0,
-      "role_mult": 1.0,
-      "lock_state": "DONE",
-      "as_of": "2026-09-27T07:12:23-05:00",
-      "state": "ACTIVE",
-      "player": "Jacoby Brissett",
-      "pos": "QB",
-      "eligible_slots": [
-        "QB"
-      ],
-      "nfl_game": "ARI @ SF",
-      "kickoff": "2026-09-27T13:05:00-07:00",
-      "news": "Hip cleared — full practice Wed–Fri, no designation on NFL.com Cardinals final; starts ARI @ SF Sun 3:05 CT.",
-      "source": "NFL.com W3 final / AZCardinals / NBC Sports",
-      "opp_notes": "SF: EDGE Nick Bosa OUT (calf/knee); WR Mike Evans Q (hip); WR Demarcus Robinson OUT; CMC full. Source: NFL.com W3 final."
+      "lock_state": "UNLOCKED",
+      "news": "SF vs DEN",
+      "as_of": "2026-10-02T16:10:00-05:00"
     }
-  ],
-  "as_of_ct": "2026-09-27T08:07:40-05:00"
+  ]
 }

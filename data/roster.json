@@ -1,36 +1,36 @@
 {
-  "as_of": "2026-09-27T08:42:00.988663-07:00",
-  "week": 3,
+  "as_of": "2026-10-02T14:04:28.795035-07:00",
+  "week": 4,
   "source": "espn_api",
   "league_id": "1776545061",
   "team_id": 13,
   "season_id": 2026,
-  "scoringPeriodId": 3,
+  "scoringPeriodId": 4,
   "starters": {
-    "RB1": "De'Von Achane",
-    "RB2": "Travis Etienne Jr.",
+    "RB1": "RJ Harvey",
+    "RB2": "TreVeyon Henderson",
     "WR1": "Drake London",
     "WR2": "Garrett Wilson",
-    "TE": "Kyle Pitts Sr.",
-    "DST": "Panthers D/ST",
+    "TE": "Hunter Henry",
+    "DST": "Steelers D/ST",
     "K": "Eddy Pineiro",
-    "FLEX": "Rashod Bateman",
+    "FLEX": "Jakobi Meyers",
     "QB": "Kyler Murray"
   },
   "players": [
     {
-      "name": "De'Von Achane",
+      "name": "RJ Harvey",
       "pos": "RB",
-      "espn_id": 4429160,
+      "espn_id": 4568490,
       "espn_slot": "RB",
       "lineupSlotId": 2,
       "status_tag": null,
       "eligible_slots": []
     },
     {
-      "name": "Travis Etienne Jr.",
+      "name": "TreVeyon Henderson",
       "pos": "RB",
-      "espn_id": 4239996,
+      "espn_id": 4432710,
       "espn_slot": "RB",
       "lineupSlotId": 2,
       "status_tag": null,
@@ -55,18 +55,18 @@
       "eligible_slots": []
     },
     {
-      "name": "Kyle Pitts Sr.",
+      "name": "Hunter Henry",
       "pos": "TE",
-      "espn_id": 4360248,
+      "espn_id": 3046439,
       "espn_slot": "TE",
       "lineupSlotId": 6,
       "status_tag": null,
       "eligible_slots": []
     },
     {
-      "name": "Panthers D/ST",
+      "name": "Steelers D/ST",
       "pos": "DST",
-      "espn_id": -16029,
+      "espn_id": -16023,
       "espn_slot": "DST",
       "lineupSlotId": 16,
       "status_tag": null,
@@ -82,9 +82,9 @@
       "eligible_slots": []
     },
     {
-      "name": "Rashod Bateman",
+      "name": "Jakobi Meyers",
       "pos": "WR",
-      "espn_id": 4360939,
+      "espn_id": 3916433,
       "espn_slot": "FLEX",
       "lineupSlotId": 23,
       "status_tag": null,
@@ -118,21 +118,21 @@
       "eligible_slots": []
     },
     {
-      "name": "Jakobi Meyers",
-      "pos": "WR",
-      "espn_id": 3916433,
-      "espn_slot": "BE",
-      "lineupSlotId": 20,
-      "status_tag": null,
-      "eligible_slots": []
-    },
-    {
       "name": "Josh Jacobs",
       "pos": "RB",
       "espn_id": 4047365,
       "espn_slot": "BE",
       "lineupSlotId": 20,
       "status_tag": "DAY_TO_DAY",
+      "eligible_slots": []
+    },
+    {
+      "name": "Kyle Pitts Sr.",
+      "pos": "TE",
+      "espn_id": 4360248,
+      "espn_slot": "BE",
+      "lineupSlotId": 20,
+      "status_tag": null,
       "eligible_slots": []
     },
     {
@@ -145,27 +145,18 @@
       "eligible_slots": []
     },
     {
-      "name": "Rashid Shaheed",
-      "pos": "WR",
-      "espn_id": 4032473,
+      "name": "Ollie Gordon II",
+      "pos": "RB",
+      "espn_id": 4711533,
       "espn_slot": "BE",
       "lineupSlotId": 20,
       "status_tag": null,
       "eligible_slots": []
     },
     {
-      "name": "Steelers D/ST",
-      "pos": "DST",
-      "espn_id": -16023,
-      "espn_slot": "BE",
-      "lineupSlotId": 20,
-      "status_tag": null,
-      "eligible_slots": []
-    },
-    {
-      "name": "Jaxson Dart",
-      "pos": "QB",
-      "espn_id": 4689114,
+      "name": "Travis Etienne Jr.",
+      "pos": "RB",
+      "espn_id": 4239996,
       "espn_slot": "IR",
       "lineupSlotId": 21,
       "status_tag": "INJURY_RESERVE",
