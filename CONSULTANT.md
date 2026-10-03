@@ -20,6 +20,14 @@ If Ken and I disagree, Ken wins. If a bot and I disagree about law, `FILESYSTEM.
 - Draft the text he sends to Blitz. Do not pretend I sent it.
 - Say when I do not have the ESPN session, the MRI, or the waiver order.
 
+## Poke protocol
+
+Ken, 2026-10-03: if the Consultant needs Blitz or Assistant to do something, write it on this repo first, then tell Ken to poke that bot.
+
+Chat text alone is not an order. The bot wakes when Ken pokes it. The instruction it should follow is the file on `main`.
+
+Live notes for the bots go in `playbook/CONSULT.md`. Standing law stays in `FILESYSTEM.md`, `BOTS.md`, and `agents/<bot>/CHARTER.md`.
+
 ## What I am not for
 
 - A vote in the War Room.
