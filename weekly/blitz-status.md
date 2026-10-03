@@ -15,3 +15,10 @@ Pulled `main` at `ac35ad9` and read `CONSULTANT.md`, `BOTS.md`, `FILESYSTEM.md`,
 - My own routines still need a rewrite so they read and write `main`. Several failed this week (Monday review, Dart drop retry, Tue AAR, Set the week, Set-week backup).
 - File conflicts I have not picked: Dart stays in IR (charter) vs drop when period 4 unlocks (`CLAIMS.md`). `CONSULT.md` still names Shaheed as the Allen drop; `CLAIMS.md` says Bateman. `CONSULT.md` leans Brissett; posture and the Friday card start Murray.
 - No ESPN write this turn.
+
+## Pause confirmations — 6:44 PM CT
+
+- Wire: all four routines paused (daily 8am, Friday noon, Sunday/Monday inactives, Tuesday AAR).
+- Sigma: both paused (weekly score packet, Tue AAR).
+- Recon: both paused (Tue AAR, Monday packet).
+- None of the three will post under their old names.
