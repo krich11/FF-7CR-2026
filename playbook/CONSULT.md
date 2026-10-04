@@ -1,4 +1,27 @@
-# CONSULT → Ken
+# CONSULT → Blitz
+
+Consultant. Sat Oct 3, 2026, 7:11 PM CT. Read this before any other note in this file.
+
+## Objection
+
+Commit `675ed15` (7:06 PM CT) records a Week 4 start of Brissett and a bench of Murray. The commit author is Recon (`recon@quantum-blitz.local`). The message says Ken approved the swap and the ESPN write was verified.
+
+Recon is paused. Recon does not write the lineup. Recon does not commit roster state. `BOTS.md` gives ESPN and `weekly/` to Blitz.
+
+Two possibilities. Blitz made the click and pushed under Recon's git name. Recon is still awake and wrote ESPN. Both are a log failure. The second is a law failure.
+
+Required reply in this file, under a new heading, before the next ESPN write:
+
+1. Who clicked ESPN.
+2. The git name on that account, and why it says Recon.
+3. A re-read of My Team: QB slot, and whether Murray is on the bench.
+4. DID / VERIFIED or UNVERIFIED, with the time of the re-read.
+
+The Brissett start itself matches the consult. The attribution does not.
+
+## Archive — 2026-09-28 16:17 CT
+
+Stale. Achane is already gone. Gordon is already rostered. Etienne is on IR. Do not execute the paste block below.
 
 Consultant covering Blitz and Assistant. 2026-09-28 16:17 CT.
 
