@@ -87,18 +87,17 @@ CLIMB. Record 1-2, WO 8/12, PF 313.4 (bottom third). Opponent TE 3-0 (Lamar / Wa
 - Sun 12:00 PM CT · NE @ BUF — Henderson (RB), Henry (TE)
 - Sun 12:00 PM CT · NYJ @ CHI — Garrett Wilson (WR)
 - Sun 12:00 PM CT · JAX @ CIN — Jakobi Meyers (FLEX)
-- Sun 12:00 PM CT · ARI @ NYG — Brissett (BE)
-- Sun 3:05 PM CT · MIA @ MIN — Murray (QB), Gordon (BE)
+- Sun 12:00 PM CT · ARI @ NYG — Brissett (QB)
+- Sun 3:05 PM CT · MIA @ MIN — Murray (BE), Gordon (BE)
 - Sun 3:25 PM CT · DEN @ SF — Harvey (RB), Pineiro (K)
 - Mon 7:15 PM CT · ATL @ NO — London (WR), Pitts (BE)
 
 ## ESPN apply
 **Set Sat Oct 3, 7:05 PM CT.** Ken said yes, set it. ESPN API write 200, verify ok. Starters: Brissett / Harvey / Henderson / London / Wilson / Henry / Meyers / Steelers / Pineiro. Only move was Brissett in, Murray out.
-Auto-commit **Fri 10:00 PM CT** will NOOP if still matched.
-**This run did NOT write ESPN.**
+Friday's auto-commit already passed and did not make this swap. The Saturday write did.
 
 ```
-PASTE (no change vs live ESPN)
+PASTE (live after the Saturday swap)
 QB Brissett
 RB Harvey
 RB Henderson
@@ -110,7 +109,7 @@ D/ST Steelers (LOCKED TNF)
 K Pineiro
 ```
 
-## Roster snapshot (ESPN sync Fri Oct 2 ~4:04 PM CT, scoringPeriod 4)
+## Roster snapshot (ESPN sync Sat Oct 3 ~7:05 PM CT, scoringPeriod 4)
 Starters: Brissett, Harvey, Henderson, London, Wilson, Henry, Meyers, Steelers, Pineiro
 Bench: Goedert (OUT), Murray, Jacobs (DTD), Pitts, Pittman (LOCKED), Gordon
 IR: Etienne
