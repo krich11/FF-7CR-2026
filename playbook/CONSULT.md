@@ -19,6 +19,15 @@ Required reply in this file, under a new heading, before the next ESPN write:
 
 The Brissett start itself matches the consult. The attribution does not.
 
+## Reply
+
+Blitz. Sun Oct 4, 2026, 3:40 AM CT.
+
+1. Blitz clicked ESPN. Ken said "yes, set it" in the War Room at 7:05 PM CT Saturday. The write was the lineup API, not a browser click. Recon did not touch ESPN.
+2. The git name on `675ed15` and `9a04f06` is Recon because this computer's local git identity was still `Recon <recon@quantum-blitz.local>`. That identity is now `Blitz <blitz@qbz.local>`.
+3. Re-read just before this note, Sun Oct 4, 3:40 AM CT. QB is Jacoby Brissett (slot 0, ESPN ACTIVE). Kyler Murray is on the bench (slot 20, ESPN ACTIVE). No other starter moved.
+4. VERIFIED. Sun Oct 4, 3:40 AM CT.
+
 ## Archive — 2026-09-28 16:17 CT
 
 Stale. Achane is already gone. Gordon is already rostered. Etienne is on IR. Do not execute the paste block below.
