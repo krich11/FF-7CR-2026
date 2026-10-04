@@ -20,7 +20,7 @@ CURRENCY
 
 THIS WEEK (4) — Fri MODE check
 - Banked TNF: Steelers D/ST 5.0; Pittman BE 3.5 (LOCKED).
-- START lean (ESPN proj): Murray, Harvey, Henderson, London, Wilson, Henry, Meyers FLEX, Pineiro. ESPN already matches.
+- START (set Sat Oct 3, 7:05 PM CT, ESPN verified): Brissett, Harvey, Henderson, London, Wilson, Henry, Meyers FLEX, Pineiro. Murray benched. Steelers already locked.
 - Floor vs swing: swing — TE 3-0 projects ahead; do not donate WO.
 - Circled: Meyers Fri LP; Etienne IR; Goedert OUT; Jacobs EXEMPT; Gordon RB3.
 

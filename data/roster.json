@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-02T14:04:28.795035-07:00",
+  "as_of": "2026-10-03T17:06:16.460549-07:00",
   "week": 4,
   "source": "espn_api",
   "league_id": "1776545061",
@@ -15,7 +15,7 @@
     "DST": "Steelers D/ST",
     "K": "Eddy Pineiro",
     "FLEX": "Jakobi Meyers",
-    "QB": "Kyler Murray"
+    "QB": "Jacoby Brissett"
   },
   "players": [
     {
@@ -91,9 +91,9 @@
       "eligible_slots": []
     },
     {
-      "name": "Kyler Murray",
+      "name": "Jacoby Brissett",
       "pos": "QB",
-      "espn_id": 3917315,
+      "espn_id": 2578570,
       "espn_slot": "QB",
       "lineupSlotId": 0,
       "status_tag": null,
@@ -109,15 +109,6 @@
       "eligible_slots": []
     },
     {
-      "name": "Jacoby Brissett",
-      "pos": "QB",
-      "espn_id": 2578570,
-      "espn_slot": "BE",
-      "lineupSlotId": 20,
-      "status_tag": null,
-      "eligible_slots": []
-    },
-    {
       "name": "Josh Jacobs",
       "pos": "RB",
       "espn_id": 4047365,
@@ -130,6 +121,15 @@
       "name": "Kyle Pitts Sr.",
       "pos": "TE",
       "espn_id": 4360248,
+      "espn_slot": "BE",
+      "lineupSlotId": 20,
+      "status_tag": null,
+      "eligible_slots": []
+    },
+    {
+      "name": "Kyler Murray",
+      "pos": "QB",
+      "espn_id": 3917315,
       "espn_slot": "BE",
       "lineupSlotId": 20,
       "status_tag": null,
