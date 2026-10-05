@@ -65,3 +65,5 @@ The Allgeier drop left QBZ with no healthy backup RB. A follow-up rec then propo
 - 2026-09-27 6:32 PM CT: We voted 4-0 to swap Brissett for Mayfield using two weeks of data while both QBs were still playing Week 3. Brissett then scored 25.6 and Mayfield 11.28, and the trade went on hold. Rule: no player-swap vote while either player's game is live or unscored; wait for final boxes.
 
 - 2026-09-27: Players stay locked through the scoring period after their game; ESPN standalone drop = type ROSTER + item DROP (FREEAGENT requires ADD). Check lock before promising a drop.
+
+- (2026-10-04) PROCESS: When Ken asks about the lineup, the answer covers every rostered player, not only the slots already in the discussion. Deadline is his lock, not kickoff. Week 4 miss: Sunday checks stayed on quarterback and tight end and never put Gordon back on the table. He scored 18.0 (9 carries, 100 yards, a touchdown, 2 catches) while Henderson scored 4.2. A Saturday sit is not final. "The other guy is active" is not a reason to skip a back who just had the workload, especially when the injured starter is out for the year.
