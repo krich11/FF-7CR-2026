@@ -1,0 +1,21 @@
+{
+  "week": 4,
+  "skill": "lineup.tweak",
+  "window": "saturday_correction",
+  "as_of_ct": "Sat Oct 3, 7:05 PM CT",
+  "assignments": {
+    "QB": "Jacoby Brissett",
+    "RB": [
+      "RJ Harvey",
+      "TreVeyon Henderson"
+    ],
+    "WR": [
+      "Drake London",
+      "Garrett Wilson"
+    ],
+    "TE": "Hunter Henry",
+    "FLEX": "Jakobi Meyers",
+    "DST": "Steelers D/ST",
+    "K": "Eddy Pineiro"
+  }
+}
