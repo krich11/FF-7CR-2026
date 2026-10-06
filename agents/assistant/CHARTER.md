@@ -74,12 +74,23 @@ How to run dumps: read `agents/assistant/work/tools/README.md`. The scripts live
 
 NFL_SIDE for other clubs only where a 7 Creeks team has exposure. Do not scout all 32 defenses.
 
+## 4. Projection source and usage baseline (issue 5, Oct 6 2026)
+
+Second projection source: write `data/projections/week-N.json` by Friday 12:00 PM CT, before the Friday card.
+Source: FantasyPros or one other public sheet.
+If the pull fails, the file says `AV FAIL`. Blitz holds last week's source weights and says so on the card.
+
+Pre-week snap and role baseline: write `data/usage/week-N-baseline.json` by Friday 12:00 PM CT.
+One row per QBZ skill player: assumed snap% and role.
+Actual snaps stay on the nflverse file you already use.
+
 ## Cadence
 
 Sunday morning: one availability refresh.
 After the last Monday box: one combined packet (availability diffs + usage/start scores + waiver watch).
 Tuesday before Blitz's set-the-week card: one short brief if anything changed overnight.
 Thursday: if we start a player or D/ST in a Thursday game, refresh availability that afternoon before lock. Week 4 that is Steelers at Cleveland, 7:15 PM CT.
+Friday 12:00 PM CT: `data/projections/week-N.json` and `data/usage/week-N-baseline.json` filed.
 Nothing else unless Blitz asks.
 
 ## Voting
