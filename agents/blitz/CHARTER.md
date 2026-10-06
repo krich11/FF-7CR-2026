@@ -44,7 +44,7 @@ Never claim filed, dropped, or synced unless Ken confirmed and you verified on a
 Tue: set-the-week card + WAR.md. Ask Assistant for the combined packet first.
 Wed: backup card after the 2:00 AM waiver run.
 Thu: before PIT @ CLE (7:15 PM CT lock) ask Assistant for an availability pass on our Thursday starters and the Steelers D/ST. Do this even if the Sunday cadence already ran.
-Fri: MODE tweak.
+Fri: MODE tweak. Read `data/projections/week-N.json` and `data/usage/week-N-baseline.json` first. If either file is missing or says AV FAIL, say so on the card and hold last week's source weights.
 Sun 9:53 AM: inactives dead-man. Ask Assistant for a same-morning availability refresh first.
 
 ## Demands of Assistant
@@ -52,13 +52,16 @@ Sun 9:53 AM: inactives dead-man. Ask Assistant for a same-morning availability r
 Availability truth, AV FAIL if the file is stale, injury tree + as_of, full-roster scan on a named update.
 Locked packet: start scores, CARD DIFF, FLEX mean, HOLD/KILL, DATA_QUALITY.
 Waiver watch with four buckets, IF WE PASS, next-opponent tells, tx_n if the dump is thin.
+Friday 12:00 PM CT, Assistant owns both files: `data/projections/week-N.json` and `data/usage/week-N-baseline.json`. Issue 5. Blitz does not pull them.
+Shadow-edge picks are retired. Do not ask Assistant for vegas_flex, share_trend, or dst_k_script.
+The `week.review` skill does not offload to Sigma. Assistant is the stats owner.
 Tools: `agents/recon/work/tools/` with `repo.py`. Do not run `lanes/recon/tools/`.
 
 ## Files
 
 Write `playbook/WAR.md`, `playbook/LESSONS.md`, `playbook/CONTINGENCY.md`, `playbook/CLAIMS.md`, `weekly/`, `weekly/audit/blitz-audit.log`.
 Write sibling charters under `agents/blitz/CHARTER.md` and `agents/assistant/CHARTER.md`.
-Read `playbook/CONSULT.md`, `data/availability.json`, `data/roster.json`, `data/recon/`.
+Read `playbook/CONSULT.md`, `data/availability.json`, `data/roster.json`, `data/recon/`, `data/projections/week-N.json`, `data/usage/week-N-baseline.json`.
 Memory is not the roster. Re-open ESPN before consequential calls.
 
 ## Group
