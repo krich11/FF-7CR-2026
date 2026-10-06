@@ -1,0 +1,197 @@
+{
+  "as_of": "2026-09-20T09:16:54.656866-07:00",
+  "teams": [
+    {
+      "teamId": 1,
+      "name": "Texas Endgame",
+      "abbrev": "TE",
+      "waiverRank": 10,
+      "record": {
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 134.36,
+        "pointsAgainst": 104.7
+      },
+      "is_quantum_blitz": false,
+      "starter_count": 9,
+      "roster_count": 16
+    },
+    {
+      "teamId": 2,
+      "name": "Patton's Posse",
+      "abbrev": "PP",
+      "waiverRank": 8,
+      "record": {
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 130.2,
+        "pointsAgainst": 152.66
+      },
+      "is_quantum_blitz": false,
+      "starter_count": 9,
+      "roster_count": 17
+    },
+    {
+      "teamId": 3,
+      "name": "Fantasy Rookie No More",
+      "abbrev": "FR",
+      "waiverRank": 12,
+      "record": {
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 152.66,
+        "pointsAgainst": 130.2
+      },
+      "is_quantum_blitz": false,
+      "starter_count": 9,
+      "roster_count": 16
+    },
+    {
+      "teamId": 4,
+      "name": "Charlie Don't Surf",
+      "abbrev": "CDS",
+      "waiverRank": 11,
+      "record": {
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 142.14,
+        "pointsAgainst": 83.76
+      },
+      "is_quantum_blitz": false,
+      "starter_count": 9,
+      "roster_count": 17
+    },
+    {
+      "teamId": 6,
+      "name": "Buck up Buttercup!",
+      "abbrev": "BuB",
+      "waiverRank": 2,
+      "record": {
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 83.76,
+        "pointsAgainst": 142.14
+      },
+      "is_quantum_blitz": false,
+      "starter_count": 9,
+      "roster_count": 16
+    },
+    {
+      "teamId": 7,
+      "name": "Lazy Yorkie",
+      "abbrev": "LY",
+      "waiverRank": 1,
+      "record": {
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 77.04,
+        "pointsAgainst": 128.66
+      },
+      "is_quantum_blitz": false,
+      "starter_count": 9,
+      "roster_count": 16
+    },
+    {
+      "teamId": 8,
+      "name": "The gg Team",
+      "abbrev": "GGT",
+      "waiverRank": 5,
+      "record": {
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 106.96,
+        "pointsAgainst": 117.8
+      },
+      "is_quantum_blitz": false,
+      "starter_count": 9,
+      "roster_count": 16
+    },
+    {
+      "teamId": 9,
+      "name": "The Chosen Ones",
+      "abbrev": "TCO",
+      "waiverRank": 3,
+      "record": {
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 102.22,
+        "pointsAgainst": 132.9
+      },
+      "is_quantum_blitz": false,
+      "starter_count": 9,
+      "roster_count": 16
+    },
+    {
+      "teamId": 10,
+      "name": "Louisiana Lightning",
+      "abbrev": "LL",
+      "waiverRank": 9,
+      "record": {
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 128.66,
+        "pointsAgainst": 77.04
+      },
+      "is_quantum_blitz": false,
+      "starter_count": 9,
+      "roster_count": 17
+    },
+    {
+      "teamId": 11,
+      "name": "David's Daring Team",
+      "abbrev": "DDT",
+      "waiverRank": 4,
+      "record": {
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 104.7,
+        "pointsAgainst": 134.36
+      },
+      "is_quantum_blitz": false,
+      "starter_count": 9,
+      "roster_count": 16
+    },
+    {
+      "teamId": 12,
+      "name": "Mitch's Badass Bunch",
+      "abbrev": "MBB",
+      "waiverRank": 6,
+      "record": {
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 117.8,
+        "pointsAgainst": 106.96
+      },
+      "is_quantum_blitz": false,
+      "starter_count": 9,
+      "roster_count": 16
+    },
+    {
+      "teamId": 13,
+      "name": "Quantum Blitz",
+      "abbrev": "QBZ",
+      "waiverRank": 7,
+      "record": {
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 132.9,
+        "pointsAgainst": 102.22
+      },
+      "is_quantum_blitz": true,
+      "starter_count": 9,
+      "roster_count": 17
+    }
+  ]
+}

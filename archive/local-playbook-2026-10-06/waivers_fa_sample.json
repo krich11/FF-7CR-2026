@@ -1,0 +1,502 @@
+[
+  {
+    "id": 5083315,
+    "name": "Kenyon Sadiq",
+    "pos": "WR",
+    "pct": 45.5,
+    "status": "WAIVERS",
+    "injury": "QUESTIONABLE",
+    "proj": 5.08793907,
+    "onTeamId": 0
+  },
+  {
+    "id": 4686658,
+    "name": "Mike Washington Jr.",
+    "pos": "RB",
+    "pct": 39.8,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 6.8261086,
+    "onTeamId": 0
+  },
+  {
+    "id": 4361529,
+    "name": "Isiah Pacheco",
+    "pos": "RB",
+    "pct": 39.6,
+    "status": "FREEAGENT",
+    "injury": "INJURY_RESERVE",
+    "proj": 0.0,
+    "onTeamId": 0
+  },
+  {
+    "id": 4373626,
+    "name": "Tyler Allgeier",
+    "pos": "RB",
+    "pct": 35.5,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 6.7856922,
+    "onTeamId": 0
+  },
+  {
+    "id": 4366031,
+    "name": "Tank Dell",
+    "pos": "RB/WR",
+    "pct": 34.7,
+    "status": "FREEAGENT",
+    "injury": "INJURY_RESERVE",
+    "proj": 0.0,
+    "onTeamId": 0
+  },
+  {
+    "id": 4567104,
+    "name": "Will Reichard",
+    "pos": "WR/TE",
+    "pct": 32.8,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 8.42216402,
+    "onTeamId": 0
+  },
+  {
+    "id": 4430834,
+    "name": "Jalen McMillan",
+    "pos": "RB/WR",
+    "pct": 30.6,
+    "status": "FREEAGENT",
+    "injury": "QUESTIONABLE",
+    "proj": 8.15924076,
+    "onTeamId": 0
+  },
+  {
+    "id": 4428718,
+    "name": "Tre Tucker",
+    "pos": "RB/WR",
+    "pct": 26.6,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 9.13840485,
+    "onTeamId": 0
+  },
+  {
+    "id": 4832800,
+    "name": "Denzel Boston",
+    "pos": "RB/WR",
+    "pct": 25.5,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 8.28494751,
+    "onTeamId": 0
+  },
+  {
+    "id": 4570037,
+    "name": "Terrance Ferguson",
+    "pos": "WR",
+    "pct": 25.3,
+    "status": "FREEAGENT",
+    "injury": "QUESTIONABLE",
+    "proj": 8.07868891,
+    "onTeamId": 0
+  },
+  {
+    "id": 3925357,
+    "name": "Calvin Ridley",
+    "pos": "RB/WR",
+    "pct": 25.0,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 8.05381629,
+    "onTeamId": 0
+  },
+  {
+    "id": 4702555,
+    "name": "Jonah Coleman",
+    "pos": "RB",
+    "pct": 24.1,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 4.13393998,
+    "onTeamId": 0
+  },
+  {
+    "id": 4430539,
+    "name": "Brenton Strange",
+    "pos": "WR",
+    "pct": 24.0,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 8.14420254,
+    "onTeamId": 0
+  },
+  {
+    "id": 4596334,
+    "name": "Keaton Mitchell",
+    "pos": "RB",
+    "pct": 20.8,
+    "status": "FREEAGENT",
+    "injury": "QUESTIONABLE",
+    "proj": 6.21044896,
+    "onTeamId": 0
+  },
+  {
+    "id": 4360234,
+    "name": "Evan McPherson",
+    "pos": "WR/TE",
+    "pct": 20.4,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 8.52112365,
+    "onTeamId": 0
+  },
+  {
+    "id": 4429013,
+    "name": "Tank Bigsby",
+    "pos": "RB",
+    "pct": 19.3,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 4.24758775,
+    "onTeamId": 0
+  },
+  {
+    "id": 4038441,
+    "name": "Justice Hill",
+    "pos": "RB",
+    "pct": 18.5,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 7.15859763,
+    "onTeamId": 0
+  },
+  {
+    "id": 3117256,
+    "name": "Dalton Schultz",
+    "pos": "WR",
+    "pct": 18.4,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 8.35688783,
+    "onTeamId": 0
+  },
+  {
+    "id": 5081397,
+    "name": "Dylan Sampson",
+    "pos": "RB",
+    "pct": 18.3,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 5.01644855,
+    "onTeamId": 0
+  },
+  {
+    "id": 3150744,
+    "name": "Chase McLaughlin",
+    "pos": "WR/TE",
+    "pct": 16.4,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 8.35508418,
+    "onTeamId": 0
+  },
+  {
+    "id": 4597500,
+    "name": "Adonai Mitchell",
+    "pos": "RB/WR",
+    "pct": 15.7,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 8.06033593,
+    "onTeamId": 0
+  },
+  {
+    "id": 4869645,
+    "name": "Caleb Douglas",
+    "pos": "RB/WR",
+    "pct": 15.5,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 6.8152594,
+    "onTeamId": 0
+  },
+  {
+    "id": 4361411,
+    "name": "Pat Freiermuth",
+    "pos": "WR",
+    "pct": 14.4,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 8.42969452,
+    "onTeamId": 0
+  },
+  {
+    "id": 4429022,
+    "name": "Kayshon Boutte",
+    "pos": "RB/WR",
+    "pct": 13.7,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 8.76483153,
+    "onTeamId": 0
+  },
+  {
+    "id": 4869461,
+    "name": "Trey Smack",
+    "pos": "WR/TE",
+    "pct": 13.7,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 8.27370155,
+    "onTeamId": 0
+  },
+  {
+    "id": -16016,
+    "name": "Vikings D/ST",
+    "pos": "DST",
+    "pct": 13.5,
+    "status": "FREEAGENT",
+    "injury": null,
+    "proj": 4.08932963,
+    "onTeamId": 0
+  },
+  {
+    "id": 4382466,
+    "name": "Jalen Nailor",
+    "pos": "RB/WR",
+    "pct": 13.2,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 8.17800213,
+    "onTeamId": 0
+  },
+  {
+    "id": 4685247,
+    "name": "Braelon Allen",
+    "pos": "RB",
+    "pct": 12.6,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 4.62214962,
+    "onTeamId": 0
+  },
+  {
+    "id": 2977187,
+    "name": "Cooper Kupp",
+    "pos": "RB/WR",
+    "pct": 11.5,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 6.2113996,
+    "onTeamId": 0
+  },
+  {
+    "id": 4819231,
+    "name": "Kaleb Johnson",
+    "pos": "RB",
+    "pct": 10.8,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 1.27927043,
+    "onTeamId": 0
+  },
+  {
+    "id": 4569559,
+    "name": "Devaughn Vele",
+    "pos": "RB/WR",
+    "pct": 10.8,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 9.31029561,
+    "onTeamId": 0
+  },
+  {
+    "id": 4696044,
+    "name": "Kaelon Black",
+    "pos": "RB",
+    "pct": 10.8,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 3.12623122,
+    "onTeamId": 0
+  },
+  {
+    "id": 4241457,
+    "name": "Najee Harris",
+    "pos": "RB",
+    "pct": 10.8,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 4.70112182,
+    "onTeamId": 0
+  },
+  {
+    "id": -16003,
+    "name": "Bears D/ST",
+    "pos": "DST",
+    "pct": 10.2,
+    "status": "FREEAGENT",
+    "injury": null,
+    "proj": 5.68167421,
+    "onTeamId": 0
+  },
+  {
+    "id": 4429501,
+    "name": "Ray Davis",
+    "pos": "RB",
+    "pct": 10.2,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 2.06609893,
+    "onTeamId": 0
+  },
+  {
+    "id": 4428850,
+    "name": "Dontayvion Wicks",
+    "pos": "RB/WR",
+    "pct": 9.9,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 7.27929753,
+    "onTeamId": 0
+  },
+  {
+    "id": 4688380,
+    "name": "Cam Ward",
+    "pos": "TQB",
+    "pct": 9.5,
+    "status": "WAIVERS",
+    "injury": "ACTIVE",
+    "proj": 13.60915474,
+    "onTeamId": 0
+  },
+  {
+    "id": 4837248,
+    "name": "Fernando Mendoza",
+    "pos": "TQB",
+    "pct": 9.4,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 0.57888814,
+    "onTeamId": 0
+  },
+  {
+    "id": 4360939,
+    "name": "Rashod Bateman",
+    "pos": "RB/WR",
+    "pct": 9.2,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 7.30743307,
+    "onTeamId": 0
+  },
+  {
+    "id": 4586312,
+    "name": "Jaylin Noel",
+    "pos": "RB/WR",
+    "pct": 8.9,
+    "status": "FREEAGENT",
+    "injury": "QUESTIONABLE",
+    "proj": 8.29424978,
+    "onTeamId": 0
+  },
+  {
+    "id": 3886598,
+    "name": "Jauan Jennings",
+    "pos": "RB/WR",
+    "pct": 8.8,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 6.66997168,
+    "onTeamId": 0
+  },
+  {
+    "id": 4360635,
+    "name": "Chig Okonkwo",
+    "pos": "WR",
+    "pct": 8.7,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 6.80536904,
+    "onTeamId": 0
+  },
+  {
+    "id": 3050478,
+    "name": "Jake Elliott",
+    "pos": "WR/TE",
+    "pct": 8.6,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 8.54712049,
+    "onTeamId": 0
+  },
+  {
+    "id": 4360516,
+    "name": "Tyrone Tracy Jr.",
+    "pos": "RB",
+    "pct": 8.5,
+    "status": "FREEAGENT",
+    "injury": "QUESTIONABLE",
+    "proj": 2.44970412,
+    "onTeamId": 0
+  },
+  {
+    "id": 4569603,
+    "name": "Malik Washington",
+    "pos": "RB/WR",
+    "pct": 8.1,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 6.90195472,
+    "onTeamId": 0
+  },
+  {
+    "id": -16025,
+    "name": "49ers D/ST",
+    "pos": "DST",
+    "pct": 7.2,
+    "status": "FREEAGENT",
+    "injury": null,
+    "proj": 2.56535412,
+    "onTeamId": 0
+  },
+  {
+    "id": 3149687,
+    "name": "Chris Brooks",
+    "pos": "RB",
+    "pct": 7.1,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 7.73647126,
+    "onTeamId": 0
+  },
+  {
+    "id": 8439,
+    "name": "Aaron Rodgers",
+    "pos": "TQB",
+    "pct": 7.0,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 14.76667267,
+    "onTeamId": 0
+  },
+  {
+    "id": 4685261,
+    "name": "Germie Bernard",
+    "pos": "RB/WR",
+    "pct": 6.6,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 6.80597695,
+    "onTeamId": 0
+  },
+  {
+    "id": 4723820,
+    "name": "Omar Cooper Jr.",
+    "pos": "RB/WR",
+    "pct": 6.5,
+    "status": "FREEAGENT",
+    "injury": "ACTIVE",
+    "proj": 5.69258403,
+    "onTeamId": 0
+  }
+]

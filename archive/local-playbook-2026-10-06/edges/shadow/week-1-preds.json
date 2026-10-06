@@ -1,0 +1,52 @@
+{
+  "week": 1,
+  "as_of": "2026-09-12T06:12:00-07:00",
+  "note": "Paper check vs SPEC Friday tweak (makeup Sat). No live lineup change from shadow.",
+  "spec_starters": {
+    "QB": "Jaxson Dart",
+    "RB": [
+      "De'Von Achane",
+      "Travis Etienne Jr."
+    ],
+    "WR": [
+      "Garrett Wilson",
+      "Drake London"
+    ],
+    "TE": "Dallas Goedert",
+    "FLEX": "Michael Pittman Jr.",
+    "DST": "Steelers D/ST",
+    "K": "Eddy Pineiro"
+  },
+  "signals": {
+    "vegas_flex": {
+      "status": "recorded",
+      "would_start_flex": "Jakobi Meyers",
+      "spec_flex": "Michael Pittman Jr.",
+      "changes_roster": true,
+      "implied_totals": {
+        "JAX (Meyers)": 24.5,
+        "PIT (Pittman)": 22.5,
+        "PHI (Goedert TE not FLEX)": 25.0,
+        "LV (Tucker)": 22.0,
+        "CAR (Brooks)": 22.25
+      },
+      "reason": "JAX \u22128.5 / 40.5 \u2192 ~24.5 implied tops Pittman PIT \u22123.5 / 41.5 \u2192 ~22.5. Paper FLEX flip to Meyers; SPEC keeps Pittman (higher adj).",
+      "lines_source": "CBS/FanDuel Week 1 odds (makeup Sat 2026-09-12)"
+    },
+    "share_trend": {
+      "status": "na_week1",
+      "changes_roster": false,
+      "reason": "No 2026 snap/target history yet."
+    },
+    "dst_k_script": {
+      "status": "recorded",
+      "would_stream_dst": "Steelers D/ST",
+      "would_stream_k": "Eddy Pineiro",
+      "spec_dst": "Steelers D/ST",
+      "spec_k": "Eddy Pineiro",
+      "changes_roster": false,
+      "reason": "No alternate DST/K. PIT vs Rush/ATL (PIT \u22123.5 / 41.5) strong DST script; K already DONE Melbourne."
+    }
+  },
+  "summary": "vegas_flex would paper-flip FLEX Pittman\u2192Meyers on implied total; share_trend N/A; dst_k_script agrees with Steelers. No ESPN change from shadow."
+}

@@ -1,0 +1,149 @@
+{
+  "scoringPeriodId": 1,
+  "players": [
+    {
+      "lineupSlotId": 2,
+      "slot": "RB",
+      "playerId": 4429160,
+      "name": "De'Von Achane",
+      "pos": 2,
+      "proTeamId": 15,
+      "injuryStatus": "ACTIVE"
+    },
+    {
+      "lineupSlotId": 2,
+      "slot": "RB",
+      "playerId": 4239996,
+      "name": "Travis Etienne Jr.",
+      "pos": 2,
+      "proTeamId": 18,
+      "injuryStatus": "ACTIVE"
+    },
+    {
+      "lineupSlotId": 4,
+      "slot": "WR",
+      "playerId": 4426502,
+      "name": "Drake London",
+      "pos": 3,
+      "proTeamId": 1,
+      "injuryStatus": "ACTIVE"
+    },
+    {
+      "lineupSlotId": 4,
+      "slot": "WR",
+      "playerId": 4569618,
+      "name": "Garrett Wilson",
+      "pos": 3,
+      "proTeamId": 20,
+      "injuryStatus": "ACTIVE"
+    },
+    {
+      "lineupSlotId": 6,
+      "slot": "TE",
+      "playerId": 4360248,
+      "name": "Kyle Pitts Sr.",
+      "pos": 4,
+      "proTeamId": 1,
+      "injuryStatus": "ACTIVE"
+    },
+    {
+      "lineupSlotId": 16,
+      "slot": "DST",
+      "playerId": -16023,
+      "name": "Steelers D/ST",
+      "pos": 16,
+      "proTeamId": 23,
+      "injuryStatus": null
+    },
+    {
+      "lineupSlotId": 17,
+      "slot": "K",
+      "playerId": 4034949,
+      "name": "Eddy Pineiro",
+      "pos": 5,
+      "proTeamId": 25,
+      "injuryStatus": "ACTIVE"
+    },
+    {
+      "lineupSlotId": 23,
+      "slot": "FLEX",
+      "playerId": 3121023,
+      "name": "Dallas Goedert",
+      "pos": 4,
+      "proTeamId": 21,
+      "injuryStatus": "ACTIVE"
+    },
+    {
+      "lineupSlotId": 0,
+      "slot": "QB",
+      "playerId": 4689114,
+      "name": "Jaxson Dart",
+      "pos": 1,
+      "proTeamId": 19,
+      "injuryStatus": "ACTIVE"
+    },
+    {
+      "lineupSlotId": 20,
+      "slot": "BE",
+      "playerId": 3916433,
+      "name": "Jakobi Meyers",
+      "pos": 3,
+      "proTeamId": 30,
+      "injuryStatus": "QUESTIONABLE"
+    },
+    {
+      "lineupSlotId": 20,
+      "slot": "BE",
+      "playerId": 4678008,
+      "name": "Jonathon Brooks",
+      "pos": 2,
+      "proTeamId": 29,
+      "injuryStatus": "QUESTIONABLE"
+    },
+    {
+      "lineupSlotId": 20,
+      "slot": "BE",
+      "playerId": 4047365,
+      "name": "Josh Jacobs",
+      "pos": 2,
+      "proTeamId": 9,
+      "injuryStatus": "DAY_TO_DAY"
+    },
+    {
+      "lineupSlotId": 20,
+      "slot": "BE",
+      "playerId": 4035687,
+      "name": "Michael Pittman Jr.",
+      "pos": 3,
+      "proTeamId": 23,
+      "injuryStatus": "QUESTIONABLE"
+    },
+    {
+      "lineupSlotId": 20,
+      "slot": "BE",
+      "playerId": 4032473,
+      "name": "Rashid Shaheed",
+      "pos": 3,
+      "proTeamId": 26,
+      "injuryStatus": "ACTIVE"
+    },
+    {
+      "lineupSlotId": 20,
+      "slot": "BE",
+      "playerId": 3912547,
+      "name": "Sam Darnold",
+      "pos": 1,
+      "proTeamId": 26,
+      "injuryStatus": "ACTIVE"
+    },
+    {
+      "lineupSlotId": 20,
+      "slot": "BE",
+      "playerId": 4426385,
+      "name": "Zach Charbonnet",
+      "pos": 2,
+      "proTeamId": 26,
+      "injuryStatus": "OUT"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "league_name": "7 Creeks Armchair Quarterbacks",
+  "host": "espn",
+  "league_id": "1776545061",
+  "season_id": 2026,
+  "team_id": 13,
+  "team_name": "Quantum Blitz",
+  "manager": "Ken Rich",
+  "scoring": "ppr",
+  "slots": [
+    "QB",
+    "RB",
+    "RB",
+    "WR",
+    "WR",
+    "TE",
+    "FLEX",
+    "DST",
+    "K"
+  ],
+  "flex_eligible": [
+    "RB",
+    "WR",
+    "TE"
+  ],
+  "team_count": 12,
+  "timezone": "America/Los_Angeles",
+  "lock_policy": "player_kickoff",
+  "te_flex_premium": 1.5,
+  "flex_gap_threshold": 1.0,
+  "qb_swap_threshold": 4.0,
+  "team_url": "https://fantasy.espn.com/football/team?leagueId=1776545061&teamId=13&seasonId=2026",
+  "human_rules": [
+    "Start healthy studs over matchup fades.",
+    "TE2 is FLEX only if it beats the best WR/RB by te_flex_premium or both WR FLEX options are LIMITED/QUESTIONABLE.",
+    "Never start Out / IR / PUP / Exempt / suspended.",
+    "Start rostered DST and K unless a second one is rostered and better by >= 3.0."
+  ],
+  "acquisition": {
+    "type": "WAIVERS_TRADITIONAL",
+    "is_faab": false,
+    "isUsingAcquisitionBudget": false,
+    "acquisitionBudget": 100,
+    "minimumBid": 1,
+    "waiverHours": 24,
+    "waiverOrderReset": true,
+    "waiverProcessDays": [
+      "MONDAY",
+      "WEDNESDAY",
+      "THURSDAY",
+      "FRIDAY",
+      "SATURDAY",
+      "SUNDAY"
+    ],
+    "waiverProcessHour": 11,
+    "note": "Rolling/traditional waiver priority. Quantum Blitz waiverRank was 1 as of 2026-09-05 sync."
+  },
+  "leagueId": "1776545061",
+  "teamId": 13,
+  "seasonId": 2026,
+  "display_timezone": "America/Chicago",
+  "timezone_note": "timezone=America/Los_Angeles for lock math / ISO offsets; display_timezone=America/Chicago for all Ken-facing times (label CT)."
+}

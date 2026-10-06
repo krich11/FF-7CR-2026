@@ -1,0 +1,262 @@
+{
+  "as_of": "2026-09-03T22:15:39-05:00",
+  "sources": [
+    {
+      "name": "FantasyPros Week 1 PPR consensus projections (positional + player pages)",
+      "url": "https://www.fantasypros.com/nfl/projections/rb.php?scoring=PPR",
+      "ok": true,
+      "note": "Consensus last updated Sep 3, 2026. Full positional tables fenced after top ~10; player pages used for remainder. DST/K from dst.php and eddy-pineiro.php."
+    },
+    {
+      "name": "CBS Sports NFL Injuries",
+      "url": "https://www.cbssports.com/nfl/injuries/",
+      "ok": true
+    },
+    {
+      "name": "ESPN NFL Injuries (search synthesis / partial)",
+      "url": "https://www.espn.com/nfl/injuries",
+      "ok": false,
+      "note": "Direct WebFetch timed out; injury blurbs used from WebSearch snippets of same page plus beat reports."
+    },
+    {
+      "name": "NFL.com Jacobs Commissioner's Exempt",
+      "url": "https://www.nfl.com/news/nfl-places-packers-rb-josh-jacobs-commissioner-exempt-list",
+      "ok": true
+    },
+    {
+      "name": "ESPN Jacobs Exempt List",
+      "url": "https://www.espn.com/nfl/story/_/id/49774523/packers-rb-josh-jacobs-placed-commission-exempt-list",
+      "ok": true
+    },
+    {
+      "name": "NBC Sports / ESPN Brooke Pryor Pittman expected ready",
+      "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-08-31/metcalf-pittman-expected-to-be-ready-for-week-1",
+      "ok": true
+    },
+    {
+      "name": "NBC Sports Jakobi Meyers practice",
+      "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-09-02/jakobi-meyers-hand-back-at-practice-on-wednesday",
+      "ok": true
+    },
+    {
+      "name": "4for4 Brooks Week 1 optimism",
+      "url": "https://www.4for4.com/news/panthers-very-optimistic-jonathon-brooks-plays-week-1",
+      "ok": true
+    },
+    {
+      "name": "TSN / Seahawks Wire Charbonnet PUP",
+      "url": "https://www.tsn.ca/nfl/article/seahawks-rb-charbonnet-still-on-pup-list-out-first-four-games-n1-49778534/",
+      "ok": true
+    },
+    {
+      "name": "Official NFL Week 1 injury report",
+      "url": "https://www.nfl.com/injuries/league/2026/reg1",
+      "ok": false,
+      "note": "Page loads but Wednesday practice designations not yet published (Week 1 starts Wed Sep 9)."
+    }
+  ],
+  "availability": {
+    "Jaxson Dart": {
+      "state": "ACTIVE",
+      "play_prob": 1.0,
+      "snap_mult": 1.0,
+      "news": "Not listed on Giants Week 1 injury report (CBS). Projected starting QB.",
+      "source": "https://www.cbssports.com/nfl/injuries/"
+    },
+    "Sam Darnold": {
+      "state": "ACTIVE",
+      "play_prob": 1.0,
+      "snap_mult": 1.0,
+      "news": "Not listed on Seahawks injury report (CBS). Starting QB Week 1 vs NE.",
+      "source": "https://www.cbssports.com/nfl/injuries/"
+    },
+    "De'Von Achane": {
+      "state": "ACTIVE",
+      "play_prob": 1.0,
+      "snap_mult": 1.0,
+      "news": "Not listed on Dolphins injury report (CBS).",
+      "source": "https://www.cbssports.com/nfl/injuries/"
+    },
+    "Travis Etienne Jr.": {
+      "state": "ACTIVE",
+      "play_prob": 1.0,
+      "snap_mult": 1.0,
+      "news": "Not listed on Saints injury report (CBS). Rostered as NO RB for 2026.",
+      "source": "https://www.cbssports.com/nfl/injuries/"
+    },
+    "Josh Jacobs": {
+      "state": "EXEMPT",
+      "play_prob": 0.0,
+      "snap_mult": 0.0,
+      "news": "On NFL Commissioner's Exempt List (personal/legal). Cannot practice or attend games while on list; paid admin leave, does not count on 53. Packers GM anticipates he will play at some point in 2026, but Week 1 unavailable unless removed from list. ESPN Injury page lists Status Out, est. return Sep 27.",
+      "source": "https://www.nfl.com/news/nfl-places-packers-rb-josh-jacobs-commissioner-exempt-list; https://www.cbssports.com/nfl/injuries/"
+    },
+    "Jonathon Brooks": {
+      "state": "QUESTIONABLE",
+      "play_prob": 0.8,
+      "snap_mult": 0.85,
+      "news": "CBS: Questionable Week 1 vs CHI \u2014 general soreness (updated Tue Sep 1). HC Dave Canales said Wed Sep 2 he is 'very optimistic' Brooks will be available Week 1 (Fox Sports Radio / 4for4 / ESPN injury blurb).",
+      "source": "https://www.cbssports.com/nfl/injuries/; https://www.4for4.com/news/panthers-very-optimistic-jonathon-brooks-plays-week-1"
+    },
+    "Zach Charbonnet": {
+      "state": "PUP",
+      "play_prob": 0.0,
+      "snap_mult": 0.0,
+      "news": "Reserve/PUP recovering from left ACL tear (Jan 2026 playoffs; surgery Feb). Must miss at least first four games; earliest eligible Week 5 vs SF. CBS: Physically Unable to Perform, Expected Return Week 5. ESPN tag O aligns with unavailable Week 1.",
+      "source": "https://www.cbssports.com/nfl/injuries/; https://www.tsn.ca/nfl/article/seahawks-rb-charbonnet-still-on-pup-list-out-first-four-games-n1-49778534/"
+    },
+    "Drake London": {
+      "state": "ACTIVE",
+      "play_prob": 1.0,
+      "snap_mult": 1.0,
+      "news": "Not listed on Falcons injury report (CBS).",
+      "source": "https://www.cbssports.com/nfl/injuries/"
+    },
+    "Garrett Wilson": {
+      "state": "ACTIVE",
+      "play_prob": 1.0,
+      "snap_mult": 1.0,
+      "news": "Not listed on Jets injury report (CBS).",
+      "source": "https://www.cbssports.com/nfl/injuries/"
+    },
+    "Michael Pittman Jr.": {
+      "state": "QUESTIONABLE",
+      "play_prob": 0.85,
+      "snap_mult": 0.8,
+      "news": "CBS: Questionable Week 1 vs ATL \u2014 hamstring (updated Fri Aug 28). ESPN Brooke Pryor (Aug 31): Pittman and Metcalf 'expected to be ready' for Week 1 but team expected to 'ease in' both after missed camp/preseason time. Returned to practice late August.",
+      "source": "https://www.cbssports.com/nfl/injuries/; https://www.nbcsports.com/fantasy/football/player-news/2026-08-31/metcalf-pittman-expected-to-be-ready-for-week-1"
+    },
+    "Jakobi Meyers": {
+      "state": "QUESTIONABLE",
+      "play_prob": 0.8,
+      "snap_mult": 0.85,
+      "news": "CBS: Questionable Week 1 vs CLE \u2014 hand (updated Fri Aug 28). Returned to practice Wed Sep 2 (limited catching); Liam Coen indicated he was going / limited. Likely on track for Week 1 but monitor official injury report.",
+      "source": "https://www.cbssports.com/nfl/injuries/; https://www.nbcsports.com/fantasy/football/player-news/2026-09-02/jakobi-meyers-hand-back-at-practice-on-wednesday"
+    },
+    "Rashid Shaheed": {
+      "state": "ACTIVE",
+      "play_prob": 1.0,
+      "snap_mult": 1.0,
+      "news": "Not listed on Seahawks injury report (CBS).",
+      "source": "https://www.cbssports.com/nfl/injuries/"
+    },
+    "Kyle Pitts Sr.": {
+      "state": "ACTIVE",
+      "play_prob": 1.0,
+      "snap_mult": 1.0,
+      "news": "Not listed on Falcons injury report (CBS).",
+      "source": "https://www.cbssports.com/nfl/injuries/"
+    },
+    "Dallas Goedert": {
+      "state": "ACTIVE",
+      "play_prob": 1.0,
+      "snap_mult": 1.0,
+      "news": "Not listed on Eagles injury report (CBS). (Grant Calcaterra on IR; Goedert not tagged.)",
+      "source": "https://www.cbssports.com/nfl/injuries/"
+    },
+    "Steelers D/ST": {
+      "state": "ACTIVE",
+      "play_prob": 1.0,
+      "snap_mult": 1.0,
+      "news": "Team defense unit; no unit-level OUT designation. Individual Steelers defenders have some Q tags (Ramsey knee, Echols ankle, Brisker undisclosed, Skowronek concussion) but D/ST still fieldable.",
+      "source": "https://www.cbssports.com/nfl/injuries/"
+    },
+    "Eddy Pineiro": {
+      "state": "ACTIVE",
+      "play_prob": 1.0,
+      "snap_mult": 1.0,
+      "news": "Not listed on 49ers injury report (CBS).",
+      "source": "https://www.cbssports.com/nfl/injuries/"
+    }
+  },
+  "projections": {
+    "Jaxson Dart": {
+      "espn": 18.5,
+      "fantasypros_ppr": 19.2,
+      "other": null
+    },
+    "Sam Darnold": {
+      "espn": 14.0,
+      "fantasypros_ppr": 15.6,
+      "other": null
+    },
+    "De'Von Achane": {
+      "espn": 18.2,
+      "fantasypros_ppr": 17.4,
+      "other": null
+    },
+    "Travis Etienne Jr.": {
+      "espn": 15.0,
+      "fantasypros_ppr": 13.7,
+      "other": null
+    },
+    "Josh Jacobs": {
+      "espn": 0.0,
+      "fantasypros_ppr": 0.0,
+      "other": null
+    },
+    "Jonathon Brooks": {
+      "espn": 11.5,
+      "fantasypros_ppr": 10.3,
+      "other": null
+    },
+    "Zach Charbonnet": {
+      "espn": 0.0,
+      "fantasypros_ppr": 0.0,
+      "other": null
+    },
+    "Drake London": {
+      "espn": 15.1,
+      "fantasypros_ppr": 15.6,
+      "other": null
+    },
+    "Garrett Wilson": {
+      "espn": 14.8,
+      "fantasypros_ppr": 13.4,
+      "other": null
+    },
+    "Michael Pittman Jr.": {
+      "espn": 12.3,
+      "fantasypros_ppr": 11.2,
+      "other": null
+    },
+    "Jakobi Meyers": {
+      "espn": 10.4,
+      "fantasypros_ppr": 10.1,
+      "other": null
+    },
+    "Rashid Shaheed": {
+      "espn": 8.4,
+      "fantasypros_ppr": 8.2,
+      "other": null
+    },
+    "Kyle Pitts Sr.": {
+      "espn": 10.4,
+      "fantasypros_ppr": 10.6,
+      "other": null
+    },
+    "Dallas Goedert": {
+      "espn": 10.9,
+      "fantasypros_ppr": 10.2,
+      "other": null
+    },
+    "Steelers D/ST": {
+      "espn": 7.5,
+      "fantasypros_ppr": 7.1,
+      "other": null
+    },
+    "Eddy Pineiro": {
+      "espn": 8.7,
+      "fantasypros_ppr": 7.5,
+      "other": null
+    }
+  },
+  "notes": [
+    "FantasyPros consensus last updated Sep 3, 2026. PPR scoring used via ?scoring=PPR on skill-position pages; DST/K are scoring-agnostic on FP.",
+    "FantasyPros full positional projection tables appear registration-fenced after ~top 10; values for non-top players taken from individual player projection pages (e.g. travis-etienne.php?scoring=PPR).",
+    "ESPN.com/nfl/injuries direct fetch timed out; CBS injuries page fetched successfully and is primary availability source, cross-checked with beat/NBC/NFL.com reports.",
+    "Official NFL.com Week 1 practice report (Wed designations) not yet live as of Sep 3\u20134; Week 1 games begin Wed Sep 9 2026.",
+    "Critical vs ESPN tags: Jacobs is EXEMPT (not merely DTD) \u2014 ineligible while on Commissioner's Exempt List. Charbonnet confirmed Reserve/PUP (ESPN O consistent). Pittman Q but expected ready / possible snap ease-in. Brooks Q with coach optimism. Meyers Q hand, practicing limited.",
+    "play_prob/snap_mult are research estimates grounded in cited news, not official NFL probabilities."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "week": 2,
+  "as_of": "2026-09-18T14:23:21-07:00",
+  "window": "friday_tweak",
+  "note": "Paper only. SPEC FLEX now Tucker; shadow does not override.",
+  "spec_starters": {
+    "QB": "Jaxson Dart",
+    "RB": [
+      "De'Von Achane",
+      "Travis Etienne Jr."
+    ],
+    "WR": [
+      "Drake London",
+      "Garrett Wilson"
+    ],
+    "TE": "Dallas Goedert",
+    "FLEX": "Tre Tucker",
+    "DST": "Steelers D/ST",
+    "K": "Eddy Pineiro"
+  },
+  "signals": {
+    "vegas_flex": {
+      "status": "skipped_no_lines",
+      "changes_roster": false,
+      "reason": "No verified Week 2 implied totals; skip rather than invent."
+    },
+    "share_trend": {
+      "status": "recorded",
+      "changes_roster": false,
+      "would_flex": "Kyle Pitts Sr.",
+      "spec_flex": "Tre Tucker",
+      "reason": "Paper would still lean Pitts on TE scarcity vs Tucker boom/bust; SPEC premium rule flips to Tucker. Record disagreement.",
+      "flip_vs_spec": true,
+      "notes": {
+        "Etienne_W1_targets": 9,
+        "Pittman_W1_targets": 3,
+        "Meyers_W1_targets": 2,
+        "Pitts_W1_under_Rush": 0
+      }
+    },
+    "dst_k_script": {
+      "status": "recorded",
+      "would_stream_dst": "Steelers D/ST",
+      "would_stream_k": "Eddy Pineiro",
+      "spec_dst": "Steelers D/ST",
+      "spec_k": "Eddy Pineiro",
+      "changes_roster": false,
+      "reason": "Only DST/K rostered; Porter OUT + Pineiro illness are monitor-only."
+    }
+  },
+  "summary": "share_trend paper keeps Pitts; SPEC optimizer FLEX=Tucker on TE2 premium fail. No live change from shadow."
+}

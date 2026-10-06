@@ -1,0 +1,1 @@
+Local Sigma files are a stale cache as of 2026-09-27 10:55 PM CT. Source of truth: krich11/FF-7CR-2026 main, agents/sigma/.

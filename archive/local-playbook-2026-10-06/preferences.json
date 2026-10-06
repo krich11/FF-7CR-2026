@@ -1,0 +1,199 @@
+{
+  "dead_man_auto_commit": true,
+  "dead_man_scope": "lineups_only",
+  "away_safe_default": true,
+  "waivers_require_typed_claim": true,
+  "drops_require_typed_claim": true,
+  "trades_require_typed_claim": true,
+  "routines_enabled": true,
+  "routines_note": "Enabled by Ken after Week 1 card + ESPN edit proof.",
+  "espn_apply_requires": "yes, set it",
+  "bot_name": "Blitz",
+  "autocommit_pre_refresh": true,
+  "autocommit_pre_refresh_steps": [
+    "roster.sync",
+    "injury_and_projection_search",
+    "if_startsit_changes: post_new_card_and_apply_that",
+    "if_refresh_fails: continue_autocommit_on_current_card"
+  ],
+  "espn_flex_note": "Friday autocommit 20:00 PT: ESPN already had Goedert FLEX (applied earlier via yes,set it). No-op.",
+  "wire": {
+    "agent_id": "7d74e551-1e05-4a52-83b4-3468979779fc",
+    "name": "Wire",
+    "role": "availability_only",
+    "brief": "/workspace/fantasy/quantum-blitz/WIRE.md"
+  },
+  "last_card": {
+    "week": 3,
+    "skill": "lineup.tweak",
+    "window": "friday_tweak",
+    "as_of": "2026-09-25T16:03:02-05:00",
+    "as_of_ct": "Fri Sep 25, 4:03 PM CT",
+    "confidence": "Medium-High",
+    "result": "card_posted_no_espn_write",
+    "startsit_changed": false,
+    "change": "Hold SET; Meyers ACTIVE; Murray MIN@TB confirmed"
+  },
+  "last_autocommit": {
+    "week": 3,
+    "window": "set_backup",
+    "at": "2026-09-23T14:23:16.774662-07:00",
+    "at_ct": "Wed Sep 23, 4:23 PM CT",
+    "result": "NOOP already matched",
+    "noop": true,
+    "failed_gate": null,
+    "refresh": "ok",
+    "failed_refresh": false,
+    "startsit_changed": false,
+    "change_note": "No start/sit change vs Wed AM card (Murray/Pitts/Shaheed). ESPN already matched from morning yes-set-it. Pittman Wed LIMITED practice still Q bench. Dart IR season-over noted.",
+    "roster_as_of": "2026-09-23T14:21:01.945256-07:00",
+    "moves": {},
+    "starters": [
+      "Kyler Murray",
+      "De'Von Achane",
+      "Travis Etienne Jr.",
+      "Drake London",
+      "Garrett Wilson",
+      "Kyle Pitts Sr.",
+      "Rashid Shaheed",
+      "Steelers D/ST",
+      "Eddy Pineiro"
+    ],
+    "gates": {
+      "1_week_not_stale": "pass_week3_card_not_STALE",
+      "2_confidence": "pass_Medium-High",
+      "3_roster_sync_6h": "pass_synced_2026-09-23T14:21:01.945256-07:00",
+      "4_no_ineligible_starter": "pass_starters_ACTIVE_Etienne_ESPN_Q_only_not_OUT",
+      "5_name_match": "pass_Steelers_alias",
+      "6_unlocked_only": "pass_all_UNLOCKED_TNF_not_locked",
+      "7_diff": "soft_noop_espn_already_matches_card",
+      "8_no_hold": "pass_none_after_card",
+      "9_espn_names": "pass_Murray_Pitts_Shaheed_visible",
+      "10_before_shot": "pass_before.png"
+    },
+    "verify": {
+      "ok": true,
+      "noop": true,
+      "alert": false
+    },
+    "shots": {
+      "before_sha": "fa655418e3c9a710864a00619af61d3a5739340de69d63b9239183b7a3836cb1",
+      "after_sha": "fa655418e3c9a710864a00619af61d3a5739340de69d63b9239183b7a3836cb1"
+    }
+  },
+  "friction_fixes": {
+    "espn_lineup_shots": true,
+    "projections_validate": true,
+    "wire_checkin_to_blitz_thread": true,
+    "skills": [
+      "espn-lineup-shots",
+      "projections-validate",
+      "availability-refresh",
+      "lineup-set",
+      "lineup-tweak",
+      "lineup-lock",
+      "lineup-autocommit",
+      "status-resolve",
+      "roster-sync"
+    ],
+    "status_resolve": true,
+    "official_overrides_espn_tags": true
+  },
+  "waivers": {
+    "mode": "rolling_traditional",
+    "require_typed_claim": true,
+    "auto_claim": false,
+    "must_act_flag_required": true,
+    "brief": "/workspace/fantasy/quantum-blitz/WAIVERS.md",
+    "commands": [
+      "claim {add} drop {drop}",
+      "claim {add}",
+      "drop {player}",
+      "cancel claim {add}",
+      "pass",
+      "pass waivers",
+      "hold waivers"
+    ],
+    "board_cadence_pt": [
+      "Tue 10:00",
+      "Wed 09:00",
+      "interrupt MUST-ACT only"
+    ],
+    "confirm_before_espn_write": true,
+    "live_claim_phrase": "for real",
+    "note": "After a test/demo board, require Ken to say claim ... for real (or confirm widget) before ESPN write. Bare claim during TEST is not enough.",
+    "recon_owns_watch": true,
+    "blitz_owns_board": true
+  },
+  "shadow_edges": {
+    "enabled": true,
+    "affects_optimizer": false,
+    "brief": "/workspace/fantasy/quantum-blitz/EDGES.md",
+    "signals": [
+      "vegas_flex",
+      "share_trend",
+      "dst_k_script"
+    ],
+    "score_on": "week.review",
+    "promote_only_with_ken_approval": true,
+    "midseason_check_week": 8
+  },
+  "scorecard": {
+    "enabled": true,
+    "format": "markdown",
+    "email_to": "kaalrich@gmail.com",
+    "email_from_note": "send via Gmail connector as Ken (self-mail)",
+    "path_pattern": "results/week-{N}-scorecard.md",
+    "brief": "/workspace/fantasy/quantum-blitz/SCORECARD.md",
+    "deliver_on": "week.review",
+    "also_post_short_summary_in_chat": true,
+    "email_body": "short_text_summary",
+    "email_attach_markdown": true,
+    "attachment_mime": "text/markdown",
+    "email_attach_pdf": false,
+    "format_note": "Ken rejected crude PDF sample 2026-09-05; Mondays use md attachment only."
+  },
+  "sigma": {
+    "name": "Sigma",
+    "role": "chief_statistician",
+    "brief": "/workspace/fantasy/quantum-blitz/SIGMA.md",
+    "reports_to": "Blitz",
+    "espn_writes": false,
+    "delivers": "ranked_recommendations_to_Blitz",
+    "agent_id": "900b8cbd-65dc-40fe-8f47-ff52cafc715f",
+    "manager": "Blitz",
+    "ken_performance_briefs": true,
+    "charter_autonomy": "Blitz may revise SIGMA.md and agent description without asking Ken each time",
+    "performance_review_cadence": "after_monday_packet_and_as_needed",
+    "research_tracks": [
+      "matchup_adj_resid",
+      "opp_eff_decomp",
+      "vorp_lite",
+      "handcuff_ev",
+      "standings_leverage"
+    ],
+    "consider_sigma_ideas": true,
+    "research_tracks_wired": true,
+    "research_tracks_wired_at": "2026-09-05T14:03:38.324668-07:00"
+  },
+  "recon": {
+    "name": "Recon",
+    "agent_id": "ec01c662-41ef-4e55-8d9b-d200672aaeb5",
+    "role": "league_scout",
+    "pronouns": "she/her",
+    "brief": "/workspace/fantasy/quantum-blitz/RECON.md",
+    "reports_to": "Blitz",
+    "data_dir": "/workspace/fantasy/quantum-blitz/recon",
+    "espn_writes": false,
+    "messages_ken_directly": false
+  },
+  "team": {
+    "org_chart": "/workspace/fantasy/quantum-blitz/TEAM.md",
+    "standing_voice_to_ken": "Blitz",
+    "wire_checkins_to_ken": true,
+    "waiver_split": {
+      "watch": "Recon",
+      "board_and_claims": "Blitz"
+    }
+  }
+}

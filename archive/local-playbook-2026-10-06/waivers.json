@@ -1,0 +1,106 @@
+{
+  "week": 1,
+  "as_of": "2026-09-05T07:31:48.786864-07:00",
+  "test": true,
+  "mode": "rolling_traditional",
+  "waiver_rank": 1,
+  "must_act": [],
+  "board": [
+    {
+      "pri": 1,
+      "tier": "WATCH",
+      "add": {
+        "name": "Tyler Allgeier",
+        "pos": "RB",
+        "team": "ARI",
+        "depth": "RB2 behind Jeremiyah Love (committee w/ Conner)"
+      },
+      "drop": {
+        "name": "Sam Darnold",
+        "pos": "QB",
+        "team": "SEA",
+        "depth": "QB2 / your backup behind Dart (NYG)"
+      },
+      "why": "Handcuff insurance only \u2014 not a Week 1 starter.",
+      "pct": 35.5
+    },
+    {
+      "pri": 2,
+      "tier": "WATCH",
+      "add": {
+        "name": "Tre Tucker",
+        "pos": "WR",
+        "team": "LV",
+        "depth": "WR1 (Raiders)"
+      },
+      "drop": {
+        "name": "Sam Darnold",
+        "pos": "QB",
+        "team": "SEA",
+        "depth": "QB2 / backup"
+      },
+      "why": "Best available Week-1 WR projection in the FA pool; streamer, not a league-winner.",
+      "pct": 26.6
+    },
+    {
+      "pri": 3,
+      "tier": "WATCH",
+      "add": {
+        "name": "Justice Hill",
+        "pos": "RB",
+        "team": "BAL",
+        "depth": "RB2 behind Derrick Henry"
+      },
+      "drop": {
+        "name": "Sam Darnold",
+        "pos": "QB",
+        "team": "SEA",
+        "depth": "QB2 / backup"
+      },
+      "why": "Pass-down / injury dart behind Henry.",
+      "pct": 18.5
+    },
+    {
+      "pri": 4,
+      "tier": "PASS",
+      "add": {
+        "name": "Isiah Pacheco",
+        "pos": "RB",
+        "team": "DET",
+        "depth": "RB2 behind Jahmyr Gibbs \u2014 currently IR"
+      },
+      "drop": {
+        "name": "Zach Charbonnet",
+        "pos": "RB",
+        "team": "SEA",
+        "depth": "RB2 on Reserve/PUP (out ~4 weeks)"
+      },
+      "why": "IR lottery vs known PUP return path \u2014 keep Charbonnet.",
+      "pct": 39.6
+    }
+  ],
+  "glance": [
+    {
+      "name": "Kenyon Sadiq",
+      "pos": "TE",
+      "team": "NYJ",
+      "depth": "TE1 (rookie) \u2014 Q for Week 1",
+      "note": "High %owned on waivers; soft proj \u2014 not a priority burn"
+    },
+    {
+      "name": "Calvin Ridley",
+      "pos": "WR",
+      "team": "check",
+      "depth": "veteran WR depth",
+      "note": "Streamer noise"
+    },
+    {
+      "name": "Brenton Strange",
+      "pos": "TE",
+      "team": "JAX",
+      "depth": "TE depth / streamer",
+      "note": "You already start Pitts + Goedert"
+    }
+  ],
+  "recommendation": "PASS \u2014 no MUST before Week 1 kickoffs. Hold #1 priority."
+}

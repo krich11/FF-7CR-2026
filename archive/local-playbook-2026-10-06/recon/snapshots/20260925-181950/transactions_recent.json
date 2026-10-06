@@ -1,0 +1,66 @@
+{
+  "as_of": "2026-09-22T15:58:23.981081-07:00",
+  "n": 4,
+  "note": "fetched via read API (recon refresh_dumps)",
+  "transactions": [
+    {
+      "id": "32e832b1-4cdf-449e-9904-7d31c646a451",
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 4,
+      "scoringPeriodId": 3,
+      "items": [
+        {
+          "type": "LINEUP",
+          "playerId": 4685512
+        },
+        {
+          "type": "LINEUP",
+          "playerId": 4426515
+        }
+      ]
+    },
+    {
+      "id": "f3450317-6f84-42b0-8904-5830ef618e55",
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 9,
+      "scoringPeriodId": 3,
+      "items": [
+        {
+          "type": "LINEUP",
+          "playerId": 4426354
+        },
+        {
+          "type": "LINEUP",
+          "playerId": 4695883
+        }
+      ]
+    },
+    {
+      "id": "9dbf688b-5490-4ea3-9100-5540f9fe4597",
+      "type": "TRADE_DECLINE",
+      "status": "EXECUTED",
+      "teamId": 3,
+      "scoringPeriodId": 3,
+      "items": []
+    },
+    {
+      "id": "9ae11db3-e918-41e2-be15-7c19d495f755",
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "teamId": 3,
+      "scoringPeriodId": 3,
+      "items": [
+        {
+          "type": "LINEUP",
+          "playerId": 4426348
+        },
+        {
+          "type": "LINEUP",
+          "playerId": 4432577
+        }
+      ]
+    }
+  ]
+}
