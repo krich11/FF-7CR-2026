@@ -1,25 +1,26 @@
 {
-  "as_of": "2026-09-22T09:56:00-05:00",
-  "week": 2,
-  "source": "espn_api mTeam+mMatchup read (settled)",
+  "as_of": "2026-10-06T05:00:00-05:00",
+  "week": 4,
+  "source": "espn_api mTeam+mMatchupScore read (settled, scoringPeriodId=4)",
   "espn_official": {
-    "winner_week_2": "AWAY",
     "overall_record": {
       "wins": 1,
-      "losses": 1,
+      "losses": 3,
       "ties": 0
     },
-    "points_for": 216.0,
-    "points_against": 206.24,
-    "waiver_rank": 5,
-    "espn_team_name_note": "ESPN abbrev QBZ; display name currently 'Medical Tent' (Blitz brand Quantum Blitz)"
+    "points_for": 395.16,
+    "points_against": 506.26,
+    "waiver_rank": 3,
+    "espn_team_name_note": "ESPN abbrev QBZ; display name currently 'Medical Tent' (Blitz brand Quantum Blitz)",
+    "winner_week_3": "HOME (PP)",
+    "winner_week_4": "AWAY (TE)"
   },
   "blitz_counted": {
     "wins": 1,
-    "losses": 1,
+    "losses": 3,
     "ties": 0,
-    "points_for": 216.0,
-    "points_against": 206.24,
+    "points_for": 395.16,
+    "points_against": 506.26,
     "result_week_1": "W",
     "result_week_2": "L",
     "opponent_week_1": "The Chosen Ones (TCO)",
@@ -27,16 +28,35 @@
     "week_1_score": 132.9,
     "week_1_opp": 102.22,
     "week_2_score": 83.1,
-    "week_2_opp": 104.02
+    "week_2_opp": 104.02,
+    "result_week_3": "L",
+    "result_week_4": "L",
+    "opponent_week_3": "Patton's Posse (PP)",
+    "opponent_week_4": "Texas Endgame (TE)",
+    "week_3_score": 97.42,
+    "week_3_opp": 136.84,
+    "week_4_score": 81.74,
+    "week_4_opp": 163.18
   },
   "league_week_2_scores": {
     "QBZ": 83.1,
     "CDS": 104.02
   },
-  "waiver_rank": 5,
+  "waiver_rank": 3,
   "mode_weights": "default_until_week_6",
   "process_misses": [
     "W1 Fri resource_exhausted makeup",
-    "W2 week.review SKIP (MNF) not resumed before AAR \u2014 makeup Tue"
-  ]
+    "W2 week.review SKIP (MNF) not resumed before AAR \u2014 makeup Tue",
+    "W3 Mon week.review failed; scorecard never sent until Oct 6 makeup",
+    "W4 Gordon sit closed Sat, not reopened Sun",
+    "W4 Mon week.review SKIP (MNF live); resumed Tue Oct 6"
+  ],
+  "league_week_3_scores": {
+    "QBZ": 97.42,
+    "PP": 136.84
+  },
+  "league_week_4_scores": {
+    "QBZ": 81.74,
+    "TE": 163.18
+  }
 }

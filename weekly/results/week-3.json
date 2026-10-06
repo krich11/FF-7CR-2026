@@ -1,0 +1,139 @@
+{
+  "week": 3,
+  "source": "espn_api mRoster+mTeam+mMatchupScore+mBoxscore scoringPeriodId=3 (read-only)",
+  "as_of": "2026-10-06T05:00:00-05:00",
+  "team_id": 13,
+  "opponent": "Patton's Posse (PP, team 2)",
+  "matchup_id": 17,
+  "espn_winner": "HOME",
+  "score": 97.42,
+  "opp_score": 136.84,
+  "proj": 115.94,
+  "result": "L",
+  "players": [
+    {
+      "player": "De'Von Achane",
+      "slot": "RB",
+      "started": true,
+      "actual_ppr": 1.7,
+      "espn_proj": 19.42
+    },
+    {
+      "player": "Drake London",
+      "slot": "WR",
+      "started": true,
+      "actual_ppr": 28.4,
+      "espn_proj": 15.39
+    },
+    {
+      "player": "Travis Etienne Jr.",
+      "slot": "RB",
+      "started": true,
+      "actual_ppr": 9.0,
+      "espn_proj": 11.94
+    },
+    {
+      "player": "Garrett Wilson",
+      "slot": "WR",
+      "started": true,
+      "actual_ppr": 26.7,
+      "espn_proj": 16.09
+    },
+    {
+      "player": "Kyle Pitts Sr.",
+      "slot": "TE",
+      "started": true,
+      "actual_ppr": 1.5,
+      "espn_proj": 9.89
+    },
+    {
+      "player": "Jaxson Dart",
+      "slot": "IR",
+      "started": false,
+      "actual_ppr": 0.0,
+      "espn_proj": 0.0
+    },
+    {
+      "player": "Dallas Goedert",
+      "slot": "BE",
+      "started": false,
+      "actual_ppr": 0.0,
+      "espn_proj": 0.0
+    },
+    {
+      "player": "Josh Jacobs",
+      "slot": "BE",
+      "started": false,
+      "actual_ppr": 0.0,
+      "espn_proj": 0.0
+    },
+    {
+      "player": "Michael Pittman Jr.",
+      "slot": "BE",
+      "started": false,
+      "actual_ppr": 3.6,
+      "espn_proj": 11.34
+    },
+    {
+      "player": "Steelers D/ST",
+      "slot": "BE",
+      "started": false,
+      "actual_ppr": 4.0,
+      "espn_proj": 6.11
+    },
+    {
+      "player": "Jakobi Meyers",
+      "slot": "BE",
+      "started": false,
+      "actual_ppr": 19.4,
+      "espn_proj": 9.29
+    },
+    {
+      "player": "Eddy Pineiro",
+      "slot": "K",
+      "started": true,
+      "actual_ppr": 8.0,
+      "espn_proj": 9.85
+    },
+    {
+      "player": "Rashid Shaheed",
+      "slot": "BE",
+      "started": false,
+      "actual_ppr": 3.4,
+      "espn_proj": 10.95
+    },
+    {
+      "player": "Kyler Murray",
+      "slot": "QB",
+      "started": true,
+      "actual_ppr": 10.42,
+      "espn_proj": 17.35
+    },
+    {
+      "player": "Rashod Bateman",
+      "slot": "FLEX",
+      "started": true,
+      "actual_ppr": 5.7,
+      "espn_proj": 8.77
+    },
+    {
+      "player": "Jacoby Brissett",
+      "slot": "BE",
+      "started": false,
+      "actual_ppr": 25.6,
+      "espn_proj": 13.64
+    },
+    {
+      "player": "Panthers D/ST",
+      "slot": "DST",
+      "started": true,
+      "actual_ppr": 6.0,
+      "espn_proj": 7.24
+    }
+  ],
+  "best_lineup": 126.3,
+  "bench_left": 28.88,
+  "record_after": "1-2",
+  "makeup": true,
+  "note": "handoff quoted opp 129.54; ESPN 136.84 used"
+}

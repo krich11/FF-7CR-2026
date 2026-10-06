@@ -166,3 +166,9 @@ SHOT_AFTER week=1 TE=Goedert hash=8eb1de44a952a1abd413f1ee6721c996253c306f01ac85
 2026-09-27T21:48:14-05:00 WIRE Etienne espn_tag QUESTIONABLE
 2026-09-27T22:43:07-05:00 WIRE lock_state DONE (Sun games final per ESPN scoreboard): Travis Etienne Jr., Kyler Murray, Eddy Pineiro, Rashid Shaheed, Rashod Bateman, Jacoby Brissett. Goedert MNF still UNLOCKED. Pushing to repo data/availability.json per FILESYSTEM order.
 2026-10-05T10:15:00-05:00 WEEK_REVIEW_SKIP week=4 reason=matchup_UNDECIDED_MNF_live us_live=67.14 us_proj_live=83.87 opp=TE/163.18 final mnf_pending=London(WR start),Pitts(BE) ATL@NO 7:15PM_CT email=false week3_scorecard=never_emailed makeup=needs_parent_routine (routine runs cannot create routines)
+2026-10-06T04:53:29-05:00 WEEK_REVIEW week=3 result=L score=97.42 opp=PP/136.84 proj=115.94 delta=-18.52 makeup=true best=126.3 bench_left=28.88 source=espn_api_sp3 note=handoff_opp_129.54_wrong_espn_136.84
+2026-10-06T04:53:29-05:00 SCORECARD_WRITTEN week=3 path=weekly/results/week-3-scorecard.md makeup=true
+2026-10-06T04:53:29-05:00 WEEK_REVIEW week=4 result=L score=81.74 opp=TE/163.18 proj=105.96 delta=-24.22 best=98.58 bench_left=16.84 record=1-3 source=espn_api_sp4 resumed_from=WEEK_REVIEW_SKIP
+2026-10-06T04:53:29-05:00 SCORECARD_WRITTEN week=4 path=weekly/results/week-4-scorecard.md
+2026-10-06T04:53:29-05:00 STANDINGS_REFRESH week=4 record=1-3 PF=395.16 PA=506.26 waiver=3 source=espn_mTeam
+2026-10-06T04:53:29-05:00 LESSONS_APPENDED week=4 n=3

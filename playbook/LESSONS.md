@@ -51,6 +51,10 @@
   6) **Dual-QB matchup flex** only if long-term hole justifies bench cost; else start better QB / trade spare.
   7) Always end with **recommend / no-recommend** and what Ken must type. No ESPN write without command.
 
+- (2026-10-06) PROCESS: A failed Monday review rides along with the next review run as a scorecard labeled MAKEUP. Don't park it waiting on a new routine. The Week 3 scorecard sat 8 days (Sep 28 → Oct 6) because the makeup was handed to a routine that a routine run can't create.
+- (2026-10-06) DATA: A snap source now exists. nflverse `snap_counts_2026.csv` (release tag `snap_counts` on nflverse/nflverse-data) loads from the box and had 2026 Weeks 1–4 on Oct 6. MNF games post a day late. Use it for snap% instead of n/a. ESPN fantasy feeds still have no snaps.
+- (2026-10-06) DATA: Take matchup scores from ESPN `mMatchupScore` totals, never from a handoff or memory. The Week 3 handoff said the opponent scored 129.54. ESPN says Patton's Posse scored 136.84, and their starters sum to that.
+
 ### Carry into 2027
 <!-- End-of-season rollup -->
 
