@@ -172,3 +172,5 @@ SHOT_AFTER week=1 TE=Goedert hash=8eb1de44a952a1abd413f1ee6721c996253c306f01ac85
 2026-10-06T04:53:29-05:00 SCORECARD_WRITTEN week=4 path=weekly/results/week-4-scorecard.md
 2026-10-06T04:53:29-05:00 STANDINGS_REFRESH week=4 record=1-3 PF=395.16 PA=506.26 waiver=3 source=espn_mTeam
 2026-10-06T04:53:29-05:00 LESSONS_APPENDED week=4 n=3
+2026-10-06T04:55:36-05:00 SCORECARD_EMAILED week=4 to=kaalrich@gmail.com attach=md file=week-4-scorecard.md msg=1a110a2ca666e2a6 attach_verified=byte_identical
+2026-10-06T04:55:36-05:00 SCORECARD_EMAILED week=3 to=kaalrich@gmail.com attach=md file=week-3-scorecard.md makeup=true msg=1a110a391643941c attach_verified=byte_identical
