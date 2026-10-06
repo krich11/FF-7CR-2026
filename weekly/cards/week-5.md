@@ -35,8 +35,8 @@ Why Harvey sits in FLEX instead of RB: same points, more Sunday options. He play
 
 ## Close calls and why
 
-- **Gordon over Meyers, and Henderson over Meyers (Gordon 10.47, Henderson 10.56, Meyers 9.97; all within about a point of Harvey's 11.12).** Projection can't separate them, so these are picked on workload, per the close-call rule. Gordon played 59% of Miami's snaps to Jaylen Wright's 30% in Week 4 and took 9 carries for 100 yards and a score, on a day Miami ran only 37 plays. Achane is out for the year, so the lead job is open and Gordon has it. Henderson played 37% of snaps behind Rhamondre Stevenson's 66% (Boston Globe). Gordon sat for Henderson in Week 4 and scored 18.0 to 4.2; he starts this time.
-- **Henderson over Meyers.** Henderson's 14 carries and 2 targets beat Meyers' 4 targets on 82% of snaps. Stevenson hobbled off with a right-knee issue at the end of Week 4, so Henderson has the upside if Stevenson sits.
+- **Gordon over Meyers, and Henderson over Meyers (Gordon 10.47, Henderson 10.56, Meyers 9.97; all within about a point of Harvey's 11.12).** Projection can't separate them, so these are picked on workload, per the close-call rule. Gordon played 56% of Miami's snaps (22) to Jaylen Wright's 31% (12) in Week 4, per nflverse via Assistant, and took 9 carries for 100 yards and a score after halftime, on a day Miami ran only about 39 plays. Small sample; expect a split that leans Gordon. Achane is out for the year, so the lead job is open and Gordon has it. Henderson played 37% of snaps behind Rhamondre Stevenson's 66% (Boston Globe). Gordon sat for Henderson in Week 4 and scored 18.0 to 4.2; he starts this time.
+- **Henderson over Meyers: OPEN until Friday's Patriots report.** Henderson has never led the backfield in a game Stevenson played (37% of snaps in Weeks 3 and 4). Meyers plays 81 to 82% of snaps with no tag. If Stevenson is a full participant by Friday, the workload rule flips this: Harvey moves to RB and Meyers starts at FLEX, decided before his 8:30 AM CT lock. If Stevenson is limited or out, Henderson stays.
 - **TE, Henry over Pitts (8.79 vs 7.62).** Henry saw 5 targets on 64% of snaps, and New England's receivers are thin (A.J. Brown out at least another week, Mack Hollins' calf is in question).
 - **QB, Brissett over Murray (19.13 vs 17.41).** Just outside the close-call line. Both sources favor Brissett at home against Detroit.
 
@@ -46,7 +46,7 @@ Inactives post about 90 minutes before kickoff: ~7:00 AM CT for London, ~10:30 A
 
 - **Meyers / Goedert (London, locks 8:30 AM CT).** Meyers is on the bench, so nothing to do. He's the only bench player who locks before the noon inactives, so if Gordon or Henderson draws a Friday designation, decide on Meyers before 8:30.
 - **Gordon or Henderson inactive (~10:30 AM CT):** move Harvey from FLEX to that RB slot and put Pittman in FLEX (Pitts if Pittman is also out).
-- **Stevenson ruled OUT (Friday report):** Henderson gets more work. No move.
+- **Stevenson's Friday status decides RB2/FLEX:** out or limited, Henderson stays. Full go, Harvey to RB and Meyers to FLEX before 8:30 AM CT.
 - **Henry inactive (~10:30 AM CT):** Pitts in at TE.
 - **Wilson inactive (~10:30 AM CT):** Pittman in at WR.
 - **Steelers or Pineiro:** no backup on the roster. Nothing to do.
