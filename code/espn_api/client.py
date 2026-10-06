@@ -21,6 +21,10 @@ from zoneinfo import ZoneInfo
 BASE = Path("/workspace/fantasy/quantum-blitz")
 SECRETS = BASE / "secrets" / "espn_cookies.json"
 AUDIT = BASE / "audit.log"
+# Repo copies on main (issue 6): Blitz commits and pushes these; the client never pushes.
+REPO = Path("/workspace/ff-repo")
+REPO_AUDIT = REPO / "weekly" / "audit" / "espn-writes.log"
+REPO_ROSTER = REPO / "data" / "roster.json"
 PT = ZoneInfo("America/Los_Angeles")
 
 SLOT_NAME = {
@@ -208,9 +212,17 @@ def verify_starters(
 
 
 def audit(line: str) -> None:
+    entry = f"{datetime.now(PT).isoformat()}\t{line}\n"
     AUDIT.parent.mkdir(parents=True, exist_ok=True)
     with AUDIT.open("a") as f:
-        f.write(f"{datetime.now(PT).isoformat()}\t{line}\n")
+        f.write(entry)
+    # Same line to the repo log. A failure here must never break an apply.
+    try:
+        REPO_AUDIT.parent.mkdir(parents=True, exist_ok=True)
+        with REPO_AUDIT.open("a") as f:
+            f.write(entry)
+    except Exception:
+        pass
 
 
 def apply_and_verify(
@@ -415,7 +427,7 @@ def sync_roster_json(
     team_id: int,
     out_path: Path | None = None,
 ) -> dict:
-    """Write roster.json from API. Returns summary."""
+    """Write roster.json (local cache + data/roster.json on main) from API. Returns summary."""
     auth = EspnAuth.load()
     league = fetch_league(auth, league_id, season_id)
     rows = normalize_roster(team_roster_entries(league, team_id))
@@ -444,6 +456,16 @@ def sync_roster_json(
         "players": players,
     }
     path = out_path or (BASE / "roster.json")
-    path.write_text(json.dumps(payload, indent=2) + "\n")
+    text = json.dumps(payload, indent=2) + "\n"
+    path.write_text(text)
+    summary = {"n": len(players), "starters": payload["starters"], "path": str(path)}
+    # Default sync also writes data/roster.json on main (same schema). Blitz pushes it.
+    if out_path is None:
+        try:
+            REPO_ROSTER.parent.mkdir(parents=True, exist_ok=True)
+            REPO_ROSTER.write_text(text)
+            summary["repo_path"] = str(REPO_ROSTER)
+        except Exception as e:
+            summary["repo_write_error"] = type(e).__name__
     audit(f"ESPN_API_SYNC n={len(players)} starters={payload['starters']}")
-    return {"n": len(players), "starters": payload["starters"], "path": str(path)}
+    return summary
