@@ -1,0 +1,78 @@
+{
+  "week": 5,
+  "skill": "lineup.set",
+  "window": "tuesday_set",
+  "status": "OPEN_pending_assistant_brief",
+  "as_of_ct": "Tue Oct 6, 2:10 PM CT",
+  "assignments": {
+    "QB": "Jacoby Brissett",
+    "RB": [
+      "Ollie Gordon II",
+      "TreVeyon Henderson"
+    ],
+    "WR": [
+      "Drake London",
+      "Garrett Wilson"
+    ],
+    "TE": "Hunter Henry",
+    "FLEX": "RJ Harvey",
+    "DST": "Steelers D/ST",
+    "K": "Eddy Pineiro"
+  },
+  "bench": [
+    "Kyler Murray",
+    "Jakobi Meyers",
+    "Michael Pittman Jr.",
+    "Kyle Pitts Sr.",
+    "Dallas Goedert",
+    "Josh Jacobs"
+  ],
+  "ir": [
+    "Travis Etienne Jr."
+  ],
+  "close": [
+    "RB: Gordon/Henderson vs Meyers (workload rule)",
+    "TE: Henry vs Pitts"
+  ],
+  "projections": {
+    "weights": {
+      "espn": 0.48,
+      "fantasypros": 0.52
+    },
+    "espn": {
+      "Jacoby Brissett": 18.83,
+      "Kyler Murray": 17.86,
+      "RJ Harvey": 11.26,
+      "Ollie Gordon II": 10.88,
+      "TreVeyon Henderson": 10.52,
+      "Drake London": 15.97,
+      "Garrett Wilson": 14.54,
+      "Jakobi Meyers": 10.7,
+      "Michael Pittman Jr.": 8.44,
+      "Hunter Henry": 7.69,
+      "Kyle Pitts Sr.": 7.11,
+      "Eddy Pineiro": 8.56,
+      "Steelers D/ST": 6.76
+    },
+    "fantasypros": {
+      "Jacoby Brissett": 19.4,
+      "Kyler Murray": 17.0,
+      "RJ Harvey": 11.0,
+      "Ollie Gordon II": 10.1,
+      "TreVeyon Henderson": 10.6,
+      "Drake London": 16.7,
+      "Garrett Wilson": 14.3,
+      "Jakobi Meyers": 9.3,
+      "Hunter Henry": 9.8,
+      "Kyle Pitts Sr.": 8.1,
+      "Eddy Pineiro": 7.2,
+      "Steelers D/ST": 6.2
+    }
+  },
+  "espn_moves_vs_live": [
+    "Gordon BE->RB",
+    "Harvey RB->FLEX",
+    "Meyers FLEX->BE"
+  ],
+  "espn_write": "none; needs Ken 'yes, set it'"
+}

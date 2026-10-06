@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-10-03T17:06:16.460549-07:00",
-  "week": 4,
+  "as_of": "2026-10-06T12:06:35.835313-07:00",
+  "week": 5,
   "source": "espn_api",
   "league_id": "1776545061",
   "team_id": 13,
   "season_id": 2026,
-  "scoringPeriodId": 4,
+  "scoringPeriodId": 5,
   "starters": {
     "RB1": "RJ Harvey",
     "RB2": "TreVeyon Henderson",
@@ -105,7 +105,7 @@
       "espn_id": 3121023,
       "espn_slot": "BE",
       "lineupSlotId": 20,
-      "status_tag": "OUT",
+      "status_tag": "DOUBTFUL",
       "eligible_slots": []
     },
     {
