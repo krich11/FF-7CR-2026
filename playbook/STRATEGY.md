@@ -1,3 +1,5 @@
+> **Superseded per issue 5 (Oct 6 2026):** Sigma references in this file are superseded. Sigma is retired. Assistant owns projections and the usage baseline. The shadow-edge lane is retired.
+
 # QBZ LONG-TERM STRATEGY (Blitz owns; Ken's order Sep 27 2026 3:03 PM CT)
 Blitz remembers and documents long-term strategy here. Every play: goal, target, what they want, free chips, trigger, status. Nothing executes without Ken's command.
 

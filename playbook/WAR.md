@@ -1,3 +1,5 @@
+> **Superseded per issue 5 (Oct 6 2026):** Sigma references in this file are superseded. Sigma is retired. Assistant owns projections and the usage baseline. The shadow-edge lane is retired.
+
 WAR — Week 4  (as_of Fri Oct 2 2026, 4:10 PM CT)
 MODE: CLIMB
 WO STANCE: HOLD

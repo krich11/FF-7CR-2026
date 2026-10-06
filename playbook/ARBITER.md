@@ -1,3 +1,5 @@
+> **Superseded per issue 5 (Oct 6 2026):** Sigma references in this file are superseded. Sigma is retired. Assistant owns projections and the usage baseline. The shadow-edge lane is retired.
+
 # Standing orders — Arbiter
 
 Updated: 2026-09-27 22:35 CT
