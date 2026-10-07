@@ -48,7 +48,7 @@ These are backup plans for surprise scratches, not warnings. A line marked *(no 
 - **Gordon or Henderson inactive (~10:30 AM CT):** move Harvey from FLEX to that RB slot and put Pittman in FLEX (Pitts if Pittman is also out).
 - **Stevenson's Friday status decides RB2/FLEX:** out or limited, Henderson stays. Full go and Harvey untagged, Harvey to RB and Meyers to FLEX before 8:30 AM CT. Harvey tagged, Henderson stays.
 - **Henry inactive (~10:30 AM CT), (no news; he practiced Wed):** Pitts in at TE.
-- **Wilson inactive (~10:30 AM CT), (no news):** Pittman in at WR.
+- **Wilson inactive (~10:30 AM CT):** Pittman in at WR.
 - **Steelers or Pineiro:** no backup on the roster. Nothing to do.
 - **Brissett on Friday's injury report with any tag: switch to Murray before noon.** Murray plays at noon and Brissett at 3:25, so if Brissett is a surprise inactive at ~1:55 PM CT, Murray is already locked and QB scores 0. With no designation, keep Brissett.
 - **Harvey inactive (~1:35 PM CT):** Pitts into FLEX.
