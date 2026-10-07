@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-07T10:27:43.696969-07:00",
+  "as_of": "2026-10-07T14:21:00.324201-07:00",
   "week": 5,
   "source": "espn_api",
   "league_id": "1776545061",
@@ -7,21 +7,21 @@
   "season_id": 2026,
   "scoringPeriodId": 5,
   "starters": {
-    "RB1": "RJ Harvey",
+    "RB1": "Ollie Gordon II",
     "RB2": "TreVeyon Henderson",
     "WR1": "Drake London",
     "WR2": "Garrett Wilson",
     "TE": "Hunter Henry",
     "DST": "Steelers D/ST",
     "K": "Eddy Pineiro",
-    "FLEX": "Jakobi Meyers",
+    "FLEX": "RJ Harvey",
     "QB": "Jacoby Brissett"
   },
   "players": [
     {
-      "name": "RJ Harvey",
+      "name": "Ollie Gordon II",
       "pos": "RB",
-      "espn_id": 4568490,
+      "espn_id": 4711533,
       "espn_slot": "RB",
       "lineupSlotId": 2,
       "status_tag": null,
@@ -82,9 +82,9 @@
       "eligible_slots": []
     },
     {
-      "name": "Jakobi Meyers",
-      "pos": "WR",
-      "espn_id": 3916433,
+      "name": "RJ Harvey",
+      "pos": "RB",
+      "espn_id": 4568490,
       "espn_slot": "FLEX",
       "lineupSlotId": 23,
       "status_tag": null,
@@ -105,7 +105,16 @@
       "espn_id": 3121023,
       "espn_slot": "BE",
       "lineupSlotId": 20,
-      "status_tag": "DOUBTFUL",
+      "status_tag": "QUESTIONABLE",
+      "eligible_slots": []
+    },
+    {
+      "name": "Jakobi Meyers",
+      "pos": "WR",
+      "espn_id": 3916433,
+      "espn_slot": "BE",
+      "lineupSlotId": 20,
+      "status_tag": null,
       "eligible_slots": []
     },
     {
@@ -141,16 +150,7 @@
       "espn_id": 4035687,
       "espn_slot": "BE",
       "lineupSlotId": 20,
-      "status_tag": null,
-      "eligible_slots": []
-    },
-    {
-      "name": "Ollie Gordon II",
-      "pos": "RB",
-      "espn_id": 4711533,
-      "espn_slot": "BE",
-      "lineupSlotId": 20,
-      "status_tag": null,
+      "status_tag": "QUESTIONABLE",
       "eligible_slots": []
     },
     {

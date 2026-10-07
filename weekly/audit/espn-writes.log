@@ -293,3 +293,4 @@ SHOT_AFTER week=1 TE=Goedert hash=8eb1de44a952a1abd413f1ee6721c996253c306f01ac85
 2026-10-07T10:27:43.698815-07:00	ESPN_API_SYNC n=16 starters={'RB1': 'RJ Harvey', 'RB2': 'TreVeyon Henderson', 'WR1': 'Drake London', 'WR2': 'Garrett Wilson', 'TE': 'Hunter Henry', 'DST': 'Steelers D/ST', 'K': 'Eddy Pineiro', 'FLEX': 'Jakobi Meyers', 'QB': 'Jacoby Brissett'}
 2026-10-07T14:03:12.942172-07:00	ESPN_API_APPLY_OK sp=5 moves=3 verify=ok
 2026-10-07T16:03 CT LINEUP_APPLY week=5 by=Blitz on Ken 'Put Gordon in' (War Room): Gordon RB, Harvey FLEX, Meyers BE; verify ok, mismatches=[]
+2026-10-07T14:21:00.327603-07:00	ESPN_API_SYNC n=16 starters={'RB1': 'Ollie Gordon II', 'RB2': 'TreVeyon Henderson', 'WR1': 'Drake London', 'WR2': 'Garrett Wilson', 'TE': 'Hunter Henry', 'DST': 'Steelers D/ST', 'K': 'Eddy Pineiro', 'FLEX': 'RJ Harvey', 'QB': 'Jacoby Brissett'}
