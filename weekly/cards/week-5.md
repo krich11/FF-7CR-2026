@@ -42,13 +42,13 @@ Why Harvey sits in FLEX instead of RB: same points, more Sunday options. He play
 
 ## What flips each call on Sunday
 
-Inactives post about 90 minutes before kickoff: ~7:00 AM CT for London, ~10:30 AM CT for noon games, ~1:35 PM CT (3:05 game) and ~1:55 PM CT (3:25 games), ~5:50 PM CT for the night game.
+These are backup plans for surprise scratches, not warnings. A line marked *(no news)* has nothing behind it this week. Inactives post about 90 minutes before kickoff: ~7:00 AM CT for London, ~10:30 AM CT for noon games, ~1:35 PM CT (3:05 game) and ~1:55 PM CT (3:25 games), ~5:50 PM CT for the night game.
 
 - **Meyers / Goedert (London, locks 8:30 AM CT).** Meyers is on the bench, so nothing to do. He's the only bench player who locks before the noon inactives, so if Gordon or Henderson draws a Friday designation, decide on Meyers before 8:30.
 - **Gordon or Henderson inactive (~10:30 AM CT):** move Harvey from FLEX to that RB slot and put Pittman in FLEX (Pitts if Pittman is also out).
 - **Stevenson's Friday status decides RB2/FLEX:** out or limited, Henderson stays. Full go and Harvey untagged, Harvey to RB and Meyers to FLEX before 8:30 AM CT. Harvey tagged, Henderson stays.
-- **Henry inactive (~10:30 AM CT):** Pitts in at TE.
-- **Wilson inactive (~10:30 AM CT):** Pittman in at WR.
+- **Henry inactive (~10:30 AM CT), (no news; he practiced Wed):** Pitts in at TE.
+- **Wilson inactive (~10:30 AM CT), (no news):** Pittman in at WR.
 - **Steelers or Pineiro:** no backup on the roster. Nothing to do.
 - **Brissett on Friday's injury report with any tag: switch to Murray before noon.** Murray plays at noon and Brissett at 3:25, so if Brissett is a surprise inactive at ~1:55 PM CT, Murray is already locked and QB scores 0. With no designation, keep Brissett.
 - **Harvey inactive (~1:35 PM CT):** Pitts into FLEX.
