@@ -85,3 +85,16 @@ FLEX Harvey
 D/ST Steelers
 K Pineiro
 ```
+
+## Wednesday backup — Wed Oct 7, 12:35 PM CT
+
+**Status: still OPEN.** No "yes, set it" yet, so ESPN still shows Tuesday's old lineup (Harvey and Henderson at RB, Meyers at FLEX, Gordon on the bench). The paste block above is unchanged and still unapplied.
+
+- **ESPN re-read, 12:27 PM CT (read-only):** 16 of 17, same players as Tuesday. We filed nothing in the Wed waiver run and moved up to 3rd in waiver order (BuB 1st, DDT 2nd).
+- **Wed 2:37 AM CT waiver run, who spent order:** CDS 4 claims (Will Shipley, Commanders D/ST, Chad Ryland, Harrison Mevis), now 12th. LY 3 (Aaron Rodgers, Jaguars D/ST, Tyler Allgeier), now 11th. MBB Cowboys D/ST, 10th. TE Raiders D/ST, 9th. FR (our opponent) Deshaun Watson for Marcus Mariota, 8th. TCO Romeo Doubs, 7th.
+- **Targets lost / kept:** lost Doubs (TCO), Allgeier and Jaguars D/ST (LY). Still free agents (no waiver order needed): Brenton Strange, Jaylen Wright, Roman Wilson, Keon Coleman, Mike Gesicki, Michael Mayer, Wan'Dale Robinson, Keaton Mitchell, Woody Marks, Patriots D/ST.
+- **New on waivers after the run:** Brian Thomas Jr. (LL dropped him for Jordan Mason at 10:08 AM CT; 62% of snaps in Week 4, 2 catches for 17 yards and a TD per SI), plus Rico Dowdle (Q), Mack Hollins (Q), Tre Tucker, Kenyon Sadiq. Facts only; no waiver request in this card.
+- **Stevenson:** Vrabel said Wednesday that Stevenson and Hollins are expected to sit out the first Week 5 practice (NBC/PFT, ~12:17 PM CT). The Patriots worked out Jamaal Williams on Tuesday. That leans toward Henderson staying at RB; Friday's report still decides. Hollins out also helps Henry's target share.
+- **Not in yet:** Wednesday's official practice reports (Goedert, Stevenson, everyone else) post this afternoon. `data/availability.json` on main is still the Week 4 Sunday file (as of Oct 4), so there is no Week 5 availability read yet.
+
+MODE CLIMB. Cost of the paste: none (lineup only, no waiver order, no roster spot).
