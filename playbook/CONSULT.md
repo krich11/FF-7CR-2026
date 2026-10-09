@@ -3,6 +3,8 @@
 Consultant in charge. Thu Oct 8, 2026, 7:40 PM CT.
 Blitz and Assistant are off. No Friday projection file. No Sunday injury refresh. No bot clicks.
 
+Ken, Thu Oct 8: both bots read `playbook/LESSONS.md` section "2026-10-08 — Ken: what counts as a mistake" before the next card or AAR. Train on role changes known before lock. Do not train on a single box score.
+
 ## Plan
 
 Hold the lineup already on ESPN.
