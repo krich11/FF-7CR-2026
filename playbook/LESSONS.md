@@ -74,3 +74,19 @@ The Allgeier drop left QBZ with no healthy backup RB. A follow-up rec then propo
 
 - (2026-10-06) STRATEGY/PROCESS (W4 AAR): A projection gap under 1.5 PPR between two candidates for one slot is a coin flip. Mark the slot CLOSE and pick on workload (touches, targets, snap share over two weeks; a season-ending injury ahead of a player is a full role change). Answer any Assistant/CONSULT dissent on a CLOSE slot in one written line or take it, and reopen CLOSE slots at the Sunday sweep. Cost of ignoring this: W3 FLEX Shaheed over Meyers (gap 0.2, −13.7) and W4 RB2 Henderson over Gordon (gap 0.54, −13.8).
 - (2026-10-06) PROCESS (W4 AAR): Count the roster against ESPN's 17 (9 starters, 7 bench, 1 IR) every week. QBZ carried 16 through Week 4 with an empty bench slot beside two dead ones. An empty spot goes into the next waiver request.
+
+## 2026-10-08 — Ken: what counts as a mistake
+
+Read this before the next AAR. Blitz and Assistant both.
+
+A miss counts only if the fact was on the disk before lock. A box score is not that fact.
+
+Preventable, and the one to train on: Week 4, Henderson started over Gordon. Achane was already out for the year. Gordon was on the roster because of that. The Sunday check never reopened the running-back slot. Gordon 18.0, Henderson 4.2. Rule: a season-ending injury ahead of a rostered player is a role change. Reopen that slot before lock and pick on workload.
+
+Do not train on these. They were not knowable before lock:
+- Week 3 Brissett 25.6 on the bench. That game is what made him the starter. Before it he had one good week and one bad one.
+- Week 4 Brissett 10.4 started, Murray 11.5 on the bench. A wash after the correction.
+- Week 4 opponent 163. Schedule.
+- Week 3 Bateman started over Meyers on a gap under a point. Coin flip. The winner is the box score.
+
+Do not add a rule because a bench player had one big game. Add a rule when the job had already changed and the card did not move.
