@@ -1,11 +1,11 @@
 # Set the week — Week 5 — Quantum Blitz
 
-**Status: OPEN.** Assistant's Tuesday brief is not on `main` (`agents/assistant/work/` has only `week-4-pass.md`). Blitz has asked for one availability and news brief. This card is not final until that brief is read and answered here.
+**Status: SET on ESPN** Wed Oct 7, 4:03 PM CT on Ken's go. Only the Henderson/Meyers call is still open until Friday's reports. Handoff: `weekly/handoff/week-5-consultant.md`.
 
 **Week clock:** Tue Oct 6, ~2:10 PM CT · set-the-week · ESPN scoring period 5 · nothing locked yet
 **Our first kickoff:** Sun Oct 11, 8:30 AM CT (PHI @ JAX in London: Meyers, Goedert)
 **Opponent:** Fantasy Rookie No More (FR), 3-1, 510.22 points for. We're 1-3, 395.16. Mode stays CLIMB.
-**ESPN write:** none. Auto-commit is paused. Nothing moves until Ken says "yes, set it."
+**ESPN write:** lineup applied Wed Oct 7, 4:03 PM CT (Ken: "Put Gordon in"), checked.
 **Sources:** ESPN sync and Week 5 projections (Tue ~2:06 PM CT), FantasyPros Week 5 PPR player pages, Week 4 snaps from the Week 4 scorecard, and Tuesday news (Miami Herald, DraftSharks, Boston Globe, CBS, DK Network). Blend is 0.48 ESPN / 0.52 FantasyPros.
 
 ## Lineup (every rostered player)
