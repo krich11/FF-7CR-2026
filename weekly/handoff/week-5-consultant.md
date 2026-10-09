@@ -25,3 +25,5 @@ Bench: Murray, Meyers, Pittman, Pitts, Goedert, Jacobs (Exempt List). IR: Etienn
 
 ## Routines
 Ken, Thu Oct 8 7:33 PM CT: "Take the weekend off. No triggers." Paused: Friday tweak, Sunday inactives, Sunday inactives sweep. Monday review (Mon 10:03 AM CT) is still on unless Ken says otherwise.
+
+Assistant is also off this weekend: no `data/projections/week-5.json` or `data/usage/week-5-baseline.json` on Friday, and no Sunday morning injury refresh.
