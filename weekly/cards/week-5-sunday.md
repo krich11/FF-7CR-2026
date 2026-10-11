@@ -23,3 +23,6 @@ QB Brissett · RB Gordon · RB Henderson · WR London · WR Wilson · TE Goedert
 Bench: Henry, Meyers, Pitts, Murray, Pittman, Jacobs. IR: Etienne.
 
 Facts checked by Assistant against the official reports (availability on main, bef0cb0).
+
+## Ken's decision
+Ken, War Room, Sun 12:55 AM CT: "Yes, Goedert if active." Blitz makes the swap only if Goedert is on the active list (~7:00 AM CT), before the 8:30 lock. The automatic 7:15 check could not be scheduled from the group chat; it needs Ken to confirm in his private chat with Blitz.
