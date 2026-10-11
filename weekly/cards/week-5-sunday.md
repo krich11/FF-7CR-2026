@@ -43,3 +43,8 @@ Assistant checked these facts against the official reports (availability on main
 
 ## Sources
 Patriots.com Friday report; Patriots Wire; Boston Globe (Oct 9); NBC Sports (Stevenson, Goedert); CBS Philadelphia; ESPN (Eagles outs, Pittman); Steelers.com; Sportsnet Pittsburgh and Steelers Wire (Pittman IR); StatChasers and Running Back Roulette (Harvey); NFL.com Week 5 statuses; Fantasy Society and PropSims (TE); ESPN league API projections, read Sun ~12:50 AM CT (read-only).
+
+## Update ~12:45 AM CT
+- Ken: Blitz may challenge the Consultant when his info is outdated. Blitz challenges both Oct 8 rulings: they were written before Friday's reports.
+- Assistant: Goedert is a clean yes. On Meyers, Assistant wanted to wait for Stevenson to be confirmed active. But Patriots inactives post ~10:30 AM CT (noon game), after Meyers locks at 8:30, so the call has to be made on the Questionable tag. Blitz still leans flip.
+- Waiting on Ken's "yes, set it" for either or both.
