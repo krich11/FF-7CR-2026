@@ -57,7 +57,7 @@ The models overrule the projection in only 9 to 12% of pairs, and those override
 
 - We tested 21 signals and 2 model types. With that many tries, one or two "hits" of about 1 point would show up by chance. Nothing survived the held-out test, so there's nothing to correct for.
 - Every feature uses only earlier weeks or pregame reports. One caveat: Sleeper's stored historical projections may include last-minute updates (timestamps sometimes fall after kickoff). If anything, that makes the baseline look a little better than a Tuesday projection would.
-- Weakness: injury reports were matched to about 90% of relevant players by name and team, not 100%.
+- Weakness: injury reports were matched by player ID plus name and team. The match rate wasn't measured, so some Questionable tags are probably missed (5.4% of relevant player-weeks came out tagged).
 
 ## What to do with this for Week 6 and the rest of the season
 
