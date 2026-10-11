@@ -25,7 +25,7 @@ That includes the "close calls go to whoever plays more snaps" rule we adopted a
 | 1 | FLEX | Pittman 12.3/8.8 | Meyers 10.4/12.2 | 3.4 |
 | 1 | FLEX | Pittman 12.3/8.8 | Brooks 10.7/7.2, Tucker 10.0/4.7, Pitts 9.8/0.0 | 0 |
 | 2 | TE | Goedert 10.8/1.4 | Pitts 10.4/2.5 | 1.1 |
-| 2 | FLEX | Tucker 9.9/22.9 | Pitts 10.4, Meyers 9.8, Brooks 8.7, Shaheed 8.6, Allgeier 7.1 (all lower) | 0 |
+| 2 | FLEX | Tucker 9.9/22.9 | Pitts 10.4/2.5 (projected higher), Meyers 9.8/3.8, Shaheed 8.6/6.9, Brooks 8.7/2.1, Allgeier 7.1/3.9 | 0 |
 | 3 | FLEX | Bateman 8.8/5.7 | Meyers 9.3/19.4 | 13.7 |
 | 3 | FLEX | Bateman 8.8/5.7 | Pittman 11.3/3.6, Shaheed 10.9/3.4 | 0 |
 | 4 | RB | Henderson 9.5/4.2 | Gordon 9.0/18.0 | 13.8 |
