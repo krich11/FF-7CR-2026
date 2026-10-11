@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-10T22:36:11.338064-07:00",
+  "as_of": "2026-10-10T23:17:53.736880-07:00",
   "week": 5,
   "source": "espn_api",
   "league_id": "1776545061",
@@ -151,6 +151,15 @@
       "espn_slot": "BE",
       "lineupSlotId": 20,
       "status_tag": "INJURY_RESERVE",
+      "eligible_slots": []
+    },
+    {
+      "name": "Roman Wilson",
+      "pos": "WR",
+      "espn_id": 4431492,
+      "espn_slot": "BE",
+      "lineupSlotId": 20,
+      "status_tag": null,
       "eligible_slots": []
     },
     {
