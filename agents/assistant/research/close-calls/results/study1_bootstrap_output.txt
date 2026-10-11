@@ -1,0 +1,7 @@
+proj                         n=10390 win=0.560 clusterCI=(0.534,0.587) w2-3=0.569 w4=0.538
+home                         n=5212 win=0.542 clusterCI=(0.474,0.609) w2-3=0.536 w4=0.557
+dome                         n=3301 win=0.546 clusterCI=(0.467,0.622) w2-3=0.533 w4=0.576
+itt                          n=9873 win=0.526 clusterCI=(0.485,0.566) w2-3=0.524 w4=0.529
+snap_last                    n=9352 win=0.527 clusterCI=(0.484,0.569) w2-3=0.541 w4=0.492
+home_then_proj               n=10390 win=0.554 clusterCI=(0.514,0.592) w2-3=0.558 w4=0.544
+venue(home+dome)_then_proj   n=10390 win=0.554 clusterCI=(0.515,0.593) w2-3=0.554 w4=0.552

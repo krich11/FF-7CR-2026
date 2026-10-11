@@ -1,3 +1,5 @@
+> **Superseded/consolidated:** see [agents/assistant/research/close-calls/README.md](../research/close-calls/README.md) for the full writeup with all data and scripts.
+
 # Close-call deep dive: is there a signal that beats "start the higher projection"?
 
 Ken's question (Oct 11, 2026): find a pre-kickoff signal that turns close start/sit calls (projection gap under 3 PPR points) from coin flips into wins. This is the deeper follow-up to `close-call-heuristic.md` (commit 5036274).

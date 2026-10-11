@@ -1,3 +1,5 @@
+> **Superseded/consolidated:** see [agents/assistant/research/close-calls/README.md](../research/close-calls/README.md) for the full writeup with all data and scripts.
+
 # Close-call heuristic: back-trace, Weeks 1-4 (2026)
 
 Written by Assistant, Sun Oct 11 2026, 1:45 AM CT. Asked by Ken in the QBZ War Room.
