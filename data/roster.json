@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-07T14:21:00.324201-07:00",
+  "as_of": "2026-10-10T22:36:11.338064-07:00",
   "week": 5,
   "source": "espn_api",
   "league_id": "1776545061",
@@ -105,7 +105,7 @@
       "espn_id": 3121023,
       "espn_slot": "BE",
       "lineupSlotId": 20,
-      "status_tag": "QUESTIONABLE",
+      "status_tag": null,
       "eligible_slots": []
     },
     {
@@ -150,7 +150,7 @@
       "espn_id": 4035687,
       "espn_slot": "BE",
       "lineupSlotId": 20,
-      "status_tag": "QUESTIONABLE",
+      "status_tag": "INJURY_RESERVE",
       "eligible_slots": []
     },
     {
