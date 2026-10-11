@@ -10,9 +10,6 @@ Our starters (ESPN proj): QB Brissett 18.82 · RB Gordon 10.90, Henderson 10.54 
 - Tyler Huntley, BAL, QB, @ ATL, free agent, proj 14.06
 - Jameis Winston, NYG, QB, @ WSH, free agent, proj 13.33
 - Cam Ward, TEN, QB, vs HOU, free agent, proj 13.16
-- Fernando Mendoza, LV, QB, @ NE, free agent, proj 0.0
-- J.J. McCarthy, NYG, QB, @ WSH, free agent, proj 0.0
-- Shedeur Sanders, CLE, QB, @ NYJ, free agent, proj 0.0
 
 ## RB
 - Rachaad White, WSH, RB, vs NYG, free agent, proj 7.93
