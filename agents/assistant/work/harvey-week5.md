@@ -35,3 +35,24 @@ Harvey isn't hurt, but under Payton's play-calling he looks like a low-floor, re
 - Denver Gazette live blog: https://www.denvergazette.com/live-blog/broncos-chargers-live-blog-oct-11-2026/
 - FantasyPros Week 5 note: https://www.fantasypros.com/nfl/notes/454851/rj-harvey-2026-week-5-outlook.php
 - Athlon preview: https://athlonsports.com/nfl/denver-broncos/rj-harvey-vs-chargers-week-5-three-expectations-for-broncos-rb
+
+## Update (Sun Oct 11 2026, ~6:50 PM CT): Was Payton's "stove" comment about Harvey? NO.
+
+**Timing:** Payton made the comment at his **Wednesday Oct 7 press conference, before the game**. He did not say it after the game. AP ran it in its Oct 9 preview, which CBS also shows on the gametracker page.
+
+**The question** (from the Broncos' press-conference transcript, reprinted by Mile High Report): "On if he reviewed film from the 2023 Broncos-Dolphins game to prepare for Chargers Offensive Coordinator Mike McDaniel's offense"
+
+**Full answer, verbatim:** "We just started our first practice. It's not like I've went and made sure [Defensive Coordinator] Vance [Joseph] put all the cut ups of that, but it's a different offense a little bit. Fair question. There were certain things in that game… If you said the edges and their ability to get into the crack schemes and attack the edges, that's one of those games where we turned it over offensively, but you get burned a few times and you don't touch the stove again. You recognize the split of a big... I'm just having a good Wednesday. I felt like it was a decent Wednesday."
+
+Sources: https://www.milehighreport.com/general/187981/should-the-broncos-try-to-extend-brandon-jones (transcript), https://www.cbssports.com/nfl/gametracker/live/NFL_20261011_DEN@LAC/ (AP preview, Oct 9), https://www.espn.com/nfl/preview/_/gameId/401872989
+
+**What "burned" refers to:** Denver's 70-20 loss to Miami in 2023, when McDaniel was Miami's coach. Miami gashed Denver on the edges with crack-block run schemes (350 rushing yards). That was a defensive point about McDaniel's offense. Harvey played college football in 2023, so it can't be about him.
+
+**Harvey's ball security** (nflverse play_by_play_2026; this file only has Denver's Weeks 1-4):
+- Weeks 1, 3, 4: 12 carries and 21 targets, 20 catches. He wasn't on any Denver play in Week 2 in this data.
+- 1 fumble, not lost. Week 4 vs SF: "B.Nix pass short right to 12-R.Harvey ... FUMBLES (57-D.Greenlaw), recovered by DEN-77-Q.Meinerz."
+- Week 5 (CBS play-by-play): 3 carries for 7 yards (+4, +2, +1) and 1 incomplete target. No fumble. That makes it 0 lost fumbles on the season.
+- Denver's only lost fumble in Weeks 1-4 was by Bo Nix (Week 1). Nix also threw INTs in Weeks 1, 2 and 3, and fumbled one away to Tuipulotu in Week 5.
+- Drops and pass protection: I didn't find any report of a Harvey drop, a sack he allowed, or a coach criticizing him. I didn't check PFF, which needs a subscription.
+
+**Conclusion:** The stove comment was **not about Harvey**. It was about the 2023 Miami blowout and getting beaten by edge and crack runs on defense. His small Week 5 role still has no explanation on the record. Dobbins got the work in the first game Payton called plays himself.
