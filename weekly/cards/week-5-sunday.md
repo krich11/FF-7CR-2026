@@ -9,7 +9,7 @@ Both changes below involve players in the London game (Eagles at Jaguars), which
 
 ## Change 1 — Tight end: start Dallas Goedert (Eagles TE) over Hunter Henry (Patriots TE)
 - What changed since Wednesday's card: Goedert was a full practice participant Friday and is **off the Eagles' final injury report** (NBC, CBS Philadelphia, ESPN). The card had him at 0 as doubtful. That's a role change known before lock, per the Oct 8 lesson.
-- The Eagles ruled out Saquon Barkley and DeVonta Smith, so more targets go to Goedert (NBC: "TE1 potential on volume").
+- The Eagles ruled out Saquon Barkley and DeVonta Smith, so more targets go to Goedert (NBC: "TE1 potential on volume"). Assistant adds that the Eagles are also missing receiver Hollywood Brown.
 - ESPN projection now: Goedert 10.89, Henry 7.71. That's a gap of 3.2, well past the 1.5 close-call line. Second sources: Fantasy Society has Goedert TE5 at 12.0 PPR and Henry TE16. PropSims has them even at 10.2 each.
 - Defense check: the Jaguars allow about average tight-end production, and the Raiders are tougher on tight ends. The defense favors Goedert.
 - Risk: it's his first game back from an MCL sprain, so his snaps could be managed. Henry has no injury.
@@ -25,19 +25,21 @@ Both changes below involve players in the London game (Eagles at Jaguars), which
 - **Recommendation: flip (Meyers at FLEX, Harvey at RB, Henderson to the bench). The Consultant decides whether the letter or the purpose of the rule governs.**
 
 ## No change
-- **QB Jacoby Brissett (Cardinals QB)** over Kyler Murray (Cardinals QB on our bench, who faces the Saints). ESPN 18.82 vs 17.88. The Consultant's defense check (Detroit 32nd overall) confirms.
+- **QB Jacoby Brissett (Cardinals QB)** over Kyler Murray (Vikings QB on our bench, at the Saints). ESPN 18.82 vs 17.88. The Consultant's defense check (Detroit 32nd overall) confirms.
 - **WR Drake London (Falcons), WR Garrett Wilson (Jets), RB Ollie Gordon II (Dolphins)**: no injury designation. Gordon's backup Jaylen Wright is **questionable**, which helps Gordon's workload. The Jets ruled out Breece Hall.
 - **D/ST Steelers, K Eddy Pineiro (49ers)**: hold.
 - **Josh Jacobs (Packers RB)**: still on the Commissioner's Exempt List. Cannot play.
 
 ## New roster fact: Michael Pittman Jr. (Steelers WR) is out for weeks
 - Ruled out Friday. The Steelers are placing him on injured reserve (ESPN's Fowler), for at least four games.
-- ESPN already tags him INJURY_RESERVE, but our one IR slot holds Travis Etienne Jr., so Pittman sits on the bench. He was the noon flex fill-in on the old card; that plan is gone.
+- ESPN already tags him INJURY_RESERVE, but our one IR slot holds Travis Etienne Jr., so Pittman sits on the bench. He was the noon flex fill-in in CONSULT.md's "Sunday if someone is out"; that no longer works. The fill-in is now Kyle Pitts (Falcons TE, night game) at flex, with Harvey sliding to running back.
 - Option, not a recommendation for today: the open 17th spot could go to Roman Wilson (Steelers WR, free agent as of Wednesday), the receiver getting Pittman's work (ESPN). Ken chose to keep the spot empty on Wednesday. Needs Ken's yes either way.
 
 ## If both changes are approved, the lineup is
 QB Brissett · RB Gordon · RB Harvey · WR London · WR Wilson · TE Goedert · FLEX Meyers · D/ST Steelers · K Pineiro
 Bench: Henderson, Henry, Pitts, Murray, Pittman, Jacobs. IR: Etienne.
+
+Assistant checked these facts against the official reports (availability on main, bef0cb0). Both changes go against the Consultant's written Oct 8 rulings, so each needs an explicit yes from Ken or the Consultant.
 
 ## Sources
 Patriots.com Friday report; Patriots Wire; Boston Globe (Oct 9); NBC Sports (Stevenson, Goedert); CBS Philadelphia; ESPN (Eagles outs, Pittman); Steelers.com; Sportsnet Pittsburgh and Steelers Wire (Pittman IR); StatChasers and Running Back Roulette (Harvey); NFL.com Week 5 statuses; Fantasy Society and PropSims (TE); ESPN league API projections, read Sun ~12:50 AM CT (read-only).
