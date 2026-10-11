@@ -48,3 +48,6 @@ Patriots.com Friday report; Patriots Wire; Boston Globe (Oct 9); NBC Sports (Ste
 - Ken: Blitz may challenge the Consultant when his info is outdated. Blitz challenges both Oct 8 rulings: they were written before Friday's reports.
 - Assistant: Goedert is a clean yes. On Meyers, Assistant wanted to wait for Stevenson to be confirmed active. But Patriots inactives post ~10:30 AM CT (noon game), after Meyers locks at 8:30, so the call has to be made on the Questionable tag. Blitz still leans flip.
 - Waiting on Ken's "yes, set it" for either or both.
+
+## Update ~12:50 AM CT: Blitz withdraws the Meyers flip
+Ken asked what the flip gains and what it risks. It gains about 0.2 projected points. It risks a zero at running back if Harvey is a late scratch, and losing Henderson's upside if Stevenson sits. That trade is not worth it. **Recommendation now: no flip. Henderson stays at RB, Harvey stays at FLEX, Meyers stays on the bench.** Goedert over Henry still stands.
