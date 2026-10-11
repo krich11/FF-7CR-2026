@@ -1,6 +1,6 @@
 # Set the week — Week 5 — Quantum Blitz
 
-**Status: SET on ESPN** Wed Oct 7, 4:03 PM CT on Ken's go. Only the Henderson/Meyers call is still open until Friday's reports. Handoff: `weekly/handoff/week-5-consultant.md`.
+**Status: SET on ESPN** Wed Oct 7 + **Goedert TE swap Sun Oct 11 ~7:27 AM CT** (Ken: yes if active; verified). Handoff: `weekly/handoff/week-5-consultant.md`.
 
 **Week clock:** Tue Oct 6, ~2:10 PM CT · set-the-week · ESPN scoring period 5 · nothing locked yet
 **Our first kickoff:** Sun Oct 11, 8:30 AM CT (PHI @ JAX in London: Meyers, Goedert)
@@ -17,7 +17,7 @@
 | RB | TreVeyon Henderson | LV @ NE, Sun 12:00 PM | 10.52 | 10.6 | 10.56 | START (CLOSE) |
 | WR | Drake London | BAL @ ATL, Sun 7:20 PM | 15.97 | 16.7 | 16.35 | START |
 | WR | Garrett Wilson | CLE @ NYJ, Sun 12:00 PM | 14.54 | 14.3 | 14.42 | START |
-| TE | Hunter Henry | LV @ NE, Sun 12:00 PM | 7.69 | 9.8 | 8.79 | START (CLOSE) |
+| TE | Dallas Goedert | PHI @ JAX, Sun 8:30 AM (London) | 10.89 | n/a | 10.89 | START — active on official Eagles inactives; Ken yes if active |
 | FLEX | RJ Harvey | DEN @ LAC, Sun 3:05 PM | 11.26 | 11.0 | 11.12 | START |
 | D/ST | Steelers | IND @ PIT, Sun 12:00 PM | 6.76 | 6.2 | 6.47 | START (only D/ST) |
 | K | Eddy Pineiro | SF @ SEA, Sun 3:25 PM | 8.56 | 7.2 | 7.85 | START (only K) |
@@ -25,7 +25,7 @@
 | BE | Jakobi Meyers | PHI @ JAX, Sun 8:30 AM (London) | 10.70 | 9.3 | 9.97 | BENCH (CLOSE) |
 | BE | Michael Pittman Jr. | IND @ PIT, Sun 12:00 PM | 8.44 | n/a | 8.44 | BENCH |
 | BE | Kyle Pitts Sr. | BAL @ ATL, Sun 7:20 PM | 7.11 | 8.1 | 7.62 | BENCH (CLOSE) |
-| BE | Dallas Goedert | PHI @ JAX, Sun 8:30 AM (London) | 0 | n/a | 0 | BENCH. ESPN tag DOUBTFUL, MCL, missed two games, Eagles call him TBD |
+| BE | Hunter Henry | LV @ NE, Sun 12:00 PM | 7.69 | 9.8 | 8.79 | BENCH — swapped out for Goedert Sun AM |
 | BE | Josh Jacobs | CHI @ GB, Sun 12:00 PM | 0 | n/a | 0 | BENCH. Still on the Exempt List (ESPN says DTD; official status wins) |
 | IR | Travis Etienne Jr. | n/a | 0 | n/a | 0 | IR |
 
@@ -53,10 +53,10 @@ Only players with a real question this week are listed. Inactives post about 90 
 - Watch the Patriots' Wednesday report for Stevenson and the Dolphins' depth chart for Wright.
 
 ## Games to watch
-- Sun 8:30 AM CT · PHI @ JAX (London) — Meyers (BE), Goedert (BE)
+- Sun 8:30 AM CT · PHI @ JAX (London) — Meyers (BE), Goedert (TE)
 - Sun 12:00 PM CT · CIN @ MIA — Gordon (RB)
 - Sun 12:00 PM CT · CLE @ NYJ — Garrett Wilson (WR)
-- Sun 12:00 PM CT · LV @ NE — Henderson (RB), Henry (TE)
+- Sun 12:00 PM CT · LV @ NE — Henderson (RB), Henry (BE)
 - Sun 12:00 PM CT · IND @ PIT — Steelers (D/ST), Pittman (BE)
 - Sun 12:00 PM CT · MIN @ NO — Murray (BE)
 - Sun 12:00 PM CT · CHI @ GB — Jacobs (BE, Exempt)
@@ -72,7 +72,7 @@ RB Gordon
 RB Henderson
 WR London
 WR Wilson
-TE Henry
+TE Goedert
 FLEX Harvey
 D/ST Steelers
 K Pineiro

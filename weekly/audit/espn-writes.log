@@ -297,3 +297,5 @@ SHOT_AFTER week=1 TE=Goedert hash=8eb1de44a952a1abd413f1ee6721c996253c306f01ac85
 2026-10-10T22:36:11.338671-07:00	ESPN_API_SYNC n=16 starters={'RB1': 'Ollie Gordon II', 'RB2': 'TreVeyon Henderson', 'WR1': 'Drake London', 'WR2': 'Garrett Wilson', 'TE': 'Hunter Henry', 'DST': 'Steelers D/ST', 'K': 'Eddy Pineiro', 'FLEX': 'RJ Harvey', 'QB': 'Jacoby Brissett'}
 2026-10-10T23:17:49.857574-07:00	ESPN_API_FA_ADD player=Roman Wilson id=4431492 status=200 (Ken: 'Add Roman Wilson', 1:17 AM CT; Consultant order ec78825)
 2026-10-10T23:17:53.737606-07:00	ESPN_API_SYNC n=17 starters={'RB1': 'Ollie Gordon II', 'RB2': 'TreVeyon Henderson', 'WR1': 'Drake London', 'WR2': 'Garrett Wilson', 'TE': 'Hunter Henry', 'DST': 'Steelers D/ST', 'K': 'Eddy Pineiro', 'FLEX': 'RJ Harvey', 'QB': 'Jacoby Brissett'}
+2026-10-11T05:27:23.667724-07:00	ESPN_API_APPLY_OK sp=5 moves=2 verify=ok
+2026-10-11T07:27:00-05:00	GOEDERT_SWAP_WEEK5 Goedert TE / Henry BE — Eagles official inactives confirmed active; Ken approved; ESPN verify ok mismatches=[]

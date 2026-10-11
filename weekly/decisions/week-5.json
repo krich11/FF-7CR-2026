@@ -2,8 +2,8 @@
   "week": 5,
   "skill": "lineup.set",
   "window": "tuesday_set",
-  "status": "OPEN_pending_assistant_brief",
-  "as_of_ct": "Tue Oct 6, 2:10 PM CT",
+  "status": "ACTIVE_goedert_swap",
+  "as_of_ct": "Sun Oct 11, 7:27 AM CT",
   "assignments": {
     "QB": "Jacoby Brissett",
     "RB": [
@@ -14,7 +14,7 @@
       "Drake London",
       "Garrett Wilson"
     ],
-    "TE": "Hunter Henry",
+    "TE": "Dallas Goedert",
     "FLEX": "RJ Harvey",
     "DST": "Steelers D/ST",
     "K": "Eddy Pineiro"
@@ -24,8 +24,8 @@
     "Jakobi Meyers",
     "Michael Pittman Jr.",
     "Kyle Pitts Sr.",
-    "Dallas Goedert",
-    "Josh Jacobs"
+    "Josh Jacobs",
+    "Hunter Henry"
   ],
   "ir": [
     "Travis Etienne Jr."
@@ -74,5 +74,5 @@
     "Harvey RB->FLEX",
     "Meyers FLEX->BE"
   ],
-  "espn_write": "none; needs Ken 'yes, set it'"
+  "espn_write": "Goedert TE / Henry BE \u2014 Ken approved if active (War Room + private chat Oct 11)"
 }

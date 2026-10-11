@@ -1,28 +1,21 @@
-# Week 5 Sunday plan — for Consultant and Ken review (Blitz, Sun Oct 11, ~12:55 AM CT)
+# Week 5 Sunday plan — Goedert TE swap DONE (Blitz, Sun Oct 11, ~7:27 AM CT)
 
-**Nothing has been changed on ESPN.** The current lineup is: QB Brissett, RB Gordon, RB Henderson, WR London, WR Wilson, TE Henry, FLEX Harvey, D/ST Steelers, K Pineiro.
+**ESPN updated and verified.** Starting lineup now: QB Brissett, RB Gordon, RB Henderson, WR London, WR Wilson, **TE Goedert**, FLEX Harvey, D/ST Steelers, K Pineiro. Hunter Henry is on the bench.
 
-## The one change: start Dallas Goedert (Eagles TE) over Hunter Henry (Patriots TE)
-- Goedert practiced in full Friday and is **off the Eagles' final injury report** (NBC, CBS Philadelphia, ESPN). The Thursday CONSULT.md note had him as doubtful; that's out of date.
-- The Eagles ruled out Saquon Barkley, DeVonta Smith and Hollywood Brown, so more targets go to Goedert.
-- ESPN projection: Goedert 10.89, Henry 7.71 (gap 3.2). Fantasy Society: Goedert TE5 (12.0 PPR), Henry TE16. PropSims: even at 10.2.
-- Defense check: the Jaguars allow about average tight-end production. The Raiders are tougher on tight ends. The defense favors Goedert.
-- Risk: it's his first game back from an MCL sprain, so his snaps could be managed.
-- **Timing:** the London game (Eagles at Jaguars) locks at **8:30 AM CT**. Check the ~7:00 AM CT inactive list. If Goedert is active and Ken or the Consultant says yes, Blitz makes the swap before 8:30. If he's inactive, Henry stays.
+## Done: Dallas Goedert (Eagles TE) in, Hunter Henry (Patriots TE) to bench
+- Official Eagles inactives (philadelphiaeagles.com, ~7:05 AM CT): Hollywood Brown, DeVonta Smith, Saquon Barkley, Marcus Epps, Jonathan Greenard, Drew Kendall. **Goedert is not on the list — active.**
+- Ken approved (War Room 12:55 AM CT + private chat 1:07 AM CT): "Yes if Goedert is active."
+- ESPN API apply Week 5: write HTTP 200, verify ok, mismatches empty. Only move: Goedert BE→TE, Henry TE→BE.
+
+## Starting lineup (do not flip TE back to Henry)
+QB Brissett · RB Gordon · RB Henderson · WR London · WR Wilson · TE Goedert · FLEX Harvey · D/ST Steelers · K Pineiro
+Bench: Henry, Meyers, Pitts, Murray, Pittman, Jacobs (+ any later adds). IR: Etienne.
 
 ## Everything else holds
-- QB Jacoby Brissett (Cardinals) over Kyler Murray (Vikings). ESPN 18.82 vs 17.88; Detroit is 32nd in total defense.
-- RB Ollie Gordon II (Dolphins), RB TreVeyon Henderson (Patriots), FLEX RJ Harvey (Broncos), WR Drake London (Falcons), WR Garrett Wilson (Jets), D/ST Steelers, K Eddy Pineiro (49ers). No injury designations. Gordon's backup, Jaylen Wright, is questionable, which helps Gordon.
-- Josh Jacobs (Packers RB) is still on the Commissioner's Exempt List.
+- QB Jacoby Brissett over Kyler Murray.
+- RB Ollie Gordon II, RB TreVeyon Henderson, FLEX RJ Harvey, WR Drake London, WR Garrett Wilson, D/ST Steelers, K Eddy Pineiro.
+- Josh Jacobs still on the Commissioner's Exempt List.
+- Pittman out / IR-bound; Etienne holds the IR slot.
 
-## Roster fact the Consultant's plan needs
-Michael Pittman Jr. (Steelers WR, our bench) was ruled out and is going on injured reserve for at least four games. Our one IR slot holds Travis Etienne Jr., so Pittman stays on the bench. CONSULT.md's "Pittman takes flex if Gordon or Henderson is out at noon" no longer works. The fill-in is now Kyle Pitts (Falcons TE, night game) at flex, with Harvey sliding to running back.
-
-## After Goedert's swap, if approved
-QB Brissett · RB Gordon · RB Henderson · WR London · WR Wilson · TE Goedert · FLEX Harvey · D/ST Steelers · K Pineiro
-Bench: Henry, Meyers, Pitts, Murray, Pittman, Jacobs. IR: Etienne.
-
-Facts checked by Assistant against the official reports (availability on main, bef0cb0).
-
-## Ken's decision
-Ken, War Room, Sun 12:55 AM CT: "Yes, Goedert if active." Blitz makes the swap only if Goedert is on the active list (~7:00 AM CT), before the 8:30 lock. The automatic 7:15 check could not be scheduled from the group chat; it needs Ken to confirm in his private chat with Blitz.
+## Ken's decision (executed)
+Ken, War Room, Sun 12:55 AM CT: "Yes, Goedert if active." Confirmed active on official inactives; swap applied and verified ~7:27 AM CT before 8:30 London lock.
