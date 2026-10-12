@@ -1,0 +1,17 @@
+#qbz-panel{position:fixed;top:70px;right:8px;width:300px;max-height:85vh;overflow:auto;z-index:2147483647;background:#111a;backdrop-filter:blur(4px);background:rgba(17,20,28,.95);color:#eee;font:12px/1.35 system-ui,sans-serif;border:2px solid #333;border-radius:8px;padding:8px;box-shadow:0 4px 18px #0008}
+#qbz-panel.qbz-min>*:not(.qbz-head){display:none}
+#qbz-panel.qbz-flash{border-color:#18c964;animation:qbzf .25s 6 alternate}
+@keyframes qbzf{to{background:rgba(24,201,100,.35)}}
+#qbz-panel a{cursor:pointer;color:#8cf;margin-left:6px}
+#qbz-panel .qbz-head{display:flex;justify-content:space-between;margin-bottom:4px}
+#qbz-panel .qbz-sec{margin-top:6px;border-top:1px solid #333;padding-top:4px}
+#qbz-panel .qbz-top{font-size:14px;color:#18c964}
+#qbz-panel .qbz-warn{background:#a33;padding:4px;border-radius:4px;margin:4px 0}
+#qbz-panel .qbz-note{color:#fc6;margin-top:4px}
+#qbz-panel .qbz-clock{font-weight:bold}
+#qbz-panel .qbz-clock.on{color:#18c964;font-size:15px}
+#qbz-panel .qbz-tag{color:#f66}
+#qbz-panel .qbz-counts span{display:inline-block;margin-right:8px}
+#qbz-panel small{color:#aaa}
+#qbz-panel pre{white-space:pre-wrap;font-size:10px;max-height:240px;overflow:auto}
+#qbz-panel .qbz-foot{margin-top:6px;color:#888;font-size:10px}
