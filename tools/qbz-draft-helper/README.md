@@ -8,6 +8,9 @@ It only runs on `https://fantasy.espn.com/football/draft*`.
 > against the live ESPN draft page**. The page lookups are educated guesses based on the Oct 12, 2026 mock drafts.
 > Expect to fix a selector or two in the first mock draft. Diagnostics mode (below) is there to make that quick.
 
+## iPhone
+There's no extension for iPhone. Use the Safari **bookmarklet** instead: see `bookmarklet/BOOKMARKLET.md`.
+
 ## Install
 1. Unzip `qbz-draft-helper.zip` (or download the `tools/qbz-draft-helper/` folder from GitHub).
 2. Chrome: open `chrome://extensions`. Edge: open `edge://extensions`.
@@ -64,3 +67,4 @@ any change can break the page lookups. Use diagnostics to confirm rows, round, c
 - `content.js`: the panel, highlighting, MutationObserver plus a 300 ms poll, and the beep.
 - `panel.css`, `options.html`, `options.js`.
 - `test/test.js`: run `node test/test.js` (synthetic data, 12 tests).
+- `bookmarklet/`: iPhone Safari bookmarklet (`panel.js`, `build.js`, `bookmarklet.txt`, `BOOKMARKLET.md`); its test is `test/bookmarklet.test.js` (needs jsdom).
