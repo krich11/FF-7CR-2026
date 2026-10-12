@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "QBZ Draft Helper",
+  "version": "0.1.0",
+  "description": "Recommend-only side panel for ESPN fantasy football draft rooms. Never clicks or changes anything on ESPN.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://fantasy.espn.com/football/draft*"],
+  "content_scripts": [{
+    "matches": ["https://fantasy.espn.com/football/draft*"],
+    "js": ["rules.js", "parser.js", "content.js"],
+    "css": ["panel.css"],
+    "run_at": "document_idle"
+  }],
+  "options_page": "options.html"
+}
