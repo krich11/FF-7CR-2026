@@ -107,3 +107,46 @@ The 6 add-for-drop swaps (points from the swap week through Week 4):
 - Week 4: Ollie Gordon II 18.0 vs Panthers D/ST -4.0 (win).
 
 **Verdict:** Our moves have been the best in the league, so the problem is the roster's scoring, not too many moves or too few. Pickups and lineup calls are both near the top: 1st in add-vs-drop gain, 1st in pickup points as starters, and 2nd-fewest bench points left. We are 1-3 because we score poorly, 11th in points and 11th in all-play, not because of bad luck. The two misses were churn: dropping Allgeier for a one-week defense, and swapping in Henry for Strange. We are a little tweaky late in the week, but not reckless.
+
+## Why QBZ is 11th in points: draft, injuries, or underperformance? (Weeks 1–4)
+Method: every team's 16 draft picks, credited to the team that drafted them, whether or not they are still on the roster.
+- **Points** are each drafted player's actual PPR points.
+- **A missed game** is any week with no game played (ESPN games-played stat). No team had a bye in Weeks 1–4, so every missed game is an injury, suspension or inactive week.
+- **Points lost to an absence** use the player's ESPN Week 1 projection for each missed game. Josh Jacobs and Zach Charbonnet had no projection, so their missed games are valued at what other players taken near the same draft pick averaged per week.
+- **Projected if healthy** adds the ESPN weekly projections for games played to the estimated points lost to absences.
+- **ADP** is ESPN's average draft position, used to measure reaches.
+
+Week 5 is not final, so it is left out. Per-player data is in `draft_players.csv` and team totals are in `draft_injury_by_team.csv`.
+
+| Team | PF | Drafted pts | Draft-return rank | Projected if healthy | Games missed (all / rd 1–8) | Injury rank | Est. pts lost to absences | Vs. projection when playing | Avg pick − ADP, rd 1–8 |
+|---|---|---|---|---|---|---|---|---|---|
+| TE | 520.4 | 812.9 | 1 | 807.3 | 3 / 3 | 9 | 47.8 | +53.5 | 1.0 |
+| PP | 531.7 | 806.4 | 2 | 764.3 | 5 / 5 | 5 | 73.7 | +115.7 | -9.6 |
+| MBB | 555.4 | 783.6 | 3 | 716.5 | 1 / 0 | 10 | 8.3 | +75.4 | -18.3 |
+| TCO | 436.0 | 769.2 | 4 | 780.1 | 1 / 0 | 11 | 9.2 | -1.7 | -6.1 |
+| CDS | 502.6 | 713.8 | 5 | 656.6 | 3 / 2 | 8 | 51.0 | +108.1 | -13.5 |
+| LL | 466.5 | 710.1 | 6 | 755.0 | 5 / 3 | 7 | 62.3 | +17.5 | -6.0 |
+| FR | 510.2 | 694.3 | 7 | 800.7 | 6 / 3 | 4 | 82.4 | -23.9 | -15.2 |
+| GGT | 438.2 | 646.1 | 8 | 769.7 | 8 / 2 | 3 | 90.4 | -33.3 | -26.2 |
+| BuB | 362.3 | 634.1 | 9 | 762.8 | 0 / 0 | 12 | 0.0 | -128.7 | -14.2 |
+| DDT | 447.6 | 602.1 | 10 | 687.3 | 8 / 0 | 2 | 62.5 | -22.9 | -32.5 |
+| LY | 418.0 | 599.1 | 11 | 621.4 | 5 / 2 | 6 | 61.0 | +38.6 | -65.3 |
+| QBZ | 395.2 | 436.5 | 12 | 761.7 | 18 / 10 | 1 | 207.0 | -118.2 | -34.5 |
+
+**Where QBZ's drafted points went.** Our 16 picks scored 436.5 points against a league average of 684.0, last in the league (gap -247.5). That gap splits exactly into three parts:
+- **Draft quality: +21.4.** If healthy, ESPN projected our picks for 761.7, 7th of 12 and slightly above the 740.3 average. On paper the draft was fine, though we reached on picks (rounds 1–8 averaged 34.5 picks earlier than ESPN ADP, the 2nd-biggest reach after LY's 65.3).
+- **Injuries: -144.0.** Our drafted players missed 18 games, the most in the league (average 5.2; next most 8). 10 of those were by players from rounds 1–8 (average 2.5). That cost an estimated 207 points against a league average of 63:
+  - Josh Jacobs: 4 games
+  - Jaxson Dart: 2
+  - Dallas Goedert: 2
+  - Jonathon Brooks: 2
+  - Zach Charbonnet: 4 (drafted in round 15, outside the 10)
+  - Achane, Etienne, Pittman and Darnold: 1 each
+- **Underperformance when they did play: -124.9.** We're 11th, at -118.2 versus +6.7 on average. The biggest misses:
+  - De'Von Achane: -30.2
+  - Kyle Pitts: -25.8
+  - Michael Pittman: -17.5
+  - Rashid Shaheed: -13.1
+  - Jonathon Brooks: -10.1
+
+**Verdict.** We aren't 11th because of a bad draft. Our picks were projected about average. We're 11th because those players got hurt (18 games missed, the most in the league) and played below projection when healthy (11th). Of the 247.5-point shortfall, injuries account for about 58% and underperformance about 50%, with the draft slightly helping (+9%). Our moves made up some of the gap: pickups scored 66.6 points as starters, 1st in the league against an average of 26.2. That's why our points for (395.2) are only 70 below the league average (465.3), not 250.
