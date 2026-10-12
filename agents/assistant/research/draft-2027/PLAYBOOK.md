@@ -15,7 +15,7 @@
   | 1 | 6 RB, 6 WR |
   | 2 | 6 RB, 4 QB, 2 WR |
   | 3 | 4 WR, 4 RB, 2 QB, 2 TE |
-  | 4 | 3 QB, 3 TE... (mixed) |
+  | 4 | 3 WR, 3 RB, 3 QB, 2 TE, 1 K |
   | 6–7 | 7 TEs total |
   | 10 | 3 D/ST, 1 K |
 
