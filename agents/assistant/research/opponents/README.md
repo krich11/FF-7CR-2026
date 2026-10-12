@@ -32,7 +32,7 @@ Data files in this folder:
 
 ## How waivers actually work here (mSettings + observed)
 - The league uses traditional waivers with no FAAB. Waiver order resets each week (`waiverOrderReset=true`), and dropped players sit on waivers for 24 hours.
-- **Claims are processed at about 2:00–2:50 AM CT.** Out of 51 processed claims, 40 were processed Wednesday morning. The rest were processed Thu (6), Fri (4) and Sat (1), for players who were dropped during the week. The `waiverProcessHour: 11` value in the settings does not match these observed times. Trust the observed times.
+- **Claims are processed at about 2:00–2:50 AM CT.** Out of 51 processed claims, 40 were processed Wednesday morning. The rest were processed Thu (6), Fri (4) and Sat (1), for players who were dropped during the week. The `waiverProcessHour: 11` value in the settings is **not** 11 AM CT, and no standard timezone turns it into the observed times (11 UTC is 6 AM CT, 11 ET is 10 AM CT). The epoch `processDate` timestamps are the authority: all 51 processed claims ran between 2:05 and 2:51 AM CT.
 - **Wednesday 5–8 AM CT is when opponents grab free agents.** Players who go unclaimed become free agents at about 2 AM Wednesday. CDS, TCO, LY, GGT and DDT have all made free-agent adds between 5:14 and 8:05 AM on a Wednesday.
 - ESPN only shows when other teams' claims were processed, not when they were filed. Filing times are only visible for our own claims.
 
