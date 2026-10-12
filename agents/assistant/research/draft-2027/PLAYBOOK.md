@@ -33,7 +33,7 @@
   | GGT | -23.2 | K (-68), RB |
 
   The two teams closest to ADP were TE (-0.9) and LL (-6.4).
-- **Reaching hasn't paid off (2026, rounds 1–10):**
+- **Reaching hasn't paid off (2026, rounds 1–10). Caveat: this comparison is partly circular, because each pick is measured against the next 12 picks, which are partly defined by the same ADP gaps. Treat it as a direction, not proof of any cutoff:**
   - 58 picks taken **15 or more spots before ADP** averaged 35.6 points, **9.3 fewer** than the next 12 players drafted after them.
   - 53 picks within 15 spots of ADP averaged **+11.2** against the same comparison.
   - The 9 picks taken 15 or more spots *after* ADP averaged **+33.5**.
@@ -51,31 +51,85 @@
 - **Players drafted while already ruled out (Week 1 projection 0):** 11 picks across 7 teams, including QBZ with 2 (Jacobs and Charbonnet), DDT with 2, MBB with 2 and CDS with 2. Brock Bowers went in round 3 to LL. Appetite for injured players exists across the league; we're not the only ones.
 - **Rookies:** taking "no 2025 stats" as a stand-in for rookies flags only 8 non-D/ST picks (GGT 3, CDS 2). That stand-in is weak, so **no conclusion**.
 
-## 2. 2026 QBZ post-mortem (summary; full detail in `../opponents/ADVERSARIAL.md`)
-- **Picking 12th:** the turn forces back-to-back picks with 22 picks in between.
-- **Reaches:** we averaged 30 picks ahead of ADP in rounds 1–10, the 3rd-biggest reach in the league. Achane (ADP 45) went at 12 and Pitts (ADP 104) at 60.
-- **Picks already out at draft time:** Jacobs (exempt list since Aug 30) in round 8 and Charbonnet (on PUP) in round 15.
-- **Scoring:** our rounds 1–8 picks scored **168 points fewer** than the next 12 players drafted after each pick. Our drafted players also scored the lowest share of their projections in the league (79%).
+## 2. 2026 QBZ post-mortem: the shortfall split
+Our 16 picks scored **208.9 points fewer** in Weeks 1–4 than players drafted at nearby picks (each pick compared with the average of the 6 picks before and after it; see `../opponents/ADVERSARIAL.md`). Each pick's gap is assigned to one bucket:
 
-## 3. 2027 rules
-1. **No player who is already out in round 1–10.** If a player is on the commissioner's exempt list, suspended, on PUP, NFI or IR, or has an ESPN Week 1 projection of 0, he can only be taken in rounds 14–16 and only as a stash. *(Data: our 2 such picks cost about 67 points; 11 were taken league-wide.)*
-2. **Reach cap: no more than 12 picks ahead of ADP in rounds 1–6, or 20 in rounds 7–12.** The only exception is a handcuff to our own starting RB. *(Data: reaches of 15+ averaged -9.3; picks near ADP averaged +11.2.)*
-3. **Rounds 1–4: RB and WR only, unless an elite QB falls to his ADP.** *(Data: ADP predicts RB and WR scoring best, at 0.75 and 0.71.)*
-4. **QB: let the league overpay.** About 10 QBs go by the end of round 5. Target a QB in rounds 7–10, plus a second QB in rounds 11–14 to cover bye weeks. *(Data: round 7–9 QBs averaged 70.0 points versus 51.7 for rounds 4–6. Opinion: one season of data.)*
-5. **TE:** take a TE in round 3 only if he's at or past ADP. Otherwise wait until rounds 8–10 and carry no more than 2 TEs. *(Data: round 4–6 TEs averaged 36.6 points versus 46.9 for rounds 7–9. We carried 3 TEs this year while short on RBs.)*
-6. **D/ST and K in the last two rounds only (rounds 15–16).** This league takes them as early as round 4; let it. We stream both off waivers anyway. *(Opinion, backed by how often teams stream them: 20 D/ST adds by opponents this year.)*
-7. **Bench construction: leave the draft with at least 5 healthy RBs and 5 WRs,** with one RB as the handcuff to our RB1 if he's available by round 11. *(Data: in Weeks 4–5 we had only 3 RBs who could actually play.)*
-8. **Bye weeks:** no more than 2 starters sharing a bye week. *(Opinion.)*
+| Bucket | Points | Players |
+|---|---|---|
+| **Already out when drafted** | **-67.1** | Jacobs -39.4, Charbonnet -27.7 |
+| **Injuries during the season** (estimated points lost to missed games, capped at the pick's total shortfall) | **-95.4** | Brooks 21.4, Achane 18.2, Dart 17.0, Etienne 15.1, Pittman 12.3, Goedert 11.4 |
+| **Underperformance on picks taken 15+ spots before ADP** (left after removing injury) | **-57.6** | Pitts -32.7, Achane -17.5, Etienne -7.4 (Dart and Goedert are 0 once their injuries are removed) |
+| **All other picks, net** | **+11.2** | Wilson +14.4, Meyers +11.0, Darnold +9.4, against London -5.5, Pittman -8.4 and others |
 
-**Notes by draft slot (opinion):**
-- **Picks 1–3:** take the top RB or WR at ADP, then the best player at the other position at the turn.
-- **Picks 4–9:** balanced. Expect the QB run in round 2 and don't join it.
-- **Picks 10–12 (the turn, like this year):** take two RB/WR at their ADP (don't reach for a third choice). Plan the 22-pick gap so the round 3–4 pair is the next tier of RB/WR. Our late-round QB will come from the turn picks in rounds 7–10.
+**Which rule matters most:** Rule 1 (no players who are already out) carries the most weight. It addresses the largest *avoidable* bucket (-67), with no noise in the evidence. The reach default (Rule 2) addresses -58, but that number is noisier: one season, one month, and Pitts makes up more than half of it. The in-season injury bucket (-95) is mostly variance, and no draft rule fixes it.
 
-## 4. Pre-draft checklist (within 24 hours of the draft)
-- [ ] Re-pull ESPN ADP and Week 1 projections. Flag any player projected at 0 or listed as exempt, suspended, PUP, NFI or IR.
-- [ ] Check the news for each target in rounds 1–10: injuries, holdouts, legal cases, and play-caller or coordinator changes. Changes like Payton's play-calling this season hit RB usage.
-- [ ] Mark the backup RB for every RB we plan to take in rounds 1–6.
-- [ ] Build our bye-week grid and set the 2-starter cap.
+## 3. Exploiting the league's habits (2026 + 2025)
+- **The league spends early picks on QB, TE and K.**
+  - **2026:** 33 of the first 96 picks (rounds 1–8) were QB, TE, D/ST or K (15 QB, 13 TE, 3 K, 2 D/ST). 26 of those 33 went before their ADP.
+  - **2025 (10 teams):** 24 of 80 in rounds 1–8 (9 QB, 8 TE, 5 D/ST, 2 K).
+- **The pay-off is real but small.**
+  - 10 of the 29 RB/WR taken in rounds 5–8 of 2026 went after their ADP.
+  - 4 fell 12 or more spots: Zay Flowers (taken 58th, ADP 36), Davante Adams (73rd, ADP 46), Tee Higgins (87th, ADP 58), and Bhayshul Tuten (92nd, ADP 74).
+  - Those 4 averaged **65.8 points**, **+22.1** above the next 12 players drafted after them.
+  - Small sample (n=4). **Confidence: medium on direction, low on size.**
+- **Early D/ST and K picks barely helped the teams that made them.**
+  - The 6 D/ST and K taken by round 9 (LY Aubrey round 4, DDT Texans D/ST round 5, GGT Myers round 5, GGT Broncos D/ST round 8, MBB Fairbairn round 8, BuB Dicker round 9) averaged **27.5 points**. The 14 taken in rounds 13 and later averaged 24.4, so early picking gained only **+3.1**.
+  - The players taken in the 12 picks right after each early D/ST/K averaged **44.8**, so each of those picks gave up roughly **15–17 points** in Weeks 1–4.
+  - **Confidence: medium.**
+- **What disappears between our turn picks (2026, picking 12th):**
+
+  | Gap between our picks | RB | QB | WR | TE | D/ST | K |
+  |---|---|---|---|---|---|---|
+  | Picks 14–35 | **9** | 6 | 5 | 2 | – | – |
+  | Picks 38–59 | 6 | 4 | 6 | 3 | 1 | 2 |
+  | Picks 62–83 | 6 | 2 | 8 | 6 | – | – |
+  | Picks 86–107 | 4 | 4 | **10** | 1 | 1 | 2 |
+
+  RBs drain fastest early; WRs go fast in rounds 6–9.
+- **Turn-planning rule (confidence: medium; one season of draft order):**
+  - At each turn pair, take the position that will be thinnest in the next 22 picks first.
+  - **Rounds 1–2: take at least one RB.** About 9 RBs are gone before our round-3 pick.
+  - **Rounds 3–5:** take whichever RB or WR ADP shows falling furthest. Expect about 8 QB/TE picks between our turns that shield RB/WR fallers.
+  - **Rounds 6–9:** lock in the WR depth first; ~10 WRs went in picks 86–107.
+  - **Never** use a turn pick on a D/ST or K before round 15.
+
+## 4. 2027 rules (each labeled with confidence and evidence)
+1. **No player who is already out before round 14.** That means anyone on the commissioner's exempt list, suspended, on PUP, NFI or IR, or with an ESPN Week 1 projection of 0. *Confidence: **high**. Evidence: our 2 such picks cost -67.1 points; 11 were drafted league-wide. This is the rule that matters most.*
+2. **Reach default: take the player at or near his ADP. A pick more than about 12 spots early in rounds 1–6 (or about 20 in rounds 7–12) needs a stated exception:**
+   - (a) a handcuff to our own starting RB;
+   - (b) a scarcity miss, meaning ADP lags real news such as a role change or a confirmed starting job;
+   - (c) an end-of-turn run: our next pick is 22+ away and 3 or more players from the same tier are already gone.
+
+   *Confidence: **medium** on the direction. The cutoffs are judgment calls; the data does **not** prove them. Evidence: picks 15+ early averaged -9.3 against the next 12 drafted players; picks near ADP averaged +11.2 (partly circular).*
+3. **Rounds 1–4: RB and WR first.** ADP predicted early scoring best for these positions (correlation 0.75 for RB and 0.71 for WR, against 0.50 for QB and 0.56 for TE), and RBs disappear fastest between our turns. *Confidence: **medium**.*
+4. **Let other teams overpay for QB and TE.** Our lean is to take a QB in rounds 7–10 and a TE in rounds 8–10, unless a top TE falls to his ADP in round 3. *Confidence: **low**. This is single-year, round-average data with survivor bias (late-round winners like Purdy and Bryce Young look good in hindsight). Pending the full-season rework on **Jan 5, 2027**.*
+5. **D/ST and K in rounds 15–16 only.** *Confidence: **medium**. Early D/ST/K gained only +3.1 points over late ones, at a cost of roughly 15–17 points per pick in the players passed up. Opponents also stream them heavily (20 D/ST adds).*
+6. **Bench decision rule (replaces the old 5 RB / 5 WR rule):** leave the draft with **at least 4 RBs who can actually play in Week 1**. For the last 7 bench slots, use this priority order:
+   1. A 4th playable RB, if we have fewer than 4.
+   2. A handcuff to our RB1.
+   3. A 4th WR.
+   4. A backup QB, but only if our starting QB's bye week or injury risk isn't covered by waivers. QB depth is deep in this league.
+   5. A 2nd TE, only if our TE1 is a round-8 or later pick.
+   6. Upside stashes (injured players allowed only in rounds 14–16).
+
+   Never carry 3 TEs or 3 QBs. *Confidence: **medium**. In Weeks 4–5 we had only 3 playable RBs and 3 TEs; the 4-RB minimum is a judgment call.*
+7. **Bye weeks: no more than 2 starters sharing a bye week.** *Confidence: **low** (opinion).*
+
+## 5. Pre-draft checklist (within 24 hours of the draft)
+- [ ] Re-pull ESPN ADP and Week 1 projections. Flag any player projected at 0 or listed as exempt, suspended, PUP, NFI or IR (Rule 1).
+- [ ] Check the news for each target in rounds 1–10: injuries, holdouts, legal cases, and play-caller or coordinator changes.
+- [ ] Mark the backup RB for each RB we plan to take in rounds 1–6 (Rule 2a, Rule 6).
+- [ ] Map our turn pairs and the expected position drain from Section 3.
+- [ ] Build the bye-week grid.
 - [ ] Confirm the draft order (ESPN sets it at draft start), roster slots, scoring, and keepers (0 this year).
-- [ ] Have the reach cap from rule 2 visible on screen during the draft.
+
+## 6. Consultant critique and response
+| Critique | Response |
+|---|---|
+| Only Rule 1 is clean | **Agreed.** Rule 1 is now labeled high-confidence and the rule that matters most (-67.1 points); everything else is medium or low. |
+| Round rules rest on a Weeks 1–5 sample | **Agreed.** QB and TE timing is now a low-confidence lean, pending the Jan 5 full-season rework. |
+| The reach analysis is circular by construction | **Partly agreed.** The comparison to the next 12 players drafted is shaped by the same ADP gaps. The hard caps are replaced with a default plus exceptions, and the cutoffs are no longer claimed as proven. |
+| QB/TE round averages have survivor bias | **Agreed.** This is noted in Rule 4. |
+| The 5/5 bench rule reacts to one bad week and conflicts with other rules | **Agreed.** It is replaced by a minimum of 4 playable RBs plus a priority order (Rule 6). |
+| League behavior is described but not exploited | **Addressed in Section 3:** counts of RB/WR fallers (4 fell 12+ spots, worth +22.1), the cost of early D/ST/K (about 15–17 points per pick), and a turn-planning rule. |
+| The post-mortem doesn't split already-out picks from reaches | **Addressed in Section 2:** already out -67.1, in-season injuries -95.4, reach-linked underperformance -57.6, other picks +11.2. |
