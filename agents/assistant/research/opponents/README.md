@@ -78,3 +78,32 @@ Data files in this folder:
 - **Free agents after waivers clear:** CDS, TCO, LY, GGT and DDT pick between 5 and 8 AM CT on Wednesday. If a player goes unclaimed, add him at about 2:05 AM Wednesday, or file a claim the night before.
 - **Who will regress:** CDS (+1.55) and TE (+1.18) are 4-0 on luck. MBB and PP are the teams that are actually strong.
 - **Trade partners:** LY is the only manager who accepts trades. FR and PP have declined offers.
+
+## QBZ (us) against the league
+Same method as above. Ranks are out of 12 (1 = most, or best where marked). Weeks 1–4 unless noted.
+
+| Metric | QBZ | Rank / context |
+|---|---|---|
+| Record, points for / against | 1-3, 395.2 / 506.3 | 11th in points for |
+| All-play record, expected wins, luck | 12-32, 1.09, -0.09 | 11th in expected wins; luck is about zero (6th) |
+| Adds (free agent / waiver) | 10 (8 / 2) | 3rd most (CDS 21, TE 11) |
+| Waiver claims | 4 filed: 2 won (Murray, Gordon), 1 canceled (Darnold, Week 1), 1 still pending (Marks for Pittman, filed Oct 11 at 8:53 PM CT). 0 lost. | Middle of the pack |
+| When we add | Fri 4, Wed 4, Sat 1, Sun 1. Three Friday-night adds in Week 3 between 8:35 and 9:55 PM CT. | A late-week mover, like TE |
+| D/ST and K streaming | 1 D/ST (Panthers), 0 K | 10th in D/ST adds, tied last in K adds; we don't stream |
+| Chase adds (pickup scored 15+ the week before) | 3 of 7 | Middle of the pack (TE 5/9, TCO 4/7) |
+| Starters that match ESPN's projected-best lineup | 33/36 | Tied 5th–7th; projected points given up 6.3 |
+| Bench points left (best possible minus actual) by week | W1 6.9, W2 1.1, W3 28.9, W4 16.8 (W5 so far 14.9) | 13.4 a week, **2nd best** (CDS 9.5) |
+| Starters on bye or ruled out | 0 | Clean |
+| Pickups' points as starters | 66.6 | **1st** (CDS 52.3, DDT 47.0) |
+| Add-vs-drop swaps (points scored after the swap, through Week 4) | 6 swaps, add outscored drop in 4; adds 133.4 vs drops 71.8 = **+61.6** | **1st** (PP +50.9; TE -38.0; CDS -122.5) |
+| Trades | 2 accepted, both with LY: Henderson for Shaheed, and Harvey for Bateman | Only manager with a completed trade. Week 4: we got 23.5, gave up 18.9 (Week 5 partial) |
+
+The 6 add-for-drop swaps (points from the swap week through Week 4):
+- Week 1: Tre Tucker 44.3 vs Sam Darnold 41.5 (win).
+- Week 3: Jacoby Brissett 36.0 vs Zach Charbonnet 0.0 (win).
+- Week 3: Kyler Murray 21.9 vs Jonathon Brooks 0.0 (win).
+- Week 3: Panthers D/ST 2.0 vs Tyler Allgeier 17.8 (loss; Allgeier went on to LY).
+- Week 4: Hunter Henry 11.2 vs Brenton Strange 16.5 (loss).
+- Week 4: Ollie Gordon II 18.0 vs Panthers D/ST -4.0 (win).
+
+**Verdict:** Our moves have been the best in the league, so the problem is the roster's scoring, not too many moves or too few. Pickups and lineup calls are both near the top: 1st in add-vs-drop gain, 1st in pickup points as starters, and 2nd-fewest bench points left. We are 1-3 because we score poorly, 11th in points and 11th in all-play, not because of bad luck. The two misses were churn: dropping Allgeier for a one-week defense, and swapping in Henry for Strange. We are a little tweaky late in the week, but not reckless.
