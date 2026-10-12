@@ -165,3 +165,8 @@ Our 16 picks scored **208.9 points fewer** in Weeks 1–4 than players drafted a
 | Waivers "processed 11 AM CT" | **Disagree.** See the note below. |
 
 **Waiver processing time:** ESPN's `mSettings` contains `waiverProcessHour: 11`. **That is not 11 AM CT.** Every processed claim in the transaction log carries a timezone-free epoch timestamp (`processDate`). All 51 processed claims fell between **2:05 and 2:51 AM CT**, 40 of them on Wednesday. That includes our own Week 3 and Week 4 claims, which processed Wed 2:51 AM and Wed 2:05 AM CT. No standard timezone turns hour 11 into roughly 2 AM CT (11 UTC is 6 AM CT, and 11 ET is 10 AM CT), so the field can't be read as a run time. **Plan around claims processing at about 2 AM CT.**
+
+## 8. Backtest results (Oct 12, 2026; see BACKTEST.md)
+- **Playbook vs plain ADP:** in Monte Carlo at slots 1, 6 and 12, the playbook averaged 740.7 best-ball points over Weeks 1–5 against 744.5 for ADP/BPA (within noise). **The playbook does not beat ADP; treat it as a guardrail, not an edge.** *Confidence: medium.* Every coherent strategy except VBD beat our actual 2026 draft by 200–270 points.
+- **Adopted:** **avoid Zero RB and WR-heavy (WR in rounds 1–3) builds.** These scored -14.8 and -23.8 against the playbook, which agrees with the 10-year PPR study. *Confidence: medium.*
+- **Not adopted yet, to test on Jan 5:** Bimodal RB (+22.2), Late-round QB (+9.5) and Hero RB (+7.9) beat the playbook here. This is a single partial season with post-draft ADP, so it could be hindsight. *Confidence: low.*
