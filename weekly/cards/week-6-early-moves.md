@@ -5,7 +5,7 @@ Status: PROPOSED. Nothing done on ESPN. Waiting on Ken's "yes, set it."
 ## Why move now
 Week 5 is lost (85.78 vs 142.56 with London left; FR still has Henry, Loop, and the Bills defense).
 Week 6 running backs are thin:
-- Gordon (Bengals RB): bye.
+- Gordon (Dolphins RB): bye.
 - Jacobs: still on the exempt list. Etienne: IR.
 - Henderson (Patriots RB): ESPN lists him questionable. Watch the practice reports.
 - Harvey (Broncos RB): healthy, but 3 carries for 7 yards and 1 target in Week 5. Payton took back play-calling (announced Thu Oct 8, covered by AP, ESPN and CBS) and fed J.K. Dobbins 18 carries. Nobody has explained the change. Harvey plays Thursday night.
