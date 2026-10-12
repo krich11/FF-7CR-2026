@@ -1,0 +1,11 @@
+<!doctype html><html><head><meta charset="utf-8"><title>QBZ Draft Helper options</title>
+<style>body{font:14px system-ui;margin:20px;max-width:800px}textarea{width:100%;font:12px monospace}</style></head><body>
+<h2>QBZ Draft Helper - rules</h2>
+<p>Draft slot (0 = auto-detect): <input id="slot" type="number" min="0" max="20" style="width:60px"></p>
+<h3>News overrides</h3>
+<p>One per line: <code>Player Name | BLOCK or BOOST | note</code></p>
+<textarea id="ov" rows="6"></textarea>
+<h3>Rules (JSON)</h3>
+<textarea id="cfg" rows="28"></textarea>
+<p><button id="save">Save</button> <button id="reset">Reset to defaults</button> <span id="msg"></span></p>
+<script src="rules.js"></script><script src="options.js"></script></body></html>
