@@ -90,3 +90,5 @@ Do not train on these. They were not knowable before lock:
 - Week 3 Bateman started over Meyers on a gap under a point. Coin flip. The winner is the box score.
 
 Do not add a rule because a bench player had one big game. Add a rule when the job had already changed and the card did not move.
+
+- (2026-10-13) PROCESS/STRATEGY (W5 AAR): Every lineup card checks play-caller and OC/DC changes for every team that has a QBZ starter or CLOSE candidate. Public change → mark the slot ROLE-RISK, reopen on workload, write one evidence line. Assistant scans; Blitz puts it on the card. Week 5 miss: Payton took DEN play-calling back (public Wed–Thu Oct 7–8); Dobbins got 20 touches / 52% snaps; Harvey scored 0.7 as FLEX; neither bot caught it. Cost vs Pitts on the bench: −14.5.
