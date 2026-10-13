@@ -92,3 +92,4 @@ Do not train on these. They were not knowable before lock:
 Do not add a rule because a bench player had one big game. Add a rule when the job had already changed and the card did not move.
 
 - (2026-10-13) PROCESS/STRATEGY (W5 AAR): Every lineup card checks play-caller and OC/DC changes for every team that has a QBZ starter or CLOSE candidate. Public change → mark the slot ROLE-RISK, reopen on workload, write one evidence line. Assistant scans; Blitz puts it on the card. Week 5 miss: Payton took DEN play-calling back (public Wed–Thu Oct 7–8); Dobbins got 20 touches / 52% snaps; Harvey scored 0.7 as FLEX; neither bot caught it. Cost vs Pitts on the bench: −14.5.
+- (2026-10-13) PROCESS (W5 review): The Monday week.review has skipped on a live MNF in Weeks 2, 4 and 5 and only ran when someone asked for a makeup. A SKIP must schedule its own one-shot rerun for Tuesday morning CT at the moment it skips, so the scorecard lands without a reminder.

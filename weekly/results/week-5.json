@@ -1,0 +1,184 @@
+{
+  "week": 5,
+  "source": "espn_api mMatchupScore+mBoxscore+mTeam scoringPeriodId=5 (read-only); snaps nflverse snap_counts_2026",
+  "as_of": "2026-10-13T09:45:00-05:00",
+  "team_id": 13,
+  "opponent": "FR (team 3)",
+  "espn_winner": "HOME (FR)",
+  "score": 104.58,
+  "opp_score": 174.56,
+  "proj": 108.37,
+  "result": "L",
+  "players": [
+    {
+      "player": "Drake London",
+      "slot": "WR",
+      "started": true,
+      "actual_ppr": 18.8,
+      "espn_proj": 16.02,
+      "targets": 11,
+      "carries": null,
+      "snap_pct": 0.98
+    },
+    {
+      "player": "Garrett Wilson",
+      "slot": "WR",
+      "started": true,
+      "actual_ppr": 23.4,
+      "espn_proj": 14.64,
+      "targets": 11,
+      "carries": null,
+      "snap_pct": 0.93
+    },
+    {
+      "player": "Dallas Goedert",
+      "slot": "TE",
+      "started": true,
+      "actual_ppr": 9.8,
+      "espn_proj": 10.87,
+      "targets": 9,
+      "carries": null,
+      "snap_pct": 0.69
+    },
+    {
+      "player": "Steelers D/ST",
+      "slot": "DST",
+      "started": true,
+      "actual_ppr": 1.0,
+      "espn_proj": 6.72,
+      "targets": null,
+      "carries": null,
+      "snap_pct": null
+    },
+    {
+      "player": "Eddy Pineiro",
+      "slot": "K",
+      "started": true,
+      "actual_ppr": 6.0,
+      "espn_proj": 8.56,
+      "targets": null,
+      "carries": null,
+      "snap_pct": null
+    },
+    {
+      "player": "Jacoby Brissett",
+      "slot": "QB",
+      "started": true,
+      "actual_ppr": 25.28,
+      "espn_proj": 18.82,
+      "targets": 1,
+      "carries": 2,
+      "snap_pct": 1.0
+    },
+    {
+      "player": "TreVeyon Henderson",
+      "slot": "RB",
+      "started": true,
+      "actual_ppr": 4.8,
+      "espn_proj": 10.54,
+      "targets": 1,
+      "carries": 4,
+      "snap_pct": 0.16
+    },
+    {
+      "player": "Ollie Gordon II",
+      "slot": "RB",
+      "started": true,
+      "actual_ppr": 14.8,
+      "espn_proj": 10.91,
+      "targets": 0,
+      "carries": 18,
+      "snap_pct": 0.65
+    },
+    {
+      "player": "RJ Harvey",
+      "slot": "FLEX",
+      "started": true,
+      "actual_ppr": 0.7,
+      "espn_proj": 11.29,
+      "targets": 1,
+      "carries": 3,
+      "snap_pct": 0.37
+    },
+    {
+      "player": "Kyle Pitts Sr.",
+      "slot": "BE",
+      "started": false,
+      "actual_ppr": 15.2,
+      "espn_proj": 7.14,
+      "targets": 6,
+      "carries": null,
+      "snap_pct": 0.67
+    },
+    {
+      "player": "Hunter Henry",
+      "slot": "BE",
+      "started": false,
+      "actual_ppr": 13.4,
+      "espn_proj": 7.71,
+      "targets": 4,
+      "carries": null,
+      "snap_pct": 0.64
+    },
+    {
+      "player": "Kyler Murray",
+      "slot": "BE",
+      "started": false,
+      "actual_ppr": 18.26,
+      "espn_proj": 17.91,
+      "targets": null,
+      "carries": 10,
+      "snap_pct": 1.0
+    },
+    {
+      "player": "Jakobi Meyers",
+      "slot": "BE",
+      "started": false,
+      "actual_ppr": 5.7,
+      "espn_proj": 10.7,
+      "targets": 3,
+      "carries": null,
+      "snap_pct": 0.85
+    },
+    {
+      "player": "Roman Wilson",
+      "slot": "BE",
+      "started": false,
+      "actual_ppr": 0.0,
+      "espn_proj": 10.19,
+      "targets": 1,
+      "carries": null,
+      "snap_pct": 0.33
+    },
+    {
+      "player": "Michael Pittman Jr.",
+      "slot": "BE",
+      "started": false,
+      "actual_ppr": 0.0,
+      "espn_proj": 0.0,
+      "targets": null,
+      "carries": null,
+      "snap_pct": null
+    },
+    {
+      "player": "Josh Jacobs",
+      "slot": "BE",
+      "started": false,
+      "actual_ppr": 0.0,
+      "espn_proj": 0.0,
+      "targets": null,
+      "carries": null,
+      "snap_pct": null
+    },
+    {
+      "player": "Travis Etienne Jr.",
+      "slot": "IR",
+      "started": false,
+      "actual_ppr": 0.0,
+      "espn_proj": 0.0,
+      "targets": null,
+      "carries": null,
+      "snap_pct": null
+    }
+  ]
+}
