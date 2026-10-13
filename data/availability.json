@@ -1,166 +1,180 @@
 {
-  "week": 5,
-  "as_of": "2026-10-11T00:50:00-05:00",
-  "wire_one_liner": "Sun Oct 11 ~12:50 AM CT SUN_AV W5: no Out/Doubtful among starters; Pittman IR (official Oct 10); Goedert FULL Fri, no status; Jacobs EXEMPT; Etienne IR; Stevenson (not rostered) LP all week, QUESTIONABLE; everyone else off final reports.",
-  "source": "sun_av_refresh_w5_friday_final_reports",
+  "week": 6,
+  "as_of": "2026-10-13T14:24:39-05:00",
+  "wire_one_liner": "ASSISTANT BRIEF PENDING. Tue SET W6: Henderson OUT multi-week high ankle (Schefter); Gordon+Murray BYE; Jacobs EXEMPT; Pittman IR; Roman Wilson OUT (finger); Harvey ACTIVE but RB2 behind Dobbins under Payton (TNF). Zero EXEMPT/PUP/IR/OUT in start pool. Only one active rostered RB (Harvey) until Marks claim.",
+  "source": "blitz_tue_set_official_override_espn_tags",
   "confidence": "high",
+  "assistant_brief": "MISSING \u2014 agents/assistant/work/week-6-brief.md not present as of write; availability built from Schefter/Globe/NFL.com/FP/ESPN + harvey-week5.md",
   "players": [
     {
       "player": "Jacoby Brissett",
       "state": "ACTIVE",
       "lock_state": "UNLOCKED",
-      "news": "Fri final: not on Cardinals final report; DET @ ARI 3:25 CT",
-      "source": "NFL.com_W5_statuses_all_15_games(Fri final)",
-      "as_of": "2026-10-11T00:50:00-05:00",
-      "kickoff": "2026-10-11T15:25:00-05:00"
+      "news": "Not on early Week 6 injury radar; ARI @ LAR Sun 3:05 CT. Only active QB (Murray bye).",
+      "source": "ESPN_schedule_W6+espn_injury_tag_ACTIVE",
+      "as_of": "2026-10-13T14:24:39-05:00",
+      "kickoff": "2026-10-18T15:05:00-05:00",
+      "game_label": "ARI @ LAR"
     },
     {
       "player": "Ollie Gordon II",
-      "state": "ACTIVE",
+      "state": "BYE",
       "lock_state": "UNLOCKED",
-      "news": "Fri final: not on Dolphins final report; RB Jaylen Wright (foot) QUESTIONABLE; CIN @ MIA 12:00 CT",
-      "source": "NFL.com_W5_statuses_all_15_games(Fri final)",
-      "as_of": "2026-10-11T00:50:00-05:00",
-      "kickoff": "2026-10-11T12:00:00-05:00"
+      "news": "Dolphins on bye Week 6 (CIN/DET/MIA/MIN). ESPN proj 0.",
+      "source": "NFL.com_W6_bye_list",
+      "as_of": "2026-10-13T14:24:39-05:00",
+      "kickoff": null,
+      "game_label": "BYE"
     },
     {
       "player": "TreVeyon Henderson",
-      "state": "ACTIVE",
+      "state": "OUT",
       "lock_state": "UNLOCKED",
-      "news": "Fri final: not on Patriots final report; Stevenson (knee) LP Wed/Thu/Fri, QUESTIONABLE, said 'ready to go'; LV @ NE 12:00 CT",
-      "source": "Patriots.com_W5_injury_report_10-09/Boston_Globe_10-09",
-      "as_of": "2026-10-11T00:50:00-05:00",
-      "kickoff": "2026-10-11T12:00:00-05:00"
+      "news": "High right ankle sprain Week 5; Schefter/Boston Globe Tue Oct 13: out multiple weeks, no surgery. ESPN still DOUBTFUL \u2014 official/beat override. NYJ @ NE Sun 12:00 CT.",
+      "source": "ESPN_Schefter_10-13_Boston_Globe_10-13",
+      "as_of": "2026-10-13T14:24:39-05:00",
+      "kickoff": "2026-10-18T12:00:00-05:00",
+      "game_label": "NYJ @ NE"
     },
     {
       "player": "Drake London",
       "state": "ACTIVE",
       "lock_state": "UNLOCKED",
-      "news": "Fri final: not on Falcons final report; BAL @ ATL 7:20 CT",
-      "source": "NFL.com_W5_statuses_all_15_games(Fri final)",
-      "as_of": "2026-10-11T00:50:00-05:00",
-      "kickoff": "2026-10-11T19:20:00-05:00"
+      "news": "No injury tag; CHI @ ATL Sun 12:00 CT.",
+      "source": "ESPN_injury_ACTIVE",
+      "as_of": "2026-10-13T14:24:39-05:00",
+      "kickoff": "2026-10-18T12:00:00-05:00",
+      "game_label": "CHI @ ATL"
     },
     {
       "player": "Garrett Wilson",
       "state": "ACTIVE",
       "lock_state": "UNLOCKED",
-      "news": "Fri final: not on Jets final report (Hall OUT); CLE @ NYJ 12:00 CT",
-      "source": "NFL.com_W5_statuses_all_15_games(Fri final)",
-      "as_of": "2026-10-11T00:50:00-05:00",
-      "kickoff": "2026-10-11T12:00:00-05:00"
-    },
-    {
-      "player": "Hunter Henry",
-      "state": "ACTIVE",
-      "lock_state": "UNLOCKED",
-      "news": "Fri final: not on Patriots final report; LV @ NE 12:00 CT",
-      "source": "Patriots.com_W5_injury_report_10-09",
-      "as_of": "2026-10-11T00:50:00-05:00",
-      "kickoff": "2026-10-11T12:00:00-05:00"
-    },
-    {
-      "player": "RJ Harvey",
-      "state": "ACTIVE",
-      "lock_state": "UNLOCKED",
-      "news": "Fri final: not on Broncos final report (only Moss, Surtain OUT); DEN @ LAC 3:05 CT",
-      "source": "NFL.com_W5_statuses_all_15_games(Fri final)",
-      "as_of": "2026-10-11T00:50:00-05:00",
-      "kickoff": "2026-10-11T15:05:00-05:00"
-    },
-    {
-      "player": "Steelers D/ST",
-      "state": "ACTIVE",
-      "lock_state": "UNLOCKED",
-      "news": "Fri final: Steelers out: CB Dean, S Elliott; Ramsey Q; IND @ PIT 12:00 CT",
-      "source": "NFL.com_W5_statuses_all_15_games(Fri final)",
-      "as_of": "2026-10-11T00:50:00-05:00",
-      "kickoff": "2026-10-11T12:00:00-05:00"
-    },
-    {
-      "player": "Eddy Pineiro",
-      "state": "ACTIVE",
-      "lock_state": "UNLOCKED",
-      "news": "Fri final: not on 49ers final report; SF @ SEA 3:25 CT",
-      "source": "NFL.com_W5_statuses_all_15_games(Fri final)",
-      "as_of": "2026-10-11T00:50:00-05:00",
-      "kickoff": "2026-10-11T15:25:00-05:00"
-    },
-    {
-      "player": "Kyler Murray",
-      "state": "ACTIVE",
-      "lock_state": "UNLOCKED",
-      "news": "Fri final: not on Vikings final report; MIN @ NO 12:00 CT",
-      "source": "NFL.com_W5_statuses_all_15_games(Fri final)",
-      "as_of": "2026-10-11T00:50:00-05:00",
-      "kickoff": "2026-10-11T12:00:00-05:00"
-    },
-    {
-      "player": "Jakobi Meyers",
-      "state": "ACTIVE",
-      "lock_state": "UNLOCKED",
-      "news": "Fri final: not on Jaguars final report; PHI @ JAX London 8:30 CT",
-      "source": "NFL.com_W5_statuses_all_15_games(Fri final)",
-      "as_of": "2026-10-11T00:50:00-05:00",
-      "kickoff": "2026-10-11T08:30:00-05:00"
-    },
-    {
-      "player": "Michael Pittman Jr.",
-      "state": "IR",
-      "lock_state": "IR",
-      "espn_tag": "INJURY_RESERVE",
-      "snap_mult": 0.0,
-      "news": "Fri: OUT (foot); placed on Reserve/Injured Sat Oct 10; min 4 games, earliest Week 10 (Nov 15)",
-      "source": "Steelers.com/ESPN_10-10/NFL.com",
-      "as_of": "2026-10-11T00:50:00-05:00",
-      "kickoff": "2026-10-11T12:00:00-05:00",
-      "play_prob": 0.0,
-      "override": "official_over_espn"
-    },
-    {
-      "player": "Kyle Pitts Sr.",
-      "state": "ACTIVE",
-      "lock_state": "UNLOCKED",
-      "news": "Fri final: not on Falcons final report; BAL @ ATL 7:20 CT",
-      "source": "NFL.com_W5_statuses_all_15_games(Fri final)",
-      "as_of": "2026-10-11T00:50:00-05:00",
-      "kickoff": "2026-10-11T19:20:00-05:00"
+      "news": "No injury tag; NYJ @ NE Sun 12:00 CT.",
+      "source": "ESPN_injury_ACTIVE",
+      "as_of": "2026-10-13T14:24:39-05:00",
+      "kickoff": "2026-10-18T12:00:00-05:00",
+      "game_label": "NYJ @ NE"
     },
     {
       "player": "Dallas Goedert",
       "state": "ACTIVE",
       "lock_state": "UNLOCKED",
-      "snap_mult": 1.0,
-      "news": "Fri: FULL practice, no game status (knee cleared); Eagles OUT Barkley, D. Smith, M. Brown; PHI @ JAX London 8:30 CT",
-      "source": "CBS_Philadelphia/NBC10/ESPN/NFL.com_10-09",
-      "as_of": "2026-10-11T00:50:00-05:00",
-      "kickoff": "2026-10-11T08:30:00-05:00",
-      "play_prob": 1.0
+      "news": "Played Week 5 London; no injury tag; CAR @ PHI Sun 12:00 CT.",
+      "source": "ESPN_injury_ACTIVE",
+      "as_of": "2026-10-13T14:24:39-05:00",
+      "kickoff": "2026-10-18T12:00:00-05:00",
+      "game_label": "CAR @ PHI"
+    },
+    {
+      "player": "Steelers D/ST",
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED",
+      "news": "Only D/ST; PIT @ TB Sun 12:00 CT.",
+      "source": "ESPN_schedule_W6",
+      "as_of": "2026-10-13T14:24:39-05:00",
+      "kickoff": "2026-10-18T12:00:00-05:00",
+      "game_label": "PIT @ TB"
+    },
+    {
+      "player": "Eddy Pineiro",
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED",
+      "news": "Only K; WAS @ SF Mon 7:15 CT.",
+      "source": "ESPN_schedule_W6",
+      "as_of": "2026-10-13T14:24:39-05:00",
+      "kickoff": "2026-10-19T19:15:00-05:00",
+      "game_label": "WAS @ SF"
+    },
+    {
+      "player": "RJ Harvey",
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED",
+      "news": "No injury tag. W5: 23 snaps (37%) behind Dobbins 32 (52%) in Payton's first play-calling game; 3 touches, 0.7 PPR. TNF vs SEA Thu 7:15 CT. Role: pass-catching RB2 under Payton until further notice.",
+      "source": "Assistant_harvey-week5_nflverse_Payton_PC_10-12",
+      "as_of": "2026-10-13T14:24:39-05:00",
+      "kickoff": "2026-10-15T19:15:00-05:00",
+      "game_label": "SEA @ DEN"
+    },
+    {
+      "player": "Hunter Henry",
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED",
+      "news": "No injury tag; scored Week 5; NYJ @ NE Sun 12:00 CT.",
+      "source": "ESPN_injury_ACTIVE",
+      "as_of": "2026-10-13T14:24:39-05:00",
+      "kickoff": "2026-10-18T12:00:00-05:00",
+      "game_label": "NYJ @ NE"
+    },
+    {
+      "player": "Jakobi Meyers",
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED",
+      "news": "No injury tag; HOU @ JAX London Sun 8:30 AM CT.",
+      "source": "ESPN_injury_ACTIVE+ESPN_schedule_W6",
+      "as_of": "2026-10-13T14:24:39-05:00",
+      "kickoff": "2026-10-18T08:30:00-05:00",
+      "game_label": "HOU @ JAX (London)"
     },
     {
       "player": "Josh Jacobs",
       "state": "EXEMPT",
       "lock_state": "UNLOCKED",
-      "espn_tag": "DAY_TO_DAY",
-      "override": "official_over_espn",
-      "play_prob": 0.0,
-      "snap_mult": 0.0,
-      "news": "Fri final: still on Commissioner's Exempt List as of Oct 10; no ruling; CHI @ GB",
-      "source": "NFL.com/OddsShopper_10-10",
-      "as_of": "2026-10-11T00:50:00-05:00",
-      "kickoff": "2026-10-11T12:00:00-05:00"
+      "news": "Still on Commissioner's Exempt List (official). ESPN DAY_TO_DAY \u2014 official EXEMPT wins. Cannot practice or play. DAL @ GB Sun 7:20 CT irrelevant.",
+      "source": "NFL_exempt_list+atozsports_W6_preview",
+      "as_of": "2026-10-13T14:24:39-05:00",
+      "kickoff": "2026-10-18T19:20:00-05:00",
+      "game_label": "DAL @ GB"
+    },
+    {
+      "player": "Kyle Pitts Sr.",
+      "state": "ACTIVE",
+      "lock_state": "UNLOCKED",
+      "news": "No injury tag; CHI @ ATL Sun 12:00 CT. Monitor Penix ribs chatter (FP note).",
+      "source": "ESPN_injury_ACTIVE+FantasyPros_10-12",
+      "as_of": "2026-10-13T14:24:39-05:00",
+      "kickoff": "2026-10-18T12:00:00-05:00",
+      "game_label": "CHI @ ATL"
+    },
+    {
+      "player": "Kyler Murray",
+      "state": "BYE",
+      "lock_state": "UNLOCKED",
+      "news": "Vikings on bye Week 6. ESPN proj 0.",
+      "source": "NFL.com_W6_bye_list",
+      "as_of": "2026-10-13T14:24:39-05:00",
+      "kickoff": null,
+      "game_label": "BYE"
+    },
+    {
+      "player": "Michael Pittman Jr.",
+      "state": "IR",
+      "lock_state": "UNLOCKED",
+      "news": "Steelers short-term IR (foot) Oct 10; out at least 4 weeks / earliest Week 10. On bench (Etienne holds IR slot). Pending CONSULT drop for Marks \u2014 not executed.",
+      "source": "NBC_PFT_ESPN_Fowler_10-10",
+      "as_of": "2026-10-13T14:24:39-05:00",
+      "kickoff": "2026-10-18T12:00:00-05:00",
+      "game_label": "PIT @ TB"
+    },
+    {
+      "player": "Roman Wilson",
+      "state": "OUT",
+      "lock_state": "UNLOCKED",
+      "news": "Finger; ESPN OUT. Beat: miss Week 6 vs TB, multiple weeks possible (ESPN source). Keep per CONSULT (drop Pittman not Wilson).",
+      "source": "ESPN_OUT+RotoWire_CBS_10-13",
+      "as_of": "2026-10-13T14:24:39-05:00",
+      "kickoff": "2026-10-18T12:00:00-05:00",
+      "game_label": "PIT @ TB"
     },
     {
       "player": "Travis Etienne Jr.",
       "state": "IR",
-      "lock_state": "IR",
-      "espn_tag": "INJURY_RESERVE",
-      "play_prob": 0.0,
-      "snap_mult": 0.0,
-      "news": "Hamstring; Saints IR Oct 1; min 4 games; earliest return ~Week 9",
-      "source": "Saints.com/nola.com/ESPN/AP_2026-10-01",
-      "as_of": "2026-10-11T00:50:00-05:00",
-      "kickoff": "2026-10-11T12:00:00-05:00"
+      "lock_state": "UNLOCKED",
+      "news": "IR; out through at least Week 9 per prior notes. Holds IR slot.",
+      "source": "ESPN_IR",
+      "as_of": "2026-10-13T14:24:39-05:00",
+      "kickoff": null,
+      "game_label": "n/a"
     }
   ]
 }

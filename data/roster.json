@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-10-10T23:17:53.736880-07:00",
-  "week": 5,
+  "as_of": "2026-10-13T12:21:15.239311-07:00",
+  "week": 6,
   "source": "espn_api",
   "league_id": "1776545061",
   "team_id": 13,
   "season_id": 2026,
-  "scoringPeriodId": 5,
+  "scoringPeriodId": 6,
   "starters": {
     "RB1": "Ollie Gordon II",
     "RB2": "TreVeyon Henderson",
     "WR1": "Drake London",
     "WR2": "Garrett Wilson",
-    "TE": "Hunter Henry",
+    "TE": "Dallas Goedert",
     "DST": "Steelers D/ST",
     "K": "Eddy Pineiro",
     "FLEX": "RJ Harvey",
@@ -33,7 +33,7 @@
       "espn_id": 4432710,
       "espn_slot": "RB",
       "lineupSlotId": 2,
-      "status_tag": null,
+      "status_tag": "DOUBTFUL",
       "eligible_slots": []
     },
     {
@@ -55,9 +55,9 @@
       "eligible_slots": []
     },
     {
-      "name": "Hunter Henry",
+      "name": "Dallas Goedert",
       "pos": "TE",
-      "espn_id": 3046439,
+      "espn_id": 3121023,
       "espn_slot": "TE",
       "lineupSlotId": 6,
       "status_tag": null,
@@ -100,9 +100,9 @@
       "eligible_slots": []
     },
     {
-      "name": "Dallas Goedert",
+      "name": "Hunter Henry",
       "pos": "TE",
-      "espn_id": 3121023,
+      "espn_id": 3046439,
       "espn_slot": "BE",
       "lineupSlotId": 20,
       "status_tag": null,
@@ -159,7 +159,7 @@
       "espn_id": 4431492,
       "espn_slot": "BE",
       "lineupSlotId": 20,
-      "status_tag": null,
+      "status_tag": "OUT",
       "eligible_slots": []
     },
     {

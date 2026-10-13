@@ -1,0 +1,95 @@
+{
+  "week": 6,
+  "skill": "lineup.set",
+  "window": "tuesday_set",
+  "status": "PASTE_ONLY",
+  "as_of_ct": "Tue Oct 13, 2:25 PM CT",
+  "assistant_brief": "PENDING \u2014 week-6-brief.md missing",
+  "assignments": {
+    "QB": "Jacoby Brissett",
+    "RB": [
+      "RJ Harvey",
+      "TreVeyon Henderson"
+    ],
+    "WR": [
+      "Drake London",
+      "Garrett Wilson"
+    ],
+    "TE": "Dallas Goedert",
+    "FLEX": "Kyle Pitts Sr.",
+    "DST": "Steelers D/ST",
+    "K": "Eddy Pineiro"
+  },
+  "bench": [
+    "Jakobi Meyers",
+    "Hunter Henry",
+    "Ollie Gordon II",
+    "Kyler Murray",
+    "Josh Jacobs",
+    "Michael Pittman Jr.",
+    "Roman Wilson"
+  ],
+  "ir": [
+    "Travis Etienne Jr."
+  ],
+  "rb2_note": "Henderson OUT (high ankle multi-week) \u2014 ESPN slot fill only until Marks claim syncs",
+  "close": [
+    "FLEX: Pitts over Meyers/Henry (form + TE2 premium)",
+    "Harvey sole active RB despite W5 demotion",
+    "TE: Goedert stays; Pitts takes FLEX not TE"
+  ],
+  "form": {
+    "FLEX_flip": "Kyle Pitts Sr. over Jakobi Meyers",
+    "note": "Pitts bench 15.2 vs Goedert start 9.8 in W5; TE slot not flipped"
+  },
+  "projections": {
+    "weights": {
+      "espn": 0.48,
+      "fantasypros": 0.52
+    },
+    "espn": {
+      "Jacoby Brissett": 15.25,
+      "RJ Harvey": 9.55,
+      "Drake London": 15.99,
+      "Garrett Wilson": 14.63,
+      "Dallas Goedert": 10.43,
+      "Kyle Pitts Sr.": 8.39,
+      "Jakobi Meyers": 9.21,
+      "Hunter Henry": 8.56,
+      "Eddy Pineiro": 8.97,
+      "Steelers D/ST": 7.03
+    },
+    "fantasypros": {
+      "Jacoby Brissett": 15.3,
+      "RJ Harvey": 9.3,
+      "Drake London": 17.4,
+      "Garrett Wilson": 14.7,
+      "Dallas Goedert": 10.8,
+      "Kyle Pitts Sr.": 8.0,
+      "Jakobi Meyers": 9.3,
+      "Hunter Henry": 9.3,
+      "Eddy Pineiro": 8.3,
+      "Steelers D/ST": 6.5
+    }
+  },
+  "espn_moves_vs_live": [
+    "Gordon RB->BE (bye)",
+    "Harvey FLEX->RB",
+    "Henderson stays RB as OUT placeholder",
+    "Pitts BE->FLEX",
+    "Meyers stays BE (was BE)"
+  ],
+  "espn_write": "none \u2014 paste only",
+  "ripples": [
+    "Marks add / Pittman drop pending Ken yes (Wed waiver)",
+    "Harvey Thu lock; W7 hold from Thu carries",
+    "Henderson OUT multi-week \u2014 Q-FLEX plan obsolete W6",
+    "Jacobs still EXEMPT"
+  ],
+  "opponent": {
+    "abbrev": "BuB",
+    "name": "Buck up Buttercup!",
+    "record": "1-4",
+    "points_for": 524.68
+  }
+}

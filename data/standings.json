@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-13T09:45:00-05:00",
+  "as_of": "2026-10-13T14:30:00-05:00",
   "week": 5,
   "source": "espn_api mTeam+mMatchupScore read (settled, scoringPeriodId=5)",
   "espn_official": {
@@ -48,7 +48,7 @@
     "CDS": 104.02
   },
   "waiver_rank": 3,
-  "mode_weights": "default_until_week_6",
+  "mode_weights": "must_win_allowed_from_week_6_CLIMB",
   "process_misses": [
     "W1 Fri resource_exhausted makeup",
     "W2 week.review SKIP (MNF) not resumed before AAR \u2014 makeup Tue",
@@ -63,5 +63,12 @@
   "league_week_4_scores": {
     "QBZ": 81.74,
     "TE": 163.18
+  },
+  "next_opponent_week_6": {
+    "abbrev": "BuB",
+    "name": "Buck up Buttercup!",
+    "record": "1-4",
+    "points_for": 524.68,
+    "team_id": 6
   }
 }
