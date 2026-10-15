@@ -1,5 +1,7 @@
 # Set the week — Week 6 — Quantum Blitz
 
+> **CURRENT (Wed Oct 14, 8:30 PM CT) — supersedes the Tuesday table below.** Marks claim won (Pittman dropped), Bernard added (Roman Wilson dropped). Live ESPN now: QB Brissett · RB Harvey · RB Marks · WR London · WR G. Wilson · TE Goedert · FLEX Pitts · D/ST Steelers · K Pineiro. Thursday call: **Harvey STARTS.** Proposed for Ken's "yes, set it": **Bernard into FLEX, Pitts to bench.** See "Thursday Harvey call" at the bottom.
+
 **Status: PASTE ONLY — not on ESPN.** Lineup set Wed under Ken's Week 6 authority. Roster moves: Ken-approved CONTINGENCY below only.
 
 **ASSISTANT BRIEF PENDING** — `agents/assistant/work/week-6-brief.md` missing at write time. Availability built from Schefter/Boston Globe, NFL.com byes, ESPN tags (official override), FantasyPros, and `harvey-week5.md`.
@@ -115,3 +117,49 @@ K Pineiro
 Henderson in the paste is an ESPN slot fill only (OUT, 0 points). After Marks is on the roster, swap Henderson → Marks at RB and re-paste.
 
 MODE CLIMB. Cost of the paste: none (lineup only, no waiver order, no roster spot). Waiver claim is a separate Wednesday ask.
+
+
+---
+
+## Thursday Harvey call (Wed Oct 14 2026, 8:30 PM CT; Ken boards Thu 12:55 PM CT)
+
+**Call: RJ Harvey STARTS at RB1 vs SEA (Thu 7:15 PM CT).** Facts from Assistant: `agents/assistant/work/week-6-harvey-call.md` (f531329) and `harvey-week5.md`.
+
+Why:
+- No better legal RB. Gordon bye, Henderson OUT (high ankle), Jacobs still on the Commissioner's Exempt list (no return date as of Oct 14), Etienne IR. Marks holds RB2. Kendre Miller and Keaton Mitchell are rostered elsewhere. Best free-agent RBs (live ESPN read 8:09 PM CT): Spears 8.8 (QUESTIONABLE), Pierre Strong Jr. 8.5, White 7.4 (Mon). Harvey's ESPN W6 projection is **9.55**, above all of them, and any add would cost a roster spot.
+- Health: not on Denver's final TNF injury report (Wed). Badie FP (foot), no designation. No Broncos RB transaction; Coleman on IR until Week 7 at the earliest.
+- Role: Week 5 was a real demotion (23 snaps / 37% vs Dobbins 32 / 52%; 3 touches vs 20) in Payton's first game calling plays. No Payton comment on the split Monday or Wednesday. Harvey kept 100% of two-minute-drill snaps in Week 5 (76.9% on the season) and leads DEN RBs with 20 catches.
+- Matchup: Seattle is 1st in rush EPA and 7th in yards per carry (3.6), but middling in PPR points to RBs (about 20.8 a game, 16th–17th). That favors Harvey's receiving work over Dobbins' carries. Low floor, accepted; no alternative clears him.
+
+**Proposed change (needs Ken's "yes, set it"): FLEX Germie Bernard over Kyle Pitts Sr.**
+- ESPN W6: Bernard 10.52 vs Pitts 8.40 (Meyers 9.21, Henry 8.56).
+- Bernard: 92% snaps and 9 targets (6-80) in Week 5. Pittsburgh's only healthy WRs on the 53 are Metcalf, Bernard and returner Wetjen (Pittman IR, Roman Wilson and Skowronek ruled out; both DNP Wed). Bernard not on Wednesday's report.
+- Pitts: 15.2 in Week 5, but Penix (ribs) practiced fully Wed and is expected to start, so no QB boost to chase; he trails Bernard by about 2 points on volume.
+- Both play Sun 12:00 PM CT, so this reopens Saturday like every slot.
+
+**Full proposed lineup**
+| Slot | Player | Game (CT) |
+|---|---|---|
+| QB | Jacoby Brissett | ARI @ LAR, Sun 3:05 PM |
+| RB | RJ Harvey | SEA @ DEN, Thu 7:15 PM |
+| RB | Woody Marks | HOU vs JAX (London), Sun 8:30 AM |
+| WR | Drake London | CHI @ ATL, Sun 12:00 PM |
+| WR | Garrett Wilson | NYJ @ NE, Sun 12:00 PM |
+| TE | Dallas Goedert | CAR @ PHI, Sun 12:00 PM |
+| FLEX | **Germie Bernard** (was Pitts) | PIT @ TB, Sun 12:00 PM |
+| D/ST | Steelers | PIT @ TB, Sun 12:00 PM |
+| K | Eddy Pineiro | WAS @ SF, Mon 7:15 PM |
+| BE | Kyle Pitts Sr., Jakobi Meyers, Hunter Henry, Ollie Gordon II (BYE), Kyler Murray (BYE), TreVeyon Henderson (OUT), Josh Jacobs (EXEMPT) | |
+| IR | Travis Etienne Jr. | |
+
+**Adversarial check (Thursday call)**
+| Failure point | Answer |
+|---|---|
+| Harvey surprise inactive (~5:45 PM CT Thu) | 5:47 PM CT dead-man owns it. **Roman Wilson is no longer rostered**, so the drop is **Hunter Henry** (third TE behind Goedert and Pitts). Add the best Sunday free-agent RB (Spears if cleared, else Pierre Strong Jr.) before 7:15 PM CT. |
+| Harvey active but used like Week 5 | Accepted risk. No rostered or free-agent RB projects higher; benching him leaves an RB slot at 0. |
+| Ken doesn't answer before boarding | Harvey already starts on ESPN, so the Thursday piece needs no action. FLEX stays Pitts on ESPN until Ken says yes or the Saturday reopen under Week 6 authority decides. |
+| Bernard role shrinks (Steelers elevate Brandon Smith or add a WR) | Saturday reopen checks Thursday/Friday reports and any signing; Pitts, Meyers and Henry are all on the bench to swap back. |
+| Pitts/Bernard inactive Sunday | Same 12:00 PM window as Henry and Pitts/Bernard; 10:35 AM sweep swaps the other in. |
+| ESPN write fails | API apply with verify; on mismatch, log to `weekly/audit/espn-writes.log` and alert Ken. |
+
+**Status:** Asked Ken in the War Room for "yes, set it" before Thu 12:55 PM CT. Not applied yet.
