@@ -22,15 +22,11 @@ One row each: state, play_prob, snap_mult, news, source, as_of, kickoff, lock_st
 Times are America/Chicago. After a kickoff completes, lock_state is DONE.
 A named-player update requires a full-roster scan before write.
 
-Official status beats ESPN fantasy tags, in this order:
-1. Official EXEMPT / PUP / IR / OUT / BYE / suspended
-2. Same-day official injury report or inactives
-3. Same-day beat report
-4. ESPN tags (DTD, Q, O)
-5. Projection sites, numbers only
-
-When ESPN and official disagree, keep espn_tag, set state from official, and append STATUS_OVERRIDE to `agents/assistant/work/assistant-audit.log`.
-Do not clear an official ineligible status because ESPN still looks soft.
+ESPN is the single source of truth for player status (Ken, War Room, Oct 15 2026).
+- `state` = ESPN's tag (ACTIVE, Q, D, O, IR, etc.), always.
+- Official injury reports, inactives, and beat or national reports (Schefter etc.) go in `notes` only. They never change `state`.
+- If a report conflicts with ESPN, keep ESPN's tag, write the report in notes, and tell Blitz the same day.
+- Projection sites: numbers only.
 
 If a refresh fails, retry once. If it still fails, tell Blitz AV FAIL and the reason immediately.
 
