@@ -1,5 +1,7 @@
 # Set the week — Week 6 — Quantum Blitz
 
+> **Correction Thu Oct 15 12:3x PM CT (Ken: ESPN is the single source of truth):** ESPN shows TreVeyon Henderson **QUESTIONABLE**, not OUT. Every 'OUT' label on Henderson below is replaced with QUESTIONABLE (ESPN). He stays on the bench for now but is a live option: the Saturday reopen compares him against Marks and Bernard, and Sunday 11:30 AM CT inactives decide whether he can play.
+
 > **CURRENT (Wed Oct 14, 8:19 PM CT) — supersedes the Tuesday table below.** Marks claim won (Pittman dropped), Bernard added (Roman Wilson dropped). Live ESPN now: QB Brissett · RB Harvey · RB Marks · WR London · WR G. Wilson · TE Goedert · **FLEX Bernard** · D/ST Steelers · K Pineiro. Thursday call: **Harvey STARTS.** Ken said yes — **Bernard into FLEX, Pitts to bench** applied (verify ok). See "Thursday Harvey call" at the bottom.
 
 **Status: ON ESPN (verify ok).** Bernard FLEX / Pitts bench applied Wed 8:19 PM CT on Ken's "yes, set it" (War Room). Harvey STARTS Thu. Saturday reopen still owns FLEX/TE.
@@ -18,7 +20,7 @@
 |---|---|---|---|---|---|---|
 | QB | Jacoby Brissett | ARI @ LAR, Sun 3:05 PM | 15.25 | 15.3 | 15.28 | START — only active QB (Murray bye). Rams D. |
 | RB | RJ Harvey | SEA @ DEN, Thu 7:15 PM | 9.55 | 9.3 | 9.42 | START — **only active rostered RB**. Seahawks D. Role cut under Payton (W5: 37% snaps / 3 touches behind Dobbins). |
-| RB | TreVeyon Henderson | NYJ @ NE, Sun 12:00 PM | 0 | 0 | 0 | **OUT (slot fill only)** — high ankle sprain, multiple weeks (Schefter/Globe Oct 13). ESPN still DOUBTFUL; official/beat wins. Verified Tue Oct 13: ESPN/Schefter, Boston Globe, CBS, NBC Boston, FOX — high right ankle sprain, multiple weeks, no surgery, not IR (CBS). Replaced at RB2 by the contingency. |
+| RB | TreVeyon Henderson | NYJ @ NE, Sun 12:00 PM | — | — | — | **QUESTIONABLE (ESPN, Thu Oct 15)** — high ankle sprain reported Oct 13 (Schefter/Globe). ESPN is the source of truth. Verified Tue Oct 13: ESPN/Schefter, Boston Globe, CBS, NBC Boston, FOX — high right ankle sprain, multiple weeks, no surgery, not IR (CBS). Replaced at RB2 by the contingency. |
 | WR | Drake London | CHI @ ATL, Sun 12:00 PM | 15.99 | 17.4 | 16.72 | START — Bears D. |
 | WR | Garrett Wilson | NYJ @ NE, Sun 12:00 PM | 14.63 | 14.7 | 14.67 | START — Patriots D. |
 | TE | Dallas Goedert | CAR @ PHI, Sun 12:00 PM | 10.43 | 10.8 | 10.62 | START — Panthers D. Role TE1 (form alone does not sit him). |
@@ -36,7 +38,7 @@
 
 Changes from what's on ESPN now: **Pitts into FLEX, Meyers to bench, Henderson stays in an RB slot as OUT placeholder (was starter), Gordon stays in an RB slot on ESPN but is BYE — move Gordon to bench and keep Harvey at RB.** Live ESPN still shows Gordon + Henderson at RB and Harvey at FLEX from Week 5. Paste below fixes that.
 
-**RB hole:** Only Harvey is an active rostered RB. Gordon bye, Henderson OUT, Jacobs EXEMPT, Etienne IR. Second RB comes from the Wednesday 2:23 AM CT contingency below (Marks → Miller → named FA). RB2 never scores 0.
+**RB hole:** Only Harvey is an active rostered RB. Gordon bye, Henderson QUESTIONABLE on ESPN, Jacobs EXEMPT, Etienne IR. Second RB comes from the Wednesday 2:23 AM CT contingency below (Marks → Miller → named FA). RB2 never scores 0.
 
 ## Close calls and why
 
@@ -51,7 +53,7 @@ Only players with a real question this week are listed. Inactives ~90 min before
 
 - **Marks claim (Wed):** If Marks is rostered after dropping Pittman, put Marks at RB2 (HOU @ JAX London, 8:30 AM CT — Texans RB vs Jaguars D), leave Harvey at RB1 (already locked Thursday or still TNF), and keep Pitts at FLEX unless Saturday reopen says otherwise. Ken approved; claim is filed (txn 87069ce3, PENDING on ESPN Tue 6:30 PM CT).
 - **Harvey Thursday:** Locked before any of his Week 6 carries. Week 5 snaps + Payton Mon comments already in; Thursday carries inform the Week 7 hold, not this start (CONSULT).
-- **Henderson:** Confirmed OUT multi-week — FLEX-for-Q inactive plan is obsolete for him this week. Do not start him for points.
+- **Henderson:** ESPN QUESTIONABLE. Bench for now; Saturday reopen compares him to Marks and Bernard, and Sunday inactives decide.
 - **Pitts / Penix ribs:** If Atlanta QB news turns ugly Friday, reopen FLEX (Meyers or Henry).
 - **Goedert / Henry:** Reopen TE and FLEX Saturday before locks; Saturday sit is not final.
 
@@ -83,7 +85,7 @@ Rule: **RB2 never scores 0.** Drop is always Pittman (Steelers IR, foot). Done b
 | Miller add fails at ESPN (still on waivers, roster-lock, HTTP error) | Retry once; then go to Fallback 1 same morning. Log the HTTP status to weekly/audit/espn-writes.log. |
 | Pittman drop already used by the Marks claim | Only one path runs. If Marks wins, Pittman is gone and no FA add happens. |
 | Harvey inactive Thursday (inactives ~5:45 PM CT) | An RB slot needs an RB. Before the 7:15 PM CT kickoff, add the next free-agent RB from the fallback list and drop Roman Wilson (OUT, finger); the Wednesday RB moves to RB1. Ken is in the air from Thu 12:55 PM CT, so the Week 6 authority covers it. The 5:47 PM CT Harvey dead-man routine owns this. |
-| Marks plays London (Sun 8:30 AM CT, early lock) | Inactives ~7:00 AM CT; the Sun 7:13 AM CT routine checks. If Marks is inactive, add a noon-window free-agent RB (Miller or Spears) and drop Roman Wilson before 8:30 AM. No rostered RB can cover, because Henderson is OUT. |
+| Marks plays London (Sun 8:30 AM CT, early lock) | Inactives ~7:00 AM CT; the Sun 7:13 AM CT routine checks. If Marks is inactive, add a noon-window free-agent RB (Miller or Spears) and drop Roman Wilson before 8:30 AM. No rostered RB can cover, unless Henderson is active on ESPN by then. |
 | Henderson status changes (cleared to play) | Not expected (Schefter: multiple weeks). If NE lists him active Friday, he stays on bench anyway — the added RB starts; reopen only if his projection beats the RB2 by >2. |
 | Henderson goes to IR | Move him to IR only if an IR slot is open (Etienne holds the one slot). No action this week. |
 | Pitts / Goedert TE eligibility | Both TE-eligible on ESPN; Pitts at FLEX is legal (FLEX = RB/WR/TE). Goedert TE1. If either is inactive at noon, Henry (same noon window) slides in. Penix ribs → reopen Pitts Friday. |
@@ -93,7 +95,7 @@ Rule: **RB2 never scores 0.** Drop is always Pittman (Steelers IR, foot). Done b
 - Thu 7:15 PM CT · SEA @ DEN — Harvey (RB)
 - Sun 8:30 AM CT · HOU @ JAX (London) — Meyers (BE); Marks if claim clears
 - Sun 12:00 PM CT · CHI @ ATL — London (WR), Pitts (FLEX)
-- Sun 12:00 PM CT · NYJ @ NE — Garrett Wilson (WR), Henry (BE), Henderson (BE/OUT)
+- Sun 12:00 PM CT · NYJ @ NE — Garrett Wilson (WR), Henry (BE), Henderson (BE/Q)
 - Sun 12:00 PM CT · CAR @ PHI — Goedert (TE)
 - Sun 12:00 PM CT · PIT @ TB — Steelers (D/ST), Pittman (BE/IR), Roman Wilson (BE/OUT)
 - Sun 3:05 PM CT · ARI @ LAR — Brissett (QB)
@@ -114,7 +116,7 @@ D/ST Steelers
 K Pineiro
 ```
 
-Henderson in the paste is an ESPN slot fill only (OUT, 0 points). After Marks is on the roster, swap Henderson → Marks at RB and re-paste.
+Henderson in the paste is an ESPN slot fill only (ESPN Q). After Marks is on the roster, swap Henderson → Marks at RB and re-paste.
 
 MODE CLIMB. Cost of the paste: none (lineup only, no waiver order, no roster spot). Waiver claim is a separate Wednesday ask.
 
@@ -126,7 +128,7 @@ MODE CLIMB. Cost of the paste: none (lineup only, no waiver order, no roster spo
 **Call: RJ Harvey STARTS at RB1 vs SEA (Thu 7:15 PM CT).** Facts from Assistant: `agents/assistant/work/week-6-harvey-call.md` (f531329) and `harvey-week5.md`.
 
 Why:
-- No better legal RB. Gordon bye, Henderson OUT (high ankle), Jacobs still on the Commissioner's Exempt list (no return date as of Oct 14), Etienne IR. Marks holds RB2. Kendre Miller and Keaton Mitchell are rostered elsewhere. Best free-agent RBs (live ESPN read 8:09 PM CT): Spears 8.8 (QUESTIONABLE), Pierre Strong Jr. 8.5, White 7.4 (Mon). Harvey's ESPN W6 projection is **9.55**, above all of them, and any add would cost a roster spot.
+- No better legal RB. Gordon bye, Henderson QUESTIONABLE on ESPN, Jacobs still on the Commissioner's Exempt list (no return date as of Oct 14), Etienne IR. Marks holds RB2. Kendre Miller and Keaton Mitchell are rostered elsewhere. Best free-agent RBs (live ESPN read 8:09 PM CT): Spears 8.8 (QUESTIONABLE), Pierre Strong Jr. 8.5, White 7.4 (Mon). Harvey's ESPN W6 projection is **9.55**, above all of them, and any add would cost a roster spot.
 - Health: not on Denver's final TNF injury report (Wed). Badie FP (foot), no designation. No Broncos RB transaction; Coleman on IR until Week 7 at the earliest.
 - Role: Week 5 was a real demotion (23 snaps / 37% vs Dobbins 32 / 52%; 3 touches vs 20) in Payton's first game calling plays. No Payton comment on the split Monday or Wednesday. Harvey kept 100% of two-minute-drill snaps in Week 5 (76.9% on the season) and leads DEN RBs with 20 catches.
 - Matchup: Seattle is 1st in rush EPA and 7th in yards per carry (3.6), but middling in PPR points to RBs (about 20.8 a game, 16th–17th). That favors Harvey's receiving work over Dobbins' carries. Low floor, accepted; no alternative clears him.
@@ -149,7 +151,7 @@ Why:
 | FLEX | **Germie Bernard** (was Pitts) | PIT @ TB, Sun 12:00 PM |
 | D/ST | Steelers | PIT @ TB, Sun 12:00 PM |
 | K | Eddy Pineiro | WAS @ SF, Mon 7:15 PM |
-| BE | Kyle Pitts Sr., Jakobi Meyers, Hunter Henry, Ollie Gordon II (BYE), Kyler Murray (BYE), TreVeyon Henderson (OUT), Josh Jacobs (EXEMPT) | |
+| BE | Kyle Pitts Sr., Jakobi Meyers, Hunter Henry, Ollie Gordon II (BYE), Kyler Murray (BYE), TreVeyon Henderson (Q), Josh Jacobs (EXEMPT) | |
 | IR | Travis Etienne Jr. | |
 
 **Adversarial check (Thursday call)**

@@ -1,7 +1,7 @@
 {
   "week": 6,
   "as_of": "2026-10-13T14:24:39-05:00",
-  "wire_one_liner": "ASSISTANT BRIEF PENDING. Tue SET W6: Henderson OUT multi-week high ankle (Schefter); Gordon+Murray BYE; Jacobs EXEMPT; Pittman IR; Roman Wilson OUT (finger); Harvey ACTIVE but RB2 behind Dobbins under Payton (TNF). Zero EXEMPT/PUP/IR/OUT in start pool. Only one active rostered RB (Harvey) until Marks claim.",
+  "wire_one_liner": "ASSISTANT BRIEF PENDING. Tue SET W6: Henderson QUESTIONABLE per ESPN (Thu Oct 15; ESPN is source of truth); Gordon+Murray BYE; Jacobs EXEMPT; Pittman IR; Roman Wilson OUT (finger); Harvey ACTIVE but RB2 behind Dobbins under Payton (TNF). Zero EXEMPT/PUP/IR/OUT in start pool. Only one active rostered RB (Harvey) until Marks claim.",
   "source": "blitz_tue_set_official_override_espn_tags",
   "confidence": "high",
   "assistant_brief": "MISSING \u2014 agents/assistant/work/week-6-brief.md not present as of write; availability built from Schefter/Globe/NFL.com/FP/ESPN + harvey-week5.md",
@@ -28,13 +28,15 @@
     },
     {
       "player": "TreVeyon Henderson",
-      "state": "OUT",
+      "state": "QUESTIONABLE",
       "lock_state": "UNLOCKED",
       "news": "High right ankle sprain Week 5; Schefter/Boston Globe Tue Oct 13: out multiple weeks, no surgery. ESPN still DOUBTFUL \u2014 official/beat override. NYJ @ NE Sun 12:00 CT.",
       "source": "ESPN_Schefter_10-13_Boston_Globe_10-13",
       "as_of": "2026-10-13T14:24:39-05:00",
       "kickoff": "2026-10-18T12:00:00-05:00",
-      "game_label": "NYJ @ NE"
+      "game_label": "NYJ @ NE",
+      "espn_status": "QUESTIONABLE",
+      "note": "ESPN is the single source of truth (Ken, Oct 15). ESPN shows QUESTIONABLE Thu Oct 15 12:30 PM CT."
     },
     {
       "player": "Drake London",
