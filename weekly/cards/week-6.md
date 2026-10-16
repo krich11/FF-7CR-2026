@@ -165,3 +165,39 @@ Why:
 | ESPN write fails | API apply with verify; on mismatch, log to `weekly/audit/espn-writes.log` and alert Ken. |
 
 **Status:** APPLIED Wed Oct 14, 8:19 PM CT on Ken's "yes, set it" (War Room). ESPN verify ok, mismatches=[]. FLEX Germie Bernard; Kyle Pitts Sr. on bench. Saturday reopen still owns FLEX/TE if reports change.
+
+---
+
+## Friday Henderson placement (Fri Oct 16 2026, ~3:55 PM CT; Ken in the air, lands AUS 4:21 PM CT)
+
+**Call: no ESPN write. Germie Bernard stays at FLEX; TreVeyon Henderson (ESPN QUESTIONABLE) stays on the bench.** MODE CLIMB. Cost: none (no write, no waiver order, no roster spot). WO unchanged.
+
+Live ESPN (API sync 3:49 PM CT, re-read): QB Brissett · RB Harvey (locked, 14.6 Thu) · RB Marks · WR London · WR G. Wilson · TE Goedert · FLEX Bernard · D/ST Steelers · K Pineiro. Bench: Pitts, Meyers, Henry, Henderson (Q), Gordon (BYE), Murray (BYE), Jacobs (ESPN DAY_TO_DAY; official Commissioner's Exempt). IR: Etienne.
+
+Why I did not run the saved "Q = Henderson to FLEX" branch:
+- The branch was written Oct 12, before Bernard was added (it names Meyers / Roman Wilson as the FLEX receivers; Roman Wilson is no longer rostered). It was built to beat Pitts at FLEX, not Bernard.
+- ESPN W6 projection: Bernard 9.89 vs Henderson 8.70 (gap 1.19). Under the 1.5-point CLOSE rule (LESSONS 2026-10-06) the slot goes on workload. Bernard: 92% snaps, 9 targets in W5, not on Pittsburgh's report, and one of three healthy Steelers WRs (Roman Wilson and Skowronek DNP all week). Henderson: 12 snaps (16%) in W5 behind Stevenson, high ankle sprain, limited all week, NBC/PFT have Stevenson leading the backfield if Henderson plays; Vrabel says he'll evaluate after Friday practice.
+- Both play Sun 12:00 PM CT, so this stays open to Saturday and the 10:35 AM CT Sunday sweep (Patriots inactives ~10:30 AM CT).
+
+Henderson facts (Friday): Patriots final report LP/LP/LP, QUESTIONABLE (patriots.com). ESPN QUESTIONABLE. Practiced a third straight day; said he feels "pretty good" (CBS/RotoWire, NBC).
+
+Other starters, Friday (ESPN is status; reports are notes):
+- Brissett: not on Arizona's report. ESPN ACTIVE, proj 15.19.
+- Marks: ESPN ACTIVE, proj 10.64. Texans ruled out David Montgomery (groin) and Tank Dell; more backfield work for Marks. London game Sun 8:30 AM CT; the 7:13 AM routine checks inactives.
+- London: on Falcons final report as LP (hip), no game designation. ESPN ACTIVE, proj 15.78. Penix full go, no designation. Note only.
+- G. Wilson: not on Jets report. ESPN ACTIVE, proj 14.80.
+- Goedert: not on report, ESPN ACTIVE, proj 10.12. Note: Eagles ruled out Jalen Hurts (calf blood clot); Tanner McKee starts. Still the top TE projection on the roster (Pitts 8.70, Henry 7.77), so no change.
+- Bernard: not on Pittsburgh's report. ESPN ACTIVE.
+- Steelers D/ST: Baker Mayfield (thumb) DNP Wed/Thu for TB; Friday designation not yet seen. Note only.
+- Pineiro: ESPN ACTIVE, Mon 7:15 PM CT.
+
+If Ken wants the saved branch anyway: "yes, set it" = FLEX Henderson, Bernard to bench (RB Harvey/Marks unchanged).
+
+Adversarial check
+| Failure point | Answer |
+|---|---|
+| Henderson active and gets real work | Accepted; projection and workload still favor Bernard. Saturday reopen and Ken can flip it. |
+| Henderson in FLEX and goes inactive | Avoided by holding him on the bench. |
+| Bernard surprise inactive | Not on the report. 10:35 AM CT sweep swaps Henderson (if active), Meyers, or Pitts; all noon or earlier. |
+| Marks inactive in London | 7:13 AM CT routine owns it. Henderson is a noon RB on the bench if active; otherwise FA RB plan. |
+| Goedert value drop with McKee | Still the top rostered TE projection; Pitts/Henry on the bench for the sweep. |
