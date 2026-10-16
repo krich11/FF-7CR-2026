@@ -22,10 +22,12 @@ One row each: state, play_prob, snap_mult, news, source, as_of, kickoff, lock_st
 Times are America/Chicago. After a kickoff completes, lock_state is DONE.
 A named-player update requires a full-roster scan before write.
 
-ESPN is the single source of truth for player status (Ken, War Room, Oct 15 2026).
-- `state` = ESPN's tag (ACTIVE, Q, D, O, IR, etc.), always.
-- Official injury reports, inactives, and beat or national reports (Schefter etc.) go in `notes` only. They never change `state`.
-- If a report conflicts with ESPN, keep ESPN's tag, write the report in notes, and tell Blitz the same day.
+ESPN is the source of truth for player status (Ken, War Room, Oct 15 2026, 8:48 PM CT).
+- `state` = ESPN's tag (ACTIVE, Q, D, O, IR, etc.).
+- One exception, bench-only: if an official NFL or team list says a player can't play (game-day inactives, IR, PUP, suspension, Commissioner's Exempt list), he does not start, even if ESPN still shows him playable. Record it as `official_block` with the source and time.
+- An official list can only take a player out of the lineup. It never puts a player in, never clears an ESPN OUT, and never triggers an add.
+- News and unofficial reports (Schefter, beat writers, etc.) go in `notes` only. They never change `state` or drive a decision.
+- Any disagreement between ESPN and another source: log STATUS_CONFLICT to `agents/assistant/work/assistant-audit.log` and tell Blitz the same day.
 - Projection sites: numbers only.
 
 If a refresh fails, retry once. If it still fails, tell Blitz AV FAIL and the reason immediately.
