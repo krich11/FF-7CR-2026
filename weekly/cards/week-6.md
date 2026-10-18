@@ -219,3 +219,8 @@ Next: 10:35 AM CT sweep owns the noon inactives (Henderson Q, Bernard, Goedert, 
 ## Sun Oct 18, 7:35 AM CT — final pre-London check (Blitz + Assistant)
 - No changes. All starters ACTIVE on ESPN. Marks active (HOU lead back, Montgomery inactive), ESPN 10.64.
 - London: ACTIVE on ESPN, no designation. Starts. No backup plan (Ken, 7:36 AM CT: no-news backup plans removed).
+
+
+## Sun Oct 18, 7:50 AM CT: kicker swap (Ken's command)
+Ken: `claim Matt Gay drop Eddy Pineiro`. Executed as a free-agent move, so waiver order is unchanged. Re-read ESPN to verify: **K Matt Gay** (LV, BUF @ LV 3:25 PM CT, proj 10.7) replaces Pineiro (9.0). Every other slot is unchanged. MODE CLIMB.
+Live lineup: QB Brissett · RB Marks · WR London · WR G. Wilson · TE Goedert · FLEX Bernard · D/ST Steelers · **K Gay**. This supersedes every Pineiro line above.

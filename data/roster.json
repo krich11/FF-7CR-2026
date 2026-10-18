@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-18T05:13:25.570992-07:00",
+  "as_of": "2026-10-18T05:53:29.721509-07:00",
   "week": 6,
   "source": "espn_api",
   "league_id": "1776545061",
@@ -13,7 +13,7 @@
     "WR2": "Garrett Wilson",
     "TE": "Dallas Goedert",
     "DST": "Steelers D/ST",
-    "K": "Eddy Pineiro",
+    "K": "Matt Gay",
     "FLEX": "Germie Bernard",
     "QB": "Jacoby Brissett"
   },
@@ -73,9 +73,9 @@
       "eligible_slots": []
     },
     {
-      "name": "Eddy Pineiro",
+      "name": "Matt Gay",
       "pos": "K",
-      "espn_id": 4034949,
+      "espn_id": 4249087,
       "espn_slot": "K",
       "lineupSlotId": 17,
       "status_tag": null,
