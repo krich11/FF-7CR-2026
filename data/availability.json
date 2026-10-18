@@ -221,7 +221,7 @@
       "espn_slot": "BE",
       "espn_status": "QUESTIONABLE",
       "state": "QUESTIONABLE",
-      "play_prob": 0.6,
+      "play_prob": null,
       "snap_mult": 0.45,
       "official_block": null,
       "lock_state": "UNLOCKED",
