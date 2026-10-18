@@ -201,3 +201,17 @@ Adversarial check
 | Bernard surprise inactive | Not on the report. 10:35 AM CT sweep swaps Henderson (if active), Meyers, or Pitts; all noon or earlier. |
 | Marks inactive in London | 7:13 AM CT routine owns it. Henderson is a noon RB on the bench if active; otherwise FA RB plan. |
 | Goedert value drop with McKee | Still the top rostered TE projection; Pitts/Henry on the bench for the sweep. |
+
+---
+
+## Sunday London check (Sun Oct 18 2026, 7:15 AM CT; HOU @ JAX kicks 8:30 AM CT)
+
+**Call: no change. Woody Marks is active and starts at RB2.** MODE CLIMB. Cost: none (no write, no waiver order, no roster spot). WO unchanged.
+
+- Texans' official inactives (posted ~7:00 AM CT by the Texans; listed by Aaron Wilson, Houston Chronicle): Jalen Pitre, David Montgomery, Sabastian Harsh, Febechi Nwaiwu, Braden Smith, Nate Thomas, Marlin Klein. Marks is not on it.
+- Aaron Wilson: with Montgomery out, Marks is the Texans' RB1 today. Jawhar Jordan was elevated from the practice squad for the game.
+- ESPN API sync 7:13 AM CT: Marks in the RB slot, no status tag (active). Full ESPN lineup unchanged: Brissett, Harvey (locked), Marks, London, G. Wilson, Goedert, Bernard FLEX, Steelers, Pineiro.
+- Jakobi Meyers (bench) is not on the Jaguars' inactive list; he stays on the bench and isn't in play for a noon slot anyway.
+- The saved drop (Roman Wilson) was moot; he was dropped for Bernard on Wed Oct 14.
+
+Next: 10:35 AM CT sweep owns the noon inactives (Henderson Q, Bernard, Goedert, London, G. Wilson, Steelers).
