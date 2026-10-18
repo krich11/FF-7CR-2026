@@ -215,3 +215,8 @@ Adversarial check
 - The saved drop (Roman Wilson) was moot; he was dropped for Bernard on Wed Oct 14.
 
 Next: 10:35 AM CT sweep owns the noon inactives (Henderson Q, Bernard, Goedert, London, G. Wilson, Steelers).
+
+## Sun Oct 18, 7:35 AM CT — final pre-London check (Blitz + Assistant)
+- No changes. All starters ACTIVE on ESPN. Marks active (HOU lead back, Montgomery inactive), ESPN 10.64.
+- Correction (Assistant caught it): Meyers plays in the London game (JAX) and locks at 8:30 AM CT, so he CANNOT be the noon backup for London. Friday's "Meyers swaps in" line is void.
+- London backup for the 10:35 AM CT sweep: if London is inactive, move Bernard FLEX -> WR and put Pitts (8.69, no tag, ATL noon) at FLEX. Henderson (QUESTIONABLE) only if Pitts is also out.
