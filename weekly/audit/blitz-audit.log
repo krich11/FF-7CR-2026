@@ -179,3 +179,4 @@ SHOT_AFTER week=1 TE=Goedert hash=8eb1de44a952a1abd413f1ee6721c996253c306f01ac85
 2026-10-13T22:36:03+08:00 SCORECARD_EMAIL_PENDING week=5 to=kaalrich@gmail.com reason=awaiting Ken send approval
 2026-10-19T10:33:15-05:00 WEEK_REVIEW_SKIP week=6 reason=MNF_not_final game=WSH@SF kickoff=2026-10-19T19:15-05:00 (STATUS_SCHEDULED at 10:3x AM CT) note=hold scorecard until after MNF; one-shot makeup rerun scheduled Tue 2026-10-20 07:00 CT per LESSONS 2026-10-13
 2026-10-19T10:33:34-05:00 WEEK_REVIEW_SKIP_FOLLOWUP week=6 correction: routine run cannot create routines; makeup rerun handed to parent to schedule (Tue 2026-10-20 07:00 CT)
+2026-10-19T10:35:00-05:00 SCORECARD_EMAILED week=5 to=kaalrich@gmail.com attach=md file=week-5-scorecard.md msg=1a1378bfec95d96c note=sent_2026-10-13T23:14:43Z audit_was_stale_PENDING
