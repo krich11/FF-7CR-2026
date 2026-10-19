@@ -178,3 +178,4 @@ SHOT_AFTER week=1 TE=Goedert hash=8eb1de44a952a1abd413f1ee6721c996253c306f01ac85
 2026-10-13T22:36:03+08:00 WEEK_REVIEW week=5 makeup (MNF final) result=L 104.58-174.56 record=1-4 PF=499.74 files=weekly/results/week-5.json,week-5-scorecard.md,data/standings.json
 2026-10-13T22:36:03+08:00 SCORECARD_EMAIL_PENDING week=5 to=kaalrich@gmail.com reason=awaiting Ken send approval
 2026-10-19T10:33:15-05:00 WEEK_REVIEW_SKIP week=6 reason=MNF_not_final game=WSH@SF kickoff=2026-10-19T19:15-05:00 (STATUS_SCHEDULED at 10:3x AM CT) note=hold scorecard until after MNF; one-shot makeup rerun scheduled Tue 2026-10-20 07:00 CT per LESSONS 2026-10-13
+2026-10-19T10:33:34-05:00 WEEK_REVIEW_SKIP_FOLLOWUP week=6 correction: routine run cannot create routines; makeup rerun handed to parent to schedule (Tue 2026-10-20 07:00 CT)
