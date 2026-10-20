@@ -272,19 +272,15 @@
       "espn_slot": "BE",
       "espn_status": "DAY_TO_DAY",
       "state": "DAY_TO_DAY",
-      "play_prob": 0.0,
-      "snap_mult": 0.0,
-      "official_block": {
-        "list": "Commissioner's Exempt",
-        "source": "NFL_exempt_list (prior file Oct 13)",
-        "as_of": "2026-10-13T14:24:39-05:00"
-      },
+      "play_prob": null,
+      "snap_mult": null,
+      "official_block": null,
       "lock_state": "UNLOCKED",
       "kickoff": "2026-10-18T19:20:00-05:00",
       "game_label": "DAL @ GB",
-      "news": "ESPN DAY_TO_DAY; on Commissioner's Exempt List (official, carried from Oct 13 file).",
-      "source": "ESPN_API_mRoster_2026-10-18_07:52CT",
-      "as_of": "2026-10-18T07:58:00-05:00"
+      "news": "ESPN DAY_TO_DAY (Wk7 proj 12.6). NFL removed him from Commissioner's Exempt List Oct 19; eligible Wk7 @ DET Oct 25. LaFleur Oct 19: full practice week from Wed, Week 7 status 'to be determined' (missed football exposure). Note only; ESPN tag decides.",
+      "source": "ESPN_API_mRoster_2026-10-20_08:48CT; NFL.com/AP Oct 16 exempt-list removal",
+      "as_of": "2026-10-20T08:48:00-05:00"
     },
     {
       "player": "Travis Etienne Jr.",
