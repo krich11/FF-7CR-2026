@@ -189,3 +189,4 @@ SHOT_AFTER week=1 TE=Goedert hash=8eb1de44a952a1abd413f1ee6721c996253c306f01ac85
 2026-10-20T07:08:27-0500 SCORECARD_EMAILED W6 gmail msg 1a159366ad56f06b to kaalrich@gmail.com (draft r5370832064833082051) by Blitz routine w6-review-makeup
 2026-10-20T10:06:37-0500 SCORECARD_REWRITTEN week=6 plain_english=Ken_Oct20 commit=3fdd059; SCORECARD_EMAIL_PENDING week=6 to=kaalrich@gmail.com draft=r4967083449883726653 attach=md reason=awaiting Ken send approval
 2026-10-20T10:07:28-0500 SCORECARD_REVISED week=6 commit=5f7b659 rule=Ken_Oct20_no_arithmetic_chains; SCORECARD_EMAIL_PENDING week=6 to=kaalrich@gmail.com draft=r-1629015936030123895 attach=md supersedes=r4967083449883726653 reason=awaiting Ken send approval
+2026-10-20T14:15:00-05:00 LINEUP_APPLIED week=7 cmd='yes, set it' QB=Murray RB=Gordon,Jacobs bench=Brissett,Harvey,Marks verify=ok (RB order only)
