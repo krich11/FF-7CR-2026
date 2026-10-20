@@ -1,0 +1,70 @@
+{
+  "week": 7,
+  "skill": "lineup.set",
+  "window": "tuesday_set",
+  "status": "PROPOSED_AWAITING_YES",
+  "as_of_ct": "Tue Oct 20, 2:15 PM CT",
+  "assistant_brief": "REQUESTED 2:05 PM CT; agents/assistant/work/week-7-brief.md not on main at write time",
+  "opponent": "David's Daring Team (teamId 11, 0-6)",
+  "assignments": {
+    "QB": "Kyler Murray",
+    "RB": [
+      "Ollie Gordon II",
+      "Josh Jacobs"
+    ],
+    "WR": [
+      "Drake London",
+      "Garrett Wilson"
+    ],
+    "TE": "Dallas Goedert",
+    "FLEX": "Germie Bernard",
+    "DST": "Steelers D/ST",
+    "K": "Matt Gay"
+  },
+  "bench": [
+    "RJ Harvey",
+    "Woody Marks",
+    "Kyle Pitts Sr.",
+    "Jacoby Brissett",
+    "Hunter Henry",
+    "TreVeyon Henderson",
+    "Jakobi Meyers"
+  ],
+  "ir": [
+    "Travis Etienne Jr."
+  ],
+  "live_espn_at_write": {
+    "QB": "Jacoby Brissett",
+    "RB": [
+      "RJ Harvey",
+      "Woody Marks"
+    ],
+    "WR": [
+      "Drake London",
+      "Garrett Wilson"
+    ],
+    "TE": "Dallas Goedert",
+    "FLEX": "Germie Bernard",
+    "DST": "Steelers D/ST",
+    "K": "Matt Gay"
+  },
+  "moves_if_yes": [
+    "Murray in for Brissett at QB",
+    "Gordon in for Harvey at RB",
+    "Jacobs in for Marks at RB"
+  ],
+  "espn_proj_total_proposed": 115.2,
+  "espn_proj_total_live": 107.7,
+  "opp_espn_proj_total_live": 110.7,
+  "close": [
+    "RB2: Jacobs (ESPN 12.64 / FP 12.9) over Harvey (11.43 / 10.4) and Marks (9.21 / 10.6); Jacobs ESPN DAY_TO_DAY, GB status TBD; Harvey if GB lists him D/O Friday",
+    "TE: Goedert (11.03 / 10.7) over Pitts (9.79 / 8.6); PHI QB McKee (Hurts IR, season); Goedert 81% snaps W6"
+  ],
+  "fa_checks": {
+    "K": "Fitzgerald 9.48 ESPN / 8.2 FP, Ryland 9.46 vs Gay 9.73 / 8.1: under 1.5",
+    "DST": "Jets 7.25 / 7.3 vs Steelers 6.41 / 6.5: under 1.5",
+    "QB": "Brissett backup, no bye"
+  },
+  "mode": "CLIMB",
+  "cost": "lineup only; no waiver order, no roster spot"
+}

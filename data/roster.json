@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-10-18T05:53:29.721509-07:00",
-  "week": 6,
+  "as_of": "2026-10-20T12:04:14.654297-07:00",
+  "week": 7,
   "source": "espn_api",
   "league_id": "1776545061",
   "team_id": 13,
   "season_id": 2026,
-  "scoringPeriodId": 6,
+  "scoringPeriodId": 7,
   "starters": {
     "RB1": "RJ Harvey",
     "RB2": "Woody Marks",
@@ -159,7 +159,7 @@
       "espn_id": 4432710,
       "espn_slot": "BE",
       "lineupSlotId": 20,
-      "status_tag": "QUESTIONABLE",
+      "status_tag": null,
       "eligible_slots": []
     },
     {
