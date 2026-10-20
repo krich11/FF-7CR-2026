@@ -8,7 +8,11 @@ Subject: `Quantum Blitz Week {N} Scorecard: {W}-{L}`
 ## Writing rules (Ken, Oct 20 2026)
 
 - Write in plain, standard English. Every line is a full sentence that a casual reader understands.
-- Do not use fantasy-football or AI jargon or abbreviations. Spell out positions: quarterback, running back, wide receiver, tight end, flex, defense, and kicker.
+- Common abbreviations are fine in moderation: QB, RB, WR, TE, K, D/ST, FLEX, and PPR. Avoid other fantasy-football or AI jargon.
+- State the final score once, in a sentence. Never show arithmetic chains such as a list of player scores added up to a total, for our team or the opponent.
+- Never mention the API, slots, mMatchupScore, or any data checks or verification steps.
+- Call the opponent by its full team name, never by a nickname or initials.
+- A reader should get each point in a few seconds.
 - Do not use label-and-value lines, arrows, or symbol shorthand. Use a table only for the simple list of starters and their points, with plain column names.
 - Do not explain methods, models, confidence, files, or commits in the report.
 - Report only what happened and what it means. Do not list what did not happen or what is not a concern.

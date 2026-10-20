@@ -33,7 +33,7 @@ Our best possible lineup would have scored 131.42 points, which would have beate
 
 ## What we will do differently
 
-- Before we use a backup plan that was written earlier in the week, we will check it against our current roster.
+- Before we use a backup plan that was written earlier in the week, we will make sure it still fits our current roster.
 - After every lineup change, we will update our record of the lineup so that it matches what is actually set on ESPN.
 - When a starter's team changes quarterbacks, we will compare that starter with our bench players before kickoff.
 - For kicker and defense, the weekly plan will always name the best available free agent, and if that player is projected to score at least 1.5 points more, we will ask you the same day whether to pick him up.
