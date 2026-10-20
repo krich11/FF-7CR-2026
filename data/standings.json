@@ -1,27 +1,29 @@
 {
-  "as_of": "2026-10-13T14:30:00-05:00",
-  "week": 5,
-  "source": "espn_api mTeam+mMatchupScore read (settled, scoringPeriodId=5)",
+  "as_of": "2026-10-20T07:15:00-05:00",
+  "week": 6,
+  "source": "espn_api mTeam+mMatchupScore read (settled, scoringPeriodId=6)",
   "espn_official": {
     "overall_record": {
       "wins": 1,
-      "losses": 4,
+      "losses": 5,
       "ties": 0
     },
-    "points_for": 499.74,
-    "points_against": 680.82,
+    "points_for": 612.76,
+    "points_against": 806.56,
     "waiver_rank": 2,
     "espn_team_name_note": "ESPN abbrev QBZ; display name currently 'Medical Tent' (Blitz brand Quantum Blitz)",
     "winner_week_3": "HOME (PP)",
     "winner_week_4": "AWAY (TE)",
-    "winner_week_5": "HOME (FR)"
+    "winner_week_5": "HOME (FR)",
+    "winner_week_6": "AWAY (BuB)",
+    "playoff_seed": 11
   },
   "blitz_counted": {
     "wins": 1,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "points_for": 499.74,
-    "points_against": 680.82,
+    "points_for": 612.76,
+    "points_against": 806.56,
     "result_week_1": "W",
     "result_week_2": "L",
     "opponent_week_1": "The Chosen Ones (TCO)",
@@ -41,20 +43,30 @@
     "result_week_5": "L",
     "opponent_week_5": "FR",
     "week_5_score": 104.58,
-    "week_5_opp": 174.56
+    "week_5_opp": 174.56,
+    "result_week_6": "L",
+    "opponent_week_6": "BuB",
+    "week_6_score": 113.02,
+    "week_6_opp": 125.74
   },
   "league_week_2_scores": {
     "QBZ": 83.1,
     "CDS": 104.02
   },
-  "waiver_rank": 3,
+  "waiver_rank": 2,
   "mode_weights": "must_win_allowed_from_week_6_CLIMB",
   "process_misses": [
     "W1 Fri resource_exhausted makeup",
     "W2 week.review SKIP (MNF) not resumed before AAR \u2014 makeup Tue",
     "W3 Mon week.review failed; scorecard never sent until Oct 6 makeup",
     "W4 Gordon sit closed Sat, not reopened Sun",
-    "W4 Mon week.review SKIP (MNF live); resumed Tue Oct 6"
+    "W4 Mon week.review SKIP (MNF live); resumed Tue Oct 6",
+    "W5 play-caller sweep (Harvey)",
+    "W5 Stevenson branch never closed in writing",
+    "W5 Mon week.review SKIP (MNF live)",
+    "W6 London no-news backup plan (Sun 7:36 AM)",
+    "W6 decisions/week-6.json stale through lock",
+    "W6 TE gap 1.42 not labeled CLOSE after Hurts ruled out"
   ],
   "league_week_3_scores": {
     "QBZ": 97.42,
@@ -64,11 +76,73 @@
     "QBZ": 81.74,
     "TE": 163.18
   },
-  "next_opponent_week_6": {
-    "abbrev": "BuB",
-    "name": "Buck up Buttercup!",
-    "record": "1-4",
-    "points_for": 524.68,
-    "team_id": 6
-  }
+  "next_opponent_week_7": {
+    "abbrev": "DDT",
+    "name": "David's Daring Team",
+    "record": "0-6",
+    "points_for": 678.0,
+    "team_id": 11
+  },
+  "league_table_after_week_6": [
+    [
+      "CDS",
+      "6-0",
+      727.46
+    ],
+    [
+      "FR",
+      "5-1",
+      787.58
+    ],
+    [
+      "TE",
+      "5-1",
+      721.06
+    ],
+    [
+      "MBB",
+      "4-2",
+      759.48
+    ],
+    [
+      "PP",
+      "4-2",
+      744.16
+    ],
+    [
+      "TCO",
+      "3-3",
+      718.96
+    ],
+    [
+      "LL",
+      "3-3",
+      711.62
+    ],
+    [
+      "BuB",
+      "2-4",
+      650.42
+    ],
+    [
+      "LY",
+      "2-4",
+      574.92
+    ],
+    [
+      "GGT",
+      "1-5",
+      638.86
+    ],
+    [
+      "QBZ",
+      "1-5",
+      612.76
+    ],
+    [
+      "DDT",
+      "0-6",
+      678.0
+    ]
+  ]
 }

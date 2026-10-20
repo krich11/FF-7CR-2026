@@ -180,3 +180,9 @@ SHOT_AFTER week=1 TE=Goedert hash=8eb1de44a952a1abd413f1ee6721c996253c306f01ac85
 2026-10-19T10:33:15-05:00 WEEK_REVIEW_SKIP week=6 reason=MNF_not_final game=WSH@SF kickoff=2026-10-19T19:15-05:00 (STATUS_SCHEDULED at 10:3x AM CT) note=hold scorecard until after MNF; one-shot makeup rerun scheduled Tue 2026-10-20 07:00 CT per LESSONS 2026-10-13
 2026-10-19T10:33:34-05:00 WEEK_REVIEW_SKIP_FOLLOWUP week=6 correction: routine run cannot create routines; makeup rerun handed to parent to schedule (Tue 2026-10-20 07:00 CT)
 2026-10-19T10:35:00-05:00 SCORECARD_EMAILED week=5 to=kaalrich@gmail.com attach=md file=week-5-scorecard.md msg=1a1378bfec95d96c note=sent_2026-10-13T23:14:43Z audit_was_stale_PENDING
+2026-10-20T07:20:00-05:00 WEEK_REVIEW week=6 makeup=true resumed_from=WEEK_REVIEW_SKIP result=L 113.02-125.74 opp=BuB proj=104.41 delta=+8.61 best=131.42 bench_left=18.40 record=1-5 seed=11 source=espn_api_sp6 all_games_final=14/14
+2026-10-20T07:20:00-05:00 SCORECARD_WRITTEN week=6 path=weekly/results/week-6-scorecard.md makeup=true
+2026-10-20T07:20:00-05:00 STANDINGS_REFRESH week=6 record=1-5 PF=612.76 PA=806.56 waiver=2 seed=11 source=espn_mTeam
+2026-10-20T07:20:00-05:00 LESSONS_APPENDED week=6 n=3
+2026-10-20T07:20:00-05:00 INPUTS_MISSING week=6 data/projections/week-6.json data/usage/week-6-baseline.json assistant_post_monday_packet week-6-brief.md
+2026-10-20T07:20:00-05:00 SCORECARD_EMAIL_PENDING week=6 to=kaalrich@gmail.com reason=awaiting Ken send approval; Gmail draft with md attachment created

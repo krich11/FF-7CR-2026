@@ -91,5 +91,39 @@
     "name": "Buck up Buttercup!",
     "record": "1-4",
     "points_for": 524.68
+  },
+  "final_at_lock": {
+    "recorded": "2026-10-20 makeup review (read from ESPN mBoxscore sp6)",
+    "QB": "Jacoby Brissett",
+    "RB": [
+      "RJ Harvey",
+      "Woody Marks"
+    ],
+    "WR": [
+      "Drake London",
+      "Garrett Wilson"
+    ],
+    "TE": "Dallas Goedert",
+    "FLEX": "Germie Bernard",
+    "DST": "Steelers D/ST",
+    "K": "Matt Gay",
+    "bench": [
+      "Kyle Pitts Sr.",
+      "Hunter Henry",
+      "Jakobi Meyers",
+      "TreVeyon Henderson",
+      "Josh Jacobs",
+      "Kyler Murray",
+      "Ollie Gordon II"
+    ],
+    "ir": [
+      "Travis Etienne Jr."
+    ],
+    "moves": [
+      "Wed 2:18 AM waiver: +Marks -Pittman",
+      "Wed 2:57 AM FA: +Bernard -Roman Wilson",
+      "Wed 8:19 PM: FLEX Bernard, Pitts BE (Ken yes, set it)",
+      "Sun 7:50 AM FA: +Gay -Pineiro (Ken command)"
+    ]
   }
 }
