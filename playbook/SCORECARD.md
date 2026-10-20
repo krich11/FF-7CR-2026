@@ -1,125 +1,60 @@
-# Quantum Blitz — Week N Scorecard (spec)
+# Quantum Blitz Week N Scorecard (template)
 
-Fully comprehensive Monday email body. Easy top, deep below. Write filled copy to `results/week-{N}-scorecard.md`. Email: **short plain-text summary in the body** + attach the `.md` file (`text/markdown`). Do not paste the full report into the body.
+Write the filled copy to `results/week-{N}-scorecard.md`. Email Ken a short summary in the body and attach the markdown file as `text/markdown`. Do not paste the full report into the email body.
 
-**To:** address in `preferences.json` → `scorecard.email_to`  
-**Subject:** `Quantum Blitz Week {N} Scorecard — {W}-{L} · {delta vs proj}`
+To: the address in `preferences.json` under `scorecard.email_to`.
+Subject: `Quantum Blitz Week {N} Scorecard: {W}-{L}`
 
----
+## Writing rules (Ken, Oct 20 2026)
+
+- Write in plain, standard English. Every line is a full sentence that a casual reader understands.
+- Do not use fantasy-football or AI jargon or abbreviations. Spell out positions: quarterback, running back, wide receiver, tight end, flex, defense, and kicker.
+- Do not use label-and-value lines, arrows, or symbol shorthand. Use a table only for the simple list of starters and their points, with plain column names.
+- Do not explain methods, models, confidence, files, or commits in the report.
+- Report only what happened and what it means. Do not list what did not happen or what is not a concern.
+- Keep the report to about one page. Use only real numbers, and leave out a section rather than invent one.
 
 ## Template
 
 ```markdown
-# Quantum Blitz — Week {N} Scorecard
+# Quantum Blitz Week {N} Scorecard
 
-**Record:** {W}-{L} · **Week score:** {actual} PPR (proj {proj}, Δ {delta})  
-**Vs median / opponent:** {opp_team} · {opp_score} · {W/L}  
-**Card confidence going in:** {High|Medium|Low}
+## The result
 
----
+One paragraph in full sentences. Say whether we won or lost, the final score, the opponent's name, how our score compared with our projection, the main reason for the result, and our record and place in the standings.
 
-## 1. Easy read — what happened
+## Our starters
 
-| Slot | Started | Proj | Actual | Δ | Note |
-|------|---------|------|--------|---|------|
-| QB | | | | | |
-| RB | | | | | |
-| RB | | | | | |
-| WR | | | | | |
-| WR | | | | | |
-| TE | | | | | |
-| FLEX | | | | | |
-| DST | | | | | |
-| K | | | | | |
-| **Total** | | | | | |
+| Position | Player | Points |
+|---|---|---|
+| Quarterback | | |
+| Running back | | |
+| Running back | | |
+| Wide receiver | | |
+| Wide receiver | | |
+| Tight end | | |
+| Flex | | |
+| Defense | | |
+| Kicker | | |
+| Total | | |
 
-**Bench regret:** best benched FLEX-eligible actual − worst started FLEX-eligible actual (if ≥5, call it out).  
-**Headline:** one sentence.
+## What worked
 
----
+One paragraph about the moves and choices that paid off, with the points they produced.
 
-## 2. Before → after (decision quality)
+## What we got wrong
 
-| Decision | Before (card) | After (actual) | Regret PPR | Keep / rethink |
-|----------|---------------|----------------|------------|----------------|
-| FLEX | | | | |
-| RB2/WR2 | | | | |
-| Sit vs start | | | | |
+One paragraph about the choices that cost us points, with what we knew before kickoff.
 
-**Availability hits:** inactive/OUT after we locked · process misses.  
-**Ken overrides this week:** {none | list}
+## Points left on the bench
 
----
+One paragraph naming our best possible lineup score, the bench players who would have scored more than a starter, and the total points left on the bench.
 
-## 3. Deep stats — residuals & shrinkage
+## What we will do differently
 
-Per rostered player with a game:
+- One full sentence for each change we are making.
 
-| Player | Adj in | Actual | Residual | form_add next | Games in window |
-|--------|--------|--------|----------|---------------|-----------------|
-| | | | | | |
+## Next week
 
-**Bench-vs-starter boost fired?** {yes/no + names}  
-**Game-script shrink applied?** {yes/no + why}
-
-Form formula reminder: `form_add = clamp(0.35 × residual, ±3)` (Week 1 = 0).
-
----
-
-## 4. Usage (leading indicator)
-
-| Player | Assumed snap% / role | Actual snap% | targets/carries | usage_gap | role_mult next |
-|--------|----------------------|--------------|-----------------|-----------|----------------|
-| | | | | | |
-
-Flag: high points / low usage (luck) vs low points / high usage (buy).
-
----
-
-## 5. Projection sources
-
-| Source | MAE this week (rostered) | Weight next week |
-|--------|--------------------------|------------------|
-| ESPN | | |
-| FantasyPros | | |
-| … | | |
-
-Sources that projected EXEMPT/PUP/IR as starters: **zeroed** for those players.
-
----
-
-## 6. Shadow edges (paper only — not live)
-
-| Signal | SPEC pick | Shadow pick | Δ actual PPR | Cum Δ | Flips |
-|--------|-----------|-------------|--------------|-------|-------|
-| vegas_flex | | | | | |
-| share_trend | | | | | |
-| dst_k_script | | | | | |
-
-**Promotion watch:** earliest Week 8 · need ≥6 flips · Ken approval required.
-
----
-
-## 7. Cumulative season ledger
-
-| Metric | Value |
-|--------|-------|
-| Season PPR for / against | |
-| Avg weekly Δ vs proj | |
-| FLEX regret sum | |
-| Process misses | |
-| Shadow leader (cum Δ) | |
-
----
-
-## 8. Next week hooks
-
-- Unlocks / bye threats  
-- Waiver MUST leftovers  
-- Form/usage names to watch  
-- Standings mode weights (default until Week 6)
-
----
-
-*Generated by Blitz · SPEC live · shadow paper-only · {as_of PT}*
+One sentence naming next week's opponent and their record.
 ```
