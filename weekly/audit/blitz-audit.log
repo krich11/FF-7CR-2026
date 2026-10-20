@@ -187,3 +187,4 @@ SHOT_AFTER week=1 TE=Goedert hash=8eb1de44a952a1abd413f1ee6721c996253c306f01ac85
 2026-10-20T07:20:00-05:00 INPUTS_MISSING week=6 data/projections/week-6.json data/usage/week-6-baseline.json assistant_post_monday_packet week-6-brief.md
 2026-10-20T07:20:00-05:00 SCORECARD_EMAIL_PENDING week=6 to=kaalrich@gmail.com reason=awaiting Ken send approval; Gmail draft with md attachment created
 2026-10-20T07:08:27-0500 SCORECARD_EMAILED W6 gmail msg 1a159366ad56f06b to kaalrich@gmail.com (draft r5370832064833082051) by Blitz routine w6-review-makeup
+2026-10-20T10:06:37-0500 SCORECARD_REWRITTEN week=6 plain_english=Ken_Oct20 commit=3fdd059; SCORECARD_EMAIL_PENDING week=6 to=kaalrich@gmail.com draft=r4967083449883726653 attach=md reason=awaiting Ken send approval
