@@ -191,3 +191,4 @@ SHOT_AFTER week=1 TE=Goedert hash=8eb1de44a952a1abd413f1ee6721c996253c306f01ac85
 2026-10-20T10:07:28-0500 SCORECARD_REVISED week=6 commit=5f7b659 rule=Ken_Oct20_no_arithmetic_chains; SCORECARD_EMAIL_PENDING week=6 to=kaalrich@gmail.com draft=r-1629015936030123895 attach=md supersedes=r4967083449883726653 reason=awaiting Ken send approval
 2026-10-20T14:15:00-05:00 LINEUP_APPLIED week=7 cmd='yes, set it' QB=Murray RB=Gordon,Jacobs bench=Brissett,Harvey,Marks verify=ok (RB order only)
 2026-10-21T09:16:00-05:00 FA_TXN week=7 cmd='claim David Montgomery drop Woody Marks' add=4035538 drop=4429059 txn=58db94a0 status=EXECUTED verify=ok Montgomery=BE
+2026-10-21T12:56:00-05:00 FA_TXN week=7 cmd='claim J.J. McCarthy drop Jacoby Brissett' add=4433970 drop=2578570
