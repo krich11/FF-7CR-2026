@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-20T12:13:47.495540-07:00",
+  "as_of": "2026-10-21T07:15:24.100365-07:00",
   "week": 7,
   "source": "espn_api",
   "league_id": "1776545061",
@@ -100,6 +100,15 @@
       "eligible_slots": []
     },
     {
+      "name": "David Montgomery",
+      "pos": "RB",
+      "espn_id": 4035538,
+      "espn_slot": "BE",
+      "lineupSlotId": 20,
+      "status_tag": "QUESTIONABLE",
+      "eligible_slots": []
+    },
+    {
       "name": "Hunter Henry",
       "pos": "TE",
       "espn_id": 3046439,
@@ -148,15 +157,6 @@
       "name": "TreVeyon Henderson",
       "pos": "RB",
       "espn_id": 4432710,
-      "espn_slot": "BE",
-      "lineupSlotId": 20,
-      "status_tag": null,
-      "eligible_slots": []
-    },
-    {
-      "name": "Woody Marks",
-      "pos": "RB",
-      "espn_id": 4429059,
       "espn_slot": "BE",
       "lineupSlotId": 20,
       "status_tag": null,
