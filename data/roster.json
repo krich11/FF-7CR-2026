@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-21T10:55:43.792749-07:00",
+  "as_of": "2026-10-22T15:52:53.624348-07:00",
   "week": 7,
   "source": "espn_api",
   "league_id": "1776545061",
@@ -11,7 +11,7 @@
     "RB2": "Ollie Gordon II",
     "WR1": "Drake London",
     "WR2": "Garrett Wilson",
-    "TE": "Dallas Goedert",
+    "TE": "Kyle Pitts Sr.",
     "DST": "Steelers D/ST",
     "K": "Matt Gay",
     "FLEX": "Germie Bernard",
@@ -55,9 +55,9 @@
       "eligible_slots": []
     },
     {
-      "name": "Dallas Goedert",
+      "name": "Kyle Pitts Sr.",
       "pos": "TE",
-      "espn_id": 3121023,
+      "espn_id": 4360248,
       "espn_slot": "TE",
       "lineupSlotId": 6,
       "status_tag": null,
@@ -100,12 +100,21 @@
       "eligible_slots": []
     },
     {
+      "name": "Dallas Goedert",
+      "pos": "TE",
+      "espn_id": 3121023,
+      "espn_slot": "BE",
+      "lineupSlotId": 20,
+      "status_tag": "QUESTIONABLE",
+      "eligible_slots": []
+    },
+    {
       "name": "David Montgomery",
       "pos": "RB",
       "espn_id": 4035538,
       "espn_slot": "BE",
       "lineupSlotId": 20,
-      "status_tag": "QUESTIONABLE",
+      "status_tag": "DOUBTFUL",
       "eligible_slots": []
     },
     {
@@ -130,15 +139,6 @@
       "name": "Jakobi Meyers",
       "pos": "WR",
       "espn_id": 3916433,
-      "espn_slot": "BE",
-      "lineupSlotId": 20,
-      "status_tag": null,
-      "eligible_slots": []
-    },
-    {
-      "name": "Kyle Pitts Sr.",
-      "pos": "TE",
-      "espn_id": 4360248,
       "espn_slot": "BE",
       "lineupSlotId": 20,
       "status_tag": null,
