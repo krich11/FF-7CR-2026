@@ -56,6 +56,8 @@ Read this with RULES.md before every lineup, waiver, add/drop, trade, or IR reco
 
 - Every trade must make sense for the other team too (Ken, Fri Oct 23 2026, 1:03 PM CT). Before any offer, write down why the other manager would say yes: which of their starters it upgrades, which need it fills, and what they lose. A long-shot offer is fine, but never one that looks one-sided, because a reputation for bad offers closes doors for the rest of the season.
 
+- Every trade gets a four-sided check before it reaches Ken, done automatically without being asked (Ken, Fri Oct 23 2026, 1:12 PM CT). Write down what we get, what we lose, what the other team gets, and what they lose, then where each side has to fill in afterward (lineup holes, bye weeks, free agents they would need, the roster spot they would have to clear). Use ESPN's rest-of-season projections, not season averages, so injuries and hot streaks don't skew the comparison. Never trade a starter for a player projected only slightly better. End with one decision, yes or no, and save the write-up under trades/.
+
 ## 9. Planning for the playoffs (Weeks 15 to 17)
 - From Week 11 on, weigh each player's Weeks 15 to 17 schedule, not just this week's.
 - Our bye-week holes: Week 8 (Marks, McCarthy), Week 9 (Bernard, Steelers D/ST), Week 10 (Goedert, Harvey), Week 11 (London, Pitts, Jacobs, Henderson, Henry), Week 13 (Wilson, Gay, our only kicker). Week 11 is the big one. Plan the fill-ins a week ahead, and make the adds before the Wednesday waiver run if a claim is needed.
