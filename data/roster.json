@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-22T15:52:53.624348-07:00",
+  "as_of": "2026-10-23T07:19:04.209543-07:00",
   "week": 7,
   "source": "espn_api",
   "league_id": "1776545061",
@@ -8,7 +8,7 @@
   "scoringPeriodId": 7,
   "starters": {
     "RB1": "Josh Jacobs",
-    "RB2": "Ollie Gordon II",
+    "RB2": "Woody Marks",
     "WR1": "Drake London",
     "WR2": "Garrett Wilson",
     "TE": "Kyle Pitts Sr.",
@@ -28,9 +28,9 @@
       "eligible_slots": []
     },
     {
-      "name": "Ollie Gordon II",
+      "name": "Woody Marks",
       "pos": "RB",
-      "espn_id": 4711533,
+      "espn_id": 4429059,
       "espn_slot": "RB",
       "lineupSlotId": 2,
       "status_tag": null,
@@ -109,15 +109,6 @@
       "eligible_slots": []
     },
     {
-      "name": "David Montgomery",
-      "pos": "RB",
-      "espn_id": 4035538,
-      "espn_slot": "BE",
-      "lineupSlotId": 20,
-      "status_tag": "DOUBTFUL",
-      "eligible_slots": []
-    },
-    {
       "name": "Hunter Henry",
       "pos": "TE",
       "espn_id": 3046439,
@@ -139,6 +130,15 @@
       "name": "Jakobi Meyers",
       "pos": "WR",
       "espn_id": 3916433,
+      "espn_slot": "BE",
+      "lineupSlotId": 20,
+      "status_tag": null,
+      "eligible_slots": []
+    },
+    {
+      "name": "Ollie Gordon II",
+      "pos": "RB",
+      "espn_id": 4711533,
       "espn_slot": "BE",
       "lineupSlotId": 20,
       "status_tag": null,

@@ -331,3 +331,5 @@ SHOT_AFTER week=1 TE=Goedert hash=8eb1de44a952a1abd413f1ee6721c996253c306f01ac85
 2026-10-21T10:55:43.793290-07:00	ESPN_API_SYNC n=17 starters={'RB1': 'Josh Jacobs', 'RB2': 'Ollie Gordon II', 'WR1': 'Drake London', 'WR2': 'Garrett Wilson', 'TE': 'Dallas Goedert', 'DST': 'Steelers D/ST', 'K': 'Matt Gay', 'FLEX': 'Germie Bernard', 'QB': 'Kyler Murray'}
 2026-10-22T15:52:53.207560-07:00	ESPN_API_LINEUP week=7 cmd='yes, set it' (War Room) TE Pitts in, Goedert to bench
 2026-10-22T15:52:53.624969-07:00	ESPN_API_SYNC n=17 starters={'RB1': 'Josh Jacobs', 'RB2': 'Ollie Gordon II', 'WR1': 'Drake London', 'WR2': 'Garrett Wilson', 'TE': 'Kyle Pitts Sr.', 'DST': 'Steelers D/ST', 'K': 'Matt Gay', 'FLEX': 'Germie Bernard', 'QB': 'Kyler Murray'}
+2026-10-23T07:19:03.911550-07:00	FA_TXN week=7 cmd='make it happen' (War Room) add=Marks 4429059 drop=Montgomery 4035538; LINEUP RB Marks in, Gordon to bench
+2026-10-23T07:19:04.210267-07:00	ESPN_API_SYNC n=17 starters={'RB1': 'Josh Jacobs', 'RB2': 'Woody Marks', 'WR1': 'Drake London', 'WR2': 'Garrett Wilson', 'TE': 'Kyle Pitts Sr.', 'DST': 'Steelers D/ST', 'K': 'Matt Gay', 'FLEX': 'Germie Bernard', 'QB': 'Kyler Murray'}
