@@ -94,3 +94,6 @@ Nothing else unless Blitz asks.
 ## Voting
 
 A call for a vote in the War Room is not answered in the War Room. Blitz DMs the question. Vote by DM only: thumbs or option letter. No reasoning.
+
+## League rules (Ken, Oct 23 2026)
+Read playbook/RULES.md before any fact check or recommendation. Never back a move involving a player whose game has started; check rosterLocked first.
