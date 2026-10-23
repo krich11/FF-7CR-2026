@@ -1,12 +1,13 @@
 {
   "week": 7,
-  "as_of": "2026-10-22T10:41:44-05:00",
+  "as_of": "2026-10-23T09:20:00-05:00",
   "source": "ESPN_API_mRoster",
   "rule": "state = ESPN tag; official_block benches only (Ken, Oct 15 2026)",
   "refresh": "ok",
   "roster_changes_since_last_file": [
     "ADD J.J. McCarthy / DROP Jacoby Brissett (Oct 21)",
-    "ADD David Montgomery / DROP Woody Marks (Oct 21)"
+    "ADD David Montgomery / DROP Woody Marks (Oct 21)",
+    "2026-10-23: added Woody Marks (FA), dropped David Montgomery; Marks starts RB, Gordon to bench."
   ],
   "wire_one_liner": "Week 7: Jacobs day-to-day, Montgomery questionable, Meyers on bye, Etienne on IR.",
   "players": [
@@ -173,7 +174,7 @@
       "play_prob": null,
       "snap_mult": 0.45,
       "official_block": null,
-      "lock_state": "UNLOCKED",
+      "lock_state": "LOCKED",
       "kickoff": "2026-10-22T19:15:00-05:00",
       "game_label": "NE @ CHI",
       "news": "Patriots final report QUESTIONABLE (ankle), LP all week. Noon inactives ~10:30 AM CT.",
@@ -184,7 +185,7 @@
       "player": "Ollie Gordon II",
       "pos": "RB",
       "team": "MIA",
-      "espn_slot": "RB",
+      "espn_slot": "BE",
       "espn_status": "ACTIVE",
       "state": "ACTIVE",
       "play_prob": 0.0,
@@ -224,7 +225,7 @@
       "play_prob": 1.0,
       "snap_mult": 1.0,
       "official_block": null,
-      "lock_state": "UNLOCKED",
+      "lock_state": "LOCKED",
       "kickoff": "2026-10-22T19:15:00-05:00",
       "game_label": "NE @ CHI",
       "news": "Not on Patriots report.",
@@ -266,23 +267,6 @@
       "as_of": "2026-10-22T10:41:32-05:00"
     },
     {
-      "player": "David Montgomery",
-      "pos": "RB",
-      "team": "HOU",
-      "espn_slot": "BE",
-      "espn_status": "QUESTIONABLE",
-      "state": "QUESTIONABLE",
-      "play_prob": null,
-      "snap_mult": null,
-      "official_block": null,
-      "lock_state": "UNLOCKED",
-      "kickoff": "2026-10-25T12:00:00-05:00",
-      "game_label": "NYG @ HOU",
-      "news": "ESPN tag QUESTIONABLE (groin). Added Wednesday for Woody Marks.",
-      "source": "ESPN_API_mRoster_2026-10-22T10:41",
-      "as_of": "2026-10-22T10:41:32-05:00"
-    },
-    {
       "player": "J.J. McCarthy",
       "pos": "QB",
       "team": "NYG",
@@ -298,6 +282,23 @@
       "news": "Giants named him the Week 7 starter vs Houston on Oct 21 (ESPN, Fowler). Added Oct 21 for Brissett.",
       "source": "ESPN_API_mRoster_2026-10-22T10:41",
       "as_of": "2026-10-22T10:41:32-05:00"
+    },
+    {
+      "player": "Woody Marks",
+      "pos": "RB",
+      "team": "HOU",
+      "espn_slot": "RB",
+      "espn_status": "ACTIVE",
+      "state": "ACTIVE",
+      "play_prob": 1.0,
+      "snap_mult": 1.0,
+      "official_block": null,
+      "lock_state": "UNLOCKED",
+      "kickoff": "2026-10-25T12:00:00-05:00",
+      "game_label": "NYG @ HOU",
+      "news": "Added as free agent Oct 23 for Montgomery (DOUBTFUL).",
+      "source": "ESPN_API_mRoster_2026-10-23T09:20",
+      "as_of": "2026-10-23T09:20:00-05:00"
     }
   ]
 }
