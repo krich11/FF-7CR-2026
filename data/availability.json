@@ -1,6 +1,6 @@
 {
   "week": 7,
-  "as_of": "2026-10-23T09:20:00-05:00",
+  "as_of": "2026-10-23T09:25:04-05:00",
   "source": "ESPN_API_mRoster",
   "rule": "state = ESPN tag; official_block benches only (Ken, Oct 15 2026)",
   "refresh": "ok",
@@ -25,8 +25,8 @@
       "kickoff": "2026-10-25T12:00:00-05:00",
       "game_label": "SF @ ATL",
       "news": "Falcons final report LP (hip), no game designation. Penix cleared (CBS).",
-      "source": "ESPN_API_mRoster_2026-10-22T10:41",
-      "as_of": "2026-10-22T10:41:32-05:00"
+      "source": "ESPN_API_mRoster_2026-10-23T09:25",
+      "as_of": "2026-10-23T09:25:04-05:00"
     },
     {
       "player": "Travis Etienne Jr.",
@@ -34,7 +34,7 @@
       "team": "NO",
       "espn_slot": "IR",
       "espn_status": "INJURY_RESERVE",
-      "state": "INJURY_RESERVE",
+      "state": "IR",
       "play_prob": 0.0,
       "snap_mult": 0.0,
       "official_block": null,
@@ -42,8 +42,8 @@
       "kickoff": "2026-10-25T08:30:00-05:00",
       "game_label": "PIT @ NO",
       "news": "On IR; holds IR slot.",
-      "source": "ESPN_API_mRoster_2026-10-22T10:41",
-      "as_of": "2026-10-22T10:41:32-05:00"
+      "source": "ESPN_API_mRoster_2026-10-23T09:25",
+      "as_of": "2026-10-23T09:25:04-05:00"
     },
     {
       "player": "Garrett Wilson",
@@ -59,14 +59,14 @@
       "kickoff": "2026-10-25T12:00:00-05:00",
       "game_label": "MIA @ NYJ",
       "news": "Not on Jets report.",
-      "source": "ESPN_API_mRoster_2026-10-22T10:41",
-      "as_of": "2026-10-22T10:41:32-05:00"
+      "source": "ESPN_API_mRoster_2026-10-23T09:25",
+      "as_of": "2026-10-23T09:25:04-05:00"
     },
     {
       "player": "Kyle Pitts Sr.",
       "pos": "TE",
       "team": "ATL",
-      "espn_slot": "BE",
+      "espn_slot": "TE",
       "espn_status": "ACTIVE",
       "state": "ACTIVE",
       "play_prob": 1.0,
@@ -76,16 +76,16 @@
       "kickoff": "2026-10-25T12:00:00-05:00",
       "game_label": "SF @ ATL",
       "news": "Penix cleared to play (CBS).",
-      "source": "ESPN_API_mRoster_2026-10-22T10:41",
-      "as_of": "2026-10-22T10:41:32-05:00"
+      "source": "ESPN_API_mRoster_2026-10-23T09:25",
+      "as_of": "2026-10-23T09:25:04-05:00"
     },
     {
       "player": "Dallas Goedert",
       "pos": "TE",
       "team": "PHI",
-      "espn_slot": "TE",
-      "espn_status": "ACTIVE",
-      "state": "ACTIVE",
+      "espn_slot": "BE",
+      "espn_status": "QUESTIONABLE",
+      "state": "QUESTIONABLE",
       "play_prob": 1.0,
       "snap_mult": 1.0,
       "official_block": null,
@@ -93,8 +93,8 @@
       "kickoff": "2026-10-26T19:15:00-05:00",
       "game_label": "DAL @ PHI",
       "news": "Injury tree: Hurts on IR (calf blood clot, Oct 17); Tanner McKee starts at QB. Eagles TEs Stowers and Calcaterra OUT.",
-      "source": "ESPN_API_mRoster_2026-10-22T10:41",
-      "as_of": "2026-10-22T10:41:32-05:00"
+      "source": "ESPN_API_mRoster_2026-10-23T09:25",
+      "as_of": "2026-10-23T09:25:04-05:00"
     },
     {
       "player": "Josh Jacobs",
@@ -110,8 +110,8 @@
       "kickoff": "2026-10-25T15:25:00-05:00",
       "game_label": "GB @ DET",
       "news": "Off the Commissioner's Exempt list Oct 19; eligible Week 7 at DET. LaFleur: Week 7 status to be determined. ESPN tag DAY_TO_DAY.",
-      "source": "ESPN_API_mRoster_2026-10-22T10:41",
-      "as_of": "2026-10-22T10:41:32-05:00"
+      "source": "ESPN_API_mRoster_2026-10-23T09:25",
+      "as_of": "2026-10-23T09:25:04-05:00"
     },
     {
       "player": "Steelers D/ST",
@@ -127,8 +127,8 @@
       "kickoff": "2026-10-25T08:30:00-05:00",
       "game_label": "PIT @ NO",
       "news": "Only D/ST.",
-      "source": "ESPN_API_mRoster_2026-10-22T10:41",
-      "as_of": "2026-10-22T10:41:32-05:00"
+      "source": "ESPN_API_mRoster_2026-10-23T09:25",
+      "as_of": "2026-10-23T09:25:04-05:00"
     },
     {
       "player": "Jakobi Meyers",
@@ -144,8 +144,8 @@
       "kickoff": null,
       "game_label": "BYE",
       "news": "Jaguars bye in Week 7.",
-      "source": "ESPN_API_mRoster_2026-10-22T10:41",
-      "as_of": "2026-10-22T10:41:32-05:00"
+      "source": "ESPN_API_mRoster_2026-10-23T09:25",
+      "as_of": "2026-10-23T09:25:04-05:00"
     },
     {
       "player": "Kyler Murray",
@@ -161,8 +161,8 @@
       "kickoff": "2026-10-25T12:00:00-05:00",
       "game_label": "IND @ MIN",
       "news": "Vikings bye Week 6.",
-      "source": "ESPN_API_mRoster_2026-10-22T10:41",
-      "as_of": "2026-10-22T10:41:32-05:00"
+      "source": "ESPN_API_mRoster_2026-10-23T09:25",
+      "as_of": "2026-10-23T09:25:04-05:00"
     },
     {
       "player": "TreVeyon Henderson",
@@ -178,8 +178,8 @@
       "kickoff": "2026-10-22T19:15:00-05:00",
       "game_label": "NE @ CHI",
       "news": "Patriots final report QUESTIONABLE (ankle), LP all week. Noon inactives ~10:30 AM CT.",
-      "source": "ESPN_API_mRoster_2026-10-22T10:41",
-      "as_of": "2026-10-22T10:41:32-05:00"
+      "source": "ESPN_API_mRoster_2026-10-23T09:25",
+      "as_of": "2026-10-23T09:25:04-05:00"
     },
     {
       "player": "Ollie Gordon II",
@@ -195,8 +195,8 @@
       "kickoff": "2026-10-25T12:00:00-05:00",
       "game_label": "MIA @ NYJ",
       "news": "Dolphins bye Week 6.",
-      "source": "ESPN_API_mRoster_2026-10-22T10:41",
-      "as_of": "2026-10-22T10:41:32-05:00"
+      "source": "ESPN_API_mRoster_2026-10-23T09:25",
+      "as_of": "2026-10-23T09:25:04-05:00"
     },
     {
       "player": "RJ Harvey",
@@ -211,9 +211,9 @@
       "lock_state": "UNLOCKED",
       "kickoff": "2026-10-25T15:05:00-05:00",
       "game_label": "DEN @ ARI",
-      "news": "Played Thursday; locked.",
-      "source": "ESPN_API_mRoster_2026-10-22T10:41",
-      "as_of": "2026-10-22T10:41:32-05:00"
+      "news": "DEN @ ARI Sunday 3:05 PM CT; not yet played.",
+      "source": "ESPN_API_mRoster_2026-10-23T09:25",
+      "as_of": "2026-10-23T09:25:04-05:00"
     },
     {
       "player": "Hunter Henry",
@@ -229,8 +229,8 @@
       "kickoff": "2026-10-22T19:15:00-05:00",
       "game_label": "NE @ CHI",
       "news": "Not on Patriots report.",
-      "source": "ESPN_API_mRoster_2026-10-22T10:41",
-      "as_of": "2026-10-22T10:41:32-05:00"
+      "source": "ESPN_API_mRoster_2026-10-23T09:25",
+      "as_of": "2026-10-23T09:25:04-05:00"
     },
     {
       "player": "Germie Bernard",
@@ -246,8 +246,8 @@
       "kickoff": "2026-10-25T08:30:00-05:00",
       "game_label": "PIT @ NO",
       "news": "Not on Pittsburgh's report.",
-      "source": "ESPN_API_mRoster_2026-10-22T10:41",
-      "as_of": "2026-10-22T10:41:32-05:00"
+      "source": "ESPN_API_mRoster_2026-10-23T09:25",
+      "as_of": "2026-10-23T09:25:04-05:00"
     },
     {
       "player": "Matt Gay",
@@ -263,8 +263,8 @@
       "kickoff": "2026-10-25T15:25:00-05:00",
       "game_label": "LAR @ LV",
       "news": "Added from FA, Eddy Pineiro dropped, ESPN transaction 7:50 AM CT Sun Oct 18 (straight into K slot). Not on Raiders' report.",
-      "source": "ESPN_API_mRoster_2026-10-22T10:41",
-      "as_of": "2026-10-22T10:41:32-05:00"
+      "source": "ESPN_API_mRoster_2026-10-23T09:25",
+      "as_of": "2026-10-23T09:25:04-05:00"
     },
     {
       "player": "J.J. McCarthy",
@@ -280,8 +280,8 @@
       "kickoff": "2026-10-25T12:00:00-05:00",
       "game_label": "NYG @ HOU",
       "news": "Giants named him the Week 7 starter vs Houston on Oct 21 (ESPN, Fowler). Added Oct 21 for Brissett.",
-      "source": "ESPN_API_mRoster_2026-10-22T10:41",
-      "as_of": "2026-10-22T10:41:32-05:00"
+      "source": "ESPN_API_mRoster_2026-10-23T09:25",
+      "as_of": "2026-10-23T09:25:04-05:00"
     },
     {
       "player": "Woody Marks",
@@ -297,8 +297,8 @@
       "kickoff": "2026-10-25T12:00:00-05:00",
       "game_label": "NYG @ HOU",
       "news": "Added as free agent Oct 23 for Montgomery (DOUBTFUL).",
-      "source": "ESPN_API_mRoster_2026-10-23T09:20",
-      "as_of": "2026-10-23T09:20:00-05:00"
+      "source": "ESPN_API_mRoster_2026-10-23T09:25",
+      "as_of": "2026-10-23T09:25:04-05:00"
     }
   ]
 }
