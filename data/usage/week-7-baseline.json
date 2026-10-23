@@ -81,7 +81,13 @@
       "player": "Ollie Gordon II",
       "pos": "RB",
       "team": "MIA",
-      "actual_offense_snap_pct_2026": {},
+      "actual_offense_snap_pct_2026": {
+        "W1": 0.07,
+        "W2": 0.19,
+        "W3": 0.84,
+        "W4": 0.56,
+        "W5": 0.65
+      },
       "assumed_snap_pct_w7": 0.65,
       "role_w7": "Lead/committee back (bench for QBZ)",
       "basis": "W3 84%, W4 56%, W5 65%; MIA bye W6. Achane has no snaps since W3 (5%).",
