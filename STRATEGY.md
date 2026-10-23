@@ -20,6 +20,7 @@ Read this with RULES.md before every lineup, waiver, add/drop, trade, or IR reco
 - Fill all nine starting slots every week with players who have a game. A bye, OUT, or inactive starter is a guaranteed zero.
 - Start the highest ESPN projection at each slot unless there is a real ESPN flag or official news. An unflagged player is playing.
 - Timing trap: if a starter plays later in the week than the bench player who would replace him, the replacement locks first. Decide before the earlier kickoff. Example: Week 7, Goedert (questionable, Monday night) was benched for Pitts (Sunday noon) on Thursday so we would not be stuck with a zero.
+- Matchups (agreed in the War Room, Oct 23 2026): ESPN's projection already accounts for the opposing defense, so a weak defense doesn't make a player more likely to beat his projection. It does make a big game more likely. When two players project within about a point of each other and we are behind, start the one facing the worse defense. Real edges come from news ESPN hasn't absorbed yet (a teammate's injury, a role change, missed practice). Don't double-count news or recent games the projection already includes.
 - Never call any slot "only X." Every week, compare our K, D/ST, and backup QB against the best free agent.
 - When a starter's QB or play-caller changes, re-check that slot the same day.
 
