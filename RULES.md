@@ -7,7 +7,7 @@ Read this before every lineup, waiver, add/drop, trade, or IR recommendation. Pu
 - Scoring highlights: 0.04 per passing yard (1 per 25), 4 per passing TD, -2 per interception, 0.1 per rushing or receiving yard, 6 per rushing or receiving TD, -2 per fumble lost, 2 per two-point conversion.
 - Ties stand as ties (no tiebreaker) in the regular season and the playoffs.
 - Regular season is 14 matchup weeks (Weeks 1 to 14). One matchup per week.
-- Six teams make the playoffs, seeded by TOTAL POINTS SCORED, not record, with reseeding each round. Points scored matter every week, even in a loss.
+- Six teams make the playoffs, seeded by WIN-LOSS RECORD, with reseeding each round. Total points scored is the tiebreaker for teams with the same record (ESPN setting playoffSeedingRule = TOTAL_POINTS_SCORED is the tiebreaker field, not the seeding method; corrected Oct 23 2026 after Assistant caught it).
 - Playoffs are Weeks 15, 16, and 17, one week per round. The top two seeds get a bye in Week 15. There is a consolation bracket for the other six teams.
 
 ## Lineup (every slot must be filled every week)

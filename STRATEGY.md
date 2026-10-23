@@ -3,9 +3,9 @@
 Read this with RULES.md before every lineup, waiver, add/drop, trade, or IR recommendation. Blitz owns this file. Written Fri Oct 23 2026 on Ken's order. Older trade-by-trade play history is in playbook/STRATEGY.md; lessons are in playbook/LESSONS.md.
 
 ## 1. The goal and where we stand
-- Playoff seeding is by total points scored, not record (see RULES.md). Making the top six on points is the goal. Wins matter only as pride and tiebreaks; points matter every week, including losses.
-- As of Fri Oct 23 2026 we are 1-5 with 612.8 points, 11th of 12 in points. Sixth place in points is The Chosen Ones at 719.0, about 106 points ahead, with eight weeks left (Weeks 7 to 14). We need to outscore the sixth-place team by about 13 points a week to catch them. Re-check this number every Tuesday.
-- Because of that gap, the default is to chase points: start the highest projected player unless there is real news against him, and lean toward the higher-ceiling player when two are close.
+- Playoff seeding is by record. Total points scored breaks ties (see RULES.md). Wins are the goal; points are the tiebreaker, so they still matter every week.
+- As of Fri Oct 23 2026 we are 1-5 with 612.8 points. Sixth place is 3-3 (The Chosen Ones 719.0, La Lightning 711.6), two games ahead with eight games left (Weeks 7 to 14). We need to win most of our remaining games, and we are behind most teams on the tiebreaker, so we need the points too. Re-check every Tuesday.
+- Because we are behind, the default is to chase a win each week: start the highest projected player unless there is real news against him, and lean toward the higher-ceiling player when we are projected to lose and two players are close.
 
 ## 2. The weekly cycle (all times CT)
 - Monday night: the week ends after the Monday game. Players unlock.
