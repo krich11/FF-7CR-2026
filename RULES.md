@@ -1,4 +1,4 @@
-# League rules canon (7 Creeks, ESPN, 2026)
+# RULES.md: league rules canon (7 Creeks Armchair Quarterbacks, ESPN, 2026)
 
 Read this before every lineup, waiver, add/drop, trade, or IR recommendation. Pulled from ESPN league settings (mSettings) on Fri Oct 23 2026 and ESPN Fan Support. Ken ordered this after Blitz proposed dropping a player who was already locked (Oct 23 2026). Re-pull settings if anything here looks wrong; ESPN settings win over this file.
 
@@ -6,7 +6,9 @@ Read this before every lineup, waiver, add/drop, trade, or IR recommendation. Pu
 - Head-to-head points, full PPR (1 point per catch). 12 teams, one division.
 - Scoring highlights: 0.04 per passing yard (1 per 25), 4 per passing TD, -2 per interception, 0.1 per rushing or receiving yard, 6 per rushing or receiving TD, -2 per fumble lost, 2 per two-point conversion.
 - Ties stand as ties (no tiebreaker) in the regular season and the playoffs.
-- Regular season is 14 matchup weeks (Weeks 1 to 14). Six teams make the playoffs, seeded by TOTAL POINTS SCORED, not record, with reseeding each round. Points scored matter every week, even in a loss.
+- Regular season is 14 matchup weeks (Weeks 1 to 14). One matchup per week.
+- Six teams make the playoffs, seeded by TOTAL POINTS SCORED, not record, with reseeding each round. Points scored matter every week, even in a loss.
+- Playoffs are Weeks 15, 16, and 17, one week per round. The top two seeds get a bye in Week 15. There is a consolation bracket for the other six teams.
 
 ## Lineup (every slot must be filled every week)
 - QB 1, RB 2, WR 2, TE 1, FLEX 1 (RB, WR, or TE), D/ST 1, K 1. That's 9 starters.
@@ -32,6 +34,16 @@ Read this before every lineup, waiver, add/drop, trade, or IR recommendation. Pu
 
 ## Trades
 - Deadline is Wed Dec 2 2026 at 11:00 AM CT. Four veto votes block a trade, with a 24-hour review period.
+
+## Basic game rules that apply every week
+- A player scores only for the week's NFL games. A player on a bye, OUT, or inactive scores zero in a starting slot.
+- ESPN's status tag decides availability for our calls (Ken, Oct 15 2026). An official can't-play list (inactives, IR, PUP, suspension, Commissioner's Exempt) can bench a player before ESPN catches up, but never starts one.
+- Game-day inactive lists come out 90 minutes before each kickoff. Final injury designations (out, doubtful, questionable) come out two days before a game: Friday for Sunday games, Saturday for Monday games.
+- A team's D/ST scores on points and yards allowed plus sacks, takeaways, and return or defensive touchdowns. A kicker scores on field goals and extra points. Both depend heavily on the matchup, so both are usually picked week to week.
+- The weekly score is the sum of the nine starters only. Bench points count for nothing.
+
+## Our bye weeks (2026, from ESPN)
+- Meyers Week 7, Etienne Week 8, Steelers D/ST Week 9, Houston players (Marks) Week 8, Giants players (McCarthy) Week 8, London, Pitts, and Jacobs Week 11, Wilson Week 13. Re-check on ESPN when the roster changes.
 
 ## Checklist before any recommendation
 1. Is every starting slot filled with a player who has a game this week (no bye, no OUT)?

@@ -106,4 +106,4 @@ Do not add a rule because a bench player had one big game. Add a rule when the j
 
 ## 2026-10-23 Week 7: proposed dropping a locked player
 - What happened: Blitz proposed adding Marks and dropping Hunter Henry, but Henry had already played Thursday night and ESPN locks a player once his game starts. Ken caught it; Assistant agreed with the wrong plan first.
-- Fix rule: read playbook/RULES.md before every recommendation, check rosterLocked on mRoster before naming a drop, and propose only unlocked players.
+- Fix rule: read RULES.md and STRATEGY.md (repo root) before every recommendation, check rosterLocked on mRoster before naming a drop, and propose only unlocked players.
