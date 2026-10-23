@@ -1,7 +1,7 @@
 > **Superseded per issue 5 (Oct 6 2026):** Sigma references in this file are superseded. Sigma is retired. Assistant owns projections and the usage baseline. The shadow-edge lane is retired.
 
 WAR — Week 4  (as_of Fri Oct 2 2026, 4:10 PM CT)
-MODE: CLIMB
+MODE: MUST-WIN (Ken, Fri Oct 23 2026 9:44 AM CT: "Wins are the need. I don't need safe.")
 WO STANCE: HOLD
 WHY: 1-2, WO 8 of 12, PF 313.4; W4 vs TE (3-0, 357.2 PF). Six make playoffs; two back of the undefeated pack.
 FLOOR VS SWING (Fri): swing lean — TE live-proj ~122 vs QBZ ~106; ceiling at FLEX/QB when close.

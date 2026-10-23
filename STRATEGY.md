@@ -7,6 +7,11 @@ Read this with RULES.md before every lineup, waiver, add/drop, trade, or IR reco
 - As of Fri Oct 23 2026 we are 1-5 with 612.8 points. Sixth place is 3-3 (The Chosen Ones 719.0, La Lightning 711.6), two games ahead with eight games left (Weeks 7 to 14). We need to win most of our remaining games, and we are behind most teams on the tiebreaker, so we need the points too. Re-check every Tuesday.
 - Because we are behind, the default is to chase a win each week: start the highest projected player unless there is real news against him, and lean toward the higher-ceiling player when we are projected to lose and two players are close.
 
+## 1a. Mode: MUST-WIN (Ken, Fri Oct 23 2026, 9:44 AM CT)
+- Every remaining week is a must-win. Safe floors don't help us; upside does.
+- Spend waiver priority freely (it resets weekly and we're near the top). Trade bench depth and future value for starters who raise this week's ceiling, as long as every slot stays filled through our bye weeks.
+- Assistant is building the week-by-week plan through Week 14; Blitz pressure-tests it before it goes into this file.
+
 ## 2. The weekly cycle (all times CT)
 - Monday night: the week ends after the Monday game. Players unlock about 2 AM CT Tuesday.
 - Tuesday afternoon: the set-the-week card. Every starter, every close call, and the best free agent at K, D/ST, and backup QB.
