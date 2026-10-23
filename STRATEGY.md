@@ -8,13 +8,13 @@ Read this with RULES.md before every lineup, waiver, add/drop, trade, or IR reco
 - Because we are behind, the default is to chase a win each week: start the highest projected player unless there is real news against him, and lean toward the higher-ceiling player when we are projected to lose and two players are close.
 
 ## 2. The weekly cycle (all times CT)
-- Monday night: the week ends after the Monday game. Players unlock.
+- Monday night: the week ends after the Monday game. Players unlock about 2 AM CT Tuesday.
 - Tuesday afternoon: the set-the-week card. Every starter, every close call, and the best free agent at K, D/ST, and backup QB.
-- Wednesday overnight (about 2:00 to 2:30 AM): waiver claims process. Free agents can be added any time after that.
+- Waivers run overnight (about 2:00 to 4:00 AM) every day except Tuesday. Wednesday's run is the big one; free agents can be added any time after a player clears.
 - Thursday evening: Thursday-game players lock at kickoff. Anything involving them (start, bench, drop, trade) must be done before then.
 - Friday afternoon: final injury designations for Sunday games. Re-check every flagged starter.
 - Saturday afternoon: final designations for Monday-night games.
-- Sunday: inactives come out 90 minutes before each kickoff (about 10:30 AM for noon games, 1:35 PM for the 3:05 and 3:25 games). Swap out any starter on an inactive list before his game locks.
+- Sunday: inactives come out 90 minutes before each kickoff (about 10:30 AM for noon games, 1:35 PM for 3:05 games, 1:55 PM for 3:25 games, 5:50 PM for Sunday night, and 5:45 PM Monday for a 7:15 Monday game). Swap out any starter on an inactive list before his game locks.
 
 ## 3. Setting the lineup
 - Fill all nine starting slots every week with players who have a game. A bye, OUT, or inactive starter is a guaranteed zero.
@@ -24,9 +24,10 @@ Read this with RULES.md before every lineup, waiver, add/drop, trade, or IR reco
 - When a starter's QB or play-caller changes, re-check that slot the same day.
 
 ## 4. Free agents and waivers
-- Free agents first. A free-agent add is instant and costs nothing. A waiver claim waits for the overnight run and costs waiver priority.
+- Free agents first. A free-agent add is instant and costs nothing. A waiver claim waits for the overnight run and costs waiver priority, but the order resets weekly to the reverse of the standings, so at 1-5 a claim costs us little.
+- Add a free agent before his game kicks off; after kickoff he's frozen until the week rolls over.
 - Spend waiver priority only on a player who would start for us or fills a real hole for several weeks. Don't spend it on one good week or on a player whose playoff schedule is bad.
-- Before naming a drop, check that he is unlocked (RULES.md), then drop the player with the least value for the rest of the season. Consider his bye, injury timeline, and role, not just this week's projection.
+- Before naming a drop, check that he is unlocked (RULES.md), check that the add doesn't break a position cap (TE is full at three), then drop the player with the least value for the rest of the season. Consider his bye, injury timeline, and role, not just this week's projection.
 - When a starter's backup takes over a job (injury, benching), check whether the new lead player is a free agent that day and act before the rest of the league does.
 - Keep D/ST and K to one each unless a two-week plan needs a second.
 
@@ -36,11 +37,11 @@ Read this with RULES.md before every lineup, waiver, add/drop, trade, or IR reco
 
 ## 6. Quarterback
 - Start whichever of our two QBs ESPN projects higher, unless there is news. Keep a real backup who has a starting job, so an injury or bye never leaves the slot empty.
-- Through Week 7: Murray starts and McCarthy is the backup. Murray's bye is past.
+- Through Week 7: Murray starts and McCarthy is the backup. Murray's bye is past. McCarthy is on bye in Week 8, so Murray has no backup that week.
 
 ## 7. Injured reserve
 - Keep the one IR slot working. Only ESPN OUT or IR players qualify. Moving an eligible player there opens a bench spot for a free agent.
-- A player in IR who loses his tag entirely makes the roster invalid until he is moved out, so check IR whenever an injured player returns.
+- A player in IR who loses his tag entirely makes the roster invalid until he is moved out, so check IR whenever an injured player returns. That also blocks claims, adds, and trades.
 
 ## 8. Trades
 - Deadline is Wed Dec 2 2026, 11:00 AM CT.
@@ -49,7 +50,7 @@ Read this with RULES.md before every lineup, waiver, add/drop, trade, or IR reco
 
 ## 9. Planning for the playoffs (Weeks 15 to 17)
 - From Week 11 on, weigh each player's Weeks 15 to 17 schedule, not just this week's.
-- Our bye-week holes: Week 8 (Etienne, Marks, McCarthy), Week 9 (Steelers D/ST), Week 11 (London, Pitts, Jacobs), Week 13 (Wilson). Plan the fill-ins a week ahead, and make the adds before the Wednesday waiver run if a claim is needed.
+- Our bye-week holes: Week 8 (Marks, McCarthy), Week 9 (Bernard, Steelers D/ST), Week 10 (Goedert, Harvey), Week 11 (London, Pitts, Jacobs, Henderson, Henry), Week 13 (Wilson, Gay, our only kicker). Week 11 is the big one. Plan the fill-ins a week ahead, and make the adds before the Wednesday waiver run if a claim is needed.
 
 ## 10. How we work
 - ESPN is the source of truth for player status and points.
