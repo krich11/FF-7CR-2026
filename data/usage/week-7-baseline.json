@@ -1,0 +1,258 @@
+{
+  "week": 7,
+  "as_of": "2026-10-23T09:30:00-05:00",
+  "scope": "QBZ QB/RB/WR/TE on roster (ESPN mRoster 2026-10-23 09:20 CT)",
+  "sources": {
+    "snaps": "nflverse-data release snap_counts/snap_counts_2026.csv (offense_pct, Weeks 1-7 incl. TNF)",
+    "status": "ESPN mRoster injuryStatus + data/availability.json news",
+    "news": "Packers On SI / Pride of Detroit Oct 22 (Jacobs practice); ESPN (McCarthy starter)"
+  },
+  "method": "assumed_snap_pct_w7 = rounded recent actual share (last 2-3 games in current role), adjusted only for listed role flags. null = unknown, see unknown_reason or already_played.",
+  "unknown_rows": [
+    "Josh Jacobs"
+  ],
+  "already_played": [
+    "TreVeyon Henderson",
+    "Hunter Henry"
+  ],
+  "players": [
+    {
+      "player": "Kyler Murray",
+      "pos": "QB",
+      "team": "MIN",
+      "actual_offense_snap_pct_2026": {
+        "W1": 0.17,
+        "W3": 1.0,
+        "W4": 1.0,
+        "W5": 1.0
+      },
+      "assumed_snap_pct_w7": 1.0,
+      "role_w7": "Starting QB",
+      "basis": "100% in W3-W5 (W1 17%; no W2 snaps, Wentz played W2 at 100%). MIN bye W6."
+    },
+    {
+      "player": "J.J. McCarthy",
+      "pos": "QB",
+      "team": "NYG",
+      "actual_offense_snap_pct_2026": {
+        "W5": 0.06,
+        "W6": 0.4
+      },
+      "assumed_snap_pct_w7": 1.0,
+      "role_w7": "Starting QB (bench for QBZ)",
+      "basis": "Giants named him the W7 starter on Oct 21 (ESPN, Fowler). Actual: W5 6%, W6 40% behind Winston (60%). Full-game starter share assumed from his naming, not from his own snap history.",
+      "role_change_flags": [
+        "New starter: no full game as starter yet in 2026."
+      ]
+    },
+    {
+      "player": "Josh Jacobs",
+      "pos": "RB",
+      "team": "GB",
+      "actual_offense_snap_pct_2026": {},
+      "assumed_snap_pct_w7": null,
+      "role_w7": "Expected lead back if active; workload unknown",
+      "basis": "No 2026 snaps: on the Commissioner's Exempt list Weeks 1-6, reinstated Oct 19. First practices Wed (walkthrough) and Thu (full pads). LaFleur: status to be determined after Friday. 2025 reference: 59.1% avg over 15 regular-season games (nflverse snap_counts_2025).",
+      "role_change_flags": [
+        "Return from Exempt list; snap share likely limited/ramped. GB RBs W6: Strong 55%, Lloyd 40%."
+      ],
+      "unknown_reason": "No 2026 game snaps; first game back after two practices; team has not given a snap plan."
+    },
+    {
+      "player": "Woody Marks",
+      "pos": "RB",
+      "team": "HOU",
+      "actual_offense_snap_pct_2026": {
+        "W1": 0.51,
+        "W2": 0.48,
+        "W3": 0.37,
+        "W4": 0.44,
+        "W5": 0.85,
+        "W6": 0.78
+      },
+      "assumed_snap_pct_w7": 0.8,
+      "role_w7": "Lead back",
+      "basis": "W5 85% and W6 78% with Montgomery limited (W5 14%) and absent (W6). W1-W4 split ~37-51%.",
+      "role_change_flags": [
+        "Montgomery DOUBTFUL (ESPN): Marks lead-back role as in W5-W6. If Montgomery is active, expect W1-W4 split (~45%)."
+      ]
+    },
+    {
+      "player": "Ollie Gordon II",
+      "pos": "RB",
+      "team": "MIA",
+      "actual_offense_snap_pct_2026": {},
+      "assumed_snap_pct_w7": 0.65,
+      "role_w7": "Lead/committee back (bench for QBZ)",
+      "basis": "W3 84%, W4 56%, W5 65%; MIA bye W6. Achane has no snaps since W3 (5%).",
+      "role_change_flags": [
+        "Achane absence opened the role; if Achane returns, share drops (W1-W2 Gordon 7-19%)."
+      ]
+    },
+    {
+      "player": "RJ Harvey",
+      "pos": "RB",
+      "team": "DEN",
+      "actual_offense_snap_pct_2026": {
+        "W1": 0.51,
+        "W3": 0.36,
+        "W4": 0.44,
+        "W5": 0.37,
+        "W6": 0.4
+      },
+      "assumed_snap_pct_w7": 0.4,
+      "role_w7": "Committee No. 2 behind Dobbins (bench for QBZ)",
+      "basis": "W3-W6 36-44%; Dobbins 32-52% same span."
+    },
+    {
+      "player": "TreVeyon Henderson",
+      "pos": "RB",
+      "team": "NE",
+      "actual_offense_snap_pct_2026": {
+        "W2": 0.6,
+        "W3": 0.37,
+        "W4": 0.37,
+        "W5": 0.16,
+        "W6": 0.24,
+        "W7": 0.24
+      },
+      "assumed_snap_pct_w7": null,
+      "role_w7": "Already played W7 (TNF Oct 22, NE @ CHI), from QBZ bench",
+      "basis": "Actual W7 snaps 24% (Stevenson 69%). Locked.",
+      "already_played": true,
+      "actual_snap_pct_w7": 0.24
+    },
+    {
+      "player": "Travis Etienne Jr.",
+      "pos": "RB",
+      "team": "NO",
+      "actual_offense_snap_pct_2026": {
+        "W1": 0.59,
+        "W2": 0.54,
+        "W3": 0.38
+      },
+      "assumed_snap_pct_w7": 0.0,
+      "role_w7": "On IR",
+      "basis": "Last snaps W3 (38%). Holds QBZ IR slot."
+    },
+    {
+      "player": "Drake London",
+      "pos": "WR",
+      "team": "ATL",
+      "actual_offense_snap_pct_2026": {
+        "W1": 0.98,
+        "W2": 0.62,
+        "W3": 0.93,
+        "W4": 0.89,
+        "W5": 0.98,
+        "W6": 1.0
+      },
+      "assumed_snap_pct_w7": 0.95,
+      "role_w7": "WR1",
+      "basis": "89-100% in W3-W6 (W2 62%). Falcons final report LP (hip), no game designation."
+    },
+    {
+      "player": "Garrett Wilson",
+      "pos": "WR",
+      "team": "NYJ",
+      "actual_offense_snap_pct_2026": {
+        "W1": 0.75,
+        "W2": 0.88,
+        "W3": 0.94,
+        "W4": 1.0,
+        "W5": 0.93,
+        "W6": 0.98
+      },
+      "assumed_snap_pct_w7": 0.95,
+      "role_w7": "WR1",
+      "basis": "93-100% in W3-W6. Not on Jets report."
+    },
+    {
+      "player": "Germie Bernard",
+      "pos": "WR",
+      "team": "PIT",
+      "actual_offense_snap_pct_2026": {
+        "W1": 0.04,
+        "W2": 0.79,
+        "W3": 0.27,
+        "W4": 0.4,
+        "W5": 0.92,
+        "W6": 0.94
+      },
+      "assumed_snap_pct_w7": 0.9,
+      "role_w7": "WR2 (FLEX for QBZ)",
+      "basis": "W5 92%, W6 94%; W3-W4 27-40%.",
+      "role_change_flags": [
+        "Role grew from W5; two-week sample."
+      ]
+    },
+    {
+      "player": "Jakobi Meyers",
+      "pos": "WR",
+      "team": "JAX",
+      "actual_offense_snap_pct_2026": {
+        "W1": 0.65,
+        "W2": 0.9,
+        "W3": 0.81,
+        "W4": 0.82,
+        "W5": 0.85,
+        "W6": 0.75
+      },
+      "assumed_snap_pct_w7": 0.0,
+      "role_w7": "BYE",
+      "basis": "Jaguars bye Week 7. 2026 range 65-90%."
+    },
+    {
+      "player": "Kyle Pitts Sr.",
+      "pos": "TE",
+      "team": "ATL",
+      "actual_offense_snap_pct_2026": {
+        "W1": 0.63,
+        "W2": 0.38,
+        "W3": 0.59,
+        "W4": 0.51,
+        "W5": 0.67,
+        "W6": 0.78
+      },
+      "assumed_snap_pct_w7": 0.7,
+      "role_w7": "TE1 (QBZ starting TE)",
+      "basis": "W4 51%, W5 67%, W6 78% (rising)."
+    },
+    {
+      "player": "Dallas Goedert",
+      "pos": "TE",
+      "team": "PHI",
+      "actual_offense_snap_pct_2026": {
+        "W1": 0.95,
+        "W2": 0.25,
+        "W5": 0.69,
+        "W6": 0.81
+      },
+      "assumed_snap_pct_w7": 0.8,
+      "role_w7": "TE1 if active (bench for QBZ)",
+      "basis": "W5 69%, W6 81% (W3-W4 no snaps). ESPN QUESTIONABLE.",
+      "role_change_flags": [
+        "Hurts on IR (calf blood clot, Oct 17): Tanner McKee QB (100% W6). Eagles TEs Stowers and Calcaterra OUT, so Goedert has little TE competition if he plays (Mundt 30% W6). Goedert snap share depends on his own status."
+      ]
+    },
+    {
+      "player": "Hunter Henry",
+      "pos": "TE",
+      "team": "NE",
+      "actual_offense_snap_pct_2026": {
+        "W1": 0.76,
+        "W2": 0.91,
+        "W3": 0.7,
+        "W4": 0.64,
+        "W5": 0.64,
+        "W6": 0.76,
+        "W7": 0.76
+      },
+      "assumed_snap_pct_w7": null,
+      "role_w7": "Already played W7 (TNF Oct 22, NE @ CHI), from QBZ bench",
+      "basis": "Actual W7 snaps 76%. Locked.",
+      "already_played": true,
+      "actual_snap_pct_w7": 0.76
+    }
+  ]
+}
