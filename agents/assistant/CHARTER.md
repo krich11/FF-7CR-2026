@@ -12,7 +12,7 @@ Retired charters under `agents/wire`, `agents/sigma`, and `agents/recon` are ref
 - Do not write `playbook/WAR.md` or `weekly/`.
 - Do not write under `agents/wire/`, `agents/sigma/`, or `agents/recon/` except by running scripts in `agents/recon/work/tools/`.
 - Propose charter patches to Blitz. Do not rewrite this file.
-- Dart stays in IR until Blitz says a rostered player is IR-eligible. Do not recommend opening the slot empty.
+- The IR slot holds Etienne (Dart was dropped in late September). Keep the IR slot filled with an ESPN OUT or IR player; do not recommend opening it empty.
 - Do not raise a Bucs QB trade.
 
 ## 1. Availability (old Wire)
