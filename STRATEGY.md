@@ -1,6 +1,8 @@
 # STRATEGY.md: how Quantum Blitz plays the 2026 season
 
-Read this with RULES.md before every lineup, waiver, add/drop, trade, or IR recommendation. Blitz owns this file. Written Fri Oct 23 2026 on Ken's order. Older trade-by-trade play history is in playbook/STRATEGY.md; lessons are in playbook/LESSONS.md.
+PLAYBOOK.md (repo root) is the one rulebook and wins over this file; this file holds season strategy detail.
+
+Read this with RULES.md before every lineup, waiver, add/drop, trade, or IR recommendation. Blitz owns this file. Written Fri Oct 23 2026 on Ken's order. Older trade-by-trade play history is archived in archive/2026-10-24/playbook/STRATEGY.md; lessons are in playbook/LESSONS.md and summarized in PLAYBOOK.md.
 
 ## 1. The goal and where we stand
 - Playoff seeding is by record. Total points scored breaks ties (see RULES.md). Wins are the goal; points are the tiebreaker, so they still matter every week.
@@ -19,7 +21,7 @@ Read this with RULES.md before every lineup, waiver, add/drop, trade, or IR reco
 - Thursday evening: Thursday-game players lock at kickoff. Anything involving them (start, bench, drop, trade) must be done before then.
 - Friday afternoon: final injury designations for Sunday games. Re-check every flagged starter.
 - Saturday afternoon: final designations for Monday-night games.
-- Sunday: inactives come out 90 minutes before each kickoff (about 10:30 AM for noon games, 1:35 PM for 3:05 games, 1:55 PM for 3:25 games, 5:50 PM for Sunday night, and 5:45 PM Monday for a 7:15 Monday game). Swap out any starter on an inactive list before his game locks.
+- Sunday: the dead-man and inactives check runs at 9:53 AM. Inactives come out 90 minutes before each kickoff (about 10:30 AM for noon games, 1:35 PM for 3:05 games, 1:55 PM for 3:25 games, 5:50 PM for Sunday night, and 5:45 PM Monday for a 7:15 Monday game). Swap out any starter on an inactive list before his game locks.
 
 ## 3. Setting the lineup
 - Fill all nine starting slots every week with players who have a game. A bye, OUT, or inactive starter is a guaranteed zero.

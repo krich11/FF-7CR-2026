@@ -1,13 +1,10 @@
 # playbook/
 
-Shared law and the live operating files for the team.
+Live support files. The rulebook is PLAYBOOK.md at the repo root.
 
-Notable files by role, not by week:
+- LESSONS.md: dated lessons; the standing rules are summarized in PLAYBOOK.md.
+- CLAIMS.md: waiver requests.
+- SCORECARD.md: weekly scorecard template.
+- CONSULT.md: Consultant's inbox for Blitz.
 
-- `CONSULT.md` — Consultant → Blitz inbox. Blitz reads before cards and claims.
-- `WAR.md` — decision log
-- `CLAIMS.md` — claim ticket
-- `ARBITER.md` — standing orders
-- `STRATEGY.md` `OPS.md` `SPEC.md` `WAIVERS.md` — doctrine
-- `LAW-*` — dated standing law
-- `LESSONS.md` `CONTINGENCY.md` — process memory
+Retired files (SPEC, LAW, WAR, TEAM, WAIVERS, and others) are in archive/2026-10-24/playbook/.

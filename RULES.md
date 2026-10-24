@@ -1,5 +1,7 @@
 # RULES.md: league rules canon (7 Creeks Armchair Quarterbacks, ESPN, 2026)
 
+PLAYBOOK.md (repo root) is the one rulebook for how we operate; this file holds the league's rules in detail.
+
 Read this before every lineup, waiver, add/drop, trade, or IR recommendation. Pulled from ESPN league settings (mSettings) on Fri Oct 23 2026 and ESPN Fan Support. Ken ordered this after Blitz proposed dropping a player who was already locked (Oct 23 2026). Re-pull settings if anything here looks wrong; ESPN settings win over this file.
 
 ## Format

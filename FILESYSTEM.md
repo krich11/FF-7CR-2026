@@ -1,40 +1,21 @@
-# Filesystem freeze — 2026-09-28 00:11 CT
+# FILESYSTEM.md
 
-This GitHub repo is the only operating disk for Blitz and Assistant.
-Local git is a cache. If it is not on `main` here, it does not exist.
+This GitHub repo (krich11/FF-7CR-2026, main) is the only operating disk for Blitz and Assistant. If it is not on main, it does not exist. The rulebook is PLAYBOOK.md. Scripts in agents/recon/work/tools/ look for this file to find the repo root, so keep it here.
 
-Cookies stay off-repo in `secrets/`.
+Cookies and other secrets never go in the repo. They stay in /workspace/fantasy/quantum-blitz/secrets/.
 
-Ken ↔ Consultant working rules: `CONSULTANT.md`. Bots do not edit that file.
+## Live files
+- PLAYBOOK.md, RULES.md, STRATEGY.md: rules, league rules, season strategy (Blitz).
+- playbook/LESSONS.md, playbook/CLAIMS.md, playbook/SCORECARD.md: lessons, waiver requests, scorecard template (Blitz).
+- playbook/CONSULT.md and CONSULTANT.md: Consultant's files. Bots read them and do not edit them.
+- trades/: four-sided trade write-ups (Blitz).
+- weekly/: cards, decisions, results, votes, and audit logs (Blitz).
+- data/availability.json, data/projections/, data/usage/, data/recon/: Assistant's facts.
+- data/roster.json and the other data/*.json files: league state from the ESPN client.
+- agents/blitz/, agents/assistant/: each bot's charter and work.
+- agents/recon/work/tools/: dump scripts Assistant runs.
+- code/espn_api/: ESPN client used by the dump scripts.
+- FUD/: notes on the other teams.
 
-## Live (write here)
-
-| Path | What | Who |
-|---|---|---|
-| `CONSULTANT.md` | Ken ↔ Consultant contract | Ken, Consultant |
-| `playbook/CONSULT.md` | Consultant → Blitz inbox | Consultant writes. Blitz reads before cards and the waiver request. |
-| `data/availability.json` | Injury file | Assistant |
-| `data/roster.json` `schedule.json` `standings.json` `league.json` | Our league state | Blitz client |
-| `data/recon/` | League-wide dumps | Assistant |
-| `data/projections.json` `waivers.json` | Support JSON | Assistant / client |
-| `playbook/WAR.md` | Decision log | Blitz |
-| `playbook/CLAIMS.md` | Waiver request + boards | Blitz, Assistant when asked |
-| `playbook/ARBITER.md` | Settled calls | Arbiter |
-| `FUD/` | Opponent board | Blitz + Assistant facts |
-| `weekly/` | Cards, decisions, votes | Blitz |
-| `weekly/audit/blitz-audit.log` | ESPN sync, lineup applies, claims, verify shots | Blitz |
-| `agents/blitz/CHARTER.md` `agents/assistant/CHARTER.md` | Law | Blitz |
-| `agents/assistant/work/` | Packets, briefs, Assistant AAR | Assistant |
-| `agents/assistant/work/assistant-audit.log` | Status overrides, injury notes | Assistant |
-| `agents/recon/work/tools/` | Dump scripts (`repo.py`) | Assistant runs |
-| `code/espn_api/` | Client | Blitz |
-
-Bare `audit.log` is gitignored.
-
-`agents/wire/`, `agents/sigma/`, and `agents/recon/` except `work/tools/` are retired reference. Do not schedule those bots.
-
-## Dead trees
-
-`lanes/` · `ops/` · `rosters/` · `charters/`
-
-Do not write. Do not run `lanes/recon/tools/`. Do not delete until after the Week 4 waiver run.
+## Archive
+archive/ holds retired files: the old SPEC, LAW, and WAR files, the retired Wire, Sigma, and Recon bots, and the old lanes, ops, rosters, and charters trees. Do not write there.

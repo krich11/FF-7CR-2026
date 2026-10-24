@@ -1,18 +1,7 @@
 # FF-7CR-2026
 
-Shared working repo for one ESPN fantasy football team and the bots that run it.
+Shared working repo for Quantum Blitz (ESPN league 1776545061, team 13) and the two bots that run it, Blitz and Assistant.
 
-What belongs where is defined in `FILESYSTEM.md`. How the bots use this repo is defined in `BOTS.md`. How Ken and the Consultant work is defined in `CONSULTANT.md`.
-
-| Directory | Purpose |
-|---|---|
-| `playbook/` | Shared law and the live operating files |
-| `FUD/` | Competitive analysis of the rest of the league |
-| `data/` | Current machine-readable state |
-| `weekly/` | Per-week cards, decisions, and votes |
-| `agents/` | Each bot's identity and its own work tree |
-| `code/` | Client libraries |
-
-`lanes/`, `ops/`, `rosters/`, and `charters/` are archives. Do not add files there.
+Start with PLAYBOOK.md, the one rulebook. RULES.md has the league's rules, STRATEGY.md the season plan, and FILESYSTEM.md says what lives where. Retired files are under archive/.
 
 Do not commit secrets or session cookies.
