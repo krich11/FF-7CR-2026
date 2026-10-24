@@ -12,6 +12,14 @@ There is no free agent worth adding this week. The best kicker and defense on th
 
 Should we keep this lineup as it stands?
 
+## Caveats (added Sat Oct 24, about 7:30 AM CT)
+
+- **Jacobs.** He came off the Commissioner's Exempt list on Oct 19 and is now on a one-game roster exemption through Monday, Oct 26. That exemption does not stop him from playing, and LaFleur expects him ready, but there is no activation report yet and ESPN lists him day-to-day. Because of the exemption, his absence from the inactive list proves nothing. The 2:05 PM CT sweep has to check for his activation to the 53-man roster. Even if he plays, his workload is expected to be limited, about 10 to 12 touches, so his upside rests on red-zone work.
+- **Paris wind.** The forecast for the Steelers-Saints game is 15 to 16 mph sustained wind with gusts in the low to mid 30s. That is not light wind. It can cut into passing and kicking, which touches Bernard and the Steelers defense. Bernard still projects as our best FLEX.
+- **Cleveland at Tennessee.** It has the lowest total on the slate, about 37. None of our players is in it. Their tight end, Gunnar Helm, is.
+- **Why we fell behind.** On Friday ESPN had us about two points ahead. Our projection has barely moved since then. The change is on their side: Luther Burden scored 23.7 on Thursday night, far above what ESPN expected from him, and that alone turned a small lead into a deficit of about ten. Henry and Henderson also played Thursday, but they were on our bench and do not count.
+- **Goedert or Pitts.** If the Eagles' final injury report today gives Goedert no game designation, which means he practiced fully, Blitz recommends Goedert over Pitts to Ken before noon Sunday. Otherwise Pitts stays at TE. Goedert missed practice Thursday and Friday, the Eagles are on their backup quarterback, and DeVonta Smith is expected to miss the game.
+
 ## Lineup, slot by slot (Sunday kickoffs in CT)
 
 | Slot | Player | Game | ESPN | Call |
@@ -31,9 +39,9 @@ Should we keep this lineup as it stands?
 
 ## Close calls checked (MUST-WIN rule: higher ceiling against the weaker defense)
 
-- **RB2, Jacobs over Gordon and Harvey.** Jacobs projects highest, plays in the game with the biggest scoring total, and should get the red-zone work. Gordon plays in the lowest-total game of the week on a Miami offense expected to score little. Harvey shares the Denver backfield with Dobbins. Jacobs also keeps Harvey (3:05 PM) available as a fallback if Jacobs is inactive at the 2:05 PM sweep; Gordon would already be locked.
+- **RB2, Jacobs over Gordon and Harvey.** Jacobs projects highest, plays in the game with the biggest scoring total, and should get the red-zone work. Gordon plays in one of the lowest-total games of the week on a Miami offense expected to score little. Harvey shares the Denver backfield with Dobbins. Starting Jacobs also keeps Harvey available as the fallback if Jacobs is not activated by the 2:05 PM sweep.
 - **TE, Pitts over Goedert.** Goedert projects higher on paper and faces a softer defense, but he missed practice Thursday and Friday with a knee injury. His game is Monday night, after every bench option has locked, so an inactive Goedert would score zero. Pitts plays in a high-total home game. The Eagles' final report comes Saturday afternoon; the Saturday 8:30 PM check re-reads it.
-- **FLEX, Bernard over Gordon and Harvey.** Bernard projects higher than both and plays almost every snap. Light wind in Paris is a minor note, not a reason to move him.
+- **FLEX, Bernard over Gordon and Harvey.** Bernard projects higher than both and plays almost every snap. Paris wind is real (see caveats), but he still projects highest.
 - **D/ST, Steelers over Panthers.** Mayfield returns for Tampa Bay, which takes away the Panthers' edge, and an add would also cost a roster spot.
 - **K, Gay over Fitzgerald, Ryland and Smack.** All within a fraction of a point; Gay kicks indoors.
 
@@ -45,19 +53,19 @@ Burden scored 23.7 Thursday. Still to play: Stafford (QB, at a soft Raiders defe
 
 Nothing on the wire raises our ceiling this week. Best available: QB Geno Smith, K Ryan Fitzgerald, D/ST Panthers, TE Colby Parkinson and Mark Andrews, WR Makai Lemon. None projects above the starter they would replace. No drop is needed.
 
-Note for Wednesday: Mark Andrews is a free agent right now, not on waivers. Adding him today would require dropping a tight end, and Henry is locked, so the plan stays: after Henry leaves in the Goff trade, claim Andrews in Wednesday's run.
+Mark Andrews is a free agent right now, not on waivers. The league allows three tight ends and we have three, with Henry locked, so he cannot be added this week. Once the Goff trade clears and Henry leaves, add Andrews right away as a free agent, or claim him in Thursday's waiver run if he has moved to waivers (playbook/CLAIMS.md).
 
 ## The Goff trade and this week
 
-The Goff trade (Henry and Harvey for Goff, offered Tuesday Oct 27) cannot help this weekend, because Henry is locked until the week rolls over. For this lineup it means Harvey and Henry stay on the roster through Monday. Harvey is also our 3:05 PM fallback if Jacobs is inactive. Gordon and Meyers stay too, because they are in the Barkley offer, which expires Sunday about 12:06 PM CT. If Barkley's deal were accepted, the 24-hour review means he could not reach our lineup this week.
+The Goff trade (Henry and Harvey for Goff, offered Tuesday Oct 27) cannot help this weekend, because Henry is locked until the week rolls over. For this lineup it means Harvey and Henry stay on the roster through Monday. Harvey is also our fallback if Jacobs is not activated. Gordon and Meyers stay too, because they are in the Barkley offer, which expires Sunday about 12:06 PM CT. Ken has chosen to keep that offer open (trades/2026-w7-barkley-buck.md). If Barkley's deal were accepted, the 24-hour review means he could not reach our lineup this week.
 
 ## Adversarial check
 
 | Failure point | Answer |
 |---|---|
-| Jacobs inactive (list out about 1:55 PM CT) | The 2:05 PM sweep recommends Harvey in, with the 2:50 PM dead-man if Ken has not answered. |
+| Jacobs not activated or inactive | The 2:05 PM sweep checks his activation to the 53-man roster and the inactive list, recommends the swap if he is out, with the 2:50 PM dead-man if Ken has not answered. |
 | Marks, Murray, London, Wilson, or Pitts inactive (list out about 10:30 AM) | The 10:35 AM sweep recommends the best bench player, with the 11:45 AM dead-man. |
-| Bernard or Steelers inactive (8:30 AM game) | The 9:53 AM dead-man is too late for this game; the Sunday 8:30 AM close-call check owns any swap here. |
+| Bernard or Steelers inactive (8:30 AM Paris game) | The 7:05 AM CT check of the PIT-NO inactives recommends the swap (best eligible bench player into FLEX), with an 8:15 AM CT dead-man if Ken has not answered (Ken, Oct 24). |
 | Goedert gets cleared Saturday | Reopen TE at the Saturday 8:30 PM check; the Monday timing risk still applies. |
 | Team totals quoted wrong | Both totals were added from live ESPN per-slot projections at about 6:30 AM CT and match ESPN's matchup totals. |
 

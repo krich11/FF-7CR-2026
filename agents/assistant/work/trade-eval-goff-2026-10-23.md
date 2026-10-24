@@ -8,7 +8,7 @@ Yes. Offer Hunter Henry and RJ Harvey for Jared Goff on Tuesday, Oct 27, after H
 
 ## What we get
 
-Jared Goff (DET, bye already taken). He averages 23 points. ESPN projects him about 3 points a week better than Murray for the rest of the season. He also covers Murray's Week 14 bye.
+Jared Goff (DET, bye already taken). He averages 23 points. ESPN projects him about 3 points a week better than Murray for the rest of the season. (Correction, Sat Oct 24: Murray is with Minnesota and had his bye in Week 6, so Goff does not cover a Murray bye.)
 
 ## What we lose
 

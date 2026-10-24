@@ -1,70 +1,222 @@
 {
   "week": 7,
-  "skill": "lineup.set",
-  "window": "tuesday_set",
-  "status": "PROPOSED_AWAITING_YES",
-  "as_of_ct": "Tue Oct 20, 2:15 PM CT",
-  "assistant_brief": "REQUESTED 2:05 PM CT; agents/assistant/work/week-7-brief.md not on main at write time",
+  "skill": "lineup.readback",
+  "window": "saturday_readback",
+  "status": "LIVE_ESPN_LINEUP",
+  "as_of_ct": "Sat Oct 24 2026, 7:19 AM CT",
+  "source": "fresh ESPN mRoster read (read-only, no writes)",
   "opponent": "David's Daring Team (teamId 11, 0-6)",
+  "mode": "MUST-WIN",
   "assignments": {
     "QB": "Kyler Murray",
     "RB": [
-      "Ollie Gordon II",
-      "Josh Jacobs"
-    ],
-    "WR": [
-      "Drake London",
-      "Garrett Wilson"
-    ],
-    "TE": "Dallas Goedert",
-    "FLEX": "Germie Bernard",
-    "DST": "Steelers D/ST",
-    "K": "Matt Gay"
-  },
-  "bench": [
-    "RJ Harvey",
-    "Woody Marks",
-    "Kyle Pitts Sr.",
-    "Jacoby Brissett",
-    "Hunter Henry",
-    "TreVeyon Henderson",
-    "Jakobi Meyers"
-  ],
-  "ir": [
-    "Travis Etienne Jr."
-  ],
-  "live_espn_at_write": {
-    "QB": "Jacoby Brissett",
-    "RB": [
-      "RJ Harvey",
+      "Josh Jacobs",
       "Woody Marks"
     ],
     "WR": [
       "Drake London",
       "Garrett Wilson"
     ],
-    "TE": "Dallas Goedert",
+    "TE": "Kyle Pitts Sr.",
     "FLEX": "Germie Bernard",
     "DST": "Steelers D/ST",
     "K": "Matt Gay"
   },
-  "moves_if_yes": [
-    "Murray in for Brissett at QB",
-    "Gordon in for Harvey at RB",
-    "Jacobs in for Marks at RB"
+  "bench": [
+    "Dallas Goedert",
+    "Jakobi Meyers",
+    "TreVeyon Henderson",
+    "Ollie Gordon II",
+    "RJ Harvey",
+    "Hunter Henry",
+    "J.J. McCarthy"
   ],
-  "espn_proj_total_proposed": 115.2,
-  "espn_proj_total_live": 107.7,
-  "opp_espn_proj_total_live": 110.7,
-  "close": [
-    "RB2: Jacobs (ESPN 12.64 / FP 12.9) over Harvey (11.43 / 10.4) and Marks (9.21 / 10.6); Jacobs ESPN DAY_TO_DAY, GB status TBD; Harvey if GB lists him D/O Friday",
-    "TE: Goedert (11.03 / 10.7) over Pitts (9.79 / 8.6); PHI QB McKee (Hurts IR, season); Goedert 81% snaps W6"
+  "ir": [
+    "Travis Etienne Jr."
   ],
-  "fa_checks": {
-    "K": "Fitzgerald 9.48 ESPN / 8.2 FP, Ryland 9.46 vs Gay 9.73 / 8.1: under 1.5",
-    "DST": "Jets 7.25 / 7.3 vs Steelers 6.41 / 6.5: under 1.5",
-    "QB": "Brissett backup, no bye"
+  "played_thursday_bench": [
+    "TreVeyon Henderson",
+    "Hunter Henry"
+  ],
+  "players": [
+    {
+      "slot": "WR",
+      "name": "Drake London",
+      "pro": "ATL",
+      "status": "ACTIVE",
+      "proj": 17.16,
+      "actual": null,
+      "locked": false
+    },
+    {
+      "slot": "IR",
+      "name": "Travis Etienne Jr.",
+      "pro": "NO",
+      "status": "INJURY_RESERVE",
+      "proj": 0.0,
+      "actual": null,
+      "locked": false
+    },
+    {
+      "slot": "WR",
+      "name": "Garrett Wilson",
+      "pro": "NYJ",
+      "status": "ACTIVE",
+      "proj": 15.09,
+      "actual": null,
+      "locked": false
+    },
+    {
+      "slot": "TE",
+      "name": "Kyle Pitts Sr.",
+      "pro": "ATL",
+      "status": "ACTIVE",
+      "proj": 9.82,
+      "actual": null,
+      "locked": false
+    },
+    {
+      "slot": "BE",
+      "name": "Dallas Goedert",
+      "pro": "PHI",
+      "status": "QUESTIONABLE",
+      "proj": 11.33,
+      "actual": null,
+      "locked": false
+    },
+    {
+      "slot": "RB",
+      "name": "Josh Jacobs",
+      "pro": "GB",
+      "status": "DAY_TO_DAY",
+      "proj": 12.64,
+      "actual": null,
+      "locked": false
+    },
+    {
+      "slot": "DST",
+      "name": "Steelers D/ST",
+      "pro": "PIT",
+      "status": null,
+      "proj": 6.37,
+      "actual": null,
+      "locked": false
+    },
+    {
+      "slot": "BE",
+      "name": "Jakobi Meyers",
+      "pro": "JAX",
+      "status": "ACTIVE",
+      "proj": 0.0,
+      "actual": null,
+      "locked": false
+    },
+    {
+      "slot": "QB",
+      "name": "Kyler Murray",
+      "pro": "MIN",
+      "status": "ACTIVE",
+      "proj": 18.0,
+      "actual": null,
+      "locked": false
+    },
+    {
+      "slot": "BE",
+      "name": "TreVeyon Henderson",
+      "pro": "NE",
+      "status": "ACTIVE",
+      "proj": 7.12,
+      "actual": 4.3,
+      "locked": true
+    },
+    {
+      "slot": "BE",
+      "name": "Ollie Gordon II",
+      "pro": "MIA",
+      "status": "ACTIVE",
+      "proj": 11.8,
+      "actual": null,
+      "locked": false
+    },
+    {
+      "slot": "BE",
+      "name": "RJ Harvey",
+      "pro": "DEN",
+      "status": "ACTIVE",
+      "proj": 11.43,
+      "actual": null,
+      "locked": false
+    },
+    {
+      "slot": "BE",
+      "name": "Hunter Henry",
+      "pro": "NE",
+      "status": "ACTIVE",
+      "proj": 8.17,
+      "actual": 14.1,
+      "locked": true
+    },
+    {
+      "slot": "FLEX",
+      "name": "Germie Bernard",
+      "pro": "PIT",
+      "status": "ACTIVE",
+      "proj": 13.39,
+      "actual": null,
+      "locked": false
+    },
+    {
+      "slot": "K",
+      "name": "Matt Gay",
+      "pro": "LV",
+      "status": "ACTIVE",
+      "proj": 9.73,
+      "actual": null,
+      "locked": false
+    },
+    {
+      "slot": "BE",
+      "name": "J.J. McCarthy",
+      "pro": "NYG",
+      "status": "ACTIVE",
+      "proj": 16.39,
+      "actual": null,
+      "locked": false
+    },
+    {
+      "slot": "RB",
+      "name": "Woody Marks",
+      "pro": "HOU",
+      "status": "ACTIVE",
+      "proj": 13.68,
+      "actual": null,
+      "locked": false
+    }
+  ],
+  "espn_proj_total": 115.88,
+  "opp_espn_proj_total": 125.6,
+  "opp_assignments": {
+    "QB": "Matthew Stafford",
+    "RB": [
+      "Jonathan Taylor",
+      "Javonte Williams"
+    ],
+    "WR": [
+      "Matthew Golden",
+      "Xavier Worthy"
+    ],
+    "TE": "Gunnar Helm",
+    "FLEX": "Luther Burden III",
+    "DST": "Texans D/ST",
+    "K": "Dominic Zvada"
   },
-  "mode": "CLIMB",
-  "cost": "lineup only; no waiver order, no roster spot"
+  "pending": [
+    "Barkley offer (Meyers + Gordon to team 6 for Barkley) PENDING, sent Fri Oct 23 12:06 PM CT, expires Sun Oct 25 12:06 PM CT; Ken: keep it open (Sat Oct 24)",
+    "Goff offer (Henry + Harvey to team 7) authorized for Tue Oct 27"
+  ],
+  "watch": [
+    "Jacobs: one-game roster exemption through Mon Oct 26; 2:05 PM CT sweep must confirm activation to the 53-man roster",
+    "Bernard/Steelers: PIT-NO (Paris) inactives check 7:05 AM CT, dead-man 8:15 AM CT",
+    "Goedert vs Pitts: recommend Goedert only if he carries no game designation after the Eagles' final report; otherwise Pitts"
+  ]
 }

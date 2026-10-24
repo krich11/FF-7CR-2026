@@ -1,102 +1,167 @@
 {
-  "week": 6,
-  "timezone": "America/Los_Angeles",
+  "week": 7,
+  "timezone": "America/Chicago",
   "display_timezone": "America/Chicago",
-  "first_kickoff": "2026-10-15T17:15:00-07:00",
-  "first_our_kickoff": "2026-10-15T17:15:00-07:00",
-  "first_kickoff_ct": "Thu Oct 15, 7:15 PM CT \u2014 SEA @ DEN (Harvey)",
+  "source": "ESPN proTeamSchedules_wl, read Sat Oct 24 7:19 AM CT",
+  "first_kickoff": "2026-10-22T19:15:00-05:00",
+  "first_kickoff_ct": "Thu Oct 22, 7:15 PM CT \u2014 NE @ CHI",
+  "first_our_kickoff": "2026-10-22T19:15:00-05:00",
+  "first_our_kickoff_ct": "Thu Oct 22, 7:15 PM CT \u2014 NE @ CHI",
+  "byes": [
+    "LAC",
+    "WSH",
+    "JAX",
+    "BUF"
+  ],
   "games": [
     {
-      "label": "SEA @ DEN (TNF)",
-      "kickoff": "2026-10-15T17:15:00-07:00",
-      "kickoff_ct": "Thu Oct 15, 7:15 PM CT",
+      "label": "NE @ CHI",
+      "kickoff": "2026-10-22T19:15:00-05:00",
+      "kickoff_ct": "Thu Oct 22, 7:15 PM CT",
       "players": [
-        "RJ Harvey"
+        "TreVeyon Henderson",
+        "Hunter Henry"
+      ],
+      "opp_players": [
+        "Drake Maye",
+        "Luther Burden III"
       ]
     },
     {
-      "label": "HOU @ JAX (London)",
-      "kickoff": "2026-10-18T06:30:00-07:00",
-      "kickoff_ct": "Sun Oct 18, 8:30 AM CT",
+      "label": "PIT @ NO (Paris)",
+      "kickoff": "2026-10-25T08:30:00-05:00",
+      "kickoff_ct": "Sun Oct 25, 8:30 AM CT",
       "players": [
-        "Jakobi Meyers"
+        "Steelers D/ST",
+        "Germie Bernard",
+        "Travis Etienne Jr."
+      ],
+      "opp_players": []
+    },
+    {
+      "label": "IND @ MIN",
+      "kickoff": "2026-10-25T12:00:00-05:00",
+      "kickoff_ct": "Sun Oct 25, 12:00 PM CT",
+      "players": [
+        "Kyler Murray"
+      ],
+      "opp_players": [
+        "Jonathan Taylor",
+        "Keenan Allen"
       ]
     },
     {
-      "label": "CHI @ ATL",
-      "kickoff": "2026-10-18T10:00:00-07:00",
-      "kickoff_ct": "Sun Oct 18, 12:00 PM CT",
+      "label": "MIA @ NYJ",
+      "kickoff": "2026-10-25T12:00:00-05:00",
+      "kickoff_ct": "Sun Oct 25, 12:00 PM CT",
+      "players": [
+        "Ollie Gordon II",
+        "Garrett Wilson"
+      ],
+      "opp_players": [
+        "Caleb Douglas"
+      ]
+    },
+    {
+      "label": "NYG @ HOU",
+      "kickoff": "2026-10-25T12:00:00-05:00",
+      "kickoff_ct": "Sun Oct 25, 12:00 PM CT",
+      "players": [
+        "J.J. McCarthy",
+        "Woody Marks"
+      ],
+      "opp_players": [
+        "Dominic Zvada",
+        "Texans D/ST"
+      ]
+    },
+    {
+      "label": "SF @ ATL",
+      "kickoff": "2026-10-25T12:00:00-05:00",
+      "kickoff_ct": "Sun Oct 25, 12:00 PM CT",
       "players": [
         "Drake London",
         "Kyle Pitts Sr."
+      ],
+      "opp_players": []
+    },
+    {
+      "label": "TB @ CAR",
+      "kickoff": "2026-10-25T12:00:00-05:00",
+      "kickoff_ct": "Sun Oct 25, 12:00 PM CT",
+      "players": [],
+      "opp_players": []
+    },
+    {
+      "label": "CIN @ BAL",
+      "kickoff": "2026-10-25T12:00:00-05:00",
+      "kickoff_ct": "Sun Oct 25, 12:00 PM CT",
+      "players": [],
+      "opp_players": [
+        "Evan McPherson",
+        "Dohnte Meyers"
       ]
     },
     {
-      "label": "NYJ @ NE",
-      "kickoff": "2026-10-18T10:00:00-07:00",
-      "kickoff_ct": "Sun Oct 18, 12:00 PM CT",
+      "label": "CLE @ TEN",
+      "kickoff": "2026-10-25T12:00:00-05:00",
+      "kickoff_ct": "Sun Oct 25, 12:00 PM CT",
+      "players": [],
+      "opp_players": [
+        "Gunnar Helm"
+      ]
+    },
+    {
+      "label": "DEN @ ARI",
+      "kickoff": "2026-10-25T15:05:00-05:00",
+      "kickoff_ct": "Sun Oct 25, 3:05 PM CT",
       "players": [
-        "Garrett Wilson",
-        "Hunter Henry",
-        "TreVeyon Henderson"
-      ]
+        "RJ Harvey"
+      ],
+      "opp_players": []
     },
     {
-      "label": "CAR @ PHI",
-      "kickoff": "2026-10-18T10:00:00-07:00",
-      "kickoff_ct": "Sun Oct 18, 12:00 PM CT",
+      "label": "LAR @ LV",
+      "kickoff": "2026-10-25T15:25:00-05:00",
+      "kickoff_ct": "Sun Oct 25, 3:25 PM CT",
       "players": [
-        "Dallas Goedert"
+        "Matt Gay"
+      ],
+      "opp_players": [
+        "Matthew Stafford",
+        "Terrance Ferguson"
       ]
     },
     {
-      "label": "PIT @ TB",
-      "kickoff": "2026-10-18T10:00:00-07:00",
-      "kickoff_ct": "Sun Oct 18, 12:00 PM CT",
-      "players": [
-        "Steelers D/ST",
-        "Michael Pittman Jr.",
-        "Roman Wilson"
-      ]
-    },
-    {
-      "label": "ARI @ LAR",
-      "kickoff": "2026-10-18T13:05:00-07:00",
-      "kickoff_ct": "Sun Oct 18, 3:05 PM CT",
-      "players": [
-        "Jacoby Brissett"
-      ]
-    },
-    {
-      "label": "DAL @ GB (SNF)",
-      "kickoff": "2026-10-18T17:20:00-07:00",
-      "kickoff_ct": "Sun Oct 18, 7:20 PM CT",
+      "label": "GB @ DET",
+      "kickoff": "2026-10-25T15:25:00-05:00",
+      "kickoff_ct": "Sun Oct 25, 3:25 PM CT",
       "players": [
         "Josh Jacobs"
+      ],
+      "opp_players": [
+        "Matthew Golden",
+        "Lions D/ST"
       ]
     },
     {
-      "label": "WAS @ SF (MNF)",
-      "kickoff": "2026-10-19T17:15:00-07:00",
-      "kickoff_ct": "Mon Oct 19, 7:15 PM CT",
-      "players": [
-        "Eddy Pineiro"
+      "label": "KC @ SEA",
+      "kickoff": "2026-10-25T19:20:00-05:00",
+      "kickoff_ct": "Sun Oct 25, 7:20 PM CT",
+      "players": [],
+      "opp_players": [
+        "Xavier Worthy"
       ]
     },
     {
-      "label": "MIA BYE",
-      "kickoff": null,
-      "kickoff_ct": "BYE",
+      "label": "DAL @ PHI",
+      "kickoff": "2026-10-26T19:15:00-05:00",
+      "kickoff_ct": "Mon Oct 26, 7:15 PM CT",
       "players": [
-        "Ollie Gordon II"
-      ]
-    },
-    {
-      "label": "MIN BYE",
-      "kickoff": null,
-      "kickoff_ct": "BYE",
-      "players": [
-        "Kyler Murray"
+        "Dallas Goedert"
+      ],
+      "opp_players": [
+        "Javonte Williams"
       ]
     }
   ]
