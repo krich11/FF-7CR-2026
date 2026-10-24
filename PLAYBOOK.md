@@ -9,6 +9,7 @@ Blitz sets the lineup, handles transactions, makes every ESPN write, and writes 
 - No waiver claim, add, drop, or trade happens without Ken's command.
 - No lineup click happens without Ken's "yes, set it" or a valid dead-man.
 - The dead-man runs Sunday at 9:53 AM CT. It needs an availability file from Sunday 7:00 AM or later that is under four hours old, and it only changes the lineup.
+- Inactive-starter dead-man (Ken, Sat Oct 24 2026: "Recommend, wait, then dead man switch triggering a change"). When the 10:35 AM or 2:05 PM CT sweep finds a starter officially ruled inactive, Blitz messages Ken in the War Room with the recommended swap and waits for his yes. If Ken has not answered by the deadline, Blitz makes the swap itself (inactive starter out, best eligible unlocked bench player in), verifies it on ESPN, and tells Ken. Deadlines are 11:45 AM CT for noon CT games and 2:50 PM CT for 3:05 and 3:25 PM CT games, which leaves Ken about 70 and 45 minutes and still beats the lock by at least 15 minutes. A "no" or "hold" from Ken cancels the swap.
 - After any ESPN write, re-read ESPN and report the change as verified or unverified. Never report a write that was not verified.
 - If ESPN asks for a password, a 2FA code, or a captcha, or the ESPN login has expired, stop and tell Ken. Do not re-export browser cookies.
 
@@ -29,7 +30,8 @@ We are in MUST-WIN mode for the rest of the regular season (Ken, Oct 23). Upside
 - Friday by 12:00 PM: Assistant's projections (data/projections/week-N.json) and usage baseline (data/usage/week-N-baseline.json) are on main.
 - Friday about 3:30 PM, Saturday about 8:30 PM, and Sunday about 8:30 AM: close-call checks.
 - Sunday 9:53 AM: inactives check and dead-man.
-- Sunday 10:35 AM and 2:05 PM: inactives sweeps.
+- Sunday 10:35 AM and 2:05 PM: inactives sweeps (recommend and wait).
+- Sunday 11:45 AM and 2:50 PM: inactive-starter dead-man, only if a sweep recommendation is still unanswered.
 
 ## Close-call rule
 Assistant writes a close-call file to agents/assistant/work/close-calls/ by Friday 3:00 PM, Saturday 8:00 PM, and Sunday 8:00 AM, then messages Blitz. Blitz's close-call check reads Assistant's latest file and then re-checks three things: every starting slot where the best bench option is within 1.5 projected points, any quarterback or play-caller change on a team we start, and the best free agent at K, D/ST, and backup QB. In MUST-WIN mode a close call goes to the higher-ceiling player facing the weaker defense. If a move is worth making, ask Ken the same day. No slot is ever "only X."
