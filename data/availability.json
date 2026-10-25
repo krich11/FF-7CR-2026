@@ -1,6 +1,6 @@
 {
   "week": 7,
-  "as_of": "2026-10-25T07:22:00-05:00",
+  "as_of": "2026-10-25T07:17:00-05:00",
   "source": "ESPN_API_mRoster",
   "rule": "state = ESPN tag; official_block benches only (Ken, Oct 15 2026)",
   "refresh": "ok",
@@ -23,8 +23,8 @@
       "kickoff": "2026-10-25T12:00:00-05:00",
       "game_label": "SF @ ATL",
       "news": "Not listed on Falcons' final Week 7 report (NFL.com, Fri Oct 23). Penix cleared (CBS).",
-      "source": "ESPN_API_mRoster_2026-10-25T07:20",
-      "as_of": "2026-10-25T07:22:00-05:00"
+      "source": "ESPN_API_mRoster_2026-10-25T07:17",
+      "as_of": "2026-10-25T07:17:00-05:00"
     },
     {
       "player": "Travis Etienne Jr.",
@@ -40,8 +40,8 @@
       "kickoff": "2026-10-25T08:30:00-05:00",
       "game_label": "PIT @ NO",
       "news": "On IR; holds IR slot. Not on Saints' report (on IR).",
-      "source": "ESPN_API_mRoster_2026-10-25T07:20",
-      "as_of": "2026-10-25T07:22:00-05:00"
+      "source": "ESPN_API_mRoster_2026-10-25T07:17",
+      "as_of": "2026-10-25T07:17:00-05:00"
     },
     {
       "player": "Garrett Wilson",
@@ -57,8 +57,8 @@
       "kickoff": "2026-10-25T12:00:00-05:00",
       "game_label": "MIA @ NYJ",
       "news": "Not on Jets' final report (NFL.com, Fri Oct 23).",
-      "source": "ESPN_API_mRoster_2026-10-25T07:20",
-      "as_of": "2026-10-25T07:22:00-05:00"
+      "source": "ESPN_API_mRoster_2026-10-25T07:17",
+      "as_of": "2026-10-25T07:17:00-05:00"
     },
     {
       "player": "Kyle Pitts Sr.",
@@ -74,8 +74,8 @@
       "kickoff": "2026-10-25T12:00:00-05:00",
       "game_label": "SF @ ATL",
       "news": "Not on Falcons' final report (NFL.com, Fri Oct 23). Penix cleared to play (CBS). Moved to bench for Goedert (Ken approved Sat Oct 24).",
-      "source": "ESPN_API_mRoster_2026-10-25T07:20",
-      "as_of": "2026-10-25T07:22:00-05:00"
+      "source": "ESPN_API_mRoster_2026-10-25T07:17",
+      "as_of": "2026-10-25T07:17:00-05:00"
     },
     {
       "player": "Dallas Goedert",
@@ -91,8 +91,8 @@
       "kickoff": "2026-10-26T19:15:00-05:00",
       "game_label": "DAL @ PHI",
       "news": "ESPN tag changed to ACTIVE Sat Oct 24. Full practice Saturday; no game designation on the Eagles' final report for Monday vs Dallas (CBS Sports, Eagles Wire, Oct 24). DeVonta Smith and Dontayvion Wicks OUT. Tanner McKee starts at QB (Hurts on IR). Moved to TE over Pitts with Ken's approval Sat 7:15 PM CT.",
-      "source": "ESPN_API_mRoster_2026-10-25T07:20",
-      "as_of": "2026-10-25T07:22:00-05:00"
+      "source": "ESPN_API_mRoster_2026-10-25T07:17",
+      "as_of": "2026-10-25T07:17:00-05:00"
     },
     {
       "player": "Josh Jacobs",
@@ -108,8 +108,8 @@
       "kickoff": "2026-10-25T15:25:00-05:00",
       "game_label": "GB @ DET",
       "news": "ESPN tag still DAY_TO_DAY, no injury designation. Off the Commissioner's Exempt list Oct 19; not on the Packers' final Week 7 report. NFL.com reports the Packers added him to the active roster Saturday. Packers official inactives come about 1:55 PM CT for the 3:25 PM CT game; the 2:05 PM CT sweep confirms.",
-      "source": "ESPN_API_mRoster_2026-10-25T07:20",
-      "as_of": "2026-10-25T07:22:00-05:00"
+      "source": "ESPN_API_mRoster_2026-10-25T07:17",
+      "as_of": "2026-10-25T07:17:00-05:00"
     },
     {
       "player": "Steelers D/ST",
@@ -125,8 +125,8 @@
       "kickoff": "2026-10-25T08:30:00-05:00",
       "game_label": "PIT @ NO",
       "news": "Official Steelers inactives (Oct 25): WR Skowronek, QB Allar, QB Howard (3rd QB), CB Echols, RB Heidenreich, CB Terell Smith. S DeShon Elliott activated from IR and plays. Saints inactives: QB Zach Wilson (3rd QB), S Reid, G Ruiz, TE Welch, DL Shepherd, DL Ridgeway, EDGE Tyree Wilson. Saints LB Kaden Elliss and EDGE Anfernee Jennings return.",
-      "source": "ESPN_API_mRoster_2026-10-25T07:20",
-      "as_of": "2026-10-25T07:22:00-05:00"
+      "source": "ESPN_API_mRoster_2026-10-25T07:17",
+      "as_of": "2026-10-25T07:17:00-05:00"
     },
     {
       "player": "Jakobi Meyers",
@@ -142,8 +142,8 @@
       "kickoff": null,
       "game_label": "BYE",
       "news": "Jaguars bye in Week 7.",
-      "source": "ESPN_API_mRoster_2026-10-25T07:20",
-      "as_of": "2026-10-25T07:22:00-05:00"
+      "source": "ESPN_API_mRoster_2026-10-25T07:17",
+      "as_of": "2026-10-25T07:17:00-05:00"
     },
     {
       "player": "Kyler Murray",
@@ -159,8 +159,8 @@
       "kickoff": "2026-10-25T12:00:00-05:00",
       "game_label": "IND @ MIN",
       "news": "Not on Vikings' final report (NFL.com, Fri Oct 23). Vikings bye was Week 6; plays Week 7.",
-      "source": "ESPN_API_mRoster_2026-10-25T07:20",
-      "as_of": "2026-10-25T07:22:00-05:00"
+      "source": "ESPN_API_mRoster_2026-10-25T07:17",
+      "as_of": "2026-10-25T07:17:00-05:00"
     },
     {
       "player": "TreVeyon Henderson",
@@ -176,8 +176,8 @@
       "kickoff": "2026-10-22T19:15:00-05:00",
       "game_label": "NE @ CHI",
       "news": "Game played Thu Oct 22 (NE @ CHI); slot locked.",
-      "source": "ESPN_API_mRoster_2026-10-25T07:20",
-      "as_of": "2026-10-25T07:22:00-05:00"
+      "source": "ESPN_API_mRoster_2026-10-25T07:17",
+      "as_of": "2026-10-25T07:17:00-05:00"
     },
     {
       "player": "Ollie Gordon II",
@@ -193,8 +193,8 @@
       "kickoff": "2026-10-25T12:00:00-05:00",
       "game_label": "MIA @ NYJ",
       "news": "Not on Dolphins' final report (NFL.com, Fri Oct 23). Dolphins bye was Week 6; plays Week 7. Dolphins QB Malik Willis FP, no designation.",
-      "source": "ESPN_API_mRoster_2026-10-25T07:20",
-      "as_of": "2026-10-25T07:22:00-05:00"
+      "source": "ESPN_API_mRoster_2026-10-25T07:17",
+      "as_of": "2026-10-25T07:17:00-05:00"
     },
     {
       "player": "RJ Harvey",
@@ -210,8 +210,8 @@
       "kickoff": "2026-10-25T15:05:00-05:00",
       "game_label": "DEN @ ARI",
       "news": "Not on Broncos' final report (NFL.com, Fri Oct 23). Broncos RBs: Tyler Badie OUT (thumb), Jonah Coleman Q (ankle).",
-      "source": "ESPN_API_mRoster_2026-10-25T07:20",
-      "as_of": "2026-10-25T07:22:00-05:00"
+      "source": "ESPN_API_mRoster_2026-10-25T07:17",
+      "as_of": "2026-10-25T07:17:00-05:00"
     },
     {
       "player": "Hunter Henry",
@@ -227,8 +227,8 @@
       "kickoff": "2026-10-22T19:15:00-05:00",
       "game_label": "NE @ CHI",
       "news": "Game played Thu Oct 22 (NE @ CHI); slot locked.",
-      "source": "ESPN_API_mRoster_2026-10-25T07:20",
-      "as_of": "2026-10-25T07:22:00-05:00"
+      "source": "ESPN_API_mRoster_2026-10-25T07:17",
+      "as_of": "2026-10-25T07:17:00-05:00"
     },
     {
       "player": "Germie Bernard",
@@ -244,8 +244,8 @@
       "kickoff": "2026-10-25T08:30:00-05:00",
       "game_label": "PIT @ NO",
       "news": "Not on the Steelers' official inactives list for the Paris game (steelers.com, Oct 25); active. No designation all week. Steelers WRs Skowronek inactive, Roman Wilson and Pittman on IR. Rodgers active (Allar and Howard inactive).",
-      "source": "ESPN_API_mRoster_2026-10-25T07:20",
-      "as_of": "2026-10-25T07:22:00-05:00"
+      "source": "ESPN_API_mRoster_2026-10-25T07:17",
+      "as_of": "2026-10-25T07:17:00-05:00"
     },
     {
       "player": "Matt Gay",
@@ -261,8 +261,8 @@
       "kickoff": "2026-10-25T15:25:00-05:00",
       "game_label": "LAR @ LV",
       "news": "Not on Raiders' final report (NFL.com, Fri Oct 23).",
-      "source": "ESPN_API_mRoster_2026-10-25T07:20",
-      "as_of": "2026-10-25T07:22:00-05:00"
+      "source": "ESPN_API_mRoster_2026-10-25T07:17",
+      "as_of": "2026-10-25T07:17:00-05:00"
     },
     {
       "player": "J.J. McCarthy",
@@ -278,8 +278,8 @@
       "kickoff": "2026-10-25T12:00:00-05:00",
       "game_label": "NYG @ HOU",
       "news": "Not on Giants' final report (NFL.com, Fri Oct 23). Giants named him the Week 7 starter vs Houston on Oct 21 (ESPN, Fowler).",
-      "source": "ESPN_API_mRoster_2026-10-25T07:20",
-      "as_of": "2026-10-25T07:22:00-05:00"
+      "source": "ESPN_API_mRoster_2026-10-25T07:17",
+      "as_of": "2026-10-25T07:17:00-05:00"
     },
     {
       "player": "Woody Marks",
@@ -295,9 +295,9 @@
       "kickoff": "2026-10-25T12:00:00-05:00",
       "game_label": "NYG @ HOU",
       "news": "Not on Texans' final report (NFL.com, Fri Oct 23). David Montgomery OUT (groin).",
-      "source": "ESPN_API_mRoster_2026-10-25T07:20",
-      "as_of": "2026-10-25T07:22:00-05:00"
+      "source": "ESPN_API_mRoster_2026-10-25T07:17",
+      "as_of": "2026-10-25T07:17:00-05:00"
     }
   ],
-  "basis": "Sunday 7:20 AM CT ESPN read; Steelers and Saints official inactives for the Paris game (steelers.com 8:00 AM local post, neworleanssaints.com 7:02 AM CT)."
+  "basis": "Sunday 7:17 AM CT ESPN read; Steelers and Saints official inactives for the Paris game (steelers.com 8:00 AM local post, neworleanssaints.com 7:02 AM CT)."
 }

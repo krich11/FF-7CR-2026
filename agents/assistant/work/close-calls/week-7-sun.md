@@ -1,6 +1,6 @@
 # Week 7 Sunday close-call check — Quantum Blitz
 
-Written Sunday, Oct 25, 2026, about 7:25 AM CT, from a fresh read-only ESPN roster read at about 7:20 AM CT. Nothing was written to ESPN.
+Written Sunday, Oct 25, 2026, about 7:18 AM CT, from a fresh read-only ESPN roster read at about 7:17 AM CT. Nothing was written to ESPN.
 
 ## Paris game (Steelers at Saints, 8:30 AM CT)
 
