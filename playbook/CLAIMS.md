@@ -1,22 +1,31 @@
-# CLAIMS: open plans (updated Sat Oct 24 2026, Week 7)
+# CLAIMS: open plans (updated Sun Oct 25 2026 about 4:30 PM CT, heading into Week 8)
 
-Nothing here is filed. Every add, drop, or claim waits for Ken's command (PLAYBOOK.md hard gates). The Week 4 list that used to live here is in git history.
+Nothing here is filed. Every add, drop, or claim waits for Ken's command (PLAYBOOK.md hard gates). Older plans are in git history. The full plan is in weekly/plans/week-8-retool.md.
 
-## Mark Andrews (TE, BAL)
+## Kimani Vidal (RB, LAC): free-agent add, recommended
 
-Facts from ESPN, read Sat Oct 24 about 7:20 AM CT:
-- Andrews is a free agent (status FREEAGENT), not on waivers, and not locked.
-- The league caps each roster at three tight ends (rosterSettings.positionLimits, TE = 3). We carry three now: Pitts, Goedert, and Henry. Henry is locked after playing Thursday, so we cannot drop him this week.
-- Waivers process on Monday and Wednesday through Sunday (no Tuesday run), with a 24-hour waiting period. Trades have a 24-hour review period.
+- ESPN status at 4:15 PM CT Sun: FREEAGENT, with no injury tag. The add is instant once Ken gives the command.
+- The drop is TreVeyon Henderson (RB, NE). He is locked from the Thursday Week 7 game, so the move waits until ESPN rolls the week over, normally Tuesday morning.
+- Why:
+  - Vidal has scored 11.6, 12.6, and 7.0 over his last three games.
+  - ESPN projects him about 8.5 a game for the rest of the season. Henderson is at about 7.3, and he has scored about 4 a game every week since Week 2.
+  - The Chargers' bye is done.
+- Command for Ken: "Add Vidal and drop Henderson."
+
+## Mark Andrews (TE, BAL): waiver claim, not recommended
+
+Facts from ESPN at 4:15 PM CT Sun:
+- Andrews is on WAIVERS, not a free agent. Team 7 dropped him on Oct 21.
+- The next waiver run is Wed Oct 28 at 2:00 AM CT. Waivers are traditional, with no budget. We hold priority 2, and David's Daring Team holds 1.
+- The roster cap is three tight ends. We carry Pitts, Goedert, and Henry, so a Wednesday claim needs a TE drop in the same claim.
+- The Maye 2-for-1 (offered Tue 9:30 AM CT, with a 24-hour ESPN review) cannot clear before the Wednesday run. It does not open a spot in time.
 
 Plan:
-1. The Goff trade (Henry and Harvey for Goff) is offered Tuesday Oct 27. Once it clears and Henry leaves, we are at two tight ends with an open roster spot.
-2. If Andrews is still a free agent then, ask Ken to add him right away as a free-agent pickup. No drop is needed, because the two-for-one trade opens the spot.
-3. If Andrews has moved to waivers by then (for example, someone added and dropped him), ask Ken to file the claim for Thursday's waiver run.
-4. If the Goff trade is declined, Andrews needs a tight end to leave first. Bring Ken the choice between Henry (once unlocked) and Goedert, with Goedert's Monday status in hand.
+- Do not claim him. Once Henry leaves in the Maye trade, Goedert (bye Week 10) and Pitts (bye Week 11) cover each other. Andrews has averaged about 7.2 a game, below both.
+- If he goes unclaimed Wednesday, he becomes a free agent. A tight-end injury would make him the fallback add, with no claim needed.
+- If Ken wants him anyway, the command is "Claim Andrews and drop <a TE>" for the Wednesday 2:00 AM CT run. Henry can be dropped once the week rolls over, but that would break the Maye offer.
 
-There is no Wednesday claim. A Wednesday claim cannot work, because Henry is still on our roster when that run processes and the three-TE cap blocks the add.
+## Not claiming Wednesday
 
-## Wide receiver pickup if the Barkley trade is accepted
-
-See trades/2026-w7-barkley-buck.md, section "Wide receiver pickup plan". The trade sends two players for one, so it opens a roster spot and no drop is needed.
+- Rico Dowdle (RB, PIT, waivers): ESPN projects him about 6.9 a game for the rest of the season, below Vidal and Henderson. He also has a Week 9 bye.
+- Chase McLaughlin (K, TB, waivers): his rest-of-season projection (8.9) is below Gay's (9.5).
