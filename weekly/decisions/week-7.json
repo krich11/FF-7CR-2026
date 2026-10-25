@@ -2,8 +2,8 @@
   "week": 7,
   "skill": "lineup.readback",
   "window": "saturday_readback",
-  "status": "LIVE_ESPN_LINEUP",
-  "as_of_ct": "Sat Oct 24 2026, 7:19 AM CT",
+  "status": "KEN_APPROVED",
+  "as_of_ct": "Sat Oct 24 2026, 7:15 PM CT",
   "source": "fresh ESPN mRoster read (read-only, no writes)",
   "opponent": "David's Daring Team (teamId 11, 0-6)",
   "mode": "MUST-WIN",
@@ -17,19 +17,19 @@
       "Drake London",
       "Garrett Wilson"
     ],
-    "TE": "Kyle Pitts Sr.",
+    "TE": "Dallas Goedert",
     "FLEX": "Germie Bernard",
     "DST": "Steelers D/ST",
     "K": "Matt Gay"
   },
   "bench": [
-    "Dallas Goedert",
     "Jakobi Meyers",
     "TreVeyon Henderson",
     "Ollie Gordon II",
     "RJ Harvey",
     "Hunter Henry",
-    "J.J. McCarthy"
+    "J.J. McCarthy",
+    "Kyle Pitts Sr."
   ],
   "ir": [
     "Travis Etienne Jr."
@@ -67,7 +67,7 @@
       "locked": false
     },
     {
-      "slot": "TE",
+      "slot": "BE",
       "name": "Kyle Pitts Sr.",
       "pro": "ATL",
       "status": "ACTIVE",
@@ -76,10 +76,10 @@
       "locked": false
     },
     {
-      "slot": "BE",
+      "slot": "TE",
       "name": "Dallas Goedert",
       "pro": "PHI",
-      "status": "QUESTIONABLE",
+      "status": "ACTIVE",
       "proj": 11.33,
       "actual": null,
       "locked": false
@@ -218,5 +218,6 @@
     "Jacobs: one-game roster exemption through Mon Oct 26; 2:05 PM CT sweep must confirm activation to the 53-man roster",
     "Bernard/Steelers: PIT-NO (Paris) inactives check 7:05 AM CT, dead-man 8:15 AM CT",
     "Goedert vs Pitts: recommend Goedert only if he carries no game designation after the Eagles' final report; otherwise Pitts"
-  ]
+  ],
+  "ken_approval": "Sat Oct 24 2026 7:15 PM CT: \"Yes, set it: start Goedert over Pitts\""
 }
