@@ -1,0 +1,474 @@
+{
+  "week": 8,
+  "as_of": "2026-10-27T09:05:00-05:00",
+  "scope": "QBZ QB/RB/WR/TE, ESPN mRoster read 2026-10-27 ~8:50 AM CT (read only)",
+  "sources": {
+    "snaps": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv (PFR snap logs, pulled Oct 27 ~9:00 AM CT, includes MNF Week 7)",
+    "usage": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv (pulled Oct 27 ~9:00 AM CT)",
+    "news": "see agents/assistant/work/news/week-8-tue-news.md"
+  },
+  "method": "Last three full games played (injury, bye and not-played weeks skipped; Jacobs has one game). Expected role is from cited news only. Route share and red-zone usage are unknown here (not in nflverse weekly files) and left out rather than guessed. Week 8 practice reports start Wed Oct 28, so practice status is unknown as of this file.",
+  "practice_status_w8": "unknown until Wed Oct 28 report",
+  "players": [
+    {
+      "player": "Kyler Murray",
+      "pos": "QB",
+      "team": "MIN",
+      "qbz_role_w8": "QB (starter)",
+      "last_three_full_games": [
+        {
+          "week": 4,
+          "offense_snap_pct": 1.0,
+          "carries": 6,
+          "targets": 0,
+          "target_share": 0.0,
+          "ppr": 11.48
+        },
+        {
+          "week": 5,
+          "offense_snap_pct": 1.0,
+          "carries": 10,
+          "targets": 0,
+          "target_share": 0.0,
+          "ppr": 18.26
+        },
+        {
+          "week": 7,
+          "offense_snap_pct": 1.0,
+          "carries": 5,
+          "targets": 0,
+          "target_share": 0.0,
+          "ppr": 13.9
+        }
+      ],
+      "expected_role_w8": "Starting QB; only QB option in Week 8 (McCarthy NYG bye). Vikings Wire (Oct 27) says sit vs DET after a rough Week 7 behind a struggling line.",
+      "news_source": "https://vikingswire.usatoday.com/story/sports/nfl/vikings/2026/10/27/fantasy-football-should-you-start-qb-kyler-murray-in-week-8/92454479007/"
+    },
+    {
+      "player": "Josh Jacobs",
+      "pos": "RB",
+      "team": "GB",
+      "qbz_role_w8": "RB (starter)",
+      "last_three_full_games": [
+        {
+          "week": 7,
+          "offense_snap_pct": 0.52,
+          "carries": 11,
+          "targets": 7,
+          "target_share": 0.167,
+          "ppr": 20.1
+        }
+      ],
+      "expected_role_w8": "Lead back. Week 7 was his only game (52% snaps, 11 carries, 7 targets). NFL Depth Charts (Oct 27) says he handled most of a normal workload; two GB centers out for Thursday. ESPN tag DAY_TO_DAY; no NFL injury designation found.",
+      "news_source": "https://nfl-depth-charts.com/news/jacobs-returns-to-a-full-workload-as-packers-lose-two-centers-for-week-8-92c35b9dbb9470edc55a/"
+    },
+    {
+      "player": "Ollie Gordon II",
+      "pos": "RB",
+      "team": "MIA",
+      "qbz_role_w8": "RB (starter, Marks bye)",
+      "last_three_full_games": [
+        {
+          "week": 4,
+          "offense_snap_pct": 0.56,
+          "carries": 9,
+          "targets": 2,
+          "target_share": 0.118,
+          "ppr": 18.0
+        },
+        {
+          "week": 5,
+          "offense_snap_pct": 0.65,
+          "carries": 18,
+          "targets": 0,
+          "target_share": 0.0,
+          "ppr": 14.8
+        },
+        {
+          "week": 7,
+          "offense_snap_pct": 0.83,
+          "carries": 25,
+          "targets": 3,
+          "target_share": 0.143,
+          "ppr": 17.3
+        }
+      ],
+      "expected_role_w8": "Lead back since Achane's season-ending ACL tear; TD in four straight. Jaylen Wright (quad) questionable after leaving Week 7, which could add carries.",
+      "news_source": "https://www.rotowire.com/football/headlines/ollie-gordon-news-stretches-td-streak-to-four-games-644316"
+    },
+    {
+      "player": "Woody Marks",
+      "pos": "RB",
+      "team": "HOU",
+      "qbz_role_w8": "Bye Week 8",
+      "last_three_full_games": [
+        {
+          "week": 5,
+          "offense_snap_pct": 0.85,
+          "carries": 15,
+          "targets": 4,
+          "target_share": 0.121,
+          "ppr": 12.5
+        },
+        {
+          "week": 6,
+          "offense_snap_pct": 0.78,
+          "carries": 15,
+          "targets": 3,
+          "target_share": 0.094,
+          "ppr": 10.1
+        },
+        {
+          "week": 7,
+          "offense_snap_pct": 0.89,
+          "carries": 19,
+          "targets": 1,
+          "target_share": 0.036,
+          "ppr": 9.1
+        }
+      ],
+      "expected_role_w8": "Houston bye Week 8.",
+      "news_source": null
+    },
+    {
+      "player": "RJ Harvey",
+      "pos": "RB",
+      "team": "DEN",
+      "qbz_role_w8": "RB/FLEX alternative",
+      "last_three_full_games": [
+        {
+          "week": 5,
+          "offense_snap_pct": 0.37,
+          "carries": 3,
+          "targets": 1,
+          "target_share": 0.045,
+          "ppr": 0.7
+        },
+        {
+          "week": 6,
+          "offense_snap_pct": 0.4,
+          "carries": 6,
+          "targets": 4,
+          "target_share": 0.167,
+          "ppr": 14.6
+        },
+        {
+          "week": 7,
+          "offense_snap_pct": 0.26,
+          "carries": 3,
+          "targets": 2,
+          "target_share": 0.08,
+          "ppr": 14.0
+        }
+      ],
+      "expected_role_w8": "StatRankings Week 8 depth chart (Oct 27) lists Harvey third behind Dobbins and Jonah Coleman (Q ankle, full practice). Snap share 26% in Week 7.",
+      "news_source": "https://statrankings.com/nfl/depth-charts/denver-broncos"
+    },
+    {
+      "player": "TreVeyon Henderson",
+      "pos": "RB",
+      "team": "NE",
+      "qbz_role_w8": "Bench (pending Vidal claim)",
+      "last_three_full_games": [
+        {
+          "week": 5,
+          "offense_snap_pct": 0.16,
+          "carries": 4,
+          "targets": 1,
+          "target_share": 0.032,
+          "ppr": 4.8
+        },
+        {
+          "week": 6,
+          "offense_snap_pct": 0.24,
+          "carries": 7,
+          "targets": 1,
+          "target_share": 0.033,
+          "ppr": 3.0
+        },
+        {
+          "week": 7,
+          "offense_snap_pct": 0.24,
+          "carries": 3,
+          "targets": 2,
+          "target_share": 0.067,
+          "ppr": 4.3
+        }
+      ],
+      "expected_role_w8": "Backup to Stevenson; 16-24% snaps last three.",
+      "news_source": null
+    },
+    {
+      "player": "Drake London",
+      "pos": "WR",
+      "team": "ATL",
+      "qbz_role_w8": "WR (starter)",
+      "last_three_full_games": [
+        {
+          "week": 5,
+          "offense_snap_pct": 0.98,
+          "carries": 0,
+          "targets": 11,
+          "target_share": 0.324,
+          "ppr": 18.8
+        },
+        {
+          "week": 6,
+          "offense_snap_pct": 1.0,
+          "carries": 0,
+          "targets": 10,
+          "target_share": 0.303,
+          "ppr": 12.2
+        },
+        {
+          "week": 7,
+          "offense_snap_pct": 0.81,
+          "carries": 0,
+          "targets": 10,
+          "target_share": 0.312,
+          "ppr": 19.6
+        }
+      ],
+      "expected_role_w8": "No. 1 target (30%+ share). Concussion check in Week 7, cleared and returned same game (CBS/RotoWire Oct 25). One projection site lists him Questionable (head); ESPN tag ACTIVE. Watch Wednesday practice.",
+      "news_source": "https://www.cbssports.com/fantasy/football/news/falcons-drake-london-returns-to-sundays-game/"
+    },
+    {
+      "player": "Garrett Wilson",
+      "pos": "WR",
+      "team": "NYJ",
+      "qbz_role_w8": "WR (starter)",
+      "last_three_full_games": [
+        {
+          "week": 5,
+          "offense_snap_pct": 0.93,
+          "carries": 0,
+          "targets": 11,
+          "target_share": 0.379,
+          "ppr": 23.4
+        },
+        {
+          "week": 6,
+          "offense_snap_pct": 0.98,
+          "carries": 0,
+          "targets": 6,
+          "target_share": 0.207,
+          "ppr": 8.4
+        },
+        {
+          "week": 7,
+          "offense_snap_pct": 0.85,
+          "carries": 0,
+          "targets": 3,
+          "target_share": 0.103,
+          "ppr": 4.6
+        }
+      ],
+      "expected_role_w8": "Full-time WR1; quiet Week 7. Coach Aaron Glenn says the offense is working to get him the ball. Raiders matchup.",
+      "news_source": "https://www.newyorkjets.com/news/aaron-glenn-sunday-cannot-get-here-fast-enough-10-26-2026"
+    },
+    {
+      "player": "Germie Bernard",
+      "pos": "WR",
+      "team": "PIT",
+      "qbz_role_w8": "FLEX (starter)",
+      "last_three_full_games": [
+        {
+          "week": 5,
+          "offense_snap_pct": 0.92,
+          "carries": 1,
+          "targets": 9,
+          "target_share": 0.3,
+          "ppr": 14.4
+        },
+        {
+          "week": 6,
+          "offense_snap_pct": 0.94,
+          "carries": 0,
+          "targets": 12,
+          "target_share": 0.273,
+          "ppr": 25.7
+        },
+        {
+          "week": 7,
+          "offense_snap_pct": 0.91,
+          "carries": 0,
+          "targets": 5,
+          "target_share": 0.179,
+          "ppr": 5.7
+        }
+      ],
+      "expected_role_w8": "WR2 behind Metcalf with Pittman (IR, foot, expected Week 10) and Roman Wilson (IR, expected Week 11) out, so his near-every-snap role holds in Week 8. Rodgers at QB.",
+      "news_source": "https://www.cbssports.com/nfl/teams/pit/pittsburgh-steelers/depth-chart/"
+    },
+    {
+      "player": "Jakobi Meyers",
+      "pos": "WR",
+      "team": "JAX",
+      "qbz_role_w8": "FLEX alternative",
+      "last_three_full_games": [
+        {
+          "week": 4,
+          "offense_snap_pct": 0.82,
+          "carries": 0,
+          "targets": 4,
+          "target_share": 0.174,
+          "ppr": 6.3
+        },
+        {
+          "week": 5,
+          "offense_snap_pct": 0.85,
+          "carries": 0,
+          "targets": 3,
+          "target_share": 0.079,
+          "ppr": 5.7
+        },
+        {
+          "week": 6,
+          "offense_snap_pct": 0.75,
+          "carries": 0,
+          "targets": 10,
+          "target_share": 0.244,
+          "ppr": 13.3
+        }
+      ],
+      "expected_role_w8": "Healthy, Week 7 bye. Coach Liam Coen says Brian Thomas Jr. will help make plays after his slump and benching, and Travis Hunter stays in the rotation, which can cut into Meyers' targets.",
+      "news_source": "https://apnews.com/article/brian-thomas-jr-jaguars-0c74a4af469e5ea2a24bf85045e681aa"
+    },
+    {
+      "player": "Kyle Pitts Sr.",
+      "pos": "TE",
+      "team": "ATL",
+      "qbz_role_w8": "TE (close call)",
+      "last_three_full_games": [
+        {
+          "week": 5,
+          "offense_snap_pct": 0.67,
+          "carries": 0,
+          "targets": 6,
+          "target_share": 0.176,
+          "ppr": 15.2
+        },
+        {
+          "week": 6,
+          "offense_snap_pct": 0.78,
+          "carries": 0,
+          "targets": 7,
+          "target_share": 0.212,
+          "ppr": 23.0
+        },
+        {
+          "week": 7,
+          "offense_snap_pct": 0.56,
+          "carries": 0,
+          "targets": 5,
+          "target_share": 0.156,
+          "ppr": 13.2
+        }
+      ],
+      "expected_role_w8": "TD in three straight, but NBC/Rotoworld (Oct 25) says he ran a route on only 20 of 37 dropbacks in Week 7 with Hooper and Woerner rotating, calling him a high-end TE2 because of touchdowns.",
+      "news_source": "https://www.nbcsports.com/fantasy/football/player-news/2026-10-25/pitts-catches-a-td-in-week-7-win-over-49ers"
+    },
+    {
+      "player": "Dallas Goedert",
+      "pos": "TE",
+      "team": "PHI",
+      "qbz_role_w8": "TE (current ESPN TE slot)",
+      "last_three_full_games": [
+        {
+          "week": 5,
+          "offense_snap_pct": 0.69,
+          "carries": 0,
+          "targets": 9,
+          "target_share": 0.243,
+          "ppr": 9.8
+        },
+        {
+          "week": 6,
+          "offense_snap_pct": 0.81,
+          "carries": 0,
+          "targets": 8,
+          "target_share": 0.182,
+          "ppr": 12.1
+        },
+        {
+          "week": 7,
+          "offense_snap_pct": 0.73,
+          "carries": 0,
+          "targets": 7,
+          "target_share": 0.212,
+          "ppr": 9.8
+        }
+      ],
+      "expected_role_w8": "Still the main TE at 73% snaps on MNF Oct 26 with Stowers (18%) and Calcaterra (12%) back from IR. PFF: no immediate fantasy impact, but Stowers could cut in later. Asked to block more in Mannion's scheme. Sunday night game.",
+      "news_source": "https://theeagleswire.usatoday.com/story/sports/nfl/eagles/2026/10/27/eagles-cowboys-snap-counts-week-7-makai-lemon-saquon-barkley/92457566007/"
+    },
+    {
+      "player": "Hunter Henry",
+      "pos": "TE",
+      "team": "NE",
+      "qbz_role_w8": "TE alternative (in Maye offer)",
+      "last_three_full_games": [
+        {
+          "week": 5,
+          "offense_snap_pct": 0.64,
+          "carries": 0,
+          "targets": 4,
+          "target_share": 0.129,
+          "ppr": 13.4
+        },
+        {
+          "week": 6,
+          "offense_snap_pct": 0.76,
+          "carries": 0,
+          "targets": 5,
+          "target_share": 0.167,
+          "ppr": 14.8
+        },
+        {
+          "week": 7,
+          "offense_snap_pct": 0.76,
+          "carries": 0,
+          "targets": 7,
+          "target_share": 0.233,
+          "ppr": 14.1
+        }
+      ],
+      "expected_role_w8": "Clear NE TE1, double-digit points three straight, season-high 7 catches in Week 7; RotoBaller (Oct 26) calls the Miami matchup juicy.",
+      "news_source": "https://www.rotoballer.com/player-news/hunter-henry-gaining-steam-heading-into-juicy-week-8-matchup/1976242"
+    },
+    {
+      "player": "J.J. McCarthy",
+      "pos": "QB",
+      "team": "NYG",
+      "qbz_role_w8": "Bye Week 8",
+      "last_three_full_games": [
+        {
+          "week": 5,
+          "offense_snap_pct": 0.06,
+          "carries": 2,
+          "targets": 0,
+          "target_share": 0.0,
+          "ppr": 0.2
+        },
+        {
+          "week": 6,
+          "offense_snap_pct": 0.4,
+          "carries": 2,
+          "targets": 0,
+          "target_share": 0.0,
+          "ppr": 16.32
+        },
+        {
+          "week": 7,
+          "offense_snap_pct": 0.92,
+          "carries": 1,
+          "targets": 0,
+          "target_share": 0.0,
+          "ppr": 10.18
+        }
+      ],
+      "expected_role_w8": "Giants bye Week 8.",
+      "news_source": null
+    }
+  ]
+}

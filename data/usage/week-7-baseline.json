@@ -56,7 +56,8 @@
       "role_change_flags": [
         "Return from Exempt list; snap share likely limited/ramped. GB RBs W6: Strong 55%, Lloyd 40%."
       ],
-      "unknown_reason": "No 2026 game snaps; first game back after two practices; team has not given a snap plan."
+      "unknown_reason": "No 2026 game snaps; first game back after two practices; team has not given a snap plan.",
+      "actual_snap_pct_w7": 0.52
     },
     {
       "player": "Woody Marks",
@@ -238,8 +239,9 @@
       "role_w7": "TE1 if active (bench for QBZ)",
       "basis": "W5 69%, W6 81% (W3-W4 no snaps). ESPN QUESTIONABLE.",
       "role_change_flags": [
-        "Hurts on IR (calf blood clot, Oct 17): Tanner McKee QB (100% W6). Eagles TEs Stowers and Calcaterra OUT, so Goedert has little TE competition if he plays (Mundt 30% W6). Goedert snap share depends on his own status."
-      ]
+        "Hurts on IR (calf blood clot, Oct 17): Tanner McKee QB (100% W6). Eagles TEs Stowers and Calcaterra were activated from IR Oct 26 and played MNF (Stowers 18%, Calcaterra 12%); Goedert still 73% (corrected Oct 27). Goedert snap share depends on his own status."
+      ],
+      "actual_snap_pct_w7": 0.73
     },
     {
       "player": "Hunter Henry",
@@ -259,6 +261,31 @@
       "basis": "Actual W7 snaps 76%. Locked.",
       "already_played": true,
       "actual_snap_pct_w7": 0.76
+    }
+  ],
+  "corrections": [
+    {
+      "date": "2026-10-27",
+      "fix": "Goedert row: Stowers and Calcaterra were not out. Eagles activated both from IR on Oct 26 and both played Week 7 MNF vs DAL (Stowers 12 snaps/18%, Calcaterra 8 snaps/12%, Goedert 48/73%).",
+      "sources": [
+        "https://www.philadelphiaeagles.com/news/eagles-activate-grant-calcaterra-landon-dickerson-and-eli-stowers-from-injured-reserve (Oct 26, 2026)",
+        "https://theeagleswire.usatoday.com/story/sports/nfl/eagles/2026/10/27/eagles-cowboys-snap-counts-week-7-makai-lemon-saquon-barkley/92457566007/ (Oct 27, 2026)",
+        "nflverse snap_counts_2026.csv pulled Oct 27"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "fix": "Jacobs row: unknown at the time; actual Week 7 was 52% snaps, 11 carries, 7 targets (nflverse).",
+      "sources": [
+        "nflverse snap_counts_2026.csv and stats_player_week_2026.csv pulled Oct 27"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "fix": "Goedert ESPN QUESTIONABLE tag (Oct 23 snapshot) resolved: he played Week 7 (48 snaps, 5 catches, 48 yards).",
+      "sources": [
+        "https://www.nfl.com/players/dallas-goedert/stats/logs/"
+      ]
     }
   ]
 }

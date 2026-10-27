@@ -38,3 +38,19 @@ Goal: the most Quantum Blitz points in Week 8.
 Gordon and Jacobs fill the two RB slots with Marks on bye. Gordon is our top-projected bench player and his snaps and carries rose each game, reaching 83% and 25 carries in Week 7.
 
 **FLEX pick: Germie Bernard.** Bernard plays over 90% of Pittsburgh's snaps and has drawn 26 targets in his last three games to Meyers' 17, with the same 10.8 projection. Henry is next in line, and Harvey's shrinking snap share keeps him behind both.
+
+## News read (Tue Oct 27, about 9:10 AM CT)
+Full sources: `agents/assistant/work/news/week-8-tue-news.md`. Week 8 practice reports start Wednesday.
+
+- **Pitts:** Three straight touchdowns, but he ran routes on only about half of Atlanta's dropbacks in Week 7 with two other tight ends rotating, so his scoring leans on touchdowns.
+- **Henry:** New England's clear top tight end, catches rising each week, and Miami is called a soft matchup. **FLAG: the news changes the TE pick to Henry if he is still on our roster after the 9:30 AM Maye offer. If Henry is traded, Pitts stays the pick.**
+- **Goedert:** Still played most snaps Monday night with Stowers and Calcaterra back from IR, but he is asked to block more and the rookie could take over later. Third choice; late Sunday game.
+- **Jacobs:** No NFL injury designation found and he handled a near-normal load in Week 7; ESPN still tags him day-to-day. Start; Packers are missing two centers Thursday.
+- **Gordon:** Miami's lead back with a touchdown in four straight, and backup Jaylen Wright is questionable. News is stronger than his projection. Start.
+- **Harvey:** Listed third in Denver's backfield behind Dobbins and rookie Coleman. News points below his projection. Bench.
+- **Bernard:** Keeps his near-every-snap WR2 role while Pittman and Roman Wilson stay on IR. Pick stands.
+- **Meyers:** Jacksonville's coach expects Brian Thomas Jr. back in the mix and Travis Hunter keeps rotating, which crowds Meyers. Bench.
+- **Murray:** One local writer says sit him at Detroit, but McCarthy is on bye, so he starts.
+- **London:** Cleared a concussion check during Week 7 and returned; ESPN tags him active. Start, and watch Wednesday's practice report.
+- **Wilson:** Quiet Week 7, and his coach talked about getting him the ball. Start.
+- **Gay and Steelers D/ST:** No news against either. Start.
