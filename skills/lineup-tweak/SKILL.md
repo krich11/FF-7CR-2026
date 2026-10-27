@@ -17,11 +17,11 @@ Replaces the old Friday tweak. Runs Friday about 3:30 PM, Saturday about 8:30 PM
 ## Steps
 1. Run roster.sync. Read `data/availability.json`, Assistant's Friday files (`data/projections/week-N.json`, `data/usage/week-N-baseline.json`), and Assistant's latest file in `agents/assistant/work/close-calls/`. Note any file that is missing or late.
 2. Run projections.validate on fresh ESPN projections.
-3. Re-check every starting slot where the best bench option is within 1.5 projected points, deciding on workload; in MUST-WIN mode a close call goes to the higher-ceiling player facing the weaker defense.
+3. Re-check every unlocked starting slot and start the player expected to score more, with news weighed as heavily as the projection.
 4. Re-check any quarterback or play-caller change on a team we start.
-5. Compare our K, D/ST, and backup QB with the best free agent. If a free agent clears ours by 1.5 points or more, ask Ken the same day ("Pick up X and drop Y?"), after checking that Y is unlocked.
+5. Compare our K, D/ST, and backup QB with the best free agent. If a free agent is expected to score more, ask Ken the same day ("Pick up X and drop Y?"), after checking that Y is unlocked.
 6. If a move is worth making, update the card and decisions file, commit and push, and ask Ken directly. If nothing changed, say nothing.
 7. Apply only on "yes, set it".
 
 ## Output
-Plain standard English in full sentences, per Ken's writing rules in PLAYBOOK.md. Name the inputs used (ESPN pull time, availability file time, Assistant's Friday files and latest close-call file where relevant) and name any missing or late file. All times CT.
+Plain standard English in full sentences, per Ken's writing rules in PLAYBOOK.md. All times CT.

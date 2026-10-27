@@ -24,4 +24,4 @@ Waiver and free-agent recommendations for Quantum Blitz. The league uses traditi
 7. Write the request to `playbook/CLAIMS.md`, commit and push. File nothing until Ken types the command; then file it and verify on a fresh ESPN read.
 
 ## Output
-Plain standard English in full sentences, per Ken's writing rules in PLAYBOOK.md. Name the inputs used (ESPN pull time, availability file time, Assistant's Friday files and latest close-call file where relevant) and name any missing or late file. All times CT.
+Plain standard English in full sentences, per Ken's writing rules in PLAYBOOK.md. All times CT.

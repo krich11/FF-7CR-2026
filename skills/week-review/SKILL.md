@@ -27,7 +27,7 @@ ESPN results for every rostered player, nflverse snap counts, Assistant's Friday
 7. Log the review in `weekly/audit/blitz-audit.log`, commit and push. Chat gets a short summary only.
 
 ## Output
-Plain standard English in full sentences, per Ken's writing rules in PLAYBOOK.md. Name the inputs used (ESPN pull time, availability file time, Assistant's Friday files and latest close-call file where relevant) and name any missing or late file. All times CT.
+Plain standard English in full sentences, per Ken's writing rules in PLAYBOOK.md. All times CT.
 
 ## Hard stops
 Read-only for ESPN. Never invent stats.

@@ -18,7 +18,7 @@ The Sunday dead-man for Quantum Blitz. It runs at 9:53 AM CT on Sunday and chang
 ## Gates (all must pass)
 1. Fresh availability: `data/availability.json` was written Sunday at 7:00 AM CT or later and is under four hours old. If not, post that the dead-man is blocked for stale availability and leave ESPN alone.
 2. Run roster.sync and re-check every starter against ESPN's tag and any official can't-play list. Starters who are OUT, inactive, on bye, or official_block come out.
-3. Read Assistant's latest file in `agents/assistant/work/close-calls/` and re-score any slot within 1.5 projected points; in MUST-WIN mode a close call goes to the higher-ceiling player facing the weaker defense.
+3. Read Assistant's latest file in `agents/assistant/work/close-calls/` and re-check every unlocked slot and start the player expected to score more.
 4. The card in `weekly/cards/week-N.md` and `weekly/decisions/week-N.json` exists and is for this week. Re-score any saved branch against the live roster before it fires.
 5. Ken has not said "hold" or "stop" since the card.
 6. Only unlocked slots move.
@@ -29,7 +29,7 @@ The Sunday dead-man for Quantum Blitz. It runs at 9:53 AM CT on Sunday and chang
 3. Otherwise apply with espn.api-apply and report the result as verified or unverified.
 
 ## Output
-Plain standard English in full sentences, per Ken's writing rules in PLAYBOOK.md. Name the inputs used (ESPN pull time, availability file time, Assistant's Friday files and latest close-call file where relevant) and name any missing or late file. All times CT.
+Plain standard English in full sentences, per Ken's writing rules in PLAYBOOK.md. All times CT.
 
 ## Hard stops
 Lineup only. A failed verify always goes to Ken immediately.

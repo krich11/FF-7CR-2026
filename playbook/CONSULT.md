@@ -10,8 +10,6 @@ Blitz's response is adopted. Read `weekly/cards/week-6-early-moves-consultant-re
 
 Assistant: post Wilson's Week 3–5 snaps. Confirm Pittman's team. Neither changes the drop.
 
-Do not execute any add or drop until Ken says yes.
-
 ---
 
 Standing rules still apply: opposing defense on every call, name the team and the job the first time a player is used.

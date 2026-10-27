@@ -24,4 +24,4 @@ ESPN projections from the live pull, and Assistant's `data/projections/week-N.js
 4. Write the checked numbers to `data/projections.json` in the repo and push. Never invent a number; leave it empty instead.
 
 ## Output
-Plain standard English in full sentences, per Ken's writing rules in PLAYBOOK.md. Name the inputs used (ESPN pull time, availability file time, Assistant's Friday files and latest close-call file where relevant) and name any missing or late file. All times CT.
+Plain standard English in full sentences, per Ken's writing rules in PLAYBOOK.md. All times CT.

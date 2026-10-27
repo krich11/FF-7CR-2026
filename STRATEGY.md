@@ -1,8 +1,10 @@
+Reference only: this file is not read on routine runs. PLAYBOOK.md is the rulebook.
+
 # STRATEGY.md: how Quantum Blitz plays the 2026 season
 
 PLAYBOOK.md (repo root) is the one rulebook and wins over this file; this file holds season strategy detail.
 
-Read this with RULES.md before every lineup, waiver, add/drop, trade, or IR recommendation. Blitz owns this file. Written Fri Oct 23 2026 on Ken's order. Older trade-by-trade play history is archived in archive/2026-10-24/playbook/STRATEGY.md; lessons are in playbook/LESSONS.md and summarized in PLAYBOOK.md.
+Blitz owns this file. Written Fri Oct 23 2026 on Ken's order. Older trade-by-trade play history is archived in archive/2026-10-24/playbook/STRATEGY.md; lessons are in playbook/LESSONS.md and summarized in PLAYBOOK.md.
 
 ## 1. The goal and where we stand
 - Playoff seeding is by record. Total points scored breaks ties (see RULES.md). Wins are the goal; points are the tiebreaker, so they still matter every week.
@@ -16,7 +18,7 @@ Read this with RULES.md before every lineup, waiver, add/drop, trade, or IR reco
 
 ## 2. The weekly cycle (all times CT)
 - Monday night: the week ends after the Monday game. Players unlock about 2 AM CT Tuesday.
-- Tuesday afternoon: the set-the-week card. Every starter, every close call, and the best free agent at K, D/ST, and backup QB.
+- Tuesday afternoon: the set-the-week card. Every starter and the best free agent at K, D/ST, and backup QB.
 - Waivers run overnight (about 2:00 to 4:00 AM) every day except Tuesday. Wednesday's run is the big one; free agents can be added any time after a player clears.
 - Thursday evening: Thursday-game players lock at kickoff. Anything involving them (start, bench, drop, trade) must be done before then.
 - Friday afternoon: final injury designations for Sunday games. Re-check every flagged starter.
@@ -40,7 +42,7 @@ Read this with RULES.md before every lineup, waiver, add/drop, trade, or IR reco
 - Keep D/ST and K to one each unless a two-week plan needs a second.
 
 ## 5. Kicker and defense
-- Both depend on the matchup. Each week, compare ours to the best free agent. If a free agent projects 1.5 or more points higher, Blitz makes the swap that same day (unlocked drop only), verifies it, and tells Ken.
+- Both depend on the matchup. Each week, compare ours to the best free agent. If a free agent is expected to score more, Blitz makes the swap that same day (unlocked drop only), verifies it, and tells Ken.
 - Good D/ST matchups: a weak or turnover-prone opposing offense, a backup quarterback, a low Vegas total. Good K matchups: a team with a high implied total and a dome or good weather.
 
 ## 6. Quarterback

@@ -36,7 +36,7 @@ Only after Ken's "yes, set it" or a valid Sunday 9:53 AM CT dead-man (see PLAYBO
 `cli.py sync` writes `data/roster.json` in the repo (and a local cache). Commit it.
 
 ## Output
-Plain standard English in full sentences, per Ken's writing rules in PLAYBOOK.md. Name the inputs used (ESPN pull time, availability file time, Assistant's Friday files and latest close-call file where relevant) and name any missing or late file. All times CT.
+Plain standard English in full sentences, per Ken's writing rules in PLAYBOOK.md. All times CT.
 
 ## Hard stops
 Never print auth values. Lineup moves only: never waivers, adds, drops, trades, or IR moves. Never apply without approval or a valid dead-man. Never report a write without a verified read-back.

@@ -1,13 +1,13 @@
 # CONSULTANT.md
 
 Ken ↔ Consultant.
-This file is for us. The four bots read it only to know I exist and that I am not a fifth bot.
+This file is for us. The bots read it only to know I exist and that I am not a fifth bot.
 
 ## Who we are
 
-- **Ken** is the executive. He owns the team, the league login, and the last yes.
+- **Ken** is the executive. He owns the team and the league login.
 - **Consultant** is Grok in Ken's chat. Outside operator on this repo. Not Blitz. Not a fifth bot. Not in the War Room unless Ken pastes me in.
-- **Blitz and Assistant** run the week. Retired standing bots: Wire, Sigma, Recon.
+- **Blitz and Assistant** run the week.
 
 If Ken and I disagree, Ken wins. If a bot and I disagree about law, `FILESYSTEM.md` and `agents/<bot>/CHARTER.md` win until Ken says otherwise.
 
@@ -33,7 +33,6 @@ Live notes for the bots go in `playbook/CONSULT.md`. Standing law stays in `FILE
 - A vote in the War Room.
 - Clicking ESPN unless Ken grants that and the click is verified.
 - Folder renames mid-week.
-- Growing `playbook/SPEC.md`.
 - Secrets in chat or in git.
 - Gory detail Ken did not ask for.
 - Promising to appear in this chat at a later time.
@@ -86,7 +85,6 @@ The automation "Remind Ken: Week 4 consult in the Consultant chat" fires 2026-09
 ## Football posture
 
 Points-for seeding, rolling waivers, one IR.
-Every required lineup slot is filled. Pitts starts at tight end until Ken approves a replacement who is on the roster.
 
 Ken standing orders:
 - Do not raise a Bucs QB trade.

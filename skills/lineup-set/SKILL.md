@@ -17,7 +17,7 @@ The week-opening start and sit card for Quantum Blitz.
 ## Steps
 1. Run roster.sync. Read `data/availability.json`, `data/recon/`, and Assistant's Tuesday brief in `agents/assistant/work/`.
 2. Get ESPN projections for every rostered player and run projections.validate.
-3. Fill all nine starting slots with the highest projection, unless ESPN's tag or an official list says otherwise. Mark every slot within 1.5 projected points of the best bench option as a close call; in MUST-WIN mode it goes to the higher-ceiling player facing the weaker defense.
+3. Fill all nine starting slots, unless ESPN's tag or an official list says otherwise. Start the player expected to score more, with news weighed as heavily as the projection.
 4. Check any quarterback or play-caller change on a team we start, and compare our K, D/ST, and backup QB with the best free agent from `data/recon/`. No slot is ever "only X."
 5. Add the adversarial check: each way the lineup could fail and the answer.
 6. Write `weekly/cards/week-N.md` and `weekly/decisions/week-N.json`, then commit and push.
@@ -25,4 +25,4 @@ The week-opening start and sit card for Quantum Blitz.
 8. On "yes, set it", apply with espn.api-apply. On "hold" or "stop", do nothing. There is no Tuesday autocommit; the only dead-man is Sunday at 9:53 AM CT.
 
 ## Output
-Plain standard English in full sentences, per Ken's writing rules in PLAYBOOK.md. Name the inputs used (ESPN pull time, availability file time, Assistant's Friday files and latest close-call file where relevant) and name any missing or late file. All times CT.
+Plain standard English in full sentences, per Ken's writing rules in PLAYBOOK.md. All times CT.

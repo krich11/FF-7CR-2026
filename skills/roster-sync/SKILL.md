@@ -23,7 +23,7 @@ First step of every lineup skill. Read-only.
 6. Commit and push.
 
 ## Output
-Plain standard English in full sentences, per Ken's writing rules in PLAYBOOK.md. Name the inputs used (ESPN pull time, availability file time, Assistant's Friday files and latest close-call file where relevant) and name any missing or late file. All times CT.
+Plain standard English in full sentences, per Ken's writing rules in PLAYBOOK.md. All times CT.
 
 ## Hard stops
 No adds, drops, trades, IR moves, claims, or lineup changes.
