@@ -40,6 +40,9 @@ We are in MUST-WIN mode for the rest of the regular season (Ken, Oct 23). Upside
 ## Close-call rule
 Assistant writes a close-call file to agents/assistant/work/close-calls/ by Friday 3:00 PM, Saturday 8:00 PM, and Sunday 8:00 AM, then messages Blitz. Blitz's close-call check reads Assistant's latest file and then re-checks three things: every starting slot where the best bench option is within 1.5 projected points, any quarterback or play-caller change on a team we start, and the best free agent at K, D/ST, and backup QB. In MUST-WIN mode a close call goes to the higher-ceiling player facing the weaker defense. If a move adds points, Blitz makes it the same day, verifies it, and tells Ken. No slot is ever "only X."
 
+## Read the news (Ken via Sam, Tue Oct 27 2026)
+Before every lineup, close-call, waiver or trade decision, Blitz and Assistant read current news on each starter and each alternative: coach press conferences, player quotes about their role, players returning from injury, depth chart and play-caller changes, beat reporter notes, and criticism of the coaching staff. Weigh that news as heavily as ESPN's projection and override the projection when the news clearly points the other way. ESPN still sets injury status; the news decides who is likely to score more.
+
 ## Late-game swap rule (Sam proposed, Assistant and Blitz agreed, Tue Oct 27 2026)
 A player in the last game of the week (Sunday or Monday night) can't be swapped out later, so start him over a teammate who plays earlier only when his recent workload (snap share, touches or targets, recent scoring) is clearly better, not on ESPN's projection alone.
 - Keep the earlier player automatically if the late player missed practice with an injury that week and was not back to full practice by the final injury report.
