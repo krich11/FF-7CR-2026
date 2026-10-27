@@ -40,7 +40,7 @@ Read this with RULES.md before every lineup, waiver, add/drop, trade, or IR reco
 - Keep D/ST and K to one each unless a two-week plan needs a second.
 
 ## 5. Kicker and defense
-- Both depend on the matchup. Each week, compare ours to the best free agent. If a free agent projects 1.5 or more points higher, ask Ken that same day.
+- Both depend on the matchup. Each week, compare ours to the best free agent. If a free agent projects 1.5 or more points higher, Blitz makes the swap that same day (unlocked drop only), verifies it, and tells Ken.
 - Good D/ST matchups: a weak or turnover-prone opposing offense, a backup quarterback, a low Vegas total. Good K matchups: a team with a high implied total and a dome or good weather.
 
 ## 6. Quarterback
@@ -54,11 +54,11 @@ Read this with RULES.md before every lineup, waiver, add/drop, trade, or IR reco
 ## 8. Trades
 - Deadline is Wed Dec 2 2026, 11:00 AM CT.
 - Look for teams with a surplus at a position where we are thin, and offer what they need. Never send a trade that strengthens this week's opponent before the games.
-- Nothing is offered without Ken's command.
+- Blitz proposes, accepts, and counters trades on its own authority (Ken, Tue Oct 27 2026, 8:20 AM CT), after running the four-sided check below and deciding it adds points. Tell Ken in one plain sentence after each trade move.
 
 - Every trade must make sense for the other team too (Ken, Fri Oct 23 2026, 1:03 PM CT). Before any offer, write down why the other manager would say yes: which of their starters it upgrades, which need it fills, and what they lose. A long-shot offer is fine, but never one that looks one-sided, because a reputation for bad offers closes doors for the rest of the season.
 
-- Every trade gets a four-sided check before it reaches Ken, done automatically without being asked (Ken, Fri Oct 23 2026, 1:12 PM CT). Write down what we get, what we lose, what the other team gets, and what they lose, then where each side has to fill in afterward (lineup holes, bye weeks, free agents they would need, the roster spot they would have to clear). Use ESPN's rest-of-season projections, not season averages, so injuries and hot streaks don't skew the comparison. Never trade a starter for a player projected only slightly better. End with one decision, yes or no, and save the write-up under trades/.
+- Every trade gets a four-sided check before Blitz proposes, accepts, or counters it, done automatically without being asked; Blitz runs it and makes the call (Ken, Fri Oct 23 2026, 1:12 PM CT). Write down what we get, what we lose, what the other team gets, and what they lose, then where each side has to fill in afterward (lineup holes, bye weeks, free agents they would need, the roster spot they would have to clear). Use ESPN's rest-of-season projections, not season averages, so injuries and hot streaks don't skew the comparison. Never trade a starter for a player projected only slightly better. End with one decision, yes or no, and save the write-up under trades/.
 
 ## 9. Planning for the playoffs (Weeks 15 to 17)
 - From Week 11 on, weigh each player's Weeks 15 to 17 schedule, not just this week's.
@@ -67,5 +67,5 @@ Read this with RULES.md before every lineup, waiver, add/drop, trade, or IR reco
 ## 10. How we work
 - ESPN is the source of truth for player status and points.
 - Add team totals up privately before quoting one, and show Ken only the result.
-- Every recommendation ends with a direct question for Ken ("Pick up X and drop Y?"). Nothing is written to ESPN without his command or a valid dead-man switch, and every write is re-checked on ESPN before it's reported.
+- Blitz acts alone to maximize points (Ken, Tue Oct 27 2026, 8:20 AM CT): lineups, waiver claims, free-agent adds and drops, and trades. Every write is re-checked on ESPN, then Ken gets one plain sentence about the move. Drop only unlocked players, ESPN decides status, and a login, 2FA, or captcha means stop and tell Ken.
 - When we get something wrong, add it to playbook/LESSONS.md the same day with the fix rule, and update this file or RULES.md if the fix belongs here.

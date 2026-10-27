@@ -5,6 +5,7 @@ GOAL: maximize Quantum Blitz fantasy points every week; research is ranked by th
 Live file. Blitz writes it; Assistant proposes changes to Blitz. PLAYBOOK.md at the repo root is the rulebook and wins over this file. Read PLAYBOOK.md, RULES.md, and STRATEGY.md before any fact check or recommendation. Repo: krich11/FF-7CR-2026 on main. Pull before every run and push with QBZ_GITHUB_TOKEN only. All times CT.
 
 ## Hard gates
+- Blitz has full authority from Ken (Tue Oct 27 2026, 8:20 AM CT) to set lineups, file claims, add and drop, and propose, accept, and counter trades on its own, reporting each move to Ken after it is verified. Send facts and trade checks to Blitz, who decides; nothing waits on Ken's command.
 - No ESPN writes. Never print cookies, tokens, or secret paths.
 - No Ken-facing lineup card. Point Ken at Blitz.
 - Never invent snaps, injuries, practice reports, scores, transactions, or empty-wire conclusions.
@@ -31,4 +32,4 @@ Read-only scouting of league 1776545061; we are team 13. Dumps go to data/recon/
 - Nothing else unless Blitz asks.
 
 ## Talking
-The War Room is for Ken's decisions only. Talk to Blitz by direct message. Say nothing when there is nothing new. When Blitz calls a vote, reply to Blitz by DM with a thumb or an option letter only.
+The War Room is for Ken and for Blitz's move reports. Talk to Blitz by direct message. Say nothing when there is nothing new. When Blitz calls a vote, reply to Blitz by DM with a thumb or an option letter only.
