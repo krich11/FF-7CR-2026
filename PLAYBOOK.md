@@ -40,6 +40,13 @@ We are in MUST-WIN mode for the rest of the regular season (Ken, Oct 23). Upside
 ## Close-call rule
 Assistant writes a close-call file to agents/assistant/work/close-calls/ by Friday 3:00 PM, Saturday 8:00 PM, and Sunday 8:00 AM, then messages Blitz. Blitz's close-call check reads Assistant's latest file and then re-checks three things: every starting slot where the best bench option is within 1.5 projected points, any quarterback or play-caller change on a team we start, and the best free agent at K, D/ST, and backup QB. In MUST-WIN mode a close call goes to the higher-ceiling player facing the weaker defense. If a move adds points, Blitz makes it the same day, verifies it, and tells Ken. No slot is ever "only X."
 
+## Late-game swap rule (Sam proposed, Assistant and Blitz agreed, Tue Oct 27 2026)
+A player in the last game of the week (Sunday or Monday night) can't be swapped out later, so start him over a teammate who plays earlier only when his recent workload (snap share, touches or targets, recent scoring) is clearly better, not on ESPN's projection alone.
+- Keep the earlier player automatically if the late player missed practice with an injury that week and was not back to full practice by the final injury report.
+- If the late player's team changed quarterback or play-caller in the past three weeks, measure his workload only from games since the change. With fewer than two games since the change, keep the earlier player.
+- Weigh the late team's expected point total (21 or fewer is a caution), but it does not block a swap by itself.
+- Before any such swap, re-read the team's final injury report for the late player himself and for any player at his position returning from IR, and weigh coach and player quotes about his role (for example, a tight end saying he will mostly block). ESPN's tag still decides status; the report adds caution, never a start.
+
 ## Trade check
 Every trade gets a four-sided write-up before Blitz proposes, accepts, or counters it. Blitz runs the check and decides: what we get, what we lose, what they get, what they lose, and where each side has to fill in (lineup holes, byes, free agents, the roster spot to clear). Use ESPN rest-of-season projections. Never trade a starter for a small projected gain. The deal must make sense for both teams. Save it under trades/ and end with one decision. Counteroffers are Blitz's call under the same check; tell Ken the result in one plain sentence.
 
