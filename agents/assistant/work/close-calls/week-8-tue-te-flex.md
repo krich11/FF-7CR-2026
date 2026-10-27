@@ -54,3 +54,20 @@ Full sources: `agents/assistant/work/news/week-8-tue-news.md`. Week 8 practice r
 - **London:** Cleared a concussion check during Week 7 and returned; ESPN tags him active. Start, and watch Wednesday's practice report.
 - **Wilson:** Quiet Week 7, and his coach talked about getting him the ball. Start.
 - **Gay and Steelers D/ST:** No news against either. Start.
+
+## FLEX pick (Tue Oct 27, about 9:25 AM CT)
+Sources: ESPN via ffmcp read tools (get_roster, get_news, get_pending_trades; read only, nothing applied), nflverse usage in `data/usage/week-8-baseline.json`, the news file, and National Weather Service hourly forecasts pulled Oct 27 about 9:15 AM CT (api.weather.gov; issued early Oct 27).
+
+**Lineup: Jacobs and Gordon at RB, Bernard at FLEX.** Gordon fills the RB slot Marks leaves empty on his bye. Moving Gordon to FLEX would put Harvey in the RB slot, the weakest option of the four, so it loses points.
+
+**FLEX pick: Germie Bernard.** He ran a route on 33 of Aaron Rodgers' 34 dropbacks in Week 7, the most on the team, and RotoWire (ESPN news, Oct 26) says his role is secure while Pittman and Roman Wilson stay out at least two more games. Meyers has the same ESPN projection, but RotoWire calls him a distant No. 2 behind Parker Washington, and Brian Thomas Jr. is expected back in the mix. Harvey is in a three-way split with Dobbins and Coleman, and Coleman led Denver's backfield in snaps in Week 7 (ESPN buzz, Oct 26), so Harvey needs a long touchdown to pay off.
+
+**Weather does not change the pick.** All four outdoor games show light wind and a chance of showers, with nothing severe:
+- Bernard, Pittsburgh at noon: mid to upper 60s, wind about 8 mph, 44% showers (https://forecast.weather.gov/MapClick.php?lat=40.4468&lon=-80.0158).
+- Meyers, Jacksonville at noon: upper 70s, wind about 12 mph, 49% showers and storms (https://forecast.weather.gov/MapClick.php?lat=30.3239&lon=-81.6373).
+- Harvey, Denver at 3:25 PM: about 60, wind about 9 mph, showers 31% rising to 62% late (https://forecast.weather.gov/MapClick.php?lat=39.7439&lon=-105.0201).
+- Gordon, Miami at 3:25 PM: low 80s, wind about 6 mph, 21-49% showers and storms (https://forecast.weather.gov/MapClick.php?lat=25.958&lon=-80.2389).
+- Jacobs, Green Bay Thursday night: around 50 to 54, nearly calm, dry (https://forecast.weather.gov/MapClick.php?lat=44.5013&lon=-88.0622).
+These are five-day forecasts; re-check Saturday.
+
+**TE:** At about 9:20 AM CT, Henry was still on our bench and ESPN showed no pending trade either way, so the Maye offer had not posted yet. The TE pick stays Henry while he is ours, and Pitts if he is traded.

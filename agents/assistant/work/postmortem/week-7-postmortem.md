@@ -40,7 +40,7 @@ QB Murray 17.3; RB Jacobs 15.1 (day-to-day), Gordon 14.4; WR London 18.1, Wilson
 Free agents at Week 8: Geno Smith projects 18.4 (one point above Murray). No other free agent projects above our starter at any position. Steelers D/ST 8.0 leads the best free agent (Commanders 7.6).
 
 ## Adds
-- Vidal: ESPN shows a pending waiver claim from our team made at 8:05 AM CT today: add Vidal, drop Henderson. Vidal is on waivers, so a straight add was not possible. League waivers process at 11 AM CT on Mon and Wed through Sun, so this one runs Wednesday at 11 AM CT. Vidal: ROS 93.4, Week 8 7.9. Henderson: ROS 61.8, Week 8 6.6.
+- Vidal: ESPN shows a pending waiver claim from our team made at 8:05 AM CT today: add Vidal, drop Henderson. Vidal is on waivers, so a straight add was not possible. League waivers process at 2:00 AM CT, so this one runs Wednesday at 2:00 AM CT (corrected Oct 27 from 11 AM). Vidal: ROS 93.4, Week 8 7.9. Henderson: ROS 61.8, Week 8 6.6.
 - Week 9 D/ST (Steelers bye): Giants D/ST (ROS 61.7, bye done) plays the Eagles in Week 9; Jaguars D/ST (ROS 65.4, highest free-agent D/ST) plays the Ravens. Week 9 ESPN projections are not posted yet.
 - Week 9 FLEX: Bernard (PIT) has a Week 9 bye; Etienne comes back from IR in Week 9, so the RB group covers FLEX.
 - K: Gay (ROS 99.6) is above every free agent (best: Chad Ryland 95.4).
