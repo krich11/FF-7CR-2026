@@ -192,3 +192,9 @@ SHOT_AFTER week=1 TE=Goedert hash=8eb1de44a952a1abd413f1ee6721c996253c306f01ac85
 2026-10-20T14:15:00-05:00 LINEUP_APPLIED week=7 cmd='yes, set it' QB=Murray RB=Gordon,Jacobs bench=Brissett,Harvey,Marks verify=ok (RB order only)
 2026-10-21T09:16:00-05:00 FA_TXN week=7 cmd='claim David Montgomery drop Woody Marks' add=4035538 drop=4429059 txn=58db94a0 status=EXECUTED verify=ok Montgomery=BE
 2026-10-21T12:56:00-05:00 FA_TXN week=7 cmd='claim J.J. McCarthy drop Jacoby Brissett' add=4433970 drop=2578570
+2026-10-27T07:38:25-05:00 WEEK_REVIEW week=7 result=L 99.8-102.1 opp=DDT proj=117.75 best=120.6 bench_left=20.8 record=1-6 seed=12 source=espn_api_sp7 pulled=2026-10-27T07:36-05:00 currentMatchupPeriod=8 misses_known_before_lock=0
+2026-10-27T07:38:25-05:00 STANDINGS_REFRESH week=7 record=1-6 PF=712.56 PA=908.66 seed=12 sixth=LL_4-3_810.6 next=GGT_1-6 source=espn_mTeam
+2026-10-27T07:38:25-05:00 SCORECARD_WRITTEN week=7 path=weekly/results/week-7-scorecard.md
+2026-10-27T07:38:25-05:00 LESSONS_APPENDED week=7 n=2 (TE close line inclusive; post-Monday packet deadline)
+2026-10-27T07:38:25-05:00 INPUTS_MISSING week=7 assistant_post_monday_usage_packet (agents/assistant/work/); used nflverse snap_counts_2026 W7 directly
+2026-10-27T07:38:53-05:00 SCORECARD_EMAILED week=7 to=kaalrich@gmail.com subject='Quantum Blitz Week 7 Scorecard: 1-6' attach=week-7-scorecard.md(text/markdown) msg=1a17d5ed1731441e via=user-Gmail send_email
