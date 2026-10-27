@@ -1,0 +1,279 @@
+{
+  "week": 7,
+  "source": "espn_api mMatchupScore+mBoxscore+mTeam scoringPeriodId=7 (read-only); snaps nflverse snap_counts_2026",
+  "as_of": "2026-10-27T07:36:00-05:00",
+  "team_id": 13,
+  "team_name": "Medical Tent",
+  "opponent": "David's Daring Team (team 11)",
+  "espn_winner": "AWAY (David's Daring Team)",
+  "score": 99.8,
+  "opp_score": 102.1,
+  "proj": 117.75,
+  "opp_proj": 114.7,
+  "result": "L",
+  "best_possible": 120.6,
+  "best_lineup": {
+    "QB": "Kyler Murray",
+    "RB": [
+      "Josh Jacobs",
+      "Ollie Gordon II"
+    ],
+    "WR": [
+      "Drake London",
+      "Garrett Wilson"
+    ],
+    "TE": "Hunter Henry",
+    "FLEX": "RJ Harvey",
+    "DST": "Steelers D/ST",
+    "K": "Matt Gay"
+  },
+  "bench_left": 20.8,
+  "record_after": "1-6",
+  "players": [
+    {
+      "player": "Drake London",
+      "espn_id": 4426502,
+      "slot": "WR",
+      "started": true,
+      "actual_ppr": 19.6,
+      "espn_proj": 17.06,
+      "targets": 10.0,
+      "receptions": 7.0,
+      "carries": null,
+      "snap_pct": 0.81
+    },
+    {
+      "player": "Travis Etienne Jr.",
+      "espn_id": 4239996,
+      "slot": "IR",
+      "started": false,
+      "actual_ppr": 0.0,
+      "espn_proj": 0.0,
+      "targets": null,
+      "receptions": null,
+      "carries": null,
+      "snap_pct": null
+    },
+    {
+      "player": "Garrett Wilson",
+      "espn_id": 4569618,
+      "slot": "WR",
+      "started": true,
+      "actual_ppr": 4.6,
+      "espn_proj": 15.14,
+      "targets": 3.0,
+      "receptions": 2.0,
+      "carries": null,
+      "snap_pct": 0.85
+    },
+    {
+      "player": "Kyle Pitts Sr.",
+      "espn_id": 4360248,
+      "slot": "BE",
+      "started": false,
+      "actual_ppr": 13.2,
+      "espn_proj": 9.76,
+      "targets": 5.0,
+      "receptions": 5.0,
+      "carries": null,
+      "snap_pct": 0.56
+    },
+    {
+      "player": "Dallas Goedert",
+      "espn_id": 3121023,
+      "slot": "TE",
+      "started": true,
+      "actual_ppr": 9.8,
+      "espn_proj": 11.34,
+      "targets": 7.0,
+      "receptions": 5.0,
+      "carries": null,
+      "snap_pct": 0.73
+    },
+    {
+      "player": "Josh Jacobs",
+      "espn_id": 4047365,
+      "slot": "RB",
+      "started": true,
+      "actual_ppr": 20.1,
+      "espn_proj": 12.64,
+      "targets": 7.0,
+      "receptions": 5.0,
+      "carries": 11.0,
+      "snap_pct": 0.52
+    },
+    {
+      "player": "Steelers D/ST",
+      "espn_id": -16023,
+      "slot": "D/ST",
+      "started": true,
+      "actual_ppr": 9.0,
+      "espn_proj": 6.44,
+      "targets": null,
+      "receptions": null,
+      "carries": null,
+      "snap_pct": null
+    },
+    {
+      "player": "Jakobi Meyers",
+      "espn_id": 3916433,
+      "slot": "BE",
+      "started": false,
+      "actual_ppr": 0.0,
+      "espn_proj": 0.0,
+      "targets": null,
+      "receptions": null,
+      "carries": null,
+      "snap_pct": null,
+      "note": "JAX bye"
+    },
+    {
+      "player": "Kyler Murray",
+      "espn_id": 3917315,
+      "slot": "QB",
+      "started": true,
+      "actual_ppr": 13.9,
+      "espn_proj": 18.0,
+      "targets": null,
+      "receptions": null,
+      "carries": 5.0,
+      "snap_pct": 1.0
+    },
+    {
+      "player": "TreVeyon Henderson",
+      "espn_id": 4432710,
+      "slot": "BE",
+      "started": false,
+      "actual_ppr": 4.3,
+      "espn_proj": 7.12,
+      "targets": 2.0,
+      "receptions": 2.0,
+      "carries": 3.0,
+      "snap_pct": 0.24
+    },
+    {
+      "player": "Ollie Gordon II",
+      "espn_id": 4711533,
+      "slot": "BE",
+      "started": false,
+      "actual_ppr": 17.3,
+      "espn_proj": 11.81,
+      "targets": 3.0,
+      "receptions": 1.0,
+      "carries": 25.0,
+      "snap_pct": 0.83
+    },
+    {
+      "player": "RJ Harvey",
+      "espn_id": 4568490,
+      "slot": "BE",
+      "started": false,
+      "actual_ppr": 14.0,
+      "espn_proj": 11.43,
+      "targets": 2.0,
+      "receptions": 2.0,
+      "carries": 3.0,
+      "snap_pct": 0.26
+    },
+    {
+      "player": "Hunter Henry",
+      "espn_id": 3046439,
+      "slot": "BE",
+      "started": false,
+      "actual_ppr": 14.1,
+      "espn_proj": 8.17,
+      "targets": 7.0,
+      "receptions": 7.0,
+      "carries": null,
+      "snap_pct": 0.76
+    },
+    {
+      "player": "Germie Bernard",
+      "espn_id": 4685261,
+      "slot": "FLEX",
+      "started": true,
+      "actual_ppr": 5.7,
+      "espn_proj": 13.4,
+      "targets": 5.0,
+      "receptions": 3.0,
+      "carries": null,
+      "snap_pct": 0.91
+    },
+    {
+      "player": "Matt Gay",
+      "espn_id": 4249087,
+      "slot": "K",
+      "started": true,
+      "actual_ppr": 8.0,
+      "espn_proj": 9.73,
+      "targets": null,
+      "receptions": null,
+      "carries": null,
+      "snap_pct": null
+    },
+    {
+      "player": "J.J. McCarthy",
+      "espn_id": 4433970,
+      "slot": "BE",
+      "started": false,
+      "actual_ppr": 10.18,
+      "espn_proj": 16.4,
+      "targets": null,
+      "receptions": null,
+      "carries": 1.0,
+      "snap_pct": 0.92
+    },
+    {
+      "player": "Woody Marks",
+      "espn_id": 4429059,
+      "slot": "RB",
+      "started": true,
+      "actual_ppr": 9.1,
+      "espn_proj": 14.0,
+      "targets": 1.0,
+      "receptions": 1.0,
+      "carries": 19.0,
+      "snap_pct": 0.89
+    }
+  ],
+  "opp_top": [
+    {
+      "player": "Luther Burden III",
+      "slot": "FLEX",
+      "actual_ppr": 23.7
+    },
+    {
+      "player": "Javonte Williams",
+      "slot": "RB",
+      "actual_ppr": 21.5
+    },
+    {
+      "player": "Jonathan Taylor",
+      "slot": "RB",
+      "actual_ppr": 19.0
+    }
+  ],
+  "misses_known_before_lock": [],
+  "close_calls": [
+    {
+      "slot": "TE",
+      "started": "Dallas Goedert",
+      "espn_proj": 11.34,
+      "actual": 9.8,
+      "alt": "Kyle Pitts Sr.",
+      "alt_proj": 9.76,
+      "alt_actual": 13.2,
+      "note": "Ken approved Sat Oct 24 7:15 PM CT; gap sat on the 1.5-point line; not counted as a preventable miss"
+    }
+  ],
+  "inputs": {
+    "espn_pull_ct": "2026-10-27T07:36-05:00",
+    "projections": "data/projections/week-7.json (2026-10-23 09:22 CT)",
+    "usage_baseline": "data/usage/week-7-baseline.json (2026-10-23 09:30 CT)",
+    "latest_close_call": "agents/assistant/work/close-calls/week-7-sun.md (2026-10-25 ~07:18 CT)",
+    "snaps": "nflverse snap_counts_2026 week 7 (14 games)",
+    "missing": [
+      "Assistant post-Monday usage packet for Week 7 (agents/assistant/work/)"
+    ]
+  }
+}

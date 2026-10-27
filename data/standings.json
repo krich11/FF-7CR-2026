@@ -1,29 +1,30 @@
 {
-  "as_of": "2026-10-20T07:15:00-05:00",
-  "week": 6,
-  "source": "espn_api mTeam+mMatchupScore read (settled, scoringPeriodId=6)",
+  "as_of": "2026-10-27T07:36:00-05:00",
+  "week": 7,
+  "source": "espn_api mTeam+mStandings+mMatchupScore read (settled, scoringPeriodId=7)",
   "espn_official": {
     "overall_record": {
       "wins": 1,
-      "losses": 5,
+      "losses": 6,
       "ties": 0
     },
-    "points_for": 612.76,
-    "points_against": 806.56,
+    "points_for": 712.56,
+    "points_against": 908.66,
     "waiver_rank": 2,
     "espn_team_name_note": "ESPN abbrev QBZ; display name currently 'Medical Tent' (Blitz brand Quantum Blitz)",
     "winner_week_3": "HOME (PP)",
     "winner_week_4": "AWAY (TE)",
     "winner_week_5": "HOME (FR)",
     "winner_week_6": "AWAY (BuB)",
-    "playoff_seed": 11
+    "playoff_seed": 12,
+    "winner_week_7": "AWAY (DDT)"
   },
   "blitz_counted": {
     "wins": 1,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "points_for": 612.76,
-    "points_against": 806.56,
+    "points_for": 712.56,
+    "points_against": 908.66,
     "result_week_1": "W",
     "result_week_2": "L",
     "opponent_week_1": "The Chosen Ones (TCO)",
@@ -47,7 +48,11 @@
     "result_week_6": "L",
     "opponent_week_6": "BuB",
     "week_6_score": 113.02,
-    "week_6_opp": 125.74
+    "week_6_opp": 125.74,
+    "result_week_7": "L",
+    "opponent_week_7": "DDT",
+    "week_7_score": 99.8,
+    "week_7_opp": 102.1
   },
   "league_week_2_scores": {
     "QBZ": 83.1,
@@ -66,7 +71,8 @@
     "W5 Mon week.review SKIP (MNF live)",
     "W6 London no-news backup plan (Sun 7:36 AM)",
     "W6 decisions/week-6.json stale through lock",
-    "W6 TE gap 1.42 not labeled CLOSE after Hurts ruled out"
+    "W6 TE gap 1.42 not labeled CLOSE after Hurts ruled out",
+    "W7 Assistant post-Monday usage packet missing at Tue review"
   ],
   "league_week_3_scores": {
     "QBZ": 97.42,
@@ -143,6 +149,99 @@
       "DDT",
       "0-6",
       678.0
+    ]
+  ],
+  "next_opponent_week_8": {
+    "abbrev": "GGT",
+    "name": "The gg Team",
+    "record": "1-6",
+    "points_for": 729.26,
+    "team_id": 8
+  },
+  "league_table_after_week_7": [
+    [
+      "CDS",
+      "Charlie Don't Surf",
+      "7-0",
+      869.24,
+      1
+    ],
+    [
+      "TE",
+      "Texas Endgame",
+      "6-1",
+      860.58,
+      2
+    ],
+    [
+      "MBB",
+      "Mitch's Badass Bunch",
+      "5-2",
+      910.26,
+      3
+    ],
+    [
+      "FR",
+      "Fantasy Rookie No More",
+      "5-2",
+      871.7,
+      4
+    ],
+    [
+      "PP",
+      "Patton's Posse",
+      "4-3",
+      862.98,
+      5
+    ],
+    [
+      "LL",
+      "La Lightning",
+      "4-3",
+      810.6,
+      6
+    ],
+    [
+      "TCO",
+      "The Chosen Ones",
+      "3-4",
+      804.28,
+      7
+    ],
+    [
+      "BuB",
+      "Buck up Buttercup!",
+      "3-4",
+      777.98,
+      8
+    ],
+    [
+      "LY",
+      "Lazy Yorkie",
+      "2-5",
+      661.2,
+      9
+    ],
+    [
+      "DDT",
+      "David's Daring Team",
+      "1-6",
+      780.1,
+      10
+    ],
+    [
+      "GGT",
+      "The gg Team",
+      "1-6",
+      729.26,
+      11
+    ],
+    [
+      "QBZ",
+      "Medical Tent",
+      "1-6",
+      712.56,
+      12
     ]
   ]
 }
