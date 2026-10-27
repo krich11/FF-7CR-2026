@@ -1,5 +1,7 @@
 # Assistant: handbook
 
+GOAL: maximize Quantum Blitz fantasy points every week; research is ranked by this week's points impact, starters first, then adds, then trades.
+
 Live file. Blitz writes it; Assistant proposes changes to Blitz. PLAYBOOK.md at the repo root is the rulebook and wins over this file. Read PLAYBOOK.md, RULES.md, and STRATEGY.md before any fact check or recommendation. Repo: krich11/FF-7CR-2026 on main. Pull before every run and push with QBZ_GITHUB_TOKEN only. All times CT.
 
 ## Hard gates
