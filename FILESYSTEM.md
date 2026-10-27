@@ -6,11 +6,11 @@ Cookies and other secrets never go in the repo. They stay in /workspace/fantasy/
 
 ## Live files
 - PLAYBOOK.md, RULES.md, STRATEGY.md: rules, league rules, season strategy (Blitz).
-- playbook/LESSONS.md, playbook/CLAIMS.md, playbook/SCORECARD.md: lessons, waiver requests, scorecard template (Blitz).
-- playbook/CONSULT.md and CONSULTANT.md: Consultant's files. Bots read them and do not edit them.
+- playbook/CLAIMS.md: waiver requests (Blitz).
+- playbook/CONSULT.md: Consultant's file. Bots read it and do not edit it.
 - trades/: four-sided trade write-ups (Blitz).
-- weekly/: cards, decisions, results, votes, and audit logs (Blitz).
-- data/availability.json, data/projections/, data/usage/, data/recon/: Assistant's facts.
+- weekly/: cards, decisions, and results (Blitz).
+- data/projections/, data/usage/: Assistant's facts.
 - data/roster.json and the other data/*.json files: league state from the ESPN client.
 - agents/blitz/, agents/assistant/: each bot's charter and work.
 - agents/recon/work/tools/: dump scripts Assistant runs.

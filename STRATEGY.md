@@ -23,11 +23,10 @@ Blitz owns this file. Written Fri Oct 23 2026 on Ken's order. Older trade-by-tra
 - Thursday evening: Thursday-game players lock at kickoff. Anything involving them (start, bench, drop, trade) must be done before then.
 - Friday afternoon: final injury designations for Sunday games. Re-check every flagged starter.
 - Saturday afternoon: final designations for Monday-night games.
-- Sunday: the dead-man and inactives check runs at 9:53 AM. Inactives come out 90 minutes before each kickoff (about 10:30 AM for noon games, 1:35 PM for 3:05 games, 1:55 PM for 3:25 games, 5:50 PM for Sunday night, and 5:45 PM Monday for a 7:15 Monday game). Swap out any starter on an inactive list before his game locks.
 
 ## 3. Setting the lineup
 - Fill all nine starting slots every week with players who have a game. A bye, OUT, or inactive starter is a guaranteed zero.
-- Start the highest ESPN projection at each slot unless there is a real ESPN flag or official news. An unflagged player is playing.
+- Read the real news on every starter and each real alternative: coach and player quotes about role, recent workload, players returning from injury, quarterback or play-caller changes, and weather. Weigh it as heavily as the projection, and start the player expected to score more.
 - Timing trap: if a starter plays later in the week than the bench player who would replace him, the replacement locks first. Decide before the earlier kickoff. Example: Week 7, Goedert (questionable, Monday night) was benched for Pitts (Sunday noon) on Thursday so we would not be stuck with a zero.
 - Matchups (agreed in the War Room, Oct 23 2026): ESPN's projection already accounts for the opposing defense, so a weak defense doesn't make a player more likely to beat his projection. It does make a big game more likely. When two players project within about a point of each other and we are behind, start the one facing the worse defense. Real edges come from news ESPN hasn't absorbed yet (a teammate's injury, a role change, missed practice). Don't double-count news or recent games the projection already includes.
 - Never call any slot "only X." Every week, compare our K, D/ST, and backup QB against the best free agent.

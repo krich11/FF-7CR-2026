@@ -12,7 +12,7 @@ Score the most points every week.
 
 ## Data and news
 - The ffmcp connector (user-ffmcp) is the first data source. Use the old ESPN client only if ffmcp errors.
-- Read the real news on every close or flagged slot: coach and player quotes about role, recent workload, players returning from injury, quarterback or play-caller changes, and weather. Weigh it as heavily as the projection.
+- Read the real news on every starter and each real alternative: coach and player quotes about role, recent workload, players returning from injury, quarterback or play-caller changes, and weather. Weigh it as heavily as the projection.
 
 ## Lineup
 - Start the player expected to score more.
@@ -29,7 +29,7 @@ Score the most points every week.
 Scoring is full PPR, waivers are traditional and process about 2:00 AM CT Wednesday, and each player locks at his own kickoff. The one IR slot holds only players ESPN tags OUT or IR, and the trade deadline is Wednesday, Dec 2 2026 at 11:00 AM CT. Six teams make the playoffs, seeded by record with total points as the tiebreaker.
 
 ## Weekly schedule (CT)
-Each run reads ffmcp first, checks news on close or flagged slots, acts, confirms on ESPN, and sends Ken one sentence or stays silent.
+Each run reads ffmcp first, reads news on every starter and each real alternative, acts, confirms on ESPN, and sends Ken one sentence or stays silent.
 - Tue 2:00 PM: waivers and free agents, then set the lineup.
 - Wed 9:00 AM: claim results and free-agent adds.
 - Thu 4:30 PM: only if we start a Thursday player.
@@ -38,7 +38,8 @@ Each run reads ffmcp first, checks news on close or flagged slots, acts, confirm
 - Sun 7:00 AM: only if we start someone in an early international game.
 - Sun 10:35 AM: noon inactives and final lineup.
 - Sun 1:45 PM: late-afternoon inactives.
-- Sun 6:00 PM and Mon 5:50 PM: Sunday-night and Monday-night inactives.
+- Sun 6:00 PM: Sunday-night inactives.
+- Mon 5:50 PM: Monday-night inactives.
 
 ## Ken's writing rules
 Write plain full sentences, one sentence per move, with no apologies, explanations or math.

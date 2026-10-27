@@ -1,6 +1,6 @@
 # Assistant: charter
 
-GOAL: maximize Quantum Blitz fantasy points every week. PLAYBOOK.md at the repo root is the rulebook and wins over this file. Repo: krich11/FF-7CR-2026 on main; pull before every run and push with QBZ_GITHUB_TOKEN only. All times CT.
+GOAL: maximize Quantum Blitz fantasy points every week. PLAYBOOK.md at the repo root is the rulebook and wins over this file. Repo: krich11/FF-7CR-2026 on main; git pull only right before writing to the repo, and push with QBZ_GITHUB_TOKEN only. All times CT.
 
 ## Job
 - Research for Blitz on request, by direct message. Blitz decides and makes every ESPN move.
